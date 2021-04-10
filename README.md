@@ -1,5 +1,5 @@
 # Project_Goettergaemmerung
-Card Editor Program for private use - *Documatenation language is german.* <br>
+Card Editor Program for private use - *Documentation language is german.* <br>
 #### Aufgabe des Scripts:
 
 Ziel dieses Programmes ist es aus einen gegebenen *.ods* File, welcher auf der Basis von LibreOffice Calc erstellt wurde, einzulesen und mit
