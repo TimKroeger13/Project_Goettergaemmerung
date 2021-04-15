@@ -29,13 +29,50 @@ namespace Project_Goettergaemmerung
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.buttonTest = new System.Windows.Forms.Button();
+            this.pictureBoxCards = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCards)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // buttonTest
+            // 
+            this.buttonTest.Location = new System.Drawing.Point(107, 144);
+            this.buttonTest.Name = "buttonTest";
+            this.buttonTest.Size = new System.Drawing.Size(94, 29);
+            this.buttonTest.TabIndex = 0;
+            this.buttonTest.Text = "Test";
+            this.buttonTest.UseVisualStyleBackColor = true;
+            this.buttonTest.Click += new System.EventHandler(this.buttonTest_Click);
+            // 
+            // pictureBoxCards
+            // 
+            this.pictureBoxCards.Location = new System.Drawing.Point(370, 12);
+            this.pictureBoxCards.Name = "pictureBoxCards";
+            this.pictureBoxCards.Size = new System.Drawing.Size(700, 1000);
+            this.pictureBoxCards.TabIndex = 1;
+            this.pictureBoxCards.TabStop = false;
+            this.pictureBoxCards.Click += new System.EventHandler(this.pictureBoxCards_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.AutoScroll = true;
+            this.ClientSize = new System.Drawing.Size(1082, 1053);
+            this.Controls.Add(this.pictureBoxCards);
+            this.Controls.Add(this.buttonTest);
+            this.Name = "Form1";
+            this.Text = "Karteneditor";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCards)).EndInit();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button buttonTest;
+        private System.Windows.Forms.PictureBox pictureBoxCards;
     }
 }
 
