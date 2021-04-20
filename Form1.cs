@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Drawing.Imaging;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
-using System.Diagnostics;
-using Project_Goettergaemmerung.components;
+using Microsoft.Extensions.DependencyInjection;
+using Project_Goettergaemmerung.Components;
 
 namespace Project_Goettergaemmerung
 {
@@ -31,7 +27,8 @@ namespace Project_Goettergaemmerung
         {
             openFileDialog1.ShowDialog();
             string filename = openFileDialog1.FileName;
-            var loadODS = new LoadODS();
+            var cardTextGenerator = Program.Services.GetService<IGenerateCardText>();
+            cardTextGenerator.PrintCards();
         }
 
         public void RenderImage(Image image)
