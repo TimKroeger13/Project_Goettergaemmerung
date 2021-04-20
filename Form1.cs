@@ -27,10 +27,11 @@ namespace Project_Goettergaemmerung
         {
         }
 
-        private void buttonTest_Click(object sender, EventArgs e)
+        private void buttonLoad_Click(object sender, EventArgs e)
         {
-            var createPicture = new CreatePicture();
-            createPicture.Loadimage();
+            openFileDialog1.ShowDialog();
+            string filename = openFileDialog1.FileName;
+            var loadODS = new LoadODS();
         }
 
         public void RenderImage(Image image)
@@ -41,6 +42,10 @@ namespace Project_Goettergaemmerung
         public void SaveImage(String filename)
         {
             pictureBoxCards.Image.Save("M:\\Repos\\Project_Goettergaemmerung\\Test_pictures\\" + filename + ".png", ImageFormat.Png);
+        }
+
+        private void openFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
         }
     }
 }

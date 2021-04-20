@@ -12,22 +12,6 @@ namespace Project_Goettergaemmerung.components
 {
     public class CreatePicture
     {
-        public CreatePicture()
-        {
-            Bitmap testBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\Test_pictures\\Boarder_all_cards.png");
-        }
-
-        public void Loadimage()
-        {
-            Debug.WriteLine("test");
-        }
-
-        public Bitmap CreateBitmap()
-        {
-            Bitmap testBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\Test_pictures\\Boarder_all_cards.png");
-            return testBitmap;
-        }
-
         public Bitmap MergedBitmaps(Bitmap bmp1, Bitmap bmp2, Bitmap bmp3)
         {
             Bitmap result = new Bitmap(700, 1000);
@@ -37,6 +21,35 @@ namespace Project_Goettergaemmerung.components
                 g.DrawImage(bmp2, Point.Empty);
                 g.DrawImage(bmp3, Point.Empty);
             }
+            return result;
+        }
+
+        public Color BledingMultiplyForPixel(Color pixel1, Color pixel2)
+        {
+            int red = Convert.ToInt32(pixel1.R / 255d * pixel2.R / 255d * 255d);
+            int green = Convert.ToInt32(pixel1.G / 255d * pixel2.G / 255d * 255d);
+            int blue = Convert.ToInt32(pixel1.B / 255d * pixel2.B / 255d * 255d);
+
+            return Color.FromArgb(
+                255,
+                red,
+                green,
+                blue);
+        }
+
+        public Bitmap BledingMultiply(Bitmap bitmap1, Bitmap bitmap2)
+        {
+            Bitmap result = new Bitmap(700, 1000);
+            using (Graphics g = Graphics.FromImage(result))
+                for (int i = 0; i < 699; i++)
+                {
+                    for (int k = 0; k < 999; k++)
+                    {
+                        result.SetPixel(i, k, BledingMultiplyForPixel(bitmap1.GetPixel(i, k),
+                            bitmap2.GetPixel(i, k)));
+                    }
+                }
+
             return result;
         }
     }
