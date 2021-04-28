@@ -20,7 +20,7 @@ namespace Project_Goettergaemmerung.Components
 
         public void PrintCards()
         {
-            var text = _cardInformation.GetCardInformation().First().Text;
+            var text = _cardInformation.GetCardInformation().Last().Text;
             MessageBox.Show(text);
         }
     }

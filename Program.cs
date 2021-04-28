@@ -31,6 +31,7 @@ namespace Project_Goettergaemmerung
             s_services.AddTransient<ICardInformationGetter, OdsCardInformation>();
 #endif
             s_services.AddSingleton<IGenerateCardText, GenerateCardText>();
+
             var createPicture = new CreatePicture();
             using var mainForm = new Form1();
             //mainForm.RenderImage(Image.FromFile("M:\\Repos\\Project_Goettergaemmerung\\Test_pictures\\Monster_Gott.png"));
@@ -49,6 +50,7 @@ namespace Project_Goettergaemmerung
             Services = provider;
             var generateCardText = Services.GetService<IGenerateCardText>();
             generateCardText.PrintCards();
+
             Application.Run(mainForm);
         }
     }

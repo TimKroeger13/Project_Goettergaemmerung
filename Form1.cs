@@ -27,8 +27,6 @@ namespace Project_Goettergaemmerung
         {
             openFileDialog1.ShowDialog();
             string filename = openFileDialog1.FileName;
-            var cardTextGenerator = Program.Services.GetService<IGenerateCardText>();
-            cardTextGenerator.PrintCards();
         }
 
         public void RenderImage(Image image)
