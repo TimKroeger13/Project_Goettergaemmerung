@@ -44,8 +44,10 @@ namespace Project_Goettergaemmerung.Components
                 var name = Card.Name;
 
                 var Template = _templateBuilder.CardTemplate(structure, type, race, extra);
-                var FinalCard = _createPicture.MergedBitmaps(Template);
+                using var FinalCard = _createPicture.MergedBitmaps(Template);
                 SaveImage(FinalCard, name);
+
+                //Disposiable Area
             }
         }
     }

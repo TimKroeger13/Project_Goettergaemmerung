@@ -47,6 +47,9 @@ namespace Project_Goettergaemmerung.Components
                 if (race == Race.All)
                 {
                     bitmaplist.Add(_createPicture.BledingMultiply(_filter, _class));
+                    //var dispose_ = _createPicture.BledingMultiply(_filter, _class);
+                    //bitmaplist.Add(dispose_);
+                    //dispose_.Dispose();
                 }
                 else if (race == Race.Animal)
                 {
@@ -89,7 +92,10 @@ namespace Project_Goettergaemmerung.Components
             {
                 if (type == CardType.Action)
                 {
-                    bitmaplist.Add(_createPicture.BledingMultiply(_filter, _action));
+                    //bitmaplist.Add(_createPicture.BledingMultiply(_filter, _action));
+                    var dispose_ = _createPicture.BledingMultiply(_filter, _action);
+                    bitmaplist.Add(dispose_);
+                    dispose_.Dispose();
                 }
                 else if (type == CardType.Bar || type == CardType.Class || type == CardType.Tavern)
                 {
