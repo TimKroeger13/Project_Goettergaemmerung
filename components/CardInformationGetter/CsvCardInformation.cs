@@ -9,12 +9,12 @@ namespace Project_Goettergaemmerung.Components.CardInformationGetter
 {
     public class CsvCardInformation : ICardInformationGetter
     {
-        private string LoadCsv()
+        private string LoadCsv(string path)
         {
-            return File.ReadAllText("M:\\Repos\\Project_Goettergaemmerung\\Götterdämmerung-Karten.csv");
+            return File.ReadAllText(path);
         }
 
-        public IEnumerable<CardInformationModel> GetCardInformation()
+        public IEnumerable<CardInformationModel> GetCardInformation(string path)
         {
             var dictionaryCardType = Enum.GetValues<CardType>().ToDictionary(ct => Enum.GetName(ct), StringComparer.OrdinalIgnoreCase);
             dictionaryCardType.Add("", CardType.Empty);
@@ -25,7 +25,7 @@ namespace Project_Goettergaemmerung.Components.CardInformationGetter
             var dictionaryRace = Enum.GetValues<Race>().ToDictionary(ct => Enum.GetName(ct), StringComparer.OrdinalIgnoreCase);
             dictionaryRace.Add("", Race.Empty);
 
-            var loadedCSV = LoadCsv();
+            var loadedCSV = LoadCsv(path);
             var newLineSplitted = loadedCSV.Split("\r\n");
             var splitMatrix = newLineSplitted.Select(line => line.Split(";"));
 
@@ -49,14 +49,10 @@ namespace Project_Goettergaemmerung.Components.CardInformationGetter
                 model.Race = dictionaryRace[row[11]];
                 model.WinText = row[12];
                 model.LoseText = row[13];
-                if (row[14] == "Druck1") { model.Print1 = 0; }
-                else { model.Print1 = int.Parse(row[14]); }
-                if (row[15] == "Druck2") { model.Print2 = 0; }
-                else { model.Print2 = int.Parse(row[15]); }
-                if (row[16] == "Druck3") { model.Print3 = 0; }
-                else { model.Print3 = int.Parse(row[16]); }
-                if (row[17] == "Druck4") { model.Print4 = 0; }
-                else { model.Print4 = int.Parse(row[17]); }
+                model.Print1 = int.Parse(row[14]);
+                model.Print2 = int.Parse(row[15]);
+                model.Print3 = int.Parse(row[16]);
+                model.Print4 = int.Parse(row[17]);
 
                 result.Add(model);
             }

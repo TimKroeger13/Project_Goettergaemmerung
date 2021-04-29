@@ -12,15 +12,17 @@ namespace Project_Goettergaemmerung.Components
     public class GenerateCardText : IGenerateCardText
     {
         private readonly ICardInformationGetter _cardInformation;
+        private readonly IUserData _userData;
 
-        public GenerateCardText(ICardInformationGetter cardInformation)
+        public GenerateCardText(ICardInformationGetter cardInformation, IUserData userData)
         {
             _cardInformation = cardInformation;
+            _userData = userData;
         }
 
         public void PrintCards()
         {
-            var text = _cardInformation.GetCardInformation().Last().Text;
+            var text = _cardInformation.GetCardInformation(_userData.ImportPath).Last().Text;
             MessageBox.Show(text);
         }
     }

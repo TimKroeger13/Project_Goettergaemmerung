@@ -3,7 +3,14 @@ using System.Drawing;
 
 namespace Project_Goettergaemmerung.Components
 {
-    public class CreatePicture
+    public interface ICreatePicture
+    {
+        Bitmap BledingMultiply(Bitmap bitmap1, Bitmap bitmap2);
+
+        Bitmap MergedBitmaps(Bitmap bmp1, Bitmap bmp2, Bitmap bmp3);
+    }
+
+    public class CreatePicture : ICreatePicture
     {
         public Bitmap MergedBitmaps(Bitmap bmp1, Bitmap bmp2, Bitmap bmp3)
         {
@@ -17,7 +24,7 @@ namespace Project_Goettergaemmerung.Components
             return result;
         }
 
-        public Color BlendingMultiplyForPixel(Color pixel1, Color pixel2)
+        private Color BlendingMultiplyForPixel(Color pixel1, Color pixel2)
         {
             var red = Convert.ToInt32(pixel1.R / 255d * pixel2.R / 255d * 255d);
             int green = Convert.ToInt32(pixel1.G / 255d * pixel2.G / 255d * 255d);

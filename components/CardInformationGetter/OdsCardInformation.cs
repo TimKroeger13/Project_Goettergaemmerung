@@ -9,5 +9,10 @@ namespace Project_Goettergaemmerung.Components.CardInformationGetter
         {
             return new List<CardInformationModel>() { new CardInformationModel() { } };
         }
+
+        public IEnumerable<CardInformationModel> GetCardInformation(string path)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }

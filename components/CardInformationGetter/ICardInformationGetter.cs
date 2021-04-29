@@ -5,6 +5,6 @@ namespace Project_Goettergaemmerung.Components.CardInformationGetter
 {
     public interface ICardInformationGetter
     {
-        IEnumerable<CardInformationModel> GetCardInformation();
+        IEnumerable<CardInformationModel> GetCardInformation(string path);
     }
 }
