@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Drawing;
 
 namespace Project_Goettergaemmerung.Components
@@ -7,19 +8,20 @@ namespace Project_Goettergaemmerung.Components
     {
         Bitmap BledingMultiply(Bitmap bitmap1, Bitmap bitmap2);
 
-        Bitmap MergedBitmaps(Bitmap bmp1, Bitmap bmp2, Bitmap bmp3);
+        Bitmap MergedBitmaps(List<Bitmap> bitmapList);
     }
 
     public class CreatePicture : ICreatePicture
     {
-        public Bitmap MergedBitmaps(Bitmap bmp1, Bitmap bmp2, Bitmap bmp3)
+        public Bitmap MergedBitmaps(List<Bitmap> bitmapList)
         {
             Bitmap result = new Bitmap(700, 1000);
             using (Graphics g = Graphics.FromImage(result))
             {
-                g.DrawImage(bmp1, Point.Empty);
-                g.DrawImage(bmp2, Point.Empty);
-                g.DrawImage(bmp3, Point.Empty);
+                foreach (var item in bitmapList)
+                {
+                    g.DrawImage(item, Point.Empty);
+                }
             }
             return result;
         }
