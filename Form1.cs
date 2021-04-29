@@ -43,12 +43,7 @@ namespace Project_Goettergaemmerung
 
         public void RenderImage(Image image)
         {
-            pictureBoxCards.Image = image;
-        }
-
-        public void SaveImage(string filename)
-        {
-            pictureBoxCards.Image?.Save(_userData.ExportPath + "\\" + filename + ".png", ImageFormat.Png);
+            //pictureBoxCards.Image = image;
         }
 
         private void ButtonExport_Click(object sender, EventArgs e)
@@ -61,7 +56,6 @@ namespace Project_Goettergaemmerung
         private void ButtonConvert_Click(object sender, EventArgs e)
         {
             _cardPrinter.PrintCards();
-            //SaveImage("testname");
         }
     }
 }

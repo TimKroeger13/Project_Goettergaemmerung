@@ -1,4 +1,6 @@
-﻿using System.Linq;
+﻿using System.Drawing;
+using System.Drawing.Imaging;
+using System.Linq;
 using System.Windows.Forms;
 using Project_Goettergaemmerung.Components.CardInformationGetter;
 
@@ -24,21 +26,27 @@ namespace Project_Goettergaemmerung.Components
             _createPicture = createPicture;
         }
 
+        private void SaveImage(Bitmap Card, string filename)
+        {
+            Card.Save(_userData.ExportPath + "\\" + filename + ".png", ImageFormat.Png);
+        }
+
         public void PrintCards()
         {
             var CardInformationList = _cardInformation.GetCardInformation(_userData.ImportPath).ToList();
-            var structure = CardInformationList[0].Structure;
-            var type = CardInformationList[0].CardType;
-            var race = CardInformationList[0].Race;
-            var extra = CardInformationList[0].ExtraDeck;
 
-            var Template = _templateBuilder.CardTemplate(structure, type, race, extra);
+            foreach (var Card in CardInformationList)
+            {
+                var structure = Card.Structure;
+                var type = Card.CardType;
+                var race = Card.Race;
+                var extra = Card.ExtraDeck;
+                var name = Card.Name;
 
-            pictureBoxCards.Image = _createPicture.MergedBitmaps(Template);
-
-            //var imporetData = _cardInformation.GetCardInformation(_userData.ImportPath).ToList()[0].Structure;
-            //var text = _cardInformation.GetCardInformation(_userData.ImportPath).First().Text;
-            //MessageBox.Show(text);
+                var Template = _templateBuilder.CardTemplate(structure, type, race, extra);
+                var FinalCard = _createPicture.MergedBitmaps(Template);
+                SaveImage(FinalCard, name);
+            }
         }
     }
 }
