@@ -26,7 +26,7 @@ namespace Project_Goettergaemmerung.Components
             _createPicture = createPicture;
         }
 
-        private void SaveImage(Bitmap Card, string filename)
+        private void SaveImage(Bitmap Card, string filename) //To Private
         {
             Card.Save(_userData.ExportPath + "\\" + filename + ".png", ImageFormat.Png);
         }
@@ -46,8 +46,6 @@ namespace Project_Goettergaemmerung.Components
                 var Template = _templateBuilder.CardTemplate(structure, type, race, extra);
                 using var FinalCard = _createPicture.MergedBitmaps(Template);
                 SaveImage(FinalCard, name);
-
-                //Disposiable Area
             }
         }
     }

@@ -31,6 +31,7 @@ namespace Project_Goettergaemmerung
             services.AddTransient<ICreatePicture, CreatePicture>();
             services.AddSingleton<IUserData, UserData>();
             services.AddSingleton<ITemplateBuilder, TemplateBuilder>();
+            services.AddSingleton<IPicturesFromArchive, PicturesFromArchive>();
 
             services.AddSingleton<Form1>();
             using var provider = services.BuildServiceProvider();
