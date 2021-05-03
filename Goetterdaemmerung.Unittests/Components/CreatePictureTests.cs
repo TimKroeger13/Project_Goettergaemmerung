@@ -1,14 +1,9 @@
-﻿using FluentAssertions;
-using NSubstitute;
-using Project_Goettergaemmerung.Components;
-using System;
-using System.Diagnostics;
-using System.Drawing;
-using Xunit;
-using System.Drawing.Imaging;
-using System.Runtime.InteropServices;
+﻿using System.Diagnostics;
 using System.Linq;
+using FluentAssertions;
+using Project_Goettergaemmerung.Components;
 using Project_Goettergaemmerung.ExtensionMethods;
+using Xunit;
 
 namespace Unittests.Components
 {
@@ -23,8 +18,8 @@ namespace Unittests.Components
         public void BledingMultiply_StateUnderTest_ExpectedBehavior()
         {
             var createPicture = CreateCreatePicture();
-            Bitmap bitmap1 = TestResources.TestImage;
-            Bitmap bitmap2 = TestResources.TestImage;
+            var bitmap1 = TestResources.TestImage;
+            var bitmap2 = TestResources.TestImage;
             var sw = new Stopwatch();
 
             sw.Start();
