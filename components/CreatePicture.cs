@@ -38,11 +38,14 @@ namespace Project_Goettergaemmerung.Components
             var resultBytes = result.GetArgbBytes(out var bitmapDataResult);
             var bitmap1Bytes = bitmap1.GetArgbBytes();
             var bitmap2Bytes = bitmap2.GetArgbBytes();
+            //Parallel.For(0, resultBytes.Length, i =>
+            //{
             for (var i = 0; i < resultBytes.Length; i++)
             {
                 if ((i + 1) % 4 == 0) resultBytes[i] = 255;
                 else resultBytes[i] = (byte)(bitmap1Bytes[i] * bitmap2Bytes[i] / 255);
             }
+            //});
             Marshal.Copy(resultBytes, 0, bitmapDataResult.Scan0, resultBytes.Length);
             result.UnlockBits(bitmapDataResult);
             return result;
