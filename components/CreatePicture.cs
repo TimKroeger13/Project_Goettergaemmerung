@@ -4,6 +4,7 @@ using System.Drawing;
 using System.Threading.Tasks;
 using System.Drawing.Imaging;
 using System.Runtime.InteropServices;
+using Project_Goettergaemmerung.ExtensionMethods;
 
 namespace Project_Goettergaemmerung.Components
 {
@@ -31,28 +32,19 @@ namespace Project_Goettergaemmerung.Components
             return result;
         }
 
-        private static Color BlendingMultiplyForPixel(Color pixel1, Color pixel2)
-        {
-            var red = Convert.ToInt32(pixel1.R / 255d * pixel2.R / 255d * 255d);
-            var green = Convert.ToInt32(pixel1.G / 255d * pixel2.G / 255d * 255d);
-            var blue = Convert.ToInt32(pixel1.B / 255d * pixel2.B / 255d * 255d);
-            return Color.FromArgb(255, red, green, blue);
-        }
-
         public Bitmap BlendingMultiply(Bitmap bitmap1, Bitmap bitmap2)
         {
             var result = new Bitmap(700, 1000);
-            using (var g = Graphics.FromImage(result))
+            var resultBytes = result.GetArgbBytes(out var bitmapDataResult);
+            var bitmap1Bytes = bitmap1.GetArgbBytes();
+            var bitmap2Bytes = bitmap2.GetArgbBytes();
+            for (var i = 0; i < resultBytes.Length; i++)
             {
-                for (var i = 0; i < result.Width; i++)
-                {
-                    for (var k = 0; k < result.Height; k++)
-                    {
-                        result.SetPixel(i, k, BlendingMultiplyForPixel(bitmap1.GetPixel(i, k), bitmap2.GetPixel(i, k)));
-                    }
-                }
+                if ((i + 1) % 4 == 0) resultBytes[i] = 255;
+                else resultBytes[i] = (byte)(bitmap1Bytes[i] * bitmap2Bytes[i] / 255);
             }
-
+            Marshal.Copy(resultBytes, 0, bitmapDataResult.Scan0, resultBytes.Length);
+            result.UnlockBits(bitmapDataResult);
             return result;
         }
     }
