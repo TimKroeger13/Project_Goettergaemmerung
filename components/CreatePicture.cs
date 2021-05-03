@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Threading.Tasks;
+using System.Drawing.Imaging;
+using System.Runtime.InteropServices;
 
 namespace Project_Goettergaemmerung.Components
 {
@@ -34,9 +37,6 @@ namespace Project_Goettergaemmerung.Components
             var green = Convert.ToInt32(pixel1.G / 255d * pixel2.G / 255d * 255d);
             var blue = Convert.ToInt32(pixel1.B / 255d * pixel2.B / 255d * 255d);
             return Color.FromArgb(255, red, green, blue);
-            //var red = Convert.ToInt32(pixel1.R / 255f * pixel2.R);
-            //var green = Convert.ToInt32(pixel1.G / 255f * pixel2.G);
-            //var blue = Convert.ToInt32(pixel1.B / 255f * pixel2.B);
         }
 
         public Bitmap BlendingMultiply(Bitmap bitmap1, Bitmap bitmap2)
