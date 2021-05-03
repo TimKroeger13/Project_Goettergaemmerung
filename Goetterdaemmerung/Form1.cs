@@ -1,7 +1,10 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Imaging;
+using System.Linq;
 using System.Windows.Forms;
 using Microsoft.Extensions.DependencyInjection;
 using Project_Goettergaemmerung.Components;
@@ -11,26 +14,36 @@ namespace Project_Goettergaemmerung
 {
     public partial class Form1 : Form
     {
-        private readonly IGenerateCardText _generateCardText;
-        private readonly ICreatePicture _createPicture;
+        private readonly ICardPrinter _cardPrinter;
         private readonly IUserData _userData;
 
-        public Form1(IGenerateCardText generateCardText, ICreatePicture createPicture, IUserData userData)
+        public Form1(ICardPrinter cardPrinter, IUserData userData)
         {
             InitializeComponent();
-            _generateCardText = generateCardText;
-            _createPicture = createPicture;
+            _cardPrinter = cardPrinter;
             _userData = userData;
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            using var bmp1 = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\Test_pictures\\Monster_Gott.png");
-            using var bmp2 = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\Test_pictures\\Boarder_all_cards.png");
-            using var bmp3 = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\Test_pictures\\Win.png");
-            using var bmp4 = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\Test_pictures\\Karten_filter.png");
-            RenderImage(_createPicture.MergedBitmaps(_createPicture.BledingMultiply(bmp1, bmp4), bmp2, bmp3));
+            //var CardInformationList = _cardInformationGetter.GetCardInformation("M:\\Repos\\Project_Goettergaemmerung\\Götterdämmerung-Karten.csv").ToList();
 
+            //var structure1 = CardInformationList[0].Structure;
+            //var type1 = CardInformationList[0].CardType;
+            //var race1 = CardInformationList[0].Race;
+            //var extra1 = CardInformationList[0].ExtraDeck;
+            //var name1 = CardInformationList[0].Name;
+
+            //var Template = _templateBuilder.CardTemplate(structure1, type1, race1, extra1);
+
+            //var FinalCard = _createPicture.MergedBitmaps(Template);
+            //RenderImage(FinalCard);
+
+            //_cardPrinter.SaveImage(FinalCard, name);
+
+            //RenderImage(_picturesFromArchive._action);
+
+            //RenderImage(_createPicture.MergedBitmaps(_createPicture.BledingMultiply(bmp1, bmp4), bmp2, bmp3));
             //mainForm.RenderImage(createPicture.BledingMultiply(bmp1, bmp4));
         }
 
@@ -50,11 +63,6 @@ namespace Project_Goettergaemmerung
             pictureBoxCards.Image = image;
         }
 
-        public void SaveImage(string filename)
-        {
-            pictureBoxCards.Image?.Save(_userData.ExportPath + "\\" + filename + ".png", ImageFormat.Png);
-        }
-
         private void ButtonExport_Click(object sender, EventArgs e)
         {
             folderBrowserDialogOutputFolder.ShowDialog();
@@ -64,8 +72,7 @@ namespace Project_Goettergaemmerung
 
         private void ButtonConvert_Click(object sender, EventArgs e)
         {
-            _generateCardText.PrintCards();
-            SaveImage("testname");
+            _cardPrinter.PrintCards();
         }
     }
 }

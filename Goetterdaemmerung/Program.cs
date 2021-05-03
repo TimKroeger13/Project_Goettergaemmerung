@@ -27,9 +27,11 @@ namespace Project_Goettergaemmerung
 #else
             services.AddTransient<ICardInformationGetter, OdsCardInformation>();
 #endif
-            services.AddTransient<IGenerateCardText, GenerateCardText>();
+            services.AddTransient<ICardPrinter, CardPrinter>();
             services.AddTransient<ICreatePicture, CreatePicture>();
             services.AddSingleton<IUserData, UserData>();
+            services.AddSingleton<ITemplateBuilder, TemplateBuilder>();
+            services.AddSingleton<IPicturesFromArchive, PicturesFromArchive>();
 
             services.AddSingleton<Form1>();
             using var provider = services.BuildServiceProvider();

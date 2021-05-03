@@ -16,6 +16,7 @@ namespace Project_Goettergaemmerung.Components.CardInformationGetter
 
         public IEnumerable<CardInformationModel> GetCardInformation(string path)
         {
+            var dictionaryCardStructure = Enum.GetValues<CardStructure>().ToDictionary(ct => Enum.GetName(ct), StringComparer.OrdinalIgnoreCase);
             var dictionaryCardType = Enum.GetValues<CardType>().ToDictionary(ct => Enum.GetName(ct), StringComparer.OrdinalIgnoreCase);
             dictionaryCardType.Add("", CardType.Empty);
             var dictionaryCardSubType = Enum.GetValues<CardSubType>().ToDictionary(ct => Enum.GetName(ct), StringComparer.OrdinalIgnoreCase);
@@ -35,7 +36,7 @@ namespace Project_Goettergaemmerung.Components.CardInformationGetter
                 if (row.Length < 18) continue;
                 if (row[0] == "Struktur") continue;
                 var model = new CardInformationModel();
-                model.Structure = row[0] == Enum.GetName(CardStructure.Monster) ? CardStructure.Monster : CardStructure.Normal;
+                model.Structure = dictionaryCardStructure[row[0]];
                 model.ExtraDeck = row[1] == "1";
                 model.CardType = dictionaryCardType[row[2]];
                 model.Name = row[3];
