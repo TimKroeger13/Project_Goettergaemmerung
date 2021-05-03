@@ -11,7 +11,7 @@ namespace Unittests.Components.CardInformationGetter
 {
     public class CsvCardInformationTests
     {
-        private CsvCardInformation CreateCsvCardInformation()
+        private static CsvCardInformation CreateCsvCardInformation()
         {
             return new CsvCardInformation();
         }

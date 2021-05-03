@@ -15,8 +15,6 @@ namespace Project_Goettergaemmerung.Components
 
     public class CreatePicture : ICreatePicture
     {
-        private const float RgbDivisor = 1 / 255f;
-
         public Bitmap MergedBitmaps(List<Bitmap> bitmapList)
         {
             var result = new Bitmap(700, 1000);
@@ -39,7 +37,7 @@ namespace Project_Goettergaemmerung.Components
             Parallel.For(0, resultBytes.Length, i =>
             {
                 if ((i + 1) % 4 == 0) resultBytes[i] = 255;
-                else resultBytes[i] = (byte)(bitmap1Bytes[i] * bitmap2Bytes[i] / 255);
+                else resultBytes[i] = (byte)(bitmap1Bytes[i] * bitmap2Bytes[i] / 255d);
             });
             Marshal.Copy(resultBytes, 0, bitmapDataResult.Scan0, resultBytes.Length);
             result.UnlockBits(bitmapDataResult);
