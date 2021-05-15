@@ -32,6 +32,7 @@ namespace Project_Goettergaemmerung
             services.AddSingleton<IUserData, UserData>();
             services.AddSingleton<ITemplateBuilder, TemplateBuilder>();
             services.AddSingleton<IPicturesFromArchive, PicturesFromArchive>();
+            services.AddSingleton<IDisposableList<Bitmap>, DisposableList<Bitmap>>();
 
             services.AddSingleton<Form1>();
             using var provider = services.BuildServiceProvider();

@@ -1,12 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Drawing;
 using Project_Goettergaemmerung.Components.Model;
+using System;
 
 namespace Project_Goettergaemmerung.Components
 {
     public interface ITemplateBuilder
     {
-        List<Bitmap> CardTemplate(CardStructure structure, CardType type, Race race, bool extra);
+        DisposableList<Bitmap> CardTemplate(CardStructure structure, CardType type, Race race, bool extra);
     }
 
     public class TemplateBuilder : ITemplateBuilder
@@ -20,98 +21,135 @@ namespace Project_Goettergaemmerung.Components
             _picturesFromArchive = picturesFromArchive;
         }
 
-        public List<Bitmap> CardTemplate(CardStructure structure, CardType type, Race race, bool extra)
+        public DisposableList<Bitmap> CardTemplate(CardStructure structure, CardType type, Race race, bool extra)
         {
-            var bitmaplist = new List<Bitmap>();
+            var bitmaplist = new DisposableList<Bitmap>();
 
-            if (structure == CardStructure.Monster)
+            switch (structure)
             {
-                if (race == Race.All)
-                {
-                    bitmaplist.Add(_createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Class));
-                }
-                else if (race == Race.Animal)
-                {
-                    bitmaplist.Add(_createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Animal));
-                }
-                else if (race == Race.God)
-                {
-                    bitmaplist.Add(_createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.God));
-                }
-                else if (race == Race.Human)
-                {
-                    bitmaplist.Add(_createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Spell));
-                }
-                else if (race == Race.Monster)
-                {
-                    bitmaplist.Add(_createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Equipment));
-                }
-                else if (race == Race.Rock)
-                {
-                    bitmaplist.Add(_createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Rock));
-                }
-                else if (race == Race.Soldier)
-                {
-                    bitmaplist.Add(_createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Soilder));
-                }
-                else if (race == Race.Vampire)
-                {
-                    bitmaplist.Add(_createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Action));
-                }
+                case CardStructure.Normal:
+                    switch (type)
+                    {
+                        case CardType.Action:
+                            bitmaplist.Add(() => _createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Action));
+                            break;
 
-                bitmaplist.Add(_picturesFromArchive.Boarder);
-                bitmaplist.Add(_picturesFromArchive.Win);
+                        case CardType.Monster1:
 
-                if (extra)
-                {
-                    bitmaplist.Add(_picturesFromArchive.Extra);
-                }
-            }
-            else if (structure == CardStructure.Normal)
-            {
-                if (type == CardType.Action)
-                {
-                    bitmaplist.Add(_createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Action));
-                }
-                else if (type == CardType.Bar || type == CardType.Class || type == CardType.Tavern)
-                {
-                    bitmaplist.Add(_createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Class));
-                }
-                else if (type == CardType.Blessing)
-                {
-                    bitmaplist.Add(_createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Animal));
-                }
-                else if (type == CardType.Companion)
-                {
-                    bitmaplist.Add(_createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Soilder));
-                }
-                else if (type == CardType.Disaster || type == CardType.Curse)
-                {
-                    bitmaplist.Add(_createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Desaster));
-                }
-                else if (type == CardType.Duell)
-                {
-                    bitmaplist.Add(_createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Duell));
-                }
-                else if (type == CardType.Equipment1 || type == CardType.Equipment2 || type == CardType.Equipment3)
-                {
-                    bitmaplist.Add(_createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Equipment));
-                }
-                else if (type == CardType.Library || type == CardType.Spell)
-                {
-                    bitmaplist.Add(_createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Spell));
-                }
-                else if (type == CardType.Monster1 || type == CardType.Monster2 || type == CardType.Monster3 || type == CardType.Monster4 || type == CardType.Monster5)
-                {
-                    bitmaplist.Add(_createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Spell));
-                }
+                        case CardType.Monster2:
 
-                bitmaplist.Add(_picturesFromArchive.Boarder);
+                        case CardType.Monster3:
 
-                if (extra)
-                {
-                    bitmaplist.Add(_picturesFromArchive.Extra);
-                }
+                        case CardType.Monster4:
+
+                        case CardType.Monster5:
+                            bitmaplist.Add(() => _createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Spell));
+                            break;
+
+                        case CardType.Equipment1:
+
+                        case CardType.Equipment2:
+
+                        case CardType.Equipment3:
+                            bitmaplist.Add(() => _createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Equipment));
+                            break;
+
+                        case CardType.Companion:
+                            bitmaplist.Add(() => _createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Soilder));
+                            break;
+
+                        case CardType.Library:
+                            bitmaplist.Add(() => _createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Spell));
+                            break;
+
+                        case CardType.Bar:
+                            bitmaplist.Add(() => _createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Class));
+                            break;
+
+                        case CardType.Duell:
+                            bitmaplist.Add(() => _createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Duell));
+                            break;
+
+                        case CardType.Curse:
+                            bitmaplist.Add(() => _createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Desaster));
+                            break;
+
+                        case CardType.Blessing:
+                            bitmaplist.Add(() => _createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Animal));
+                            break;
+
+                        case CardType.Disaster:
+                            bitmaplist.Add(() => _createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Desaster));
+                            break;
+
+                        case CardType.Class:
+
+                        case CardType.Tavern:
+                            bitmaplist.Add(() => _createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Class));
+                            break;
+
+                        case CardType.Spell:
+                            bitmaplist.Add(() => _createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Spell));
+                            break;
+
+                        case CardType.Empty:
+                            break;
+                    }
+                    //bitmaplist.Add(() => _picturesFromArchive.Boarder);
+                    bitmaplist.AddSingle(_picturesFromArchive.Boarder);
+
+                    if (extra)
+                    {
+                        bitmaplist.Add(() => _picturesFromArchive.Extra);
+                    }
+                    break;
+
+                case CardStructure.Monster:
+                    switch (race)
+                    {
+                        case Race.Human:
+                            bitmaplist.Add(() => _createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Spell));
+                            break;
+
+                        case Race.Soldier:
+                            bitmaplist.Add(() => _createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Soilder));
+                            break;
+
+                        case Race.Vampire:
+                            bitmaplist.Add(() => _createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Action));
+                            break;
+
+                        case Race.Animal:
+                            bitmaplist.Add(() => _createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Animal));
+                            break;
+
+                        case Race.God:
+                            bitmaplist.Add(() => _createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.God));
+                            break;
+
+                        case Race.Monster:
+                            bitmaplist.Add(() => _createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Equipment));
+                            break;
+
+                        case Race.All:
+                            bitmaplist.Add(() => _createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Class));
+                            break;
+
+                        case Race.Rock:
+                            bitmaplist.Add(() => _createPicture.BlendingMultiply(_picturesFromArchive.Filter, _picturesFromArchive.Rock));
+                            break;
+
+                        case Race.Empty:
+                            break;
+                    }
+                    bitmaplist.Add(() =>_picturesFromArchive.Boarder);
+                    bitmaplist.Add(() => _picturesFromArchive.Win);
+
+                    if (extra)
+                    {
+                        bitmaplist.Add(() => _picturesFromArchive.Extra);
+                    }
+                    break;
             }
 
             return bitmaplist;

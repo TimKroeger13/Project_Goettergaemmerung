@@ -9,7 +9,7 @@ namespace Unittests.Components
 {
     public class CreatePictureTests
     {
-        private CreatePicture CreateCreatePicture()
+        private static CreatePicture CreateCreatePicture()
         {
             return new CreatePicture();
         }

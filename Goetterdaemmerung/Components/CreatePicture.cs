@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
@@ -10,12 +11,12 @@ namespace Project_Goettergaemmerung.Components
     {
         Bitmap BlendingMultiply(Bitmap bitmap1, Bitmap bitmap2);
 
-        Bitmap MergedBitmaps(List<Bitmap> bitmapList);
+        Bitmap MergedBitmaps(DisposableList<Bitmap> bitmapList);
     }
 
     public class CreatePicture : ICreatePicture
     {
-        public Bitmap MergedBitmaps(List<Bitmap> bitmapList)
+        public Bitmap MergedBitmaps(DisposableList<Bitmap> bitmapList)
         {
             var result = new Bitmap(700, 1000);
             using (var g = Graphics.FromImage(result))
@@ -37,7 +38,7 @@ namespace Project_Goettergaemmerung.Components
             Parallel.For(0, resultBytes.Length, i =>
             {
                 if ((i + 1) % 4 == 0) resultBytes[i] = 255;
-                else resultBytes[i] = (byte)(bitmap1Bytes[i] * bitmap2Bytes[i] / 255d);
+                else resultBytes[i] = (byte)(Math.Round(bitmap1Bytes[i] * bitmap2Bytes[i] / 255d));
             });
             Marshal.Copy(resultBytes, 0, bitmapDataResult.Scan0, resultBytes.Length);
             result.UnlockBits(bitmapDataResult);

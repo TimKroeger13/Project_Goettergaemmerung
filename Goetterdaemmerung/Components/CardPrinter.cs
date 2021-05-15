@@ -17,13 +17,15 @@ namespace Project_Goettergaemmerung.Components
         private readonly IUserData _userData;
         private readonly ITemplateBuilder _templateBuilder;
         private readonly ICreatePicture _createPicture;
+        private readonly IDisposableList<Bitmap> _disposableList;
 
-        public CardPrinter(ICardInformationGetter cardInformation, IUserData userData, ITemplateBuilder templateBuilder, ICreatePicture createPicture)
+        public CardPrinter(ICardInformationGetter cardInformation, IUserData userData, ITemplateBuilder templateBuilder, ICreatePicture createPicture, IDisposableList<Bitmap> disposableList)
         {
             _cardInformation = cardInformation;
             _userData = userData;
             _templateBuilder = templateBuilder;
             _createPicture = createPicture;
+            _disposableList = disposableList;
         }
 
         private void SaveImage(Bitmap Card, string filename) //To Private
@@ -44,8 +46,11 @@ namespace Project_Goettergaemmerung.Components
                 var name = Card.Name;
 
                 var Template = _templateBuilder.CardTemplate(structure, type, race, extra);
-                using var FinalCard = _createPicture.MergedBitmaps(Template);
-                SaveImage(FinalCard, name);
+                using var finalCard = _createPicture.MergedBitmaps(Template);
+                SaveImage(finalCard, name);
+                //Template.Dispose();
+                //Template = null;
+                _disposableList.Dispose();
             }
         }
     }
