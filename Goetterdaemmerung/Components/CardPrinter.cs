@@ -45,11 +45,11 @@ namespace Project_Goettergaemmerung.Components
                 var extra = Card.ExtraDeck;
                 var name = Card.Name;
 
-                var Template = _templateBuilder.CardTemplate(structure, type, race, extra);
+                var Template = _templateBuilder.CardTemplate(structure, type, race, extra, name);
+
                 using var finalCard = _createPicture.MergedBitmaps(Template);
                 SaveImage(finalCard, name);
                 //Template.Dispose();
-                //Template = null;
                 _disposableList.Dispose();
             }
         }

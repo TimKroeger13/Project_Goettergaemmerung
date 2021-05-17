@@ -29,6 +29,7 @@ namespace Project_Goettergaemmerung
 #endif
             services.AddTransient<ICardPrinter, CardPrinter>();
             services.AddTransient<ICreatePicture, CreatePicture>();
+            services.AddTransient<IDrawTextAsBitmap, DrawTextAsBitmap>();
             services.AddSingleton<IUserData, UserData>();
             services.AddSingleton<ITemplateBuilder, TemplateBuilder>();
             services.AddSingleton<IPicturesFromArchive, PicturesFromArchive>();
