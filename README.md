@@ -2,7 +2,7 @@
 Card Editor Program for private use - *Documentation language is german.* <br>
 #### Aufgabe des Scripts:
 
-*Ziel* dieses Programmes ist es aus einen gegebenen *.ods* File, welcher auf der Basis von LibreOffice Calc erstellt wurde, einzulesen und mit
+**Ziel** dieses Programmes ist es aus einen gegebenen *.ods* File, welcher auf der Basis von LibreOffice Calc erstellt wurde, einzulesen und mit
 den darin enthalten Informationen Karten zu generieren, welche in einen Ordner freier Wahl als Bilddatei (*.png*) gespeichert werden. 
 
 #### Teilabschnitte (Goals):
