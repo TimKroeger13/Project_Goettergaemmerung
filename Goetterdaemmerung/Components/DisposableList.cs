@@ -27,7 +27,6 @@ namespace Project_Goettergaemmerung.Components
         public void AddSingle(T bitmap)
         {
             _list.Add(bitmap);
-
         }
 
         public void Dispose()

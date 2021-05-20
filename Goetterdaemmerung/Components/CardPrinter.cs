@@ -37,15 +37,17 @@ namespace Project_Goettergaemmerung.Components
         {
             var CardInformationList = _cardInformation.GetCardInformation(_userData.ImportPath).ToList();
 
-            foreach (var Card in CardInformationList)
+            foreach (var card in CardInformationList)
             {
-                var structure = Card.Structure;
-                var type = Card.CardType;
-                var race = Card.Race;
-                var extra = Card.ExtraDeck;
-                var name = Card.Name;
+                var structure = card.Structure;
+                var type = card.CardType;
+                var race = card.Race;
+                var extra = card.ExtraDeck;
+                var name = card.Name;
+                var text = card.Text;
+                var flavorText = card.FlavorText;
 
-                var Template = _templateBuilder.CardTemplate(structure, type, race, extra, name);
+                var Template = _templateBuilder.CardTemplate(structure, type, race, extra, name, text, flavorText);
 
                 using var finalCard = _createPicture.MergedBitmaps(Template);
                 SaveImage(finalCard, name);

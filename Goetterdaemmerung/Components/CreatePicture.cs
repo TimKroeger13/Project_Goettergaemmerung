@@ -12,6 +12,7 @@ namespace Project_Goettergaemmerung.Components
         Bitmap BlendingMultiply(Bitmap bitmap1, Bitmap bitmap2);
 
         Bitmap MergedBitmaps(DisposableList<Bitmap> bitmapList);
+
     }
 
     public class CreatePicture : ICreatePicture

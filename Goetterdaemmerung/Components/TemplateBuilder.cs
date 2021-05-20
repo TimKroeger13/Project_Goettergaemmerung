@@ -7,7 +7,7 @@ namespace Project_Goettergaemmerung.Components
 {
     public interface ITemplateBuilder
     {
-        DisposableList<Bitmap> CardTemplate(CardStructure structure, CardType type, Race race, bool extra, string name);
+        DisposableList<Bitmap> CardTemplate(CardStructure structure, CardType type, Race race, bool extra, string name, string text, string flavorText);
     }
 
     public class TemplateBuilder : ITemplateBuilder
@@ -23,7 +23,7 @@ namespace Project_Goettergaemmerung.Components
             _drawTextAsBitmap = drawTextAsBitmap;
         }
 
-        public DisposableList<Bitmap> CardTemplate(CardStructure structure, CardType type, Race race, bool extra, string name)
+        public DisposableList<Bitmap> CardTemplate(CardStructure structure, CardType type, Race race, bool extra, string name, string text, string flavorText)
         {
             var bitmaplist = new DisposableList<Bitmap>();
 
@@ -102,7 +102,8 @@ namespace Project_Goettergaemmerung.Components
 
                     if (extra)
                     {
-                        bitmaplist.Add(() => _picturesFromArchive.Extra);
+                        //bitmaplist.Add(() => _picturesFromArchive.Extra);
+                        bitmaplist.AddSingle(_picturesFromArchive.Extra);
                     }
                     break;
 
@@ -154,7 +155,7 @@ namespace Project_Goettergaemmerung.Components
                     break;
             }
 
-            bitmaplist.AddSingle(_drawTextAsBitmap.DrawText(name));
+            bitmaplist.AddSingle(_drawTextAsBitmap.DrawText(name, text, flavorText));
 
             return bitmaplist;
         }
