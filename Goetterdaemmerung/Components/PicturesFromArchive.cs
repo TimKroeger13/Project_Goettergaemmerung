@@ -23,14 +23,12 @@ namespace Project_Goettergaemmerung.Components
 
     public class PicturesFromArchive : IPicturesFromArchive
     {
-        private Bitmap BitmapTemplate = new Bitmap(700, 1000);
-
         public Bitmap Action
         {
             get
             {
                 var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\action.png");
-                NewBitmap.SetResolution(BitmapTemplate.HorizontalResolution, BitmapTemplate.VerticalResolution);
+                NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
             }
@@ -41,7 +39,7 @@ namespace Project_Goettergaemmerung.Components
             get
             {
                 var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\animal.png");
-                NewBitmap.SetResolution(BitmapTemplate.HorizontalResolution, BitmapTemplate.VerticalResolution);
+                NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
             }
@@ -52,7 +50,7 @@ namespace Project_Goettergaemmerung.Components
             get
             {
                 var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\boarder.png");
-                NewBitmap.SetResolution(BitmapTemplate.HorizontalResolution, BitmapTemplate.VerticalResolution);
+                NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
             }
@@ -63,7 +61,7 @@ namespace Project_Goettergaemmerung.Components
             get
             {
                 var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\class.png");
-                NewBitmap.SetResolution(BitmapTemplate.HorizontalResolution, BitmapTemplate.VerticalResolution);
+                NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
             }
@@ -74,7 +72,7 @@ namespace Project_Goettergaemmerung.Components
             get
             {
                 var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\desaster.png");
-                NewBitmap.SetResolution(BitmapTemplate.HorizontalResolution, BitmapTemplate.VerticalResolution);
+                NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
             }
@@ -85,7 +83,7 @@ namespace Project_Goettergaemmerung.Components
             get
             {
                 var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\duell.png");
-                NewBitmap.SetResolution(BitmapTemplate.HorizontalResolution, BitmapTemplate.VerticalResolution);
+                NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
             }
@@ -96,7 +94,7 @@ namespace Project_Goettergaemmerung.Components
             get
             {
                 var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\equipment.png");
-                NewBitmap.SetResolution(BitmapTemplate.HorizontalResolution, BitmapTemplate.VerticalResolution);
+                NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
             }
@@ -107,7 +105,7 @@ namespace Project_Goettergaemmerung.Components
             get
             {
                 var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\extra.png");
-                NewBitmap.SetResolution(BitmapTemplate.HorizontalResolution, BitmapTemplate.VerticalResolution);
+                NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
             }
@@ -118,7 +116,7 @@ namespace Project_Goettergaemmerung.Components
             get
             {
                 var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\filter.png");
-                NewBitmap.SetResolution(BitmapTemplate.HorizontalResolution, BitmapTemplate.VerticalResolution);
+                NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
             }
@@ -129,7 +127,7 @@ namespace Project_Goettergaemmerung.Components
             get
             {
                 var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\god.png");
-                NewBitmap.SetResolution(BitmapTemplate.HorizontalResolution, BitmapTemplate.VerticalResolution);
+                NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
             }
@@ -140,7 +138,7 @@ namespace Project_Goettergaemmerung.Components
             get
             {
                 var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\soilder.png");
-                NewBitmap.SetResolution(BitmapTemplate.HorizontalResolution, BitmapTemplate.VerticalResolution);
+                NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
             }
@@ -151,7 +149,7 @@ namespace Project_Goettergaemmerung.Components
             get
             {
                 var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\spell.png");
-                NewBitmap.SetResolution(BitmapTemplate.HorizontalResolution, BitmapTemplate.VerticalResolution);
+                NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
             }
@@ -162,7 +160,7 @@ namespace Project_Goettergaemmerung.Components
             get
             {
                 var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\win.png");
-                NewBitmap.SetResolution(BitmapTemplate.HorizontalResolution, BitmapTemplate.VerticalResolution);
+                NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
             }
@@ -173,7 +171,7 @@ namespace Project_Goettergaemmerung.Components
             get
             {
                 var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\rock.png");
-                NewBitmap.SetResolution(BitmapTemplate.HorizontalResolution, BitmapTemplate.VerticalResolution);
+                NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
             }
@@ -184,7 +182,7 @@ namespace Project_Goettergaemmerung.Components
             get
             {
                 var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\dividingline.png");
-                NewBitmap.SetResolution(BitmapTemplate.HorizontalResolution, BitmapTemplate.VerticalResolution);
+                NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
             }

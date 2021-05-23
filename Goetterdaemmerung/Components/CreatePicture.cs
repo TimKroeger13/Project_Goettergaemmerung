@@ -20,6 +20,7 @@ namespace Project_Goettergaemmerung.Components
         public Bitmap MergedBitmaps(DisposableList<Bitmap> bitmapList)
         {
             var result = new Bitmap(700, 1000);
+            result.SetResolution(120, 120);
             using (var g = Graphics.FromImage(result))
             {
                 foreach (var item in bitmapList)
@@ -33,6 +34,7 @@ namespace Project_Goettergaemmerung.Components
         public Bitmap BlendingMultiply(Bitmap bitmap1, Bitmap bitmap2)
         {
             var result = new Bitmap(700, 1000);
+            result.SetResolution(120, 120);
             var resultBytes = result.GetArgbBytes(out var bitmapDataResult);
             var bitmap1Bytes = bitmap1.GetArgbBytes();
             var bitmap2Bytes = bitmap2.GetArgbBytes();

@@ -3,21 +3,22 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Drawing.Imaging;
 using System.Drawing.Text;
+using System.Text;
 using System.Windows.Forms;
 
 namespace Project_Goettergaemmerung.Components
-{
+{//DrawTextAsBitmap
 
-    public interface IDrawTextAsBitmap
+    public interface ITestTextasBitmap
     {
         Bitmap DrawText(string name, string text, string flavorText);
     }
 
-    public class DrawTextAsBitmap : IDrawTextAsBitmap
+    public class TestTextAsBitmap : ITestTextasBitmap
     {
         private readonly IPicturesFromArchive _picturesFromArchive;
 
-        public DrawTextAsBitmap(IPicturesFromArchive picturesFromArchive)
+        public TestTextAsBitmap(IPicturesFromArchive picturesFromArchive)
         {
             _picturesFromArchive = picturesFromArchive;
         }
@@ -25,9 +26,12 @@ namespace Project_Goettergaemmerung.Components
 
         public Bitmap DrawText(string name, string text, string flavorText)
         {
+            text = CleanStrings(text);
+
             var textHigth = 40;
             int textHigthFromButtom;
             var result = new Bitmap(700, 1000);
+            result.SetResolution(120, 120);
 
             using (var g = Graphics.FromImage(result))
             {
@@ -53,7 +57,7 @@ namespace Project_Goettergaemmerung.Components
                 };
 
                 var textRectangle = new RectangleF();
-                using (var useFont = new Font("Segoe Print", 36, FontStyle.Bold))
+                using (var useFont = new Font("Segoe Print", 30, FontStyle.Bold)) //34
                 {
                     textRectangle.Location = new Point(30, textHigth);
                     textRectangle.Size = new Size(640, (int)g.MeasureString(name, useFont, 640, formatCentert).Height);
@@ -65,7 +69,7 @@ namespace Project_Goettergaemmerung.Components
                 g.DrawImage(dividingline, new Point(0, textHigth));
                 textHigth += 16;
 
-                using (var useFont = new Font("Segoe Print", 24, FontStyle.Regular))
+                using (var useFont = new Font("Segoe Print", 24, FontStyle.Regular)) //24
                 {
                     textRectangle.Location = new Point(30, textHigth);
                     textRectangle.Size = new Size(640, (int)g.MeasureString(text, useFont, 640, formatInlined).Height);
@@ -73,7 +77,7 @@ namespace Project_Goettergaemmerung.Components
                     g.DrawString(text, useFont, Brushes.Black, textRectangle, formatInlined);
                 }
 
-                using (var useFont = new Font("Segoe Print", 19, FontStyle.Italic))
+                using (var useFont = new Font("Segoe Print", 19, FontStyle.Italic)) //19
                 {
                     textRectangle.Size = new Size(640, (int)g.MeasureString(flavorText, useFont, 640, formatInlined).Height);
                     textHigthFromButtom = (int)textRectangle.Bottom - (int)textRectangle.Top;
@@ -82,12 +86,29 @@ namespace Project_Goettergaemmerung.Components
                 }
 
                 //g.Flush();
-
-
             }
 
             return result;
 
+        }
+
+        public string CleanStrings(string String)
+        {
+            var outputString = new StringBuilder();
+            bool skip = false;
+
+            for (int i = 0; i < String.Length; i++)
+            {
+                if (String[i] != '"' || skip)
+                {
+                    outputString.Append(String[i]);
+
+                    if (skip) { skip = false; }
+                }
+                if (String[i] == '"') { skip = true; }
+            }
+
+            return outputString.ToString();
         }
     }
 }

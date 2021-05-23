@@ -14,13 +14,13 @@ namespace Project_Goettergaemmerung.Components
     {
         private readonly ICreatePicture _createPicture;
         private readonly IPicturesFromArchive _picturesFromArchive;
-        private readonly IDrawTextAsBitmap _drawTextAsBitmap;
+        private readonly ITestTextasBitmap _testTextasBitmap;
 
-        public TemplateBuilder(ICreatePicture createPicture, IPicturesFromArchive picturesFromArchive, IDrawTextAsBitmap drawTextAsBitmap)
+        public TemplateBuilder(ICreatePicture createPicture, IPicturesFromArchive picturesFromArchive, ITestTextasBitmap drawTextAsBitmap)
         {
             _createPicture = createPicture;
             _picturesFromArchive = picturesFromArchive;
-            _drawTextAsBitmap = drawTextAsBitmap;
+            _testTextasBitmap = drawTextAsBitmap;
         }
 
         public DisposableList<Bitmap> CardTemplate(CardStructure structure, CardType type, Race race, bool extra, string name, string text, string flavorText)
@@ -155,7 +155,7 @@ namespace Project_Goettergaemmerung.Components
                     break;
             }
 
-            bitmaplist.AddSingle(_drawTextAsBitmap.DrawText(name, text, flavorText));
+            //bitmaplist.AddSingle(_testTextasBitmap.DrawText(name, text, flavorText));
 
             return bitmaplist;
         }

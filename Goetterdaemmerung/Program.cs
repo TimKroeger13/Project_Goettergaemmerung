@@ -4,6 +4,7 @@ using System.Windows.Forms;
 using Microsoft.Extensions.DependencyInjection;
 using Project_Goettergaemmerung.Components;
 using Project_Goettergaemmerung.Components.CardInformationGetter;
+using Project_Goettergaemmerung.Components.DrawText;
 
 namespace Project_Goettergaemmerung
 {
@@ -29,11 +30,12 @@ namespace Project_Goettergaemmerung
 #endif
             services.AddTransient<ICardPrinter, CardPrinter>();
             services.AddTransient<ICreatePicture, CreatePicture>();
-            services.AddTransient<IDrawTextAsBitmap, DrawTextAsBitmap>();
             services.AddSingleton<IUserData, UserData>();
             services.AddSingleton<ITemplateBuilder, TemplateBuilder>();
             services.AddSingleton<IPicturesFromArchive, PicturesFromArchive>();
             services.AddSingleton<IDisposableList<Bitmap>, DisposableList<Bitmap>>();
+            services.AddTransient<ITestTextasBitmap, TestTextAsBitmap>(); //delete Later
+            services.AddTransient<ISplitStringInTypography, SplitStringInTypography>();
 
             services.AddSingleton<Form1>();
             using var provider = services.BuildServiceProvider();
