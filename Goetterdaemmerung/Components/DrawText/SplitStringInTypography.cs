@@ -13,12 +13,11 @@ namespace Project_Goettergaemmerung.Components.DrawText
 
     public class SplitStringInTypography : ISplitStringInTypography
     {
-        private List<string> _boldKeys = new List<string>(new string[] { "+", "-", "/", "|", "FAITH", "VAMPIRISMUS", "PASSIERST",
+        private List<string> _boldKeys = new(new string[] { "+", "-", "/", "|", "FAITH", "VAMPIRISMUS", "PASSIERST",
         "GEWÖHNLICH", "SELTEN", "LEGENDÄR"});
  
         public List<(string, char)> SplitString(string text)
         {
-            var tupleList = new List<(string, char)>();
             var typographyMarker = new List<(int Beginning, int End, char Typography)>();
 
             var toUpperText = text.ToUpper();
@@ -70,16 +69,13 @@ namespace Project_Goettergaemmerung.Components.DrawText
             }
             for (var i = 0; i < toUpperText.Length - 1; i++)
             {
-                if (toUpperText.Substring(i, "D".Length - 1) == "D" && int.TryParse(toUpperText.Substring(i + 1, 1), out _))
+                if (toUpperText.Substring(i, "D".Length) == "D" && int.TryParse(toUpperText.Substring(i + 1, 1), out _))
                 {
                     typographyMarker.Add((i, i, 'b'));
                 }
             }
 
-            //var x = SortSplitString(typographyMarker);
-            var z2 = SplitStringToText((SortSplitString(typographyMarker), text));
-
-            return tupleList;
+            return SplitStringToText((SortSplitString(typographyMarker), text));
         }
         private static List<(int, int, char)> SortSplitString(List<(int, int, char)> marker)
         {
@@ -93,44 +89,66 @@ namespace Project_Goettergaemmerung.Components.DrawText
             var splitString = marker.Item1;
             var text = marker.Item2;
             var textLength = marker.Item2.Length;
+            var charPointer = 0;
 
-            for (var i = 0; i < splitString.Count(); i++)
-            {//WHILE LOOP
-                var beginning = splitString[i].Item1;
-                var end = splitString[i].Item2;
-                var typography = splitString[i].Item3;
-                var charPointer = 0;
-
+            var k = 0;
+            while (k < splitString.Count())
+            {
+                var beginning = splitString[k].Item1;
+                var end = splitString[k].Item2;
+                var typography = splitString[k].Item3;
                 var charNeighbor = 0;
 
-                if (beginning != 0)
+                if (beginning != 0 && beginning - charPointer != 0)
                 {
-                }
-                var x = text.Substring(charPointer, beginning - charPointer);
-                if (text.Substring(beginning, end - beginning + 1 + charNeighbor) == "")
-                {
-                    charNeighbor += 1;
-                }
-                if (end + 1 + charNeighbor == splitString[i].Item1)//Das hier an die While Loop anpassen
-                {
-
-
+                    TypographyList.Add((text.Substring(charPointer, beginning - charPointer), 'r'));
                 }
 
-                var x2 = text.Substring(beginning, end - beginning + 1);
+                bool AddNoMoreChars;
 
+                while (true)
+                {
+                    AddNoMoreChars = true;
 
+                    if (end + 1 + charNeighbor == textLength) { break; }
 
+                    if (text.Substring(end + 1 + charNeighbor, 1) == " ")
+                    {
+                        charNeighbor += 1;
+                        AddNoMoreChars = false;
+                    }
+
+                    var j = 0;
+                    while (j < splitString.Count())
+                    {
+                        if (end + 1 + charNeighbor == splitString[j].Item1 && typography == splitString[j].Item3)
+                        {
+                            charNeighbor += splitString[j].Item2 - splitString[j].Item1 + 1;
+                            k += 1;
+                            AddNoMoreChars = false;
+                            break;
+                        }
+                        j++;
+                    }
+                    if (AddNoMoreChars) { break; }
+                }
+
+                charPointer = end + charNeighbor + 1;
+
+                var test1 = end;
+                var test2 = end - beginning + 1 + charNeighbor;
+
+                TypographyList.Add((text.Substring(beginning, end - beginning + 1 + charNeighbor), typography));
+
+                k++;
             }
-            //Find string Part / Solo string / Connect between spaces
 
-
-
-            TypographyList.Add(new Tuple<string, char>("sdsd", 'b').ToValueTuple());
+            if (charPointer != textLength)
+            {
+                TypographyList.Add((text.Substring(charPointer, textLength - charPointer), 'r'));
+            }
 
             return TypographyList;
         }
-
-
     }
 }
