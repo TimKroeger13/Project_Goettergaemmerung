@@ -17,19 +17,15 @@ namespace Project_Goettergaemmerung.Components.DrawText
     {
         public List<(string, Typography)> SplitString(string text)
         {
-            var boldKeys = new Regex("[0-9]|PASSIER.*|GEWÖHNLICH|SELTEN|LEGENDÄR|VAMPIRISMUS|FAITH|\\||\\+|\\-|/");
-            var italicKeys = new Regex("EXTRA DECK|EXTRADECK");
+            var boldKeys = new Regex("[0-9]|(?i)PASSIER.*|GEWÖHNLICH|SELTEN|LEGENDÄR|VAMPIRISMUS|FAITH(?-i)|\\||\\+|\\-|/");
+            var italicKeys = new Regex("(?i)EXTRA DECK|EXTRADECK(?-i)");
             var typographyMarker = new List<(string words, Typography marker)>();
-            var toUpperText = text.ToUpper();
             var splitString = text.Split(null);
-            var toUpperSplitString = toUpperText.Split(null);
-            var i = 0;
-            foreach (var item in toUpperSplitString)
+            foreach (var item in splitString)
             {
-                if (boldKeys.IsMatch(item)) { typographyMarker.Add((splitString[i], Typography.Bold)); }
-                else if (italicKeys.IsMatch(item)) { typographyMarker.Add((splitString[i], Typography.Italic)); }
-                else { typographyMarker.Add((splitString[i], Typography.Regular)); }
-                i++;
+                if (boldKeys.IsMatch(item)) { typographyMarker.Add((item, Typography.Bold)); }
+                else if (italicKeys.IsMatch(item)) { typographyMarker.Add((item, Typography.Italic)); }
+                else { typographyMarker.Add((item, Typography.Regular)); }
             }
             return typographyMarker;
         }
