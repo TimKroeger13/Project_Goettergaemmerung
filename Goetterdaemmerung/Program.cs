@@ -36,6 +36,7 @@ namespace Project_Goettergaemmerung
             services.AddSingleton<IDisposableList<Bitmap>, DisposableList<Bitmap>>();
             services.AddTransient<ITestTextasBitmap, TestTextAsBitmap>(); //delete Later
             services.AddTransient<ISplitStringInTypography, SplitStringInTypography>();
+            services.AddTransient<IDrawStringWithTopograpy, DrawStringWithTopograpy>();
 
             services.AddSingleton<Form1>();
             using var provider = services.BuildServiceProvider();

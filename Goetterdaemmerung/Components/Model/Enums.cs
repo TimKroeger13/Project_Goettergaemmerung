@@ -222,4 +222,11 @@ namespace Project_Goettergaemmerung.Components.Model
 
         Empty
     }
+
+    public enum Typography
+    {
+        Regular,
+        Bold,
+        Italic
+    }
 }

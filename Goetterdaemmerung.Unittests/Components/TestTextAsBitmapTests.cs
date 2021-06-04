@@ -15,9 +15,6 @@ namespace Unittests.Components
         private readonly CreatePicture _createPicture = new CreatePicture();
         private readonly PicturesFromArchive _picturesFromArchive = new PicturesFromArchive();
 
-        public TestTextAsBitmapTests()
-        {
-        }
 
         private TestTextAsBitmap CreateDrawTextAsBitmap()
         {
