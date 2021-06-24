@@ -10,22 +10,38 @@ namespace Project_Goettergaemmerung.Components.DrawText
 {
     public interface ISplitStringInTypography
     {
-        List<(string, Typography)> SplitString(string text);
+        ICollection<(string Word, Typography Marker)> SplitString(string text);
     }
 
     public class SplitStringInTypography : ISplitStringInTypography
     {
-        public List<(string, Typography)> SplitString(string text)
+        public ICollection<(string Word, Typography Marker)> SplitString(string text)
         {
-            var boldKeys = new Regex("[0-9]|(?i)PASSIER.*|GEWÖHNLICH|SELTEN|LEGENDÄR|VAMPIRISMUS|FAITH(?-i)|\\||\\+|\\-|/");
-            var italicKeys = new Regex("(?i)EXTRA DECK|EXTRADECK(?-i)");
-            var typographyMarker = new List<(string words, Typography marker)>();
-            var splitString = text.Split(null);
-            foreach (var item in splitString)
+            var boldKeys = new Regex("[0-9]|(?i)PASSIER.*|GEWÖHNLICH|SELTEN|LEGENDÄR|VAMPIRISMUS|FAITH(?-i)|\\||\\+|\\-");
+            var italicKeys = new Regex("(?i)EXTRADECK|\\(EXTRA|DECK\\)(?-i)");
+            var brackets = new Regex("\"");
+            var bracketsLock = false;
+            var typographyMarker = new List<(string Word, Typography Marker)>();
+            foreach (var item in (string[])text.Split(null))
             {
-                if (boldKeys.IsMatch(item)) { typographyMarker.Add((item, Typography.Bold)); }
-                else if (italicKeys.IsMatch(item)) { typographyMarker.Add((item, Typography.Italic)); }
-                else { typographyMarker.Add((item, Typography.Regular)); }
+                if (brackets.IsMatch(item) || bracketsLock)
+                {
+                    typographyMarker.Add((item, Typography.Bold));
+                    if (brackets.IsMatch(item) && !bracketsLock && brackets.Matches(item).Count == 1)
+                    {
+                        bracketsLock = true;
+                    }
+                    else if (brackets.IsMatch(item) && bracketsLock)
+                    {
+                        bracketsLock = false;
+                    }
+                }
+                else
+                {
+                    if (boldKeys.IsMatch(item)) { typographyMarker.Add((item, Typography.Bold)); }
+                    else if (italicKeys.IsMatch(item)) { typographyMarker.Add((item, Typography.Italic)); }
+                    else { typographyMarker.Add((item, Typography.Regular)); }
+                }
             }
             return typographyMarker;
         }

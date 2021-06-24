@@ -61,6 +61,24 @@ namespace Unittests.Components {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to [0,0,0,1,0,0,0,0,0,1].
+        /// </summary>
+        internal static string splitStringInTypography_Typography {
+            get {
+                return ResourceManager.GetString("splitStringInTypography_Typography", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to [&quot;Wenn&quot;,&quot;du&quot;,&quot;eine&quot;,&quot;6&quot;,&quot;wuerfelst,&quot;,&quot;hat&quot;,&quot;diese&quot;,&quot;Waffe&quot;,&quot;stattdessen&quot;,&quot;+4/+0.&quot;].
+        /// </summary>
+        internal static string splitStringInTypography_Words {
+            get {
+                return ResourceManager.GetString("splitStringInTypography_Words", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap TestImage {

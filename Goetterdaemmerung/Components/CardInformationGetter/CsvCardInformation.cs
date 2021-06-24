@@ -50,10 +50,11 @@ namespace Project_Goettergaemmerung.Components.CardInformationGetter
                 model.Race = dictionaryRace[row[11]];
                 model.WinText = row[12];
                 model.LoseText = row[13];
-                model.Print1 = int.Parse(row[14]);
-                model.Print2 = int.Parse(row[15]);
-                model.Print3 = int.Parse(row[16]);
-                model.Print4 = int.Parse(row[17]);
+                model.Scrapped = row[14];
+                model.Print1 = int.Parse(row[15]);
+                model.Print2 = int.Parse(row[16]);
+                model.Print3 = int.Parse(row[17]);
+                model.Print4 = int.Parse(row[18]);
 
                 result.Add(model);
             }

@@ -37,6 +37,8 @@ namespace Project_Goettergaemmerung
             services.AddTransient<ITestTextasBitmap, TestTextAsBitmap>(); //delete Later
             services.AddTransient<ISplitStringInTypography, SplitStringInTypography>();
             services.AddTransient<IDrawStringWithTopograpy, DrawStringWithTopograpy>();
+            services.AddTransient<IMeassureStringWithTopograpy, MeassureStringWithTopograpy>();
+            services.AddTransient<IDrawNormalCards, DrawNormalCards>();
 
             services.AddSingleton<Form1>();
             using var provider = services.BuildServiceProvider();

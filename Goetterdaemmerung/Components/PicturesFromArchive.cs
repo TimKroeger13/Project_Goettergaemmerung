@@ -34,6 +34,7 @@ namespace Project_Goettergaemmerung.Components
             }
             set { Action = value; }
         }
+
         public Bitmap Animal
         {
             get
@@ -45,6 +46,7 @@ namespace Project_Goettergaemmerung.Components
             }
             set { Animal = value; }
         }
+
         public Bitmap Boarder
         {
             get
@@ -56,6 +58,7 @@ namespace Project_Goettergaemmerung.Components
             }
             set { Boarder = value; }
         }
+
         public Bitmap Class
         {
             get
@@ -67,6 +70,7 @@ namespace Project_Goettergaemmerung.Components
             }
             set { Class = value; }
         }
+
         public Bitmap Desaster
         {
             get
@@ -78,6 +82,7 @@ namespace Project_Goettergaemmerung.Components
             }
             set { Desaster = value; }
         }
+
         public Bitmap Duell
         {
             get
@@ -89,6 +94,7 @@ namespace Project_Goettergaemmerung.Components
             }
             set { Duell = value; }
         }
+
         public Bitmap Equipment
         {
             get
@@ -100,6 +106,7 @@ namespace Project_Goettergaemmerung.Components
             }
             set { Equipment = value; }
         }
+
         public Bitmap Extra
         {
             get
@@ -111,6 +118,7 @@ namespace Project_Goettergaemmerung.Components
             }
             set { Extra = value; }
         }
+
         public Bitmap Filter
         {
             get
@@ -122,6 +130,7 @@ namespace Project_Goettergaemmerung.Components
             }
             set { Filter = value; }
         }
+
         public Bitmap God
         {
             get
@@ -133,6 +142,7 @@ namespace Project_Goettergaemmerung.Components
             }
             set { God = value; }
         }
+
         public Bitmap Soilder
         {
             get
@@ -144,6 +154,7 @@ namespace Project_Goettergaemmerung.Components
             }
             set { Soilder = value; }
         }
+
         public Bitmap Spell
         {
             get
@@ -155,6 +166,7 @@ namespace Project_Goettergaemmerung.Components
             }
             set { Spell = value; }
         }
+
         public Bitmap Win
         {
             get
@@ -166,6 +178,7 @@ namespace Project_Goettergaemmerung.Components
             }
             set { Win = value; }
         }
+
         public Bitmap Rock
         {
             get
@@ -177,6 +190,7 @@ namespace Project_Goettergaemmerung.Components
             }
             set { Rock = value; }
         }
+
         public Bitmap Dividingline
         {
             get
@@ -189,5 +203,16 @@ namespace Project_Goettergaemmerung.Components
             set { Dividingline = value; }
         }
 
+        public Bitmap Scrapped
+        {
+            get
+            {
+                var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\scrapped.png");
+                NewBitmap.SetResolution(120, 120);
+                return NewBitmap
+                ;
+            }
+            set { Dividingline = value; }
+        }
     }
 }

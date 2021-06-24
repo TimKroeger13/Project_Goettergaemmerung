@@ -19,6 +19,7 @@ namespace Project_Goettergaemmerung.Components.Model
         public Race Race { get; set; }
         public string WinText { get; set; }
         public string LoseText { get; set; }
+        public string Scrapped { get; set; }
         public int Print1 { get; set; }
         public int Print2 { get; set; }
         public int Print3 { get; set; }

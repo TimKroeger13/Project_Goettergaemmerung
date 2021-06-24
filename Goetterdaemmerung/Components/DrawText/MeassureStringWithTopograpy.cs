@@ -10,35 +10,30 @@ using Project_Goettergaemmerung.Components.Model;
 
 namespace Project_Goettergaemmerung.Components.DrawText
 {
-    public interface IDrawStringWithTopograpy
+    public interface IMeassureStringWithTopograpy
     {
-        (Bitmap bitmap, float texthigth) DrawStringOnBitmapWithTopograpy(string splitText, Bitmap result, float textHigth, int fontSize,
-                    (int offSet, int width) widthBoarders, string fontName);
+        float MeassureStringOnBitmapWithTopograpy(List<(string, Typography)> splitText, Bitmap result, float textHigth, int fontSize, (int offSet, int width) widthBoarders, string fontName);
     }
 
-    public class DrawStringWithTopograpy : IDrawStringWithTopograpy
+    public class MeassureStringWithTopograpy : IMeassureStringWithTopograpy
     {
         private readonly ISplitStringInTypography _splitStringInTypography;
 
-        public DrawStringWithTopograpy(ISplitStringInTypography splitStringInTypography)
+        public MeassureStringWithTopograpy()
+        {
+        }
+
+        public MeassureStringWithTopograpy(ISplitStringInTypography splitStringInTypography)
         {
             _splitStringInTypography = splitStringInTypography;
         }
 
-        public (Bitmap bitmap, float texthigth) DrawStringOnBitmapWithTopograpy(string text, Bitmap result, float textHigth, int fontSize,
+        public float MeassureStringOnBitmapWithTopograpy(List<(string, Typography)> splitText, Bitmap result, float textHigth, int fontSize,
             (int offSet, int width) widthBoarders, string fontName)
         {
-            //List<(string, Typography)> splitText
-            var splitText = _splitStringInTypography.SplitString(text).ToList();
+            //var SplitText = _splitStringInTypography.SplitString(text);
 
             using var g = Graphics.FromImage(result);
-            g.SmoothingMode = SmoothingMode.AntiAlias;
-            g.InterpolationMode = InterpolationMode.HighQualityBicubic;
-            g.PixelOffsetMode = PixelOffsetMode.HighQuality;
-            g.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
-            g.PageUnit = GraphicsUnit.Pixel;
-            g.CompositingMode = CompositingMode.SourceOver;
-            g.CompositingQuality = CompositingQuality.HighQuality;
 
             float currentCharacterWidth = widthBoarders.offSet;
             float currentCharacterHigth = textHigth;
@@ -55,8 +50,6 @@ namespace Project_Goettergaemmerung.Components.DrawText
                                 currentCharacterHigth += g.MeasureString(word.Item1, useFont, 1000).Height;
                                 currentCharacterWidth = widthBoarders.offSet;
                             }
-
-                            g.DrawString(word.Item1, useFont, Brushes.Black, currentCharacterWidth, currentCharacterHigth);
                             currentCharacterWidth = g.MeasureString(word.Item1, useFont, 1000).Width + currentCharacterWidth;
                         }
                         break;
@@ -69,8 +62,6 @@ namespace Project_Goettergaemmerung.Components.DrawText
                                 currentCharacterHigth += g.MeasureString(word.Item1, useFont, 1000).Height;
                                 currentCharacterWidth = widthBoarders.offSet;
                             }
-
-                            g.DrawString(word.Item1, useFont, Brushes.Black, currentCharacterWidth, currentCharacterHigth);
                             currentCharacterWidth = g.MeasureString(word.Item1, useFont, 1000).Width + currentCharacterWidth;
                         }
                         break;
@@ -83,16 +74,14 @@ namespace Project_Goettergaemmerung.Components.DrawText
                                 currentCharacterHigth += g.MeasureString(word.Item1, useFont, 1000).Height;
                                 currentCharacterWidth = widthBoarders.offSet;
                             }
-
-                            g.DrawString(word.Item1, useFont, Brushes.Black, currentCharacterWidth, currentCharacterHigth);
                             currentCharacterWidth = g.MeasureString(word.Item1, useFont, 1000).Width + currentCharacterWidth;
                         }
                         break;
                 }
             }
-            //using (var useFont = new Font(fontName, fontSize, FontStyle.Regular)) { currentCharacterHigth += g.MeasureString(splitText[0], useFont, 1000).Height; }
+            using (var useFont = new Font(fontName, fontSize, FontStyle.Regular)) { currentCharacterHigth += g.MeasureString(splitText[0].Item1, useFont, 1000).Height; }
 
-            return (result, currentCharacterHigth);
+            return currentCharacterHigth;
         }
     }
 }

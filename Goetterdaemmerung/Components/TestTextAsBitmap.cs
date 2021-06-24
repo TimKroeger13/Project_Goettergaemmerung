@@ -8,7 +8,6 @@ using System.Windows.Forms;
 
 namespace Project_Goettergaemmerung.Components
 {//DrawTextAsBitmap
-
     public interface ITestTextasBitmap
     {
         Bitmap DrawText(string name, string text, string flavorText);
@@ -23,7 +22,6 @@ namespace Project_Goettergaemmerung.Components
             _picturesFromArchive = picturesFromArchive;
         }
 
-
         public Bitmap DrawText(string name, string text, string flavorText)
         {
             text = CleanStrings(text);
@@ -35,7 +33,6 @@ namespace Project_Goettergaemmerung.Components
 
             using (var g = Graphics.FromImage(result))
             {
-
                 g.SmoothingMode = SmoothingMode.AntiAlias;
                 g.InterpolationMode = InterpolationMode.HighQualityBicubic;
                 g.PixelOffsetMode = PixelOffsetMode.HighQuality;
@@ -89,7 +86,6 @@ namespace Project_Goettergaemmerung.Components
             }
 
             return result;
-
         }
 
         public string CleanStrings(string String)
