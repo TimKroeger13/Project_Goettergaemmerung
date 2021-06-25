@@ -6,7 +6,6 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;
-using System.Text;
 using System.Text.Json;
 using Xunit;
 
@@ -14,94 +13,56 @@ namespace Unittests.Components.DrawText
 {
     public class DrawStringWithTopograpyTests
     {
-        private ISplitStringInTypography subSplitStringInTypography;
-        private readonly SplitStringInTypography _splitStringInTypography = new SplitStringInTypography();
+        private readonly ISplitStringInTypography _subSplitStringInTypography;
         private readonly CreatePicture _createPicture = new CreatePicture();
         private readonly PicturesFromArchive _picturesFromArchive = new PicturesFromArchive();
-        private readonly MeassureStringWithTopograpy _meassureStringWithTopograpy = new MeassureStringWithTopograpy();
 
         public DrawStringWithTopograpyTests()
         {
-            var subSplitStringInTypography = Substitute.For<ISplitStringInTypography>();
+            _subSplitStringInTypography = Substitute.For<ISplitStringInTypography>();
+        }
+
+        private DrawStringWithTopograpy CreateDrawStringWithTopograpy()
+        {
+            return new DrawStringWithTopograpy(_subSplitStringInTypography);
+        }
+
+        [Fact]
+        public void DrawStringOnBitmapWithTopograpy_StateUnderTest_ExpectedBehavior()
+        {
+            // Arrange
 
             var splitStringInTypographyWords = JsonSerializer.Deserialize<string[]>(TestResources.splitStringInTypography_Words);
             var splitStringInTypographyTypography = JsonSerializer.Deserialize<Project_Goettergaemmerung.Components.Model.Typography[]>(TestResources.splitStringInTypography_Typography);
-
             var splitStringInTypographyList = new List<(string Word, Typography Marker)>();
 
             for (int i = 0; i < splitStringInTypographyWords.Length; i++)
             {
                 splitStringInTypographyList.Add((splitStringInTypographyWords[i], splitStringInTypographyTypography[i]));
             }
-
-            //subSplitStringInTypography.Returns(splitStringInTypographyList);
-        }
-
-        private DrawStringWithTopograpy CreateDrawStringWithTopograpy()
-        {
-            return new DrawStringWithTopograpy(
-                subSplitStringInTypography);
-        }
-
-        private string CleanStrings(string String)
-        {
-            var outputString = new StringBuilder();
-            bool skip = false;
-
-            for (int i = 0; i < String.Length; i++)
-            {
-            }
-
-            return outputString.ToString();
-        }
-
-        [Fact]
-        public void DrawStringOnBitmapWithTopograpy_StateUnderTest_ExpectedBehavior()
-        {
-            var textBitmap = new Bitmap(700, 1000);
-            textBitmap.SetResolution(120, 120);
-            var text = "Du wirst vor die Wahl gestellt.\nEntweder verlierst du alle bis auf 1 Ausrüstungskarte (mindestens eine) oder deinen rechten Arm.\nSolltest du deinen Arm verlieren so erhälst du \"Armlos test test\" (Extra Deck).";
-            //var SplitText = _splitStringInTypography.SplitString(text);
+            _subSplitStringInTypography.SplitString("Wenn du eine 6 würfelst, hat diese Waffe stattdessen +4/0.").ReturnsForAnyArgs(splitStringInTypographyList);
 
             var drawStringWithTopograpy = CreateDrawStringWithTopograpy();
-            var inputText = text;
-            float textHigth = 100;
-            int fontSize = 20;
-            (int offSet, int width) widthBoarders = (offSet: 30, width: 700);
-            string fontName = "Segoe Print";
+            const string text = "Wenn du eine 6 würfelst, hat diese Waffe stattdessen +4/0.";
+            using var textBitmap = new Bitmap(700, 1000);
+            textBitmap.SetResolution(120, 120);
+            const float textHigth = 100;
+            const int fontSize = 24;
+            var widthBoarders = (offSet: 30, width: 700);
+            const string fontName = "Segoe Print";
 
             // Act
-            var result = drawStringWithTopograpy.DrawStringOnBitmapWithTopograpy(
-                inputText,
-                textBitmap,
+
+            using (var g = Graphics.FromImage(textBitmap))
+            {
+                var result = drawStringWithTopograpy.DrawStringOnBitmapWithTopograpy(
+                text,
+                g,
                 textHigth,
                 fontSize,
                 widthBoarders,
                 fontName);
-
-            var result2 = drawStringWithTopograpy.DrawStringOnBitmapWithTopograpy(
-                inputText,
-                textBitmap,
-                result.texthigth,
-                fontSize,
-                widthBoarders,
-                fontName);
-
-            /*
-            var x1 = _meassureStringWithTopograpy.MeassureStringOnBitmapWithTopograpy(inputText,
-                textBitmap,
-                textHigth,
-                fontSize,
-                widthBoarders,
-                fontName);
-
-            var x2 = _meassureStringWithTopograpy.MeassureStringOnBitmapWithTopograpy(inputText,
-                textBitmap,
-                result.texthigth,
-                fontSize,
-                widthBoarders,
-                fontName);
-            */
+            }
 
             // Assert
 
@@ -109,7 +70,7 @@ namespace Unittests.Components.DrawText
 
             testBitmapList.AddSingle(_picturesFromArchive.Class);
             testBitmapList.AddSingle(_picturesFromArchive.Boarder);
-            testBitmapList.AddSingle(result.bitmap);
+            testBitmapList.AddSingle(textBitmap);
 
             using var Output = _createPicture.MergedBitmaps(testBitmapList);
 

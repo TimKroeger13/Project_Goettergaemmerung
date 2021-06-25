@@ -12,7 +12,7 @@ namespace Project_Goettergaemmerung.Components.DrawText
 {
     public interface IDrawStringWithTopograpy
     {
-        (Bitmap bitmap, float texthigth) DrawStringOnBitmapWithTopograpy(string splitText, Bitmap result, float textHigth, int fontSize,
+        (Graphics textBitmap, float texthigth) DrawStringOnBitmapWithTopograpy(string text, Graphics g, float textHigth, int fontSize,
                     (int offSet, int width) widthBoarders, string fontName);
     }
 
@@ -25,13 +25,11 @@ namespace Project_Goettergaemmerung.Components.DrawText
             _splitStringInTypography = splitStringInTypography;
         }
 
-        public (Bitmap bitmap, float texthigth) DrawStringOnBitmapWithTopograpy(string text, Bitmap result, float textHigth, int fontSize,
+        public (Graphics textBitmap, float texthigth) DrawStringOnBitmapWithTopograpy(string text, Graphics g, float textHigth, int fontSize,
             (int offSet, int width) widthBoarders, string fontName)
         {
-            //List<(string, Typography)> splitText
             var splitText = _splitStringInTypography.SplitString(text).ToList();
 
-            using var g = Graphics.FromImage(result);
             g.SmoothingMode = SmoothingMode.AntiAlias;
             g.InterpolationMode = InterpolationMode.HighQualityBicubic;
             g.PixelOffsetMode = PixelOffsetMode.HighQuality;
@@ -50,7 +48,7 @@ namespace Project_Goettergaemmerung.Components.DrawText
                     case Typography.Regular:
                         using (var useFont = new Font(fontName, fontSize, FontStyle.Regular))
                         {
-                            if (g.MeasureString(word.Item1, useFont, 1000).Width + currentCharacterWidth > widthBoarders.width - (widthBoarders.offSet * 2))
+                            if (g.MeasureString(word.Item1, useFont, 1000).Width + currentCharacterWidth > widthBoarders.width - widthBoarders.offSet)
                             {
                                 currentCharacterHigth += g.MeasureString(word.Item1, useFont, 1000).Height;
                                 currentCharacterWidth = widthBoarders.offSet;
@@ -64,7 +62,7 @@ namespace Project_Goettergaemmerung.Components.DrawText
                     case Typography.Bold:
                         using (var useFont = new Font(fontName, fontSize, FontStyle.Bold))
                         {
-                            if (g.MeasureString(word.Item1, useFont, 1000).Width + currentCharacterWidth > widthBoarders.width - (widthBoarders.offSet * 2))
+                            if (g.MeasureString(word.Item1, useFont, 1000).Width + currentCharacterWidth > widthBoarders.width - widthBoarders.offSet)
                             {
                                 currentCharacterHigth += g.MeasureString(word.Item1, useFont, 1000).Height;
                                 currentCharacterWidth = widthBoarders.offSet;
@@ -78,7 +76,7 @@ namespace Project_Goettergaemmerung.Components.DrawText
                     case Typography.Italic:
                         using (var useFont = new Font(fontName, fontSize, FontStyle.Italic))
                         {
-                            if (g.MeasureString(word.Item1, useFont, 1000).Width + currentCharacterWidth > widthBoarders.width - (widthBoarders.offSet * 2))
+                            if (g.MeasureString(word.Item1, useFont, 1000).Width + currentCharacterWidth > widthBoarders.width - widthBoarders.offSet)
                             {
                                 currentCharacterHigth += g.MeasureString(word.Item1, useFont, 1000).Height;
                                 currentCharacterWidth = widthBoarders.offSet;
@@ -90,9 +88,10 @@ namespace Project_Goettergaemmerung.Components.DrawText
                         break;
                 }
             }
-            //using (var useFont = new Font(fontName, fontSize, FontStyle.Regular)) { currentCharacterHigth += g.MeasureString(splitText[0], useFont, 1000).Height; }
 
-            return (result, currentCharacterHigth);
+            //using (var useFont = new Font(fontName, fontSize, FontStyle.Regular)) { currentCharacterHigth += g.MeasureString(splitText[0].Word, useFont, 1000).Height; }
+
+            return (g, currentCharacterHigth);
         }
     }
 }

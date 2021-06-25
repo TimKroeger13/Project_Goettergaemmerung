@@ -61,6 +61,26 @@ namespace Unittests.Components {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dividingline {
+            get {
+                object obj = ResourceManager.GetObject("dividingline", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap scrapped {
+            get {
+                object obj = ResourceManager.GetObject("scrapped", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to [0,0,0,1,0,0,0,0,0,1].
         /// </summary>
         internal static string splitStringInTypography_Typography {
@@ -70,7 +90,7 @@ namespace Unittests.Components {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to [&quot;Wenn&quot;,&quot;du&quot;,&quot;eine&quot;,&quot;6&quot;,&quot;wuerfelst,&quot;,&quot;hat&quot;,&quot;diese&quot;,&quot;Waffe&quot;,&quot;stattdessen&quot;,&quot;+4/+0.&quot;].
+        ///   Looks up a localized string similar to [&quot;Wenn&quot;,&quot;du&quot;,&quot;eine&quot;,&quot;6&quot;,&quot;würfelst,&quot;,&quot;hat&quot;,&quot;diese&quot;,&quot;Waffe&quot;,&quot;stattdessen&quot;,&quot;+4/+0.&quot;].
         /// </summary>
         internal static string splitStringInTypography_Words {
             get {

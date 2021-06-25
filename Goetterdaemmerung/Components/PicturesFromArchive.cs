@@ -19,6 +19,7 @@ namespace Project_Goettergaemmerung.Components
         Bitmap Soilder { get; set; }
         Bitmap Spell { get; set; }
         Bitmap Win { get; set; }
+        Bitmap Scrapped { get; set; }
     }
 
     public class PicturesFromArchive : IPicturesFromArchive
@@ -212,7 +213,7 @@ namespace Project_Goettergaemmerung.Components
                 return NewBitmap
                 ;
             }
-            set { Dividingline = value; }
+            set { Scrapped = value; }
         }
     }
 }
