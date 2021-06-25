@@ -70,7 +70,7 @@ namespace Unittests.Components.DrawText
 
             testBitmapList.AddSingle(_picturesFromArchive.Class);
             testBitmapList.AddSingle(_picturesFromArchive.Boarder);
-            testBitmapList.AddSingle(textBitmap);
+            //testBitmapList.AddSingle(textBitmap);
 
             using var Output = _createPicture.MergedBitmaps(testBitmapList);
 

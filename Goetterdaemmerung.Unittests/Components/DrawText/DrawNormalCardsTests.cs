@@ -42,8 +42,6 @@ namespace Unittests.Components.DrawText
 
             // Arrange
 
-            float x = 100;
-
             var drawNormalCards = CreateDrawNormalCards();
             const string name = "Glücksklinge";
             const CardSubType subType = CardSubType.Weapon;
@@ -61,6 +59,12 @@ namespace Unittests.Components.DrawText
 
             _subDrawStringWithTopograpy.DrawStringOnBitmapWithTopograpy(Arg.Any<string>(), Arg.Any<Graphics>(), Arg.Any<float>(),
                 Arg.Any<int>(), (30, 700), Arg.Any<string>()).ReturnsForAnyArgs(Graphics.FromImage(TestResources.TextBitmap2));
+
+            var x = Graphics.FromImage(TestResources.TextBitmap2);
+            var x2 = new Bitmap(700, 1000, x);
+            var x3 = TestResources.TextBitmap2;
+            x2.Save("C:\\Users\\TKroeger\\Desktop\\Testordner\\UnitTest_TempName.png", ImageFormat.Png);
+            x3.Save("C:\\Users\\TKroeger\\Desktop\\Testordner\\NoGraphics_UnitTest_TempName.png", ImageFormat.Png);
 
             // Act
             using var result = drawNormalCards.DrawTextForNormalCards(

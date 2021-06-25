@@ -140,10 +140,10 @@ namespace Project_Goettergaemmerung.Components.DrawText
                     var textgrafic = _drawStringWithTopograpy.DrawStringOnBitmapWithTopograpy(text, g, textHigth, textFontsize,
                          (textOffset, textBitmap.Width), "Segoe Print");
 
-                    var OutputBitmap = new Bitmap(700, 1000, textgrafic);
-                    OutputBitmap.Save("C:\\Users\\TKroeger\\Desktop\\Testordner\\schnelltest" + ".png", ImageFormat.Png);
+                    //var OutputBitmap = new Bitmap(700, 1000, textgrafic);
+                    //OutputBitmap.Save("C:\\Users\\TKroeger\\Desktop\\Testordner\\schnelltest" + ".png", ImageFormat.Png);
 
-                    g.DrawImage(new Bitmap(700, 1000, textgrafic), new Point(0, 0));
+                    //g.DrawImage(new Bitmap(700, 1000, textgrafic), new Point(0, 0));
 
                     textHigth += (int)Math.Round(_meassureStringWithTopograpy.MeassureStringOnBitmapWithTopograpy(text, g, textHigth, textFontsize,
                          (textOffset, textBitmap.Width), "Segoe Print"));
