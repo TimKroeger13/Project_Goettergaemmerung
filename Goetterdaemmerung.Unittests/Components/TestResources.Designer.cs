@@ -117,5 +117,15 @@ namespace Unittests.Components {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap TextBitmap2 {
+            get {
+                object obj = ResourceManager.GetObject("TextBitmap2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

@@ -12,7 +12,7 @@ namespace Project_Goettergaemmerung.Components.DrawText
 {
     public interface IDrawStringWithTopograpy
     {
-        (Graphics textBitmap, float texthigth) DrawStringOnBitmapWithTopograpy(string text, Graphics g, float textHigth, int fontSize,
+        Graphics DrawStringOnBitmapWithTopograpy(string text, Graphics g, float textHigth, int fontSize,
                     (int offSet, int width) widthBoarders, string fontName);
     }
 
@@ -25,7 +25,7 @@ namespace Project_Goettergaemmerung.Components.DrawText
             _splitStringInTypography = splitStringInTypography;
         }
 
-        public (Graphics textBitmap, float texthigth) DrawStringOnBitmapWithTopograpy(string text, Graphics g, float textHigth, int fontSize,
+        public Graphics DrawStringOnBitmapWithTopograpy(string text, Graphics g, float textHigth, int fontSize,
             (int offSet, int width) widthBoarders, string fontName)
         {
             var splitText = _splitStringInTypography.SplitString(text).ToList();
@@ -91,7 +91,7 @@ namespace Project_Goettergaemmerung.Components.DrawText
 
             //using (var useFont = new Font(fontName, fontSize, FontStyle.Regular)) { currentCharacterHigth += g.MeasureString(splitText[0].Word, useFont, 1000).Height; }
 
-            return (g, currentCharacterHigth);
+            return g;
         }
     }
 }

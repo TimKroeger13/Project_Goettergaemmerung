@@ -46,8 +46,8 @@ namespace Unittests.Components.DrawText
             const string text = "Wenn du eine 6 würfelst, hat diese Waffe stattdessen +4/0.";
             using var textBitmap = new Bitmap(700, 1000);
             textBitmap.SetResolution(120, 120);
-            const float textHigth = 100;
-            const int fontSize = 24;
+            const float textHigth = 400;
+            const int fontSize = 20;
             var widthBoarders = (offSet: 30, width: 700);
             const string fontName = "Segoe Print";
 
@@ -55,7 +55,7 @@ namespace Unittests.Components.DrawText
 
             using (var g = Graphics.FromImage(textBitmap))
             {
-                var result = drawStringWithTopograpy.DrawStringOnBitmapWithTopograpy(
+                var graficValue = drawStringWithTopograpy.DrawStringOnBitmapWithTopograpy(
                 text,
                 g,
                 textHigth,

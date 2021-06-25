@@ -42,7 +42,7 @@ namespace Unittests.Components.DrawText
 
             // Arrange
 
-            _subPicturesFromArchive.Dividingline.ReturnsForAnyArgs(TestResources.dividingline);
+            float x = 100;
 
             var drawNormalCards = CreateDrawNormalCards();
             const string name = "Glücksklinge";
@@ -53,6 +53,14 @@ namespace Unittests.Components.DrawText
             const string text = "Wenn du eine 6 würfelst, hat diese Waffe stattdessen +4/0.";
             const string flavorText = "Glückstreffer sind die Spezialität dieser Waffe.";
             const string scrapped = "Wenn du eine 6 würfelst, hat die verstärkte Waffe stattdessen +2/0.";
+
+            _subPicturesFromArchive.Dividingline.ReturnsForAnyArgs(TestResources.dividingline);
+
+            _subMeassureStringWithTopograpy.MeassureStringOnBitmapWithTopograpy(Arg.Any<string>(), Arg.Any<Graphics>(), Arg.Any<float>(),
+                Arg.Any<int>(), (30, 700), Arg.Any<string>()).ReturnsForAnyArgs(200f);
+
+            _subDrawStringWithTopograpy.DrawStringOnBitmapWithTopograpy(Arg.Any<string>(), Arg.Any<Graphics>(), Arg.Any<float>(),
+                Arg.Any<int>(), (30, 700), Arg.Any<string>()).ReturnsForAnyArgs(Graphics.FromImage(TestResources.TextBitmap2));
 
             // Act
             using var result = drawNormalCards.DrawTextForNormalCards(

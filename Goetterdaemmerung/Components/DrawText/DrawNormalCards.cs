@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using Project_Goettergaemmerung.Components.Model;
 using System.ComponentModel;
 using Project_Goettergaemmerung.ExtensionMethods;
+using System.Drawing.Imaging;
 
 namespace Project_Goettergaemmerung.Components.DrawText
 {
@@ -33,8 +34,8 @@ namespace Project_Goettergaemmerung.Components.DrawText
         public Bitmap DrawTextForNormalCards(string name, CardSubType subType, bool twoHanded, Condition condition, string modifiers, string text, string flavorText, string scrapped)
         {
             const int textOffset = 30;
-            var textHigth = 40;
-            int textHigthFromButtom;
+            var textHigth = 20;
+            int textHigthFromButtom = 1000 - textHigth;
             var textBitmap = new Bitmap(700, 1000);
             textBitmap.SetResolution(120, 120);
             var textRectangle = new RectangleF();
@@ -136,8 +137,28 @@ namespace Project_Goettergaemmerung.Components.DrawText
 
                 if (text != "")
                 {
-                    //_drawStringWithTopograpy.DrawStringOnBitmapWithTopograpy(text, g, textHigth, textFontsize,
-                    //     (textOffset, textBitmap.Width), "Segoe Print").g;
+                    var textgrafic = _drawStringWithTopograpy.DrawStringOnBitmapWithTopograpy(text, g, textHigth, textFontsize,
+                         (textOffset, textBitmap.Width), "Segoe Print");
+
+                    var OutputBitmap = new Bitmap(700, 1000, textgrafic);
+                    OutputBitmap.Save("C:\\Users\\TKroeger\\Desktop\\Testordner\\schnelltest" + ".png", ImageFormat.Png);
+
+                    g.DrawImage(new Bitmap(700, 1000, textgrafic), new Point(0, 0));
+
+                    textHigth += (int)Math.Round(_meassureStringWithTopograpy.MeassureStringOnBitmapWithTopograpy(text, g, textHigth, textFontsize,
+                         (textOffset, textBitmap.Width), "Segoe Print"));
+                }
+
+                if (scrapped != "")
+                {
+                    using (var useFont = new Font("Segoe Print", scrappedFontsize, FontStyle.Bold))
+                    {
+                        textRectangle.Size = new Size(640, (int)g.MeasureString(scrapped, useFont, 640, formatInlined).Height);
+                        var textBoxHigth = (int)textRectangle.Bottom - (int)textRectangle.Top;
+                        textHigthFromButtom -= textBoxHigth;
+                        textRectangle.Location = new Point(textOffset, textHigthFromButtom);
+                        g.DrawString(scrapped, useFont, Brushes.Black, textRectangle, formatInlined);
+                    }
                 }
             }
 

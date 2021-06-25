@@ -12,7 +12,7 @@ namespace Project_Goettergaemmerung.Components.DrawText
 {
     public interface IMeassureStringWithTopograpy
     {
-        float MeassureStringOnBitmapWithTopograpy(string text, Bitmap result, float textHigth, int fontSize, (int offSet, int width) widthBoarders, string fontName);
+        float MeassureStringOnBitmapWithTopograpy(string text, Graphics g, float textHigth, int fontSize, (int offSet, int width) widthBoarders, string fontName);
     }
 
     public class MeassureStringWithTopograpy : IMeassureStringWithTopograpy
@@ -24,12 +24,10 @@ namespace Project_Goettergaemmerung.Components.DrawText
             _splitStringInTypography = splitStringInTypography;
         }
 
-        public float MeassureStringOnBitmapWithTopograpy(string text, Bitmap result, float textHigth, int fontSize,
+        public float MeassureStringOnBitmapWithTopograpy(string text, Graphics g, float textHigth, int fontSize,
             (int offSet, int width) widthBoarders, string fontName)
         {
             var splitText = _splitStringInTypography.SplitString(text).ToList();
-
-            using var g = Graphics.FromImage(result);
 
             float currentCharacterWidth = widthBoarders.offSet;
             float currentCharacterHigth = textHigth;
