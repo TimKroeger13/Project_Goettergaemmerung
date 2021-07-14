@@ -12,7 +12,7 @@ namespace Project_Goettergaemmerung.Components.DrawText
 {
     public interface IDrawStringWithTopograpy
     {
-        Graphics DrawStringOnBitmapWithTopograpy(string text, Graphics g, float textHigth, int fontSize,
+        void DrawStringOnBitmapWithTopograpy(string text, Graphics g, float textHigth, int fontSize,
                     (int offSet, int width) widthBoarders, string fontName);
     }
 
@@ -25,7 +25,7 @@ namespace Project_Goettergaemmerung.Components.DrawText
             _splitStringInTypography = splitStringInTypography;
         }
 
-        public Graphics DrawStringOnBitmapWithTopograpy(string text, Graphics g, float textHigth, int fontSize,
+        public void DrawStringOnBitmapWithTopograpy(string text, Graphics g, float textHigth, int fontSize,
             (int offSet, int width) widthBoarders, string fontName)
         {
             var splitText = _splitStringInTypography.SplitString(text).ToList();
@@ -86,12 +86,20 @@ namespace Project_Goettergaemmerung.Components.DrawText
                             currentCharacterWidth = g.MeasureString(word.Item1, useFont, 1000).Width + currentCharacterWidth;
                         }
                         break;
+
+                    case Typography.LineBreak:
+                        using (var useFont = new Font(fontName, fontSize, FontStyle.Regular))
+                        {
+                            currentCharacterHigth += g.MeasureString(splitText[0].Word, useFont, 1000).Height;
+                            currentCharacterWidth = widthBoarders.offSet;
+                        }
+                        break;
                 }
             }
 
             //using (var useFont = new Font(fontName, fontSize, FontStyle.Regular)) { currentCharacterHigth += g.MeasureString(splitText[0].Word, useFont, 1000).Height; }
 
-            return g;
+            //return g;
         }
     }
 }

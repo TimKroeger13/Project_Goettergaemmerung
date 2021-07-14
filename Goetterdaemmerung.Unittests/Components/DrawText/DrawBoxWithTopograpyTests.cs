@@ -11,27 +11,25 @@ using Xunit;
 
 namespace Unittests.Components.DrawText
 {
-    public class DrawStringWithTopograpyTests
+    public class DrawBoxWithTopograpyTests
     {
         private readonly ISplitStringInTypography _subSplitStringInTypography;
         private readonly CreatePicture _createPicture = new CreatePicture();
         private readonly PicturesFromArchive _picturesFromArchive = new PicturesFromArchive();
 
-        public DrawStringWithTopograpyTests()
+        public DrawBoxWithTopograpyTests()
         {
             _subSplitStringInTypography = Substitute.For<ISplitStringInTypography>();
         }
 
-        private DrawStringWithTopograpy CreateDrawStringWithTopograpy()
+        private DrawBoxWithTopograpy CreateDrawBoxWithTopograpy()
         {
-            return new DrawStringWithTopograpy(_subSplitStringInTypography);
+            return new DrawBoxWithTopograpy(_subSplitStringInTypography);
         }
 
         [Fact]
-        public void DrawStringOnBitmapWithTopograpy_StateUnderTest_ExpectedBehavior()
+        public void DrawBoxOnBitmapWithTopograpy_StateUnderTest_ExpectedBehavior()
         {
-            // Arrange
-
             var splitStringInTypographyWords = JsonSerializer.Deserialize<string[]>(TestResources.splitStringInTypography_Words);
             var splitStringInTypographyTypography = JsonSerializer.Deserialize<Project_Goettergaemmerung.Components.Model.Typography[]>(TestResources.splitStringInTypography_Typography);
             var splitStringInTypographyList = new List<(string Word, Typography Marker)>();
@@ -42,40 +40,40 @@ namespace Unittests.Components.DrawText
             }
             _subSplitStringInTypography.SplitString("Wenn du eine 6 würfelst, hat diese Waffe stattdessen +4/0.").ReturnsForAnyArgs(splitStringInTypographyList);
 
-            var drawStringWithTopograpy = CreateDrawStringWithTopograpy();
-            const string text = "Wenn du eine 6 würfelst, hat diese Waffe stattdessen +4/0.";
+            // Arrange
+            var drawBoxWithTopograpy = CreateDrawBoxWithTopograpy();
+            string text = "Wenn du eine 6 würfelst, hat diese Waffe stattdessen +4/0.";
             using var textBitmap = new Bitmap(700, 1000);
             textBitmap.SetResolution(120, 120);
-            const float textHigth = 400;
-            const int fontSize = 20;
-            var widthBoarders = (offSet: 30, width: 700);
-            const string fontName = "Segoe Print";
+            int fontSize = 20;
+            string fontName = "Segoe Print";
+            (int top, int buttom) boxhigth = (top: 760, buttom: 980);
+            (int left, int rigth) boxwidth = (left: 30, rigth: 335);
 
             // Act
-
             using (var g = Graphics.FromImage(textBitmap))
             {
-                drawStringWithTopograpy.DrawStringOnBitmapWithTopograpy(
+                drawBoxWithTopograpy.DrawBoxOnBitmapWithTopograpy(
                 text,
                 g,
-                textHigth,
                 fontSize,
-                widthBoarders,
-                fontName);
+                fontName,
+                boxhigth,
+                boxwidth);
             }
-
-            // Assert
 
             using var testBitmapList = new DisposableList<Bitmap>();
 
             testBitmapList.AddSingle(_picturesFromArchive.Class);
             testBitmapList.AddSingle(_picturesFromArchive.Boarder);
+            testBitmapList.AddSingle(_picturesFromArchive.Win);
             testBitmapList.AddSingle(textBitmap);
 
             using var Output = _createPicture.MergedBitmaps(testBitmapList);
 
             Output.Save("C:\\Users\\TKroeger\\Desktop\\Testordner\\TempName.png", ImageFormat.Png);
 
+            // Assert
             Assert.True(true);
         }
     }

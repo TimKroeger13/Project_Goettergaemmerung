@@ -39,6 +39,14 @@ namespace Project_Goettergaemmerung
             services.AddTransient<IDrawStringWithTopograpy, DrawStringWithTopograpy>();
             services.AddTransient<IMeassureStringWithTopograpy, MeassureStringWithTopograpy>();
             services.AddTransient<IDrawNormalCards, DrawNormalCards>();
+            services.AddTransient<IMeassureDrawNormalCards, MeassureDrawNormalCards>();
+            services.AddTransient<IResizeFont, ResizeFont>();
+            services.AddTransient<IDrawText, DrawText>();
+            services.AddTransient<IDrawBoxWithTopograpy, DrawBoxWithTopograpy>();
+            services.AddTransient<IMeassureBoxWithTopograpy, MeassureBoxWithTopograpy>();
+            services.AddTransient<IDrawMonsterCards, DrawMonsterCards>();
+            services.AddTransient<IResizeMonterFont, ResizeMonterFont>();
+            services.AddTransient<IMeassureDrawMonsterCards, MeassureDrawMonsterCards>();
 
             services.AddSingleton<Form1>();
             using var provider = services.BuildServiceProvider();

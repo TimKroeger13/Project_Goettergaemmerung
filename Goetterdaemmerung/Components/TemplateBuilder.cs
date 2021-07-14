@@ -2,12 +2,14 @@
 using System.Drawing;
 using Project_Goettergaemmerung.Components.Model;
 using System;
+using Project_Goettergaemmerung.Components.DrawText;
 
 namespace Project_Goettergaemmerung.Components
 {
     public interface ITemplateBuilder
     {
-        DisposableList<Bitmap> CardTemplate(CardStructure structure, CardType type, Race race, bool extra, string name, string text, string flavorText);
+        DisposableList<Bitmap> CardTemplate(CardStructure structure, CardType type, Race race, bool extra, string name, CardSubType subType,
+            bool twoHanded, Condition condition, string modifiers, string center, string text, string flavorText, string scrapped, string lvl, string winText, string loseText);
     }
 
     public class TemplateBuilder : ITemplateBuilder
@@ -15,15 +17,19 @@ namespace Project_Goettergaemmerung.Components
         private readonly ICreatePicture _createPicture;
         private readonly IPicturesFromArchive _picturesFromArchive;
         private readonly ITestTextasBitmap _testTextasBitmap;
+        private readonly IDrawText _drawText;
 
-        public TemplateBuilder(ICreatePicture createPicture, IPicturesFromArchive picturesFromArchive, ITestTextasBitmap drawTextAsBitmap)
+        public TemplateBuilder(ICreatePicture createPicture, IPicturesFromArchive picturesFromArchive, ITestTextasBitmap drawTextAsBitmap, IDrawText drawText)
         {
             _createPicture = createPicture;
             _picturesFromArchive = picturesFromArchive;
             _testTextasBitmap = drawTextAsBitmap;
+            _drawText = drawText;
         }
 
-        public DisposableList<Bitmap> CardTemplate(CardStructure structure, CardType type, Race race, bool extra, string name, string text, string flavorText)
+        public DisposableList<Bitmap> CardTemplate(CardStructure structure, CardType type, Race race, bool extra,
+            string name, CardSubType subType, bool twoHanded, Condition condition, string modifiers, string center, string text, string flavorText, string scrapped,
+            string lvl, string winText, string loseText)
         {
             var bitmaplist = new DisposableList<Bitmap>();
 
@@ -97,14 +103,7 @@ namespace Project_Goettergaemmerung.Components
                         case CardType.Empty:
                             break;
                     }
-                    //bitmaplist.Add(() => _picturesFromArchive.Boarder);
                     bitmaplist.AddSingle(_picturesFromArchive.Boarder);
-
-                    if (extra)
-                    {
-                        //bitmaplist.Add(() => _picturesFromArchive.Extra);
-                        bitmaplist.AddSingle(_picturesFromArchive.Extra);
-                    }
                     break;
 
                 case CardStructure.Monster:
@@ -145,17 +144,18 @@ namespace Project_Goettergaemmerung.Components
                         case Race.Empty:
                             break;
                     }
-                    bitmaplist.Add(() =>_picturesFromArchive.Boarder);
+                    bitmaplist.Add(() => _picturesFromArchive.Boarder);
                     bitmaplist.Add(() => _picturesFromArchive.Win);
-
-                    if (extra)
-                    {
-                        bitmaplist.Add(() => _picturesFromArchive.Extra);
-                    }
                     break;
             }
 
-            //bitmaplist.AddSingle(_testTextasBitmap.DrawText(name, text, flavorText));
+            bitmaplist.AddSingle(_drawText.DrawTextASBitmap(structure, name, subType, twoHanded, condition, modifiers, center, text, flavorText, scrapped,
+                lvl, winText, loseText, race));
+
+            if (extra)
+            {
+                bitmaplist.Add(() => _picturesFromArchive.Extra);
+            }
 
             return bitmaplist;
         }

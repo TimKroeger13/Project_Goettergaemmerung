@@ -5,6 +5,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Project_Goettergaemmerung.Components.Model;
+using Project_Goettergaemmerung.ExtensionMethods;
 
 namespace Project_Goettergaemmerung.Components.DrawText
 {
@@ -20,10 +21,14 @@ namespace Project_Goettergaemmerung.Components.DrawText
             var boldKeys = new Regex("[0-9]|(?i)PASSIER.*|GEWÖHNLICH|SELTEN|LEGENDÄR|VAMPIRISMUS|FAITH(?-i)|\\||\\+|\\-");
             var italicKeys = new Regex("(?i)EXTRADECK|\\(EXTRA|DECK\\)(?-i)");
             var brackets = new Regex("\"");
+            var punctuated = new Regex(":");
             var bracketsLock = false;
             var typographyMarker = new List<(string Word, Typography Marker)>();
-            foreach (var item in (string[])text.Split(null))
+            var punctuationMarker = 0;
+            var punktuationCounter = 0;
+            foreach (var item in text.StringSplitter())
             {
+                punktuationCounter++;
                 if (brackets.IsMatch(item) || bracketsLock)
                 {
                     typographyMarker.Add((item, Typography.Bold));
@@ -40,7 +45,19 @@ namespace Project_Goettergaemmerung.Components.DrawText
                 {
                     if (boldKeys.IsMatch(item)) { typographyMarker.Add((item, Typography.Bold)); }
                     else if (italicKeys.IsMatch(item)) { typographyMarker.Add((item, Typography.Italic)); }
+                    else if (item == "<br>")
+                    {
+                        typographyMarker.Add((item, Typography.LineBreak));
+                        punctuationMarker = punktuationCounter;
+                    }
                     else { typographyMarker.Add((item, Typography.Regular)); }
+                }
+                if (punctuated.IsMatch(item))
+                {
+                    for (int i = punctuationMarker; i < punktuationCounter; i++)
+                    {
+                        typographyMarker[i] = (typographyMarker[i].Word, Typography.Bold);
+                    }
                 }
             }
             return typographyMarker;

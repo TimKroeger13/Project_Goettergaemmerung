@@ -13,6 +13,7 @@ namespace Project_Goettergaemmerung.Components.Model
         public bool TwoHanded { get; set; }
         public Condition Condition { get; set; }
         public string Modifiers { get; set; }
+        public string CenterText { get; set; }
         public string Text { get; set; }
         public string FlavorText { get; set; }
         public string Level { get; set; }

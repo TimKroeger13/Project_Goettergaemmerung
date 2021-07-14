@@ -43,11 +43,23 @@ namespace Project_Goettergaemmerung.Components
                 var type = card.CardType;
                 var race = card.Race;
                 var extra = card.ExtraDeck;
+
                 var name = card.Name;
+                var subType = card.SubType;
+                var twoHanded = card.TwoHanded;
+                var condition = card.Condition;
+                var modifier = card.Modifiers;
+                var center = card.CenterText;
                 var text = card.Text;
                 var flavorText = card.FlavorText;
+                var scrapped = card.Scrapped;
 
-                var Template = _templateBuilder.CardTemplate(structure, type, race, extra, name, text, flavorText);
+                var lvl = card.Level;
+                var winText = card.WinText;
+                var loseText = card.LoseText;
+
+                var Template = _templateBuilder.CardTemplate(structure, type, race, extra, name, subType, twoHanded, condition, modifier, center,
+                    text, flavorText, scrapped, lvl, winText, loseText);
 
                 using var finalCard = _createPicture.MergedBitmaps(Template);
                 SaveImage(finalCard, name);

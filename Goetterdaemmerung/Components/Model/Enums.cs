@@ -227,6 +227,7 @@ namespace Project_Goettergaemmerung.Components.Model
     {
         Regular,
         Bold,
-        Italic
+        Italic,
+        LineBreak
     }
 }
