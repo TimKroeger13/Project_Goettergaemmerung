@@ -35,6 +35,16 @@ namespace Project_Goettergaemmerung.Components.CardInformationGetter
                         if (String[i] == '"') { skip = true; }
                     }
 
+                    if (outputString[outputString.Length - 1] == '"' && outputString[outputString.Length - 2] == '"')
+                    {
+                        outputString.Remove(outputString.Length - 1, 1);
+                    }
+
+                    if (outputString[0] == '"' && outputString[1] == '"')
+                    {
+                        outputString.Remove(0, 1);
+                    }
+
                     return outputString.ToString();
                 }
                 else
@@ -46,6 +56,15 @@ namespace Project_Goettergaemmerung.Components.CardInformationGetter
             {
                 return String;
             }
+        }
+
+        private string CheckIfNull(string print)
+        {
+            if (print == "")
+            {
+                return "0";
+            }
+            return print;
         }
 
         public IEnumerable<CardInformationModel> GetCardInformation(string path)
@@ -86,10 +105,10 @@ namespace Project_Goettergaemmerung.Components.CardInformationGetter
                 model.WinText = CleanStrings(row[13]);
                 model.LoseText = CleanStrings(row[14]);
                 model.Scrapped = CleanStrings(row[15]);
-                model.Print1 = int.Parse(row[16]);
-                model.Print2 = int.Parse(row[17]);
-                model.Print3 = int.Parse(row[18]);
-                model.Print4 = int.Parse(row[19]);
+                model.Print1 = int.Parse(CheckIfNull(row[16]));
+                model.Print2 = int.Parse(CheckIfNull(row[17]));
+                model.Print3 = int.Parse(CheckIfNull(row[18]));
+                model.Print4 = int.Parse(CheckIfNull(row[19]));
 
                 result.Add(model);
             }

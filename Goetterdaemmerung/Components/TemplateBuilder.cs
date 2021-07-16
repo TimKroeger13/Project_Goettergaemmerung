@@ -16,14 +16,12 @@ namespace Project_Goettergaemmerung.Components
     {
         private readonly ICreatePicture _createPicture;
         private readonly IPicturesFromArchive _picturesFromArchive;
-        private readonly ITestTextasBitmap _testTextasBitmap;
         private readonly IDrawText _drawText;
 
-        public TemplateBuilder(ICreatePicture createPicture, IPicturesFromArchive picturesFromArchive, ITestTextasBitmap drawTextAsBitmap, IDrawText drawText)
+        public TemplateBuilder(ICreatePicture createPicture, IPicturesFromArchive picturesFromArchive, IDrawText drawText)
         {
             _createPicture = createPicture;
             _picturesFromArchive = picturesFromArchive;
-            _testTextasBitmap = drawTextAsBitmap;
             _drawText = drawText;
         }
 

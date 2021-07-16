@@ -191,7 +191,7 @@ namespace Project_Goettergaemmerung.Components.DrawText
 
                 if (scrapped != "")
                 {
-                    textHigthFromButtom -= (int)Math.Round(_meassureStringWithTopograpy.MeassureStringOnBitmapWithTopograpy(text, g, textHigth, textFontsize,
+                    textHigthFromButtom -= (int)Math.Round(_meassureStringWithTopograpy.MeassureStringOnBitmapWithTopograpy(scrapped, g, textHigth, textFontsize,
                                             (textOffset, textBitmap.Width), "Segoe Print"));
 
                     _drawStringWithTopograpy.DrawStringOnBitmapWithTopograpy(scrapped, g, textHigthFromButtom, scrappedFontsize,

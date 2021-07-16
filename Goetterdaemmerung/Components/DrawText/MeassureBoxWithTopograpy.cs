@@ -52,7 +52,12 @@ namespace Project_Goettergaemmerung.Components.DrawText
                         case Typography.Regular:
                             using (var useFont = new Font(fontName, fontSize, FontStyle.Regular))
                             {
-                                if (g.MeasureString(word.Item1, useFont, 1000).Width + currentCharacterWidth > boxwidth.rigth)
+                                if (g.MeasureString(word.Word, useFont, 1000).Width > (boxwidth.rigth - boxwidth.left))
+                                {
+                                    return false;
+                                }
+
+                                if (g.MeasureString(word.Word, useFont, 1000).Width + currentCharacterWidth > boxwidth.rigth)
                                 {
                                     currentCharacterHigth += g.MeasureString(word.Item1, useFont, 1000).Height;
                                     currentCharacterWidth = boxwidth.left;
@@ -64,6 +69,11 @@ namespace Project_Goettergaemmerung.Components.DrawText
                         case Typography.Bold:
                             using (var useFont = new Font(fontName, fontSize, FontStyle.Bold))
                             {
+                                if (g.MeasureString(word.Word, useFont, 1000).Width > (boxwidth.rigth - boxwidth.left))
+                                {
+                                    return false;
+                                }
+
                                 if (g.MeasureString(word.Item1, useFont, 1000).Width + currentCharacterWidth > boxwidth.rigth)
                                 {
                                     currentCharacterHigth += g.MeasureString(word.Item1, useFont, 1000).Height;
@@ -76,6 +86,11 @@ namespace Project_Goettergaemmerung.Components.DrawText
                         case Typography.Italic:
                             using (var useFont = new Font(fontName, fontSize, FontStyle.Italic))
                             {
+                                if (g.MeasureString(word.Word, useFont, 1000).Width > (boxwidth.rigth - boxwidth.left))
+                                {
+                                    return false;
+                                }
+
                                 if (g.MeasureString(word.Item1, useFont, 1000).Width + currentCharacterWidth > boxwidth.rigth)
                                 {
                                     currentCharacterHigth += g.MeasureString(word.Item1, useFont, 1000).Height;

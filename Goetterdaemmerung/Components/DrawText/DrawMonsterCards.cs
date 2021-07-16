@@ -108,12 +108,12 @@ namespace Project_Goettergaemmerung.Components.DrawText
             run = 0;
             while (!loseFontsizeIsCorrect)
             {
-                loseFontsizeIsCorrect = _meassureBoxWithTopograpy.MeassureBoxOnBitmapWithTopograpy(winText, winTextFontsize - run, "Segoe Print",
-                    (winLoseBoxHigth, winLoseBoxHigthCardEnd), (winLeftBoarder, winRigthBoarder));
+                loseFontsizeIsCorrect = _meassureBoxWithTopograpy.MeassureBoxOnBitmapWithTopograpy(loseText, loseTextFontsize - run, "Segoe Print",
+                    (winLoseBoxHigth, winLoseBoxHigthCardEnd), (loseLeftBoarder, loseRigthBoarder));
 
                 if (loseFontsizeIsCorrect)
                 {
-                    winTextFontsize = winTextFontsize - run;
+                    loseTextFontsize = loseTextFontsize - run;
                 }
 
                 run++;

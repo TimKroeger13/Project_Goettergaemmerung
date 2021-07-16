@@ -2,6 +2,21 @@
 
 namespace Project_Goettergaemmerung.Components.Model
 {
+    public enum PrintType
+    {
+        Print1,
+        Print2,
+        Print3,
+        Print4
+    }
+
+    public enum SaveFormat
+    {
+        normal,
+        tabeltop,
+        rebalence
+    }
+
     public enum CardStructure
     {
         Normal,

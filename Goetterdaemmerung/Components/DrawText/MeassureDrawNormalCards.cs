@@ -69,6 +69,11 @@ namespace Project_Goettergaemmerung.Components.DrawText
                 //Headline
                 using (var useFont = new Font("Segoe Print", nameFontsize, FontStyle.Bold))
                 {
+                    if ((int)g.MeasureString(name, useFont, 640, formatCentert).Width > (640 - textOffset))
+                    {
+                        return false;
+                    }
+
                     textRectangle.Location = new Point(textOffset, textHigth);
                     textRectangle.Size = new Size(640, (int)g.MeasureString(name, useFont, 640, formatCentert).Height);
                     textHigth = (int)textRectangle.Bottom;

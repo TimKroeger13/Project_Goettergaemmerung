@@ -34,7 +34,6 @@ namespace Project_Goettergaemmerung
             services.AddSingleton<ITemplateBuilder, TemplateBuilder>();
             services.AddSingleton<IPicturesFromArchive, PicturesFromArchive>();
             services.AddSingleton<IDisposableList<Bitmap>, DisposableList<Bitmap>>();
-            services.AddTransient<ITestTextasBitmap, TestTextAsBitmap>(); //delete Later
             services.AddTransient<ISplitStringInTypography, SplitStringInTypography>();
             services.AddTransient<IDrawStringWithTopograpy, DrawStringWithTopograpy>();
             services.AddTransient<IMeassureStringWithTopograpy, MeassureStringWithTopograpy>();
@@ -47,6 +46,8 @@ namespace Project_Goettergaemmerung
             services.AddTransient<IDrawMonsterCards, DrawMonsterCards>();
             services.AddTransient<IResizeMonterFont, ResizeMonterFont>();
             services.AddTransient<IMeassureDrawMonsterCards, MeassureDrawMonsterCards>();
+            services.AddTransient<ISaveImage, SaveImage>();
+            services.AddTransient<ICheckIfPrintIsZero, CheckIfPrintIsZero>();
 
             services.AddSingleton<Form1>();
             using var provider = services.BuildServiceProvider();
