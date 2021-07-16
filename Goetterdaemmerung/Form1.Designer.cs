@@ -30,12 +30,17 @@ namespace Project_Goettergaemmerung
         private void InitializeComponent()
         {
             this.buttonLoad = new System.Windows.Forms.Button();
-            this.pictureBoxCards = new System.Windows.Forms.PictureBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.buttonExport = new System.Windows.Forms.Button();
             this.buttonConvert = new System.Windows.Forms.Button();
             this.folderBrowserDialogOutputFolder = new System.Windows.Forms.FolderBrowserDialog();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCards)).BeginInit();
+            this.buttonPrint1 = new System.Windows.Forms.Button();
+            this.buttonPrint2 = new System.Windows.Forms.Button();
+            this.buttonPrint4 = new System.Windows.Forms.Button();
+            this.buttonPrint3 = new System.Windows.Forms.Button();
+            this.labelPrintSetup = new System.Windows.Forms.Label();
+            this.listBoxPrintModus = new System.Windows.Forms.ListBox();
+            this.labelPrintModus = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // buttonLoad
@@ -47,15 +52,6 @@ namespace Project_Goettergaemmerung
             this.buttonLoad.Text = "Load .CSV";
             this.buttonLoad.UseVisualStyleBackColor = true;
             this.buttonLoad.Click += new System.EventHandler(this.ButtonLoad_Click);
-            // 
-            // pictureBoxCards
-            // 
-            this.pictureBoxCards.Location = new System.Drawing.Point(370, 12);
-            this.pictureBoxCards.Name = "pictureBoxCards";
-            this.pictureBoxCards.Size = new System.Drawing.Size(700, 1000);
-            this.pictureBoxCards.TabIndex = 1;
-            this.pictureBoxCards.TabStop = false;
-            this.pictureBoxCards.Click += new System.EventHandler(this.PictureCardBox_Click);
             // 
             // openFileDialog1
             // 
@@ -83,32 +79,113 @@ namespace Project_Goettergaemmerung
             this.buttonConvert.UseVisualStyleBackColor = true;
             this.buttonConvert.Click += new System.EventHandler(this.ButtonConvert_Click);
             // 
+            // buttonPrint1
+            // 
+            this.buttonPrint1.Enabled = false;
+            this.buttonPrint1.Location = new System.Drawing.Point(315, 103);
+            this.buttonPrint1.Name = "buttonPrint1";
+            this.buttonPrint1.Size = new System.Drawing.Size(35, 35);
+            this.buttonPrint1.TabIndex = 4;
+            this.buttonPrint1.Text = "P1";
+            this.buttonPrint1.UseVisualStyleBackColor = true;
+            this.buttonPrint1.Click += new System.EventHandler(this.buttonPrint1_Click);
+            // 
+            // buttonPrint2
+            // 
+            this.buttonPrint2.Location = new System.Drawing.Point(356, 103);
+            this.buttonPrint2.Name = "buttonPrint2";
+            this.buttonPrint2.Size = new System.Drawing.Size(35, 35);
+            this.buttonPrint2.TabIndex = 5;
+            this.buttonPrint2.Text = "P2";
+            this.buttonPrint2.UseVisualStyleBackColor = true;
+            this.buttonPrint2.Click += new System.EventHandler(this.buttonPrint2_Click);
+            // 
+            // buttonPrint4
+            // 
+            this.buttonPrint4.Location = new System.Drawing.Point(438, 103);
+            this.buttonPrint4.Name = "buttonPrint4";
+            this.buttonPrint4.Size = new System.Drawing.Size(35, 35);
+            this.buttonPrint4.TabIndex = 6;
+            this.buttonPrint4.Text = "P4";
+            this.buttonPrint4.UseVisualStyleBackColor = true;
+            this.buttonPrint4.Click += new System.EventHandler(this.buttonPrint4_Click);
+            // 
+            // buttonPrint3
+            // 
+            this.buttonPrint3.Location = new System.Drawing.Point(397, 103);
+            this.buttonPrint3.Name = "buttonPrint3";
+            this.buttonPrint3.Size = new System.Drawing.Size(35, 35);
+            this.buttonPrint3.TabIndex = 7;
+            this.buttonPrint3.Text = "P3";
+            this.buttonPrint3.UseVisualStyleBackColor = true;
+            this.buttonPrint3.Click += new System.EventHandler(this.buttonPrint3_Click);
+            // 
+            // labelPrintSetup
+            // 
+            this.labelPrintSetup.AutoSize = true;
+            this.labelPrintSetup.Location = new System.Drawing.Point(324, 80);
+            this.labelPrintSetup.Name = "labelPrintSetup";
+            this.labelPrintSetup.Size = new System.Drawing.Size(140, 20);
+            this.labelPrintSetup.TabIndex = 8;
+            this.labelPrintSetup.Text = "Choose Print Layout";
+            // 
+            // listBoxPrintModus
+            // 
+            this.listBoxPrintModus.FormattingEnabled = true;
+            this.listBoxPrintModus.ItemHeight = 20;
+            this.listBoxPrintModus.Location = new System.Drawing.Point(315, 184);
+            this.listBoxPrintModus.Name = "listBoxPrintModus";
+            this.listBoxPrintModus.Size = new System.Drawing.Size(150, 64);
+            this.listBoxPrintModus.TabIndex = 9;
+            this.listBoxPrintModus.SelectedIndexChanged += new System.EventHandler(this.listBoxPrintModus_SelectedIndexChanged);
+            // 
+            // labelPrintModus
+            // 
+            this.labelPrintModus.AutoSize = true;
+            this.labelPrintModus.Location = new System.Drawing.Point(315, 161);
+            this.labelPrintModus.Name = "labelPrintModus";
+            this.labelPrintModus.Size = new System.Drawing.Size(194, 20);
+            this.labelPrintModus.TabIndex = 10;
+            this.labelPrintModus.Text = "Choose Cardsaveing Format";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1082, 1053);
+            this.ClientSize = new System.Drawing.Size(588, 373);
+            this.Controls.Add(this.labelPrintModus);
+            this.Controls.Add(this.listBoxPrintModus);
+            this.Controls.Add(this.labelPrintSetup);
+            this.Controls.Add(this.buttonPrint3);
+            this.Controls.Add(this.buttonPrint4);
+            this.Controls.Add(this.buttonPrint2);
+            this.Controls.Add(this.buttonPrint1);
             this.Controls.Add(this.buttonConvert);
             this.Controls.Add(this.buttonExport);
-            this.Controls.Add(this.pictureBoxCards);
             this.Controls.Add(this.buttonLoad);
             this.Name = "Form1";
             this.Text = "Karteneditor";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCards)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button buttonLoad;
-        private System.Windows.Forms.PictureBox pictureBoxCards;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Button buttonExport;
         private System.Windows.Forms.Button buttonConvert;
         private System.Windows.Forms.FolderBrowserDialog folderBrowserDialogOutputFolder;
+        private System.Windows.Forms.Button buttonPrint1;
+        private System.Windows.Forms.Button buttonPrint2;
+        private System.Windows.Forms.Button buttonPrint4;
+        private System.Windows.Forms.Button buttonPrint3;
+        private System.Windows.Forms.Label labelPrintSetup;
+        private System.Windows.Forms.ListBox listBoxPrintModus;
+        private System.Windows.Forms.Label labelPrintModus;
     }
 }
 

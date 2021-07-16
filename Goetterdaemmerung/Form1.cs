@@ -9,6 +9,7 @@ using System.Windows.Forms;
 using Microsoft.Extensions.DependencyInjection;
 using Project_Goettergaemmerung.Components;
 using Project_Goettergaemmerung.Components.CardInformationGetter;
+using Project_Goettergaemmerung.Components.Model;
 
 namespace Project_Goettergaemmerung
 {
@@ -26,25 +27,10 @@ namespace Project_Goettergaemmerung
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //var CardInformationList = _cardInformationGetter.GetCardInformation("M:\\Repos\\Project_Goettergaemmerung\\Götterdämmerung-Karten.csv").ToList();
-
-            //var structure1 = CardInformationList[0].Structure;
-            //var type1 = CardInformationList[0].CardType;
-            //var race1 = CardInformationList[0].Race;
-            //var extra1 = CardInformationList[0].ExtraDeck;
-            //var name1 = CardInformationList[0].Name;
-
-            //var Template = _templateBuilder.CardTemplate(structure1, type1, race1, extra1);
-
-            //var FinalCard = _createPicture.MergedBitmaps(Template);
-            //RenderImage(FinalCard);
-
-            //_cardPrinter.SaveImage(FinalCard, name);
-
-            //RenderImage(_picturesFromArchive._action);
-
-            //RenderImage(_createPicture.MergedBitmaps(_createPicture.BledingMultiply(bmp1, bmp4), bmp2, bmp3));
-            //mainForm.RenderImage(createPicture.BledingMultiply(bmp1, bmp4));
+            listBoxPrintModus.Items.Add("Normal");
+            listBoxPrintModus.Items.Add("Tabeltop");
+            listBoxPrintModus.Items.Add("Rebalence");
+            listBoxPrintModus.SetSelected(0, true);
         }
 
         private void PictureCardBox_Click(object sender, EventArgs e)
@@ -58,11 +44,6 @@ namespace Project_Goettergaemmerung
             buttonExport.Enabled = true;
         }
 
-        public void RenderImage(Image image)
-        {
-            pictureBoxCards.Image = image;
-        }
-
         private void ButtonExport_Click(object sender, EventArgs e)
         {
             folderBrowserDialogOutputFolder.ShowDialog();
@@ -73,6 +54,58 @@ namespace Project_Goettergaemmerung
         private void ButtonConvert_Click(object sender, EventArgs e)
         {
             _cardPrinter.PrintCards();
+        }
+
+        private void buttonPrint1_Click(object sender, EventArgs e)
+        {
+            buttonPrint1.Enabled = false;
+            buttonPrint2.Enabled = true;
+            buttonPrint3.Enabled = true;
+            buttonPrint4.Enabled = true;
+            _userData.Printer = PrintType.Print1;
+        }
+
+        private void buttonPrint2_Click(object sender, EventArgs e)
+        {
+            buttonPrint1.Enabled = true;
+            buttonPrint2.Enabled = false;
+            buttonPrint3.Enabled = true;
+            buttonPrint4.Enabled = true;
+            _userData.Printer = PrintType.Print2;
+        }
+
+        private void buttonPrint3_Click(object sender, EventArgs e)
+        {
+            buttonPrint1.Enabled = true;
+            buttonPrint2.Enabled = true;
+            buttonPrint3.Enabled = false;
+            buttonPrint4.Enabled = true;
+            _userData.Printer = PrintType.Print3;
+        }
+
+        private void buttonPrint4_Click(object sender, EventArgs e)
+        {
+            buttonPrint1.Enabled = true;
+            buttonPrint2.Enabled = true;
+            buttonPrint3.Enabled = true;
+            buttonPrint4.Enabled = false;
+            _userData.Printer = PrintType.Print4;
+        }
+
+        private void listBoxPrintModus_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (listBoxPrintModus.SelectedItems[0].ToString() == "Normal")
+            {
+                _userData.CurrentFormat = SaveFormat.normal;
+            }
+            if (listBoxPrintModus.SelectedItems[0].ToString() == "Tabeltop")
+            {
+                _userData.CurrentFormat = SaveFormat.tabeltop;
+            }
+            if (listBoxPrintModus.SelectedItems[0].ToString() == "Rebalence")
+            {
+                _userData.CurrentFormat = SaveFormat.rebalence;
+            }
         }
     }
 }

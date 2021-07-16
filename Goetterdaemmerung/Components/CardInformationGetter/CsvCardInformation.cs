@@ -4,6 +4,7 @@ using Project_Goettergaemmerung.Components.Model;
 using System.Diagnostics;
 using System.Linq;
 using System;
+using System.Text;
 
 namespace Project_Goettergaemmerung.Components.CardInformationGetter
 {
@@ -12,6 +13,58 @@ namespace Project_Goettergaemmerung.Components.CardInformationGetter
         private string LoadCsv(string path)
         {
             return File.ReadAllText(path);
+        }
+
+        private string CleanStrings(string String)
+        {
+            if (String.Length > 0)
+            {
+                if (String[0] == '"')
+                {
+                    var outputString = new StringBuilder();
+                    bool skip = false;
+
+                    for (int i = 0; i < String.Length; i++)
+                    {
+                        if (String[i] != '"' || skip)
+                        {
+                            outputString.Append(String[i]);
+
+                            if (skip) { skip = false; }
+                        }
+                        if (String[i] == '"') { skip = true; }
+                    }
+
+                    if (outputString[outputString.Length - 1] == '"' && outputString[outputString.Length - 2] == '"')
+                    {
+                        outputString.Remove(outputString.Length - 1, 1);
+                    }
+
+                    if (outputString[0] == '"' && outputString[1] == '"')
+                    {
+                        outputString.Remove(0, 1);
+                    }
+
+                    return outputString.ToString();
+                }
+                else
+                {
+                    return String;
+                }
+            }
+            else
+            {
+                return String;
+            }
+        }
+
+        private string CheckIfNull(string print)
+        {
+            if (print == "")
+            {
+                return "0";
+            }
+            return print;
         }
 
         public IEnumerable<CardInformationModel> GetCardInformation(string path)
@@ -39,21 +92,23 @@ namespace Project_Goettergaemmerung.Components.CardInformationGetter
                 model.Structure = dictionaryCardStructure[row[0]];
                 model.ExtraDeck = row[1] == "1";
                 model.CardType = dictionaryCardType[row[2]];
-                model.Name = row[3];
+                model.Name = CleanStrings(row[3]);
                 model.SubType = dictionaryCardSubType[row[4]];
                 model.TwoHanded = row[5] == "Zweihändig";
                 model.Condition = dictionaryCondition[row[6]];
-                model.Modifiers = row[7];
-                model.Text = row[8];
-                model.FlavorText = row[9];
-                model.Level = row[10];
-                model.Race = dictionaryRace[row[11]];
-                model.WinText = row[12];
-                model.LoseText = row[13];
-                model.Print1 = int.Parse(row[14]);
-                model.Print2 = int.Parse(row[15]);
-                model.Print3 = int.Parse(row[16]);
-                model.Print4 = int.Parse(row[17]);
+                model.Modifiers = CleanStrings(row[7]);
+                model.CenterText = CleanStrings(row[8]);
+                model.Text = CleanStrings(row[9]);
+                model.FlavorText = CleanStrings(row[10]);
+                model.Level = row[11];
+                model.Race = dictionaryRace[row[12]];
+                model.WinText = CleanStrings(row[13]);
+                model.LoseText = CleanStrings(row[14]);
+                model.Scrapped = CleanStrings(row[15]);
+                model.Print1 = int.Parse(CheckIfNull(row[16]));
+                model.Print2 = int.Parse(CheckIfNull(row[17]));
+                model.Print3 = int.Parse(CheckIfNull(row[18]));
+                model.Print4 = int.Parse(CheckIfNull(row[19]));
 
                 result.Add(model);
             }

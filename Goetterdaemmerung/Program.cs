@@ -4,6 +4,7 @@ using System.Windows.Forms;
 using Microsoft.Extensions.DependencyInjection;
 using Project_Goettergaemmerung.Components;
 using Project_Goettergaemmerung.Components.CardInformationGetter;
+using Project_Goettergaemmerung.Components.DrawText;
 
 namespace Project_Goettergaemmerung
 {
@@ -32,6 +33,21 @@ namespace Project_Goettergaemmerung
             services.AddSingleton<IUserData, UserData>();
             services.AddSingleton<ITemplateBuilder, TemplateBuilder>();
             services.AddSingleton<IPicturesFromArchive, PicturesFromArchive>();
+            services.AddSingleton<IDisposableList<Bitmap>, DisposableList<Bitmap>>();
+            services.AddTransient<ISplitStringInTypography, SplitStringInTypography>();
+            services.AddTransient<IDrawStringWithTopograpy, DrawStringWithTopograpy>();
+            services.AddTransient<IMeassureStringWithTopograpy, MeassureStringWithTopograpy>();
+            services.AddTransient<IDrawNormalCards, DrawNormalCards>();
+            services.AddTransient<IMeassureDrawNormalCards, MeassureDrawNormalCards>();
+            services.AddTransient<IResizeFont, ResizeFont>();
+            services.AddTransient<IDrawText, DrawText>();
+            services.AddTransient<IDrawBoxWithTopograpy, DrawBoxWithTopograpy>();
+            services.AddTransient<IMeassureBoxWithTopograpy, MeassureBoxWithTopograpy>();
+            services.AddTransient<IDrawMonsterCards, DrawMonsterCards>();
+            services.AddTransient<IResizeMonterFont, ResizeMonterFont>();
+            services.AddTransient<IMeassureDrawMonsterCards, MeassureDrawMonsterCards>();
+            services.AddTransient<ISaveImage, SaveImage>();
+            services.AddTransient<ICheckIfPrintIsZero, CheckIfPrintIsZero>();
 
             services.AddSingleton<Form1>();
             using var provider = services.BuildServiceProvider();
