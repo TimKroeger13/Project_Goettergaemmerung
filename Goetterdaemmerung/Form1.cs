@@ -31,6 +31,12 @@ namespace Project_Goettergaemmerung
             listBoxPrintModus.Items.Add("Tabeltop");
             listBoxPrintModus.Items.Add("Rebalence");
             listBoxPrintModus.SetSelected(0, true);
+
+            listBoxPrintLayout.Items.Add("Druck 1");
+            listBoxPrintLayout.Items.Add("Druck 2");
+            listBoxPrintLayout.Items.Add("Druck 3");
+            listBoxPrintLayout.Items.Add("Druck 4");
+            listBoxPrintLayout.SetSelected(0, true);
         }
 
         private void PictureCardBox_Click(object sender, EventArgs e)
@@ -42,6 +48,8 @@ namespace Project_Goettergaemmerung
             openFileDialog1.ShowDialog();
             _userData.ImportPath = openFileDialog1.FileName;
             buttonExport.Enabled = true;
+            buttonLoad.BackColor = Color.Goldenrod;
+            buttonExport.BackColor = Color.DarkGoldenrod;
         }
 
         private void ButtonExport_Click(object sender, EventArgs e)
@@ -49,47 +57,13 @@ namespace Project_Goettergaemmerung
             folderBrowserDialogOutputFolder.ShowDialog();
             _userData.ExportPath = folderBrowserDialogOutputFolder.SelectedPath;
             buttonConvert.Enabled = true;
+            buttonExport.BackColor = Color.Goldenrod;
+            buttonConvert.BackColor = Color.DarkGoldenrod;
         }
 
         private void ButtonConvert_Click(object sender, EventArgs e)
         {
             _cardPrinter.PrintCards();
-        }
-
-        private void buttonPrint1_Click(object sender, EventArgs e)
-        {
-            buttonPrint1.Enabled = false;
-            buttonPrint2.Enabled = true;
-            buttonPrint3.Enabled = true;
-            buttonPrint4.Enabled = true;
-            _userData.Printer = PrintType.Print1;
-        }
-
-        private void buttonPrint2_Click(object sender, EventArgs e)
-        {
-            buttonPrint1.Enabled = true;
-            buttonPrint2.Enabled = false;
-            buttonPrint3.Enabled = true;
-            buttonPrint4.Enabled = true;
-            _userData.Printer = PrintType.Print2;
-        }
-
-        private void buttonPrint3_Click(object sender, EventArgs e)
-        {
-            buttonPrint1.Enabled = true;
-            buttonPrint2.Enabled = true;
-            buttonPrint3.Enabled = false;
-            buttonPrint4.Enabled = true;
-            _userData.Printer = PrintType.Print3;
-        }
-
-        private void buttonPrint4_Click(object sender, EventArgs e)
-        {
-            buttonPrint1.Enabled = true;
-            buttonPrint2.Enabled = true;
-            buttonPrint3.Enabled = true;
-            buttonPrint4.Enabled = false;
-            _userData.Printer = PrintType.Print4;
         }
 
         private void listBoxPrintModus_SelectedIndexChanged(object sender, EventArgs e)
@@ -106,6 +80,34 @@ namespace Project_Goettergaemmerung
             {
                 _userData.CurrentFormat = SaveFormat.rebalence;
             }
+        }
+
+        private void labelPrintModus_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void listBoxPrintLayout_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (listBoxPrintModus.SelectedItems[0].ToString() == "Druck 1")
+            {
+                _userData.Printer = PrintType.Print1;
+            }
+            if (listBoxPrintModus.SelectedItems[0].ToString() == "Druck 2")
+            {
+                _userData.Printer = PrintType.Print2;
+            }
+            if (listBoxPrintModus.SelectedItems[0].ToString() == "Druck 3")
+            {
+                _userData.Printer = PrintType.Print3;
+            }
+            if (listBoxPrintModus.SelectedItems[0].ToString() == "Druck 4")
+            {
+                _userData.Printer = PrintType.Print4;
+            }
+        }
+
+        private void labelMainName_Click(object sender, EventArgs e)
+        {
         }
     }
 }

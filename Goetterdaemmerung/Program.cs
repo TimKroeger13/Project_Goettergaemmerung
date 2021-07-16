@@ -24,9 +24,9 @@ namespace Project_Goettergaemmerung
 #if DEBUG
             services.AddTransient<ICardInformationGetter, CsvCardInformation>();
 #elif DEBUGODS
-            services.AddTransient<ICardInformationGetter, OdsCardInformation>();
+            services.AddTransient<ICardInformationGetter, CsvCardInformation>(); //OdsCardInformation
 #else
-            services.AddTransient<ICardInformationGetter, OdsCardInformation>();
+            services.AddTransient<ICardInformationGetter, CsvCardInformation>(); //OdsCardInformation
 #endif
             services.AddTransient<ICardPrinter, CardPrinter>();
             services.AddTransient<ICreatePicture, CreatePicture>();
