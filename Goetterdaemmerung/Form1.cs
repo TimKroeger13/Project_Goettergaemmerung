@@ -88,19 +88,19 @@ namespace Project_Goettergaemmerung
 
         private void listBoxPrintLayout_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (listBoxPrintModus.SelectedItems[0].ToString() == "Druck 1")
+            if (listBoxPrintLayout.SelectedItems[0].ToString() == "Druck 1")
             {
                 _userData.Printer = PrintType.Print1;
             }
-            if (listBoxPrintModus.SelectedItems[0].ToString() == "Druck 2")
+            if (listBoxPrintLayout.SelectedItems[0].ToString() == "Druck 2")
             {
                 _userData.Printer = PrintType.Print2;
             }
-            if (listBoxPrintModus.SelectedItems[0].ToString() == "Druck 3")
+            if (listBoxPrintLayout.SelectedItems[0].ToString() == "Druck 3")
             {
                 _userData.Printer = PrintType.Print3;
             }
-            if (listBoxPrintModus.SelectedItems[0].ToString() == "Druck 4")
+            if (listBoxPrintLayout.SelectedItems[0].ToString() == "Druck 4")
             {
                 _userData.Printer = PrintType.Print4;
             }

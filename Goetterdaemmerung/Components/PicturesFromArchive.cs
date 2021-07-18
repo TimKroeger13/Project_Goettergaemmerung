@@ -1,4 +1,6 @@
 ﻿using System.Drawing;
+using Project_Goettergaemmerung.Properties;
+using Project_Goettergaemmerung.Components;
 
 namespace Project_Goettergaemmerung.Components
 {
@@ -24,15 +26,25 @@ namespace Project_Goettergaemmerung.Components
 
     public class PicturesFromArchive : IPicturesFromArchive
     {
+        private readonly IDisposeBitmaps<Bitmap> _disposeBitmaps;
+
+        public PicturesFromArchive(IDisposeBitmaps<Bitmap> disposeBitmaps)
+        {
+            _disposeBitmaps = disposeBitmaps;
+        }
+
         public Bitmap Action
         {
             get
             {
-                var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\action.png");
-                NewBitmap.SetResolution(120, 120);
-                return NewBitmap
+                var newBitmap = new Bitmap(Resources.action);
+                _disposeBitmaps.DisposibelArchiveList(ref newBitmap);
+                //_disposeBitmaps.Dispose();
+                newBitmap.SetResolution(120, 120);
+                return newBitmap
                 ;
             }
+
             set { Action = value; }
         }
 
@@ -40,7 +52,7 @@ namespace Project_Goettergaemmerung.Components
         {
             get
             {
-                var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\animal.png");
+                var NewBitmap = new Bitmap(Resources.animal);
                 NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
@@ -52,7 +64,7 @@ namespace Project_Goettergaemmerung.Components
         {
             get
             {
-                var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\boarder.png");
+                var NewBitmap = new Bitmap(Resources.boarder);
                 NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
@@ -64,7 +76,7 @@ namespace Project_Goettergaemmerung.Components
         {
             get
             {
-                var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\class.png");
+                var NewBitmap = new Bitmap(Resources._class);
                 NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
@@ -76,7 +88,7 @@ namespace Project_Goettergaemmerung.Components
         {
             get
             {
-                var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\desaster.png");
+                var NewBitmap = new Bitmap(Resources.desaster);
                 NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
@@ -88,7 +100,7 @@ namespace Project_Goettergaemmerung.Components
         {
             get
             {
-                var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\duell.png");
+                var NewBitmap = new Bitmap(Resources.duell);
                 NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
@@ -100,7 +112,7 @@ namespace Project_Goettergaemmerung.Components
         {
             get
             {
-                var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\equipment.png");
+                var NewBitmap = new Bitmap(Resources.equipment);
                 NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
@@ -112,7 +124,7 @@ namespace Project_Goettergaemmerung.Components
         {
             get
             {
-                var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\extra.png");
+                var NewBitmap = new Bitmap(Resources.extra);
                 NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
@@ -124,7 +136,7 @@ namespace Project_Goettergaemmerung.Components
         {
             get
             {
-                var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\filter.png");
+                var NewBitmap = new Bitmap(Resources.filter);
                 NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
@@ -136,7 +148,7 @@ namespace Project_Goettergaemmerung.Components
         {
             get
             {
-                var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\god.png");
+                var NewBitmap = new Bitmap(Resources.god);
                 NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
@@ -148,7 +160,7 @@ namespace Project_Goettergaemmerung.Components
         {
             get
             {
-                var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\soilder.png");
+                var NewBitmap = new Bitmap(Resources.soilder);
                 NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
@@ -160,7 +172,7 @@ namespace Project_Goettergaemmerung.Components
         {
             get
             {
-                var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\spell.png");
+                var NewBitmap = new Bitmap(Resources.spell);
                 NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
@@ -172,7 +184,7 @@ namespace Project_Goettergaemmerung.Components
         {
             get
             {
-                var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\win.png");
+                var NewBitmap = new Bitmap(Resources.win);
                 NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
@@ -184,7 +196,7 @@ namespace Project_Goettergaemmerung.Components
         {
             get
             {
-                var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\rock.png");
+                var NewBitmap = new Bitmap(Resources.rock);
                 NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
@@ -196,7 +208,7 @@ namespace Project_Goettergaemmerung.Components
         {
             get
             {
-                var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\dividingline.png");
+                var NewBitmap = new Bitmap(Resources.dividingline);
                 NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;
@@ -208,7 +220,7 @@ namespace Project_Goettergaemmerung.Components
         {
             get
             {
-                var NewBitmap = new Bitmap("M:\\Repos\\Project_Goettergaemmerung\\elements\\scrapped.png");
+                var NewBitmap = new Bitmap(Resources.scrapped);
                 NewBitmap.SetResolution(120, 120);
                 return NewBitmap
                 ;

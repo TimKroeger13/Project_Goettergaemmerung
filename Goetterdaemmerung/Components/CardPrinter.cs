@@ -20,8 +20,9 @@ namespace Project_Goettergaemmerung.Components
         private readonly IDisposableList<Bitmap> _disposableList;
         private readonly ISaveImage _saveImage;
         private readonly ICheckIfPrintIsZero _checkIfPrintIsZero;
+        private readonly IDisposeBitmaps<Bitmap> _disposeBitmaps;
 
-        public CardPrinter(ICardInformationGetter cardInformation, IUserData userData, ITemplateBuilder templateBuilder, ICreatePicture createPicture, IDisposableList<Bitmap> disposableList, ISaveImage saveImage, ICheckIfPrintIsZero checkIfPrintIsZero)
+        public CardPrinter(ICardInformationGetter cardInformation, IUserData userData, ITemplateBuilder templateBuilder, ICreatePicture createPicture, IDisposableList<Bitmap> disposableList, ISaveImage saveImage, ICheckIfPrintIsZero checkIfPrintIsZero, IDisposeBitmaps<Bitmap> disposeBitmaps)
         {
             _cardInformation = cardInformation;
             _userData = userData;
@@ -30,6 +31,7 @@ namespace Project_Goettergaemmerung.Components
             _disposableList = disposableList;
             _saveImage = saveImage;
             _checkIfPrintIsZero = checkIfPrintIsZero;
+            _disposeBitmaps = disposeBitmaps;
         }
 
         public void PrintCards()
@@ -74,6 +76,8 @@ namespace Project_Goettergaemmerung.Components
                     _disposableList.Dispose();
                 }
             }
+
+            //_disposeBitmaps.DisposePicturesFromArchive();
         }
     }
 }

@@ -6,6 +6,7 @@
     <UseWindowsForms>true</UseWindowsForms>
     <Configurations>Debug;Release;DebugOds</Configurations>
     <Nullable>enable</Nullable>
+    <ApplicationIcon>Resources\Goetterdammerung.ico</ApplicationIcon>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">

@@ -17,7 +17,7 @@ namespace Project_Goettergaemmerung.Components
 
     public class DisposableList<T> : IDisposable, IEnumerable<T>, IDisposableList<T> where T : IDisposable
     {
-        private readonly List<T> _list = new List<T>();
+        private readonly List<T> _list = new();
 
         public void Add(Func<T> action)
         {
