@@ -15,7 +15,7 @@ namespace Project_Goettergaemmerung.Components.DrawText
 {
     public interface IDrawNormalCards
     {
-        Bitmap DrawTextForNormalCards(string name, CardSubType subType, bool twoHanded, Condition condition, string modifiers, string center, string text, string flavorText, string scrapped);
+        Bitmap DrawTextForNormalCards(string? name, CardSubType subType, bool twoHanded, Condition condition, string? modifiers, string? center, string? text, string? flavorText, string? scrapped);
     }
 
     public class DrawNormalCards : IDrawNormalCards
@@ -36,11 +36,11 @@ namespace Project_Goettergaemmerung.Components.DrawText
             _resizeFont = resizeFont;
         }
 
-        public Bitmap DrawTextForNormalCards(string name, CardSubType subType, bool twoHanded, Condition condition, string modifiers, string center, string text, string flavorText, string scrapped)
+        public Bitmap DrawTextForNormalCards(string? name, CardSubType subType, bool twoHanded, Condition condition, string? modifiers, string? center, string? text, string? flavorText, string? scrapped)
         {
-            const int textOffset = 30;
+            const int TextOffset = 30;
             var textHigth = 20;
-            int textHigthFromButtom = 1000 - textHigth;
+            var textHigthFromButtom = 1000 - textHigth;
             var textBitmap = new Bitmap(700, 1000);
             textBitmap.SetResolution(120, 120);
             var textRectangle = new RectangleF();
@@ -56,32 +56,29 @@ namespace Project_Goettergaemmerung.Components.DrawText
             var flavorTextFontsize = 18;
             var scrappedFontsize = 22;
 
-            var FontsizeIsCorrect = false;
-            var run = 0;
-            while (!FontsizeIsCorrect)
+            var fontsizeIsCorrect = false;
+            for (var run = 0; !fontsizeIsCorrect; run++)
             {
-                var ResizedFontsizes = _resizeFont.NewFontSize(run, nameFontsize, cardSubTypeFontsize, twoHandedFontsize, conditionFontsize,
+                var resizedFontsizes = _resizeFont.NewFontSize(run, nameFontsize, cardSubTypeFontsize, twoHandedFontsize, conditionFontsize,
                     modifiersFontsize, centerFontsize, textFontsize, flavorTextFontsize, scrappedFontsize);
 
-                FontsizeIsCorrect = _meassureDrawNormalCards.MeassureTextForNormalCards(name, subType, twoHanded, condition, modifiers, center, text, flavorText, scrapped,
-                ResizedFontsizes.nameFontsize, ResizedFontsizes.cardSubTypeFontsize, ResizedFontsizes.twoHandedFontsize,
-                ResizedFontsizes.conditionFontsize, ResizedFontsizes.modifiersFontsize, ResizedFontsizes.centerFontsize, ResizedFontsizes.textFontsize,
-                ResizedFontsizes.flavorTextFontsize, ResizedFontsizes.scrappedFontsize);
+                fontsizeIsCorrect = _meassureDrawNormalCards.MeassureTextForNormalCards(name, subType, twoHanded, condition, modifiers, center, text, flavorText, scrapped,
+                resizedFontsizes.nameFontsize, resizedFontsizes.cardSubTypeFontsize, resizedFontsizes.twoHandedFontsize,
+                resizedFontsizes.conditionFontsize, resizedFontsizes.modifiersFontsize, resizedFontsizes.centerFontsize, resizedFontsizes.textFontsize,
+                resizedFontsizes.flavorTextFontsize, resizedFontsizes.scrappedFontsize);
 
-                if (FontsizeIsCorrect)
+                if (fontsizeIsCorrect)
                 {
-                    nameFontsize = ResizedFontsizes.nameFontsize;
-                    cardSubTypeFontsize = ResizedFontsizes.cardSubTypeFontsize;
-                    twoHandedFontsize = ResizedFontsizes.twoHandedFontsize;
-                    conditionFontsize = ResizedFontsizes.conditionFontsize;
-                    modifiersFontsize = ResizedFontsizes.modifiersFontsize;
-                    centerFontsize = ResizedFontsizes.centerFontsize;
-                    textFontsize = ResizedFontsizes.textFontsize;
-                    flavorTextFontsize = ResizedFontsizes.flavorTextFontsize;
-                    scrappedFontsize = ResizedFontsizes.scrappedFontsize;
+                    nameFontsize = resizedFontsizes.nameFontsize;
+                    cardSubTypeFontsize = resizedFontsizes.cardSubTypeFontsize;
+                    twoHandedFontsize = resizedFontsizes.twoHandedFontsize;
+                    conditionFontsize = resizedFontsizes.conditionFontsize;
+                    modifiersFontsize = resizedFontsizes.modifiersFontsize;
+                    centerFontsize = resizedFontsizes.centerFontsize;
+                    textFontsize = resizedFontsizes.textFontsize;
+                    flavorTextFontsize = resizedFontsizes.flavorTextFontsize;
+                    scrappedFontsize = resizedFontsizes.scrappedFontsize;
                 }
-
-                run++;
             }
 
             //Graphic
@@ -109,14 +106,14 @@ namespace Project_Goettergaemmerung.Components.DrawText
                 //Headline
                 using (var useFont = new Font("Segoe Print", nameFontsize, FontStyle.Bold))
                 {
-                    textRectangle.Location = new Point(textOffset, textHigth);
+                    textRectangle.Location = new Point(TextOffset, textHigth);
                     textRectangle.Size = new Size(640, (int)g.MeasureString(name, useFont, 640, formatCentert).Height);
                     textHigth = (int)textRectangle.Bottom;
                     g.DrawString(name, useFont, Brushes.Black, textRectangle, formatCentert);
                 }
 
                 //Dividingline
-                var dividingline = _picturesFromArchive.Dividingline;
+                using var dividingline = _picturesFromArchive.Dividingline();
                 g.DrawImage(dividingline, new Point(0, textHigth));
                 textHigth += dividingline.Height;
 
@@ -125,94 +122,84 @@ namespace Project_Goettergaemmerung.Components.DrawText
                 {
                     var subTypeDescription = subType.GetDescription();
 
-                    using (var useFont = new Font("Segoe Print", cardSubTypeFontsize, FontStyle.Bold))
-                    {
-                        textRectangle.Location = new Point(textOffset, textHigth);
-                        textRectangle.Size = new Size(640, (int)g.MeasureString(subTypeDescription, useFont, 640, formatCentert).Height);
-                        textHigth = (int)textRectangle.Bottom;
-                        g.DrawString(subTypeDescription, useFont, Brushes.Black, textRectangle, formatCentert);
-                    }
+                    using var useFont = new Font("Segoe Print", cardSubTypeFontsize, FontStyle.Bold);
+                    textRectangle.Location = new Point(TextOffset, textHigth);
+                    textRectangle.Size = new Size(640, (int)g.MeasureString(subTypeDescription, useFont, 640, formatCentert).Height);
+                    textHigth = (int)textRectangle.Bottom;
+                    g.DrawString(subTypeDescription, useFont, Brushes.Black, textRectangle, formatCentert);
                 }
 
                 if (twoHanded)
                 {
-                    using (var useFont = new Font("Segoe Print", twoHandedFontsize, FontStyle.Bold))
-                    {
-                        textRectangle.Location = new Point(textOffset, textHigth);
-                        textRectangle.Size = new Size(640, (int)g.MeasureString("Zweihändig", useFont, 640, formatCentert).Height);
-                        textHigth = (int)textRectangle.Bottom;
-                        g.DrawString("Zweihändig", useFont, Brushes.Black, textRectangle, formatCentert);
-                    }
+                    using var useFont = new Font("Segoe Print", twoHandedFontsize, FontStyle.Bold);
+                    textRectangle.Location = new Point(TextOffset, textHigth);
+                    textRectangle.Size = new Size(640, (int)g.MeasureString("Zweihändig", useFont, 640, formatCentert).Height);
+                    textHigth = (int)textRectangle.Bottom;
+                    g.DrawString("Zweihändig", useFont, Brushes.Black, textRectangle, formatCentert);
                 }
 
                 if (condition != Condition.Empty)
                 {
                     var conditionDescription = condition.GetDescription();
 
-                    using (var useFont = new Font("Segoe Print", conditionFontsize, FontStyle.Bold))
-                    {
-                        textRectangle.Location = new Point(textOffset, textHigth);
-                        textRectangle.Size = new Size(640, (int)g.MeasureString(conditionDescription, useFont, 640, formatCentert).Height);
-                        textHigth = (int)textRectangle.Bottom;
-                        g.DrawString(conditionDescription, useFont, Brushes.Black, textRectangle, formatCentert);
-                    }
+                    using var useFont = new Font("Segoe Print", conditionFontsize, FontStyle.Bold);
+                    textRectangle.Location = new Point(TextOffset, textHigth);
+                    textRectangle.Size = new Size(640, (int)g.MeasureString(conditionDescription, useFont, 640, formatCentert).Height);
+                    textHigth = (int)textRectangle.Bottom;
+                    g.DrawString(conditionDescription, useFont, Brushes.Black, textRectangle, formatCentert);
                 }
 
                 if (modifiers != "")
                 {
-                    using (var useFont = new Font("Segoe Print", modifiersFontsize, FontStyle.Bold))
-                    {
-                        textRectangle.Location = new Point(textOffset, textHigth);
-                        textRectangle.Size = new Size(640, (int)g.MeasureString(modifiers, useFont, 640, formatCentert).Height);
-                        textHigth = (int)textRectangle.Bottom;
-                        g.DrawString(modifiers, useFont, Brushes.Black, textRectangle, formatCentert);
-                    }
+                    using var useFont = new Font("Segoe Print", modifiersFontsize, FontStyle.Bold);
+                    textRectangle.Location = new Point(TextOffset, textHigth);
+                    textRectangle.Size = new Size(640, (int)g.MeasureString(modifiers, useFont, 640, formatCentert).Height);
+                    textHigth = (int)textRectangle.Bottom;
+                    g.DrawString(modifiers, useFont, Brushes.Black, textRectangle, formatCentert);
                 }
 
                 if (center != "")
                 {
-                    using (var useFont = new Font("Segoe Print", centerFontsize, FontStyle.Bold))
-                    {
-                        textRectangle.Location = new Point(textOffset, textHigth);
-                        textRectangle.Size = new Size(640, (int)g.MeasureString(center, useFont, 640, formatCentert).Height);
-                        textHigth = (int)textRectangle.Bottom;
-                        g.DrawString(center, useFont, Brushes.Black, textRectangle, formatCentert);
-                    }
+                    using var useFont = new Font("Segoe Print", centerFontsize, FontStyle.Bold);
+                    textRectangle.Location = new Point(TextOffset, textHigth);
+                    textRectangle.Size = new Size(640, (int)g.MeasureString(center, useFont, 640, formatCentert).Height);
+                    textHigth = (int)textRectangle.Bottom;
+                    g.DrawString(center, useFont, Brushes.Black, textRectangle, formatCentert);
                 }
 
                 if (text != "")
                 {
+                    if (text == null) { text = ""; }
                     _drawStringWithTopograpy.DrawStringOnBitmapWithTopograpy(text, g, textHigth, textFontsize,
-                    (textOffset, textBitmap.Width), "Segoe Print");
+                    (TextOffset, textBitmap.Width), "Segoe Print");
 
                     textHigth += (int)Math.Round(_meassureStringWithTopograpy.MeassureStringOnBitmapWithTopograpy(text, g, textHigth, textFontsize,
-                         (textOffset, textBitmap.Width), "Segoe Print"));
+                         (TextOffset, textBitmap.Width), "Segoe Print"));
                 }
 
                 if (scrapped != "")
                 {
+                    if (scrapped == null) { scrapped = ""; }
                     textHigthFromButtom -= (int)Math.Round(_meassureStringWithTopograpy.MeassureStringOnBitmapWithTopograpy(scrapped, g, textHigth, textFontsize,
-                                            (textOffset, textBitmap.Width), "Segoe Print"));
+                                            (TextOffset, textBitmap.Width), "Segoe Print"));
 
                     _drawStringWithTopograpy.DrawStringOnBitmapWithTopograpy(scrapped, g, textHigthFromButtom, scrappedFontsize,
-                    (textOffset, textBitmap.Width), "Segoe Print");
+                    (TextOffset, textBitmap.Width), "Segoe Print");
 
                     //ScappedLine
-                    var scappedLine = _picturesFromArchive.Scrapped;
+                    using var scappedLine = _picturesFromArchive.Scrapped();
                     textHigthFromButtom -= scappedLine.Height;
                     g.DrawImage(scappedLine, new Point(0, textHigthFromButtom));
                 }
 
                 if (flavorText != "")
                 {
-                    using (var useFont = new Font("Segoe Print", flavorTextFontsize, FontStyle.Italic))
-                    {
-                        textRectangle.Size = new Size(640, (int)g.MeasureString(flavorText, useFont, 640, formatInlined).Height);
-                        var textBoxHigth = (int)textRectangle.Bottom - (int)textRectangle.Top;
-                        textHigthFromButtom -= textBoxHigth;
-                        textRectangle.Location = new Point(textOffset, textHigthFromButtom);
-                        g.DrawString(flavorText, useFont, Brushes.Black, textRectangle, formatInlined);
-                    }
+                    using var useFont = new Font("Segoe Print", flavorTextFontsize, FontStyle.Italic);
+                    textRectangle.Size = new Size(640, (int)g.MeasureString(flavorText, useFont, 640, formatInlined).Height);
+                    var textBoxHigth = (int)textRectangle.Bottom - (int)textRectangle.Top;
+                    textHigthFromButtom -= textBoxHigth;
+                    textRectangle.Location = new Point(TextOffset, textHigthFromButtom);
+                    g.DrawString(flavorText, useFont, Brushes.Black, textRectangle, formatInlined);
                 }
             }
 

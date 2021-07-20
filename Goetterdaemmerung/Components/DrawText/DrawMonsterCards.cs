@@ -15,7 +15,7 @@ namespace Project_Goettergaemmerung.Components.DrawText
 {
     public interface IDrawMonsterCards
     {
-        Bitmap DrawTextForMonsterCards(string name, string level, Race race, string winText, string loseText, string text, string flavorText);
+        Bitmap DrawTextForMonsterCards(string? name, string? level, Race race, string? winText, string? loseText, string? text, string? flavorText);
     }
 
     public class DrawMonsterCards : IDrawMonsterCards
@@ -28,8 +28,6 @@ namespace Project_Goettergaemmerung.Components.DrawText
         private readonly IResizeMonterFont _resizeMonterFont;
         private readonly IMeassureDrawMonsterCards _meassureDrawMonsterCards;
 
-        //private readonly IMeassureDrawNormalCards _meassureDrawNormalCards;
-
         public DrawMonsterCards(IDrawStringWithTopograpy drawStringWithTopograpy, IPicturesFromArchive picturesFromArchive, IMeassureStringWithTopograpy meassureStringWithTopograpy, IMeassureBoxWithTopograpy meassureBoxWithTopograpy, IDrawBoxWithTopograpy drawBoxWithTopograpy, IResizeMonterFont resizeMonterFont, IMeassureDrawMonsterCards meassureDrawMonsterCards)
         {
             _drawStringWithTopograpy = drawStringWithTopograpy;
@@ -41,21 +39,21 @@ namespace Project_Goettergaemmerung.Components.DrawText
             _meassureDrawMonsterCards = meassureDrawMonsterCards;
         }
 
-        public Bitmap DrawTextForMonsterCards(string name, string level, Race race, string winText, string loseText, string text, string flavorText)
+        public Bitmap DrawTextForMonsterCards(string? name, string? level, Race race, string? winText, string? loseText, string? text, string? flavorText)
         {
-            const int textOffset = 30;
+            const int TextOffset = 30;
             var textHigth = 20;
-            int textHigthFromButtom = 1000 - textHigth - 280;
+            var textHigthFromButtom = 1000 - textHigth - 280;
             var textBitmap = new Bitmap(700, 1000);
             textBitmap.SetResolution(120, 120);
             var textRectangle = new RectangleF();
 
-            int winLoseBoxHigth = 760;
-            int winLoseBoxHigthCardEnd = 980;
-            int winLeftBoarder = 30;
-            int winRigthBoarder = 340;
-            int loseLeftBoarder = 360;
-            int loseRigthBoarder = 670;
+            const int WinLoseBoxHigth = 760;
+            const int WinLoseBoxHigthCardEnd = 980;
+            const int WinLeftBoarder = 30;
+            const int WinRigthBoarder = 340;
+            const int LoseLeftBoarder = 360;
+            const int LoseRigthBoarder = 670;
 
             //FontSize
             var nameFontsize = 36;
@@ -66,22 +64,22 @@ namespace Project_Goettergaemmerung.Components.DrawText
             var loseTextFontsize = 20;
 
             //MainFointSize
-            var FontsizeIsCorrect = false;
+            var fontsizeIsCorrect = false;
             var run = 0;
-            while (!FontsizeIsCorrect)
+            while (!fontsizeIsCorrect)
             {
-                var ResizedFontsizes = _resizeMonterFont.NewFontSize(run, nameFontsize, lvlRaceFontsize, textFontsize,
+                var resizedFontsizes = _resizeMonterFont.NewFontSize(run, nameFontsize, lvlRaceFontsize, textFontsize,
                     flavorTextFontsize);
 
-                FontsizeIsCorrect = _meassureDrawMonsterCards.MeassureTextForMonsterCards(name, level, race, text, flavorText,
-                    ResizedFontsizes.nameFontsize, ResizedFontsizes.lvlRaceFontsize, ResizedFontsizes.textFontsize, ResizedFontsizes.flavorTextFontsize);
+                fontsizeIsCorrect = _meassureDrawMonsterCards.MeassureTextForMonsterCards(name, level, race, text, flavorText,
+                    resizedFontsizes.nameFontsize, resizedFontsizes.lvlRaceFontsize, resizedFontsizes.textFontsize, resizedFontsizes.flavorTextFontsize);
 
-                if (FontsizeIsCorrect)
+                if (fontsizeIsCorrect)
                 {
-                    nameFontsize = ResizedFontsizes.nameFontsize;
-                    lvlRaceFontsize = ResizedFontsizes.lvlRaceFontsize;
-                    textFontsize = ResizedFontsizes.textFontsize;
-                    flavorTextFontsize = ResizedFontsizes.flavorTextFontsize;
+                    nameFontsize = resizedFontsizes.nameFontsize;
+                    lvlRaceFontsize = resizedFontsizes.lvlRaceFontsize;
+                    textFontsize = resizedFontsizes.textFontsize;
+                    flavorTextFontsize = resizedFontsizes.flavorTextFontsize;
                 }
 
                 run++;
@@ -93,11 +91,11 @@ namespace Project_Goettergaemmerung.Components.DrawText
             while (!winFontsizeIsCorrect)
             {
                 winFontsizeIsCorrect = _meassureBoxWithTopograpy.MeassureBoxOnBitmapWithTopograpy(winText, winTextFontsize - run, "Segoe Print",
-                    (winLoseBoxHigth, winLoseBoxHigthCardEnd), (winLeftBoarder, winRigthBoarder));
+                    (WinLoseBoxHigth, WinLoseBoxHigthCardEnd), (WinLeftBoarder, WinRigthBoarder));
 
                 if (winFontsizeIsCorrect)
                 {
-                    winTextFontsize = winTextFontsize - run;
+                    winTextFontsize -= run;
                 }
 
                 run++;
@@ -109,11 +107,11 @@ namespace Project_Goettergaemmerung.Components.DrawText
             while (!loseFontsizeIsCorrect)
             {
                 loseFontsizeIsCorrect = _meassureBoxWithTopograpy.MeassureBoxOnBitmapWithTopograpy(loseText, loseTextFontsize - run, "Segoe Print",
-                    (winLoseBoxHigth, winLoseBoxHigthCardEnd), (loseLeftBoarder, loseRigthBoarder));
+                    (WinLoseBoxHigth, WinLoseBoxHigthCardEnd), (LoseLeftBoarder, LoseRigthBoarder));
 
                 if (loseFontsizeIsCorrect)
                 {
-                    loseTextFontsize = loseTextFontsize - run;
+                    loseTextFontsize -= run;
                 }
 
                 run++;
@@ -144,7 +142,7 @@ namespace Project_Goettergaemmerung.Components.DrawText
                 //Headline
                 using (var useFont = new Font("Segoe Print", nameFontsize, FontStyle.Bold))
                 {
-                    textRectangle.Location = new Point(textOffset, textHigth);
+                    textRectangle.Location = new Point(TextOffset, textHigth);
                     textRectangle.Size = new Size(640, (int)g.MeasureString(name, useFont, 640, formatCentert).Height);
                     textHigth = (int)textRectangle.Bottom;
                     g.DrawString(name, useFont, Brushes.Black, textRectangle, formatCentert);
@@ -156,14 +154,14 @@ namespace Project_Goettergaemmerung.Components.DrawText
                 {
                     var lvlRace = "(Stufe " + level + "-" + race.GetDescription() + ")";
 
-                    textRectangle.Location = new Point(textOffset, textHigth);
+                    textRectangle.Location = new Point(TextOffset, textHigth);
                     textRectangle.Size = new Size(640, (int)g.MeasureString(lvlRace, useFont, 640, formatCentert).Height);
                     textHigth = (int)textRectangle.Bottom;
                     g.DrawString(lvlRace, useFont, Brushes.Black, textRectangle, formatCentert);
                 }
 
                 //Dividingline
-                var dividingline = _picturesFromArchive.Dividingline;
+                using var dividingline = _picturesFromArchive.Dividingline();
                 g.DrawImage(dividingline, new Point(0, textHigth));
                 textHigth += dividingline.Height;
 
@@ -171,37 +169,35 @@ namespace Project_Goettergaemmerung.Components.DrawText
                 if (text != "")
                 {
                     _drawStringWithTopograpy.DrawStringOnBitmapWithTopograpy(text, g, textHigth, textFontsize,
-                    (textOffset, textBitmap.Width), "Segoe Print");
+                    (TextOffset, textBitmap.Width), "Segoe Print");
 
                     textHigth += (int)Math.Round(_meassureStringWithTopograpy.MeassureStringOnBitmapWithTopograpy(text, g, textHigth, textFontsize,
-                         (textOffset, textBitmap.Width), "Segoe Print"));
+                         (TextOffset, textBitmap.Width), "Segoe Print"));
                 }
 
                 //Falvor Text
                 if (flavorText != "")
                 {
-                    using (var useFont = new Font("Segoe Print", flavorTextFontsize, FontStyle.Italic))
-                    {
-                        textRectangle.Size = new Size(640, (int)g.MeasureString(flavorText, useFont, 640, formatInlined).Height);
-                        var textBoxHigth = (int)textRectangle.Bottom - (int)textRectangle.Top;
-                        textHigthFromButtom -= textBoxHigth;
-                        textRectangle.Location = new Point(textOffset, textHigthFromButtom);
-                        g.DrawString(flavorText, useFont, Brushes.Black, textRectangle, formatInlined);
-                    }
+                    using var useFont = new Font("Segoe Print", flavorTextFontsize, FontStyle.Italic);
+                    textRectangle.Size = new Size(640, (int)g.MeasureString(flavorText, useFont, 640, formatInlined).Height);
+                    var textBoxHigth = (int)textRectangle.Bottom - (int)textRectangle.Top;
+                    textHigthFromButtom -= textBoxHigth;
+                    textRectangle.Location = new Point(TextOffset, textHigthFromButtom);
+                    g.DrawString(flavorText, useFont, Brushes.Black, textRectangle, formatInlined);
                 }
 
                 //Win
                 if (winText != "")
                 {
                     _drawBoxWithTopograpy.DrawBoxOnBitmapWithTopograpy(winText, g, winTextFontsize, "Segoe Print",
-                        (winLoseBoxHigth, winLoseBoxHigthCardEnd), (winLeftBoarder, winRigthBoarder));
+                        (WinLoseBoxHigth, WinLoseBoxHigthCardEnd), (WinLeftBoarder, WinRigthBoarder));
                 }
 
                 //Lose
                 if (loseText != "")
                 {
                     _drawBoxWithTopograpy.DrawBoxOnBitmapWithTopograpy(loseText, g, loseTextFontsize, "Segoe Print",
-                        (winLoseBoxHigth, winLoseBoxHigthCardEnd), (loseLeftBoarder, loseRigthBoarder));
+                        (WinLoseBoxHigth, WinLoseBoxHigthCardEnd), (LoseLeftBoarder, LoseRigthBoarder));
                 }
             }
 

@@ -12,8 +12,8 @@ namespace Unittests.Components.DrawText
 {
     public class DrawNormalCardsTests
     {
-        private readonly PicturesFromArchive _picturesFromArchive = new PicturesFromArchive();
-        private readonly CreatePicture _createPicture = new CreatePicture();
+        //private readonly PicturesFromArchive _picturesFromArchive = new PicturesFromArchive();
+        private readonly CreatePicture<Bitmap> _createPicture = new();
 
         private readonly IDrawStringWithTopograpy _subDrawStringWithTopograpy;
         private readonly IPicturesFromArchive _subPicturesFromArchive;
@@ -49,18 +49,18 @@ namespace Unittests.Components.DrawText
             // Arrange
 
             var drawNormalCards = CreateDrawNormalCards();
-            const string name = "Glücksklinge Deluexx";
-            const CardSubType subType = CardSubType.Weapon;
-            const bool twoHanded = true;
-            const Condition condition = Condition.OnlyBureaucratLobbyist;
-            const string modifiers = "+1 / 0";
-            const string text = "Wenn du eine 6 würfelst, hat diese Waffe stattdessen +4/0.";
-            const string flavorText = "Glückstreffer sind die Spezialität dieser Waffe. Weitere Text der Patz von der Karte wegnimmt. Die wichtige ist ob man diesen Text überhaupt noch lesen kann";
-            const string center = "";
-            const string scrapped = "Wenn du eine 6 würfelst, hat die verstärkte Waffe stattdessen +2/0.";
+            const string Name = "Glücksklinge Deluexx";
+            const CardSubType SubType = CardSubType.Weapon;
+            const bool TwoHanded = true;
+            const Condition Condition = Condition.OnlyBureaucratLobbyist;
+            const string Modifiers = "+1 / 0";
+            const string Text = "Wenn du eine 6 würfelst, hat diese Waffe stattdessen +4/0.";
+            const string FlavorText = "Glückstreffer sind die Spezialität dieser Waffe. Weitere Text der Patz von der Karte wegnimmt. Die wichtige ist ob man diesen Text überhaupt noch lesen kann";
+            const string Center = "";
+            const string Scrapped = "Wenn du eine 6 würfelst, hat die verstärkte Waffe stattdessen +2/0.";
 
-            _subPicturesFromArchive.Dividingline.ReturnsForAnyArgs(TestResources.dividingline);
-            _subPicturesFromArchive.Scrapped.ReturnsForAnyArgs(TestResources.scrapped);
+            //_subPicturesFromArchive.Dividingline().ReturnsForAnyArgs(TestResources.dividingline);
+            //_subPicturesFromArchive.Scrapped().ReturnsForAnyArgs(TestResources.scrapped);
 
             _subresizeFont.NewFontSize(0, 36, 28, 28, 28, 36, 24, 24, 18, 22).Returns((36, 28, 28, 28, 36, 24, 24, 18, 22));
             _subresizeFont.NewFontSize(1, 36, 28, 28, 28, 36, 24, 24, 18, 22).Returns((35, 27, 27, 27, 35, 23, 23, 18, 21));
@@ -121,32 +121,32 @@ namespace Unittests.Components.DrawText
                 Arg.Any<Condition>(), Arg.Any<string>(), Arg.Any<string>(), Arg.Any<string>(), Arg.Any<string>(), Arg.Any<string>(),
                 22, 17, 17, 17, 22, 15, 15, 11, 13).Returns(true);
 
-            _subMeassureStringWithTopograpy.MeassureStringOnBitmapWithTopograpy(Arg.Any<string>(), Arg.Any<Graphics>(), Arg.Any<float>(),
-                Arg.Any<int>(), (30, 700), Arg.Any<string>()).ReturnsForAnyArgs(150f);
+            //_subMeassureStringWithTopograpy.MeassureStringOnBitmapWithTopograpy(Arg.Any<string>(), Arg.Any<Graphics>(), Arg.Any<float>(),
+            //    Arg.Any<int>(), (30, 700), Arg.Any<string>()).ReturnsForAnyArgs(150f);
 
             // Act
             using var result = drawNormalCards.DrawTextForNormalCards(
-                name,
-                subType,
-                twoHanded,
-                condition,
-                modifiers,
-                center,
-                text,
-                flavorText,
-                scrapped);
+                Name,
+                SubType,
+                TwoHanded,
+                Condition,
+                Modifiers,
+                Center,
+                Text,
+                FlavorText,
+                Scrapped);
 
             // Assert
 
             using var testBitmapList = new DisposableList<Bitmap>();
 
-            testBitmapList.AddSingle(_picturesFromArchive.Class);
-            testBitmapList.AddSingle(_picturesFromArchive.Boarder);
-            testBitmapList.AddSingle(result);
+            //testBitmapList.AddSingle(_picturesFromArchive.Class);
+            //testBitmapList.AddSingle(_picturesFromArchive.Boarder);
+            testBitmapList.Add(() => result);
 
-            using var OutputBitmap = _createPicture.MergedBitmaps(testBitmapList);
+            using var outputBitmap = _createPicture.MergedBitmaps(testBitmapList);
 
-            OutputBitmap.Save("C:\\Users\\TKroeger\\Desktop\\Testordner\\" + name + ".png", ImageFormat.Png);
+            //OutputBitmap.Save("C:\\Users\\TKroeger\\Desktop\\Testordner\\" + name + ".png", ImageFormat.Png);
             Assert.True(true);
         }
     }

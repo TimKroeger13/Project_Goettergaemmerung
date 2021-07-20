@@ -7,7 +7,7 @@ namespace Project_Goettergaemmerung.Components.CardInformationGetter
     {
         public IEnumerable<CardInformationModel> GetCardInformation()
         {
-            return new List<CardInformationModel>() { new CardInformationModel() { } };
+            return new List<CardInformationModel>() { new CardInformationModel() };
         }
 
         public IEnumerable<CardInformationModel> GetCardInformation(string path)

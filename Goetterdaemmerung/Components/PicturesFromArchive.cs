@@ -6,226 +6,151 @@ namespace Project_Goettergaemmerung.Components
 {
     public interface IPicturesFromArchive
     {
-        Bitmap Action { get; set; }
-        Bitmap Animal { get; set; }
-        Bitmap Boarder { get; set; }
-        Bitmap Class { get; set; }
-        Bitmap Desaster { get; set; }
-        Bitmap Dividingline { get; set; }
-        Bitmap Duell { get; set; }
-        Bitmap Equipment { get; set; }
-        Bitmap Extra { get; set; }
-        Bitmap Filter { get; set; }
-        Bitmap God { get; set; }
-        Bitmap Rock { get; set; }
-        Bitmap Soilder { get; set; }
-        Bitmap Spell { get; set; }
-        Bitmap Win { get; set; }
-        Bitmap Scrapped { get; set; }
+        Bitmap Action();
+
+        Bitmap Animal();
+
+        Bitmap Boarder();
+
+        Bitmap Class();
+
+        Bitmap Desaster();
+
+        Bitmap Dividingline();
+
+        Bitmap Duell();
+
+        Bitmap Equipment();
+
+        Bitmap Extra();
+
+        Bitmap Filter();
+
+        Bitmap God();
+
+        Bitmap Rock();
+
+        Bitmap Scrapped();
+
+        Bitmap Soilder();
+
+        Bitmap Spell();
+
+        Bitmap Win();
     }
 
     public class PicturesFromArchive : IPicturesFromArchive
     {
-        private readonly IDisposeBitmaps<Bitmap> _disposeBitmaps;
-
-        public PicturesFromArchive(IDisposeBitmaps<Bitmap> disposeBitmaps)
+        public Bitmap Action()
         {
-            _disposeBitmaps = disposeBitmaps;
+            var newBitmap = new Bitmap(Resources.action);
+            newBitmap.SetResolution(120, 120);
+            return newBitmap;
         }
 
-        public Bitmap Action
+        public Bitmap Animal()
         {
-            get
-            {
-                var newBitmap = new Bitmap(Resources.action);
-                _disposeBitmaps.DisposibelArchiveList(ref newBitmap);
-                //_disposeBitmaps.Dispose();
-                newBitmap.SetResolution(120, 120);
-                return newBitmap
-                ;
-            }
-
-            set { Action = value; }
+            var newBitmap = new Bitmap(Resources.animal);
+            newBitmap.SetResolution(120, 120);
+            return newBitmap;
         }
 
-        public Bitmap Animal
+        public Bitmap Boarder()
         {
-            get
-            {
-                var NewBitmap = new Bitmap(Resources.animal);
-                NewBitmap.SetResolution(120, 120);
-                return NewBitmap
-                ;
-            }
-            set { Animal = value; }
+            var newBitmap = new Bitmap(Resources.boarder);
+            newBitmap.SetResolution(120, 120);
+            return newBitmap;
         }
 
-        public Bitmap Boarder
+        public Bitmap Class()
         {
-            get
-            {
-                var NewBitmap = new Bitmap(Resources.boarder);
-                NewBitmap.SetResolution(120, 120);
-                return NewBitmap
-                ;
-            }
-            set { Boarder = value; }
+            var newBitmap = new Bitmap(Resources._class);
+            newBitmap.SetResolution(120, 120);
+            return newBitmap;
         }
 
-        public Bitmap Class
+        public Bitmap Desaster()
         {
-            get
-            {
-                var NewBitmap = new Bitmap(Resources._class);
-                NewBitmap.SetResolution(120, 120);
-                return NewBitmap
-                ;
-            }
-            set { Class = value; }
+            var newBitmap = new Bitmap(Resources.desaster);
+            newBitmap.SetResolution(120, 120);
+            return newBitmap;
         }
 
-        public Bitmap Desaster
+        public Bitmap Duell()
         {
-            get
-            {
-                var NewBitmap = new Bitmap(Resources.desaster);
-                NewBitmap.SetResolution(120, 120);
-                return NewBitmap
-                ;
-            }
-            set { Desaster = value; }
+            var newBitmap = new Bitmap(Resources.duell);
+            newBitmap.SetResolution(120, 120);
+            return newBitmap;
         }
 
-        public Bitmap Duell
+        public Bitmap Equipment()
         {
-            get
-            {
-                var NewBitmap = new Bitmap(Resources.duell);
-                NewBitmap.SetResolution(120, 120);
-                return NewBitmap
-                ;
-            }
-            set { Duell = value; }
+            var newBitmap = new Bitmap(Resources.equipment);
+            newBitmap.SetResolution(120, 120);
+            return newBitmap;
         }
 
-        public Bitmap Equipment
+        public Bitmap Extra()
         {
-            get
-            {
-                var NewBitmap = new Bitmap(Resources.equipment);
-                NewBitmap.SetResolution(120, 120);
-                return NewBitmap
-                ;
-            }
-            set { Equipment = value; }
+            var newBitmap = new Bitmap(Resources.extra);
+            newBitmap.SetResolution(120, 120);
+            return newBitmap;
         }
 
-        public Bitmap Extra
+        public Bitmap Filter()
         {
-            get
-            {
-                var NewBitmap = new Bitmap(Resources.extra);
-                NewBitmap.SetResolution(120, 120);
-                return NewBitmap
-                ;
-            }
-            set { Extra = value; }
+            var newBitmap = new Bitmap(Resources.filter);
+            newBitmap.SetResolution(120, 120);
+            return newBitmap;
         }
 
-        public Bitmap Filter
+        public Bitmap God()
         {
-            get
-            {
-                var NewBitmap = new Bitmap(Resources.filter);
-                NewBitmap.SetResolution(120, 120);
-                return NewBitmap
-                ;
-            }
-            set { Filter = value; }
+            var newBitmap = new Bitmap(Resources.god);
+            newBitmap.SetResolution(120, 120);
+            return newBitmap;
         }
 
-        public Bitmap God
+        public Bitmap Soilder()
         {
-            get
-            {
-                var NewBitmap = new Bitmap(Resources.god);
-                NewBitmap.SetResolution(120, 120);
-                return NewBitmap
-                ;
-            }
-            set { God = value; }
+            var newBitmap = new Bitmap(Resources.soilder);
+            newBitmap.SetResolution(120, 120);
+            return newBitmap;
         }
 
-        public Bitmap Soilder
+        public Bitmap Spell()
         {
-            get
-            {
-                var NewBitmap = new Bitmap(Resources.soilder);
-                NewBitmap.SetResolution(120, 120);
-                return NewBitmap
-                ;
-            }
-            set { Soilder = value; }
+            var newBitmap = new Bitmap(Resources.spell);
+            newBitmap.SetResolution(120, 120);
+            return newBitmap;
         }
 
-        public Bitmap Spell
+        public Bitmap Win()
         {
-            get
-            {
-                var NewBitmap = new Bitmap(Resources.spell);
-                NewBitmap.SetResolution(120, 120);
-                return NewBitmap
-                ;
-            }
-            set { Spell = value; }
+            var newBitmap = new Bitmap(Resources.win);
+            newBitmap.SetResolution(120, 120);
+            return newBitmap;
         }
 
-        public Bitmap Win
+        public Bitmap Rock()
         {
-            get
-            {
-                var NewBitmap = new Bitmap(Resources.win);
-                NewBitmap.SetResolution(120, 120);
-                return NewBitmap
-                ;
-            }
-            set { Win = value; }
+            var newBitmap = new Bitmap(Resources.rock);
+            newBitmap.SetResolution(120, 120);
+            return newBitmap;
         }
 
-        public Bitmap Rock
+        public Bitmap Dividingline()
         {
-            get
-            {
-                var NewBitmap = new Bitmap(Resources.rock);
-                NewBitmap.SetResolution(120, 120);
-                return NewBitmap
-                ;
-            }
-            set { Rock = value; }
+            var newBitmap = new Bitmap(Resources.dividingline);
+            newBitmap.SetResolution(120, 120);
+            return newBitmap;
         }
 
-        public Bitmap Dividingline
+        public Bitmap Scrapped()
         {
-            get
-            {
-                var NewBitmap = new Bitmap(Resources.dividingline);
-                NewBitmap.SetResolution(120, 120);
-                return NewBitmap
-                ;
-            }
-            set { Dividingline = value; }
-        }
-
-        public Bitmap Scrapped
-        {
-            get
-            {
-                var NewBitmap = new Bitmap(Resources.scrapped);
-                NewBitmap.SetResolution(120, 120);
-                return NewBitmap
-                ;
-            }
-            set { Scrapped = value; }
+            var newBitmap = new Bitmap(Resources.scrapped);
+            newBitmap.SetResolution(120, 120);
+            return newBitmap;
         }
     }
 }

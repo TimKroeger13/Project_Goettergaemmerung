@@ -12,7 +12,7 @@ namespace Project_Goettergaemmerung.Components.DrawText
 {
     public interface IMeassureBoxWithTopograpy
     {
-        bool MeassureBoxOnBitmapWithTopograpy(string text, int fontSize, string fontName, (int top, int buttom) boxhigth, (int left, int rigth) boxwidth);
+        bool MeassureBoxOnBitmapWithTopograpy(string? text, int fontSize, string? fontName, (int top, int buttom) boxhigth, (int left, int rigth) boxwidth);
     }
 
     public class MeassureBoxWithTopograpy : IMeassureBoxWithTopograpy
@@ -24,96 +24,96 @@ namespace Project_Goettergaemmerung.Components.DrawText
             _splitStringInTypography = splitStringInTypography;
         }
 
-        public bool MeassureBoxOnBitmapWithTopograpy(string text, int fontSize, string fontName,
+        public bool MeassureBoxOnBitmapWithTopograpy(string? text, int fontSize, string? fontName,
             (int top, int buttom) boxhigth, (int left, int rigth) boxwidth)
         {
-            var textBitmap = new Bitmap(700, 1000);
+            using var textBitmap = new Bitmap(700, 1000);
             textBitmap.SetResolution(120, 120);
 
-            using (var g = Graphics.FromImage(textBitmap))
+            using var g = Graphics.FromImage(textBitmap);
+            if (text == null) { text = ""; }
+            if (fontName == null) { fontName = ""; }
+            var splitText = _splitStringInTypography.SplitString(text).ToList();
+
+            g.SmoothingMode = SmoothingMode.AntiAlias;
+            g.InterpolationMode = InterpolationMode.HighQualityBicubic;
+            g.PixelOffsetMode = PixelOffsetMode.HighQuality;
+            g.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
+            g.PageUnit = GraphicsUnit.Pixel;
+            g.CompositingMode = CompositingMode.SourceOver;
+            g.CompositingQuality = CompositingQuality.HighQuality;
+
+            float currentCharacterWidth = boxwidth.left;
+            float currentCharacterHigth = boxhigth.top;
+
+            foreach (var (word, marker) in splitText)
             {
-                var splitText = _splitStringInTypography.SplitString(text).ToList();
-
-                g.SmoothingMode = SmoothingMode.AntiAlias;
-                g.InterpolationMode = InterpolationMode.HighQualityBicubic;
-                g.PixelOffsetMode = PixelOffsetMode.HighQuality;
-                g.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
-                g.PageUnit = GraphicsUnit.Pixel;
-                g.CompositingMode = CompositingMode.SourceOver;
-                g.CompositingQuality = CompositingQuality.HighQuality;
-
-                float currentCharacterWidth = boxwidth.left;
-                float currentCharacterHigth = boxhigth.top;
-
-                foreach (var word in splitText)
+                switch (marker)
                 {
-                    switch (word.Marker)
-                    {
-                        case Typography.Regular:
-                            using (var useFont = new Font(fontName, fontSize, FontStyle.Regular))
+                    case Typography.Regular:
+                        using (var useFont = new Font(fontName, fontSize, FontStyle.Regular))
+                        {
+                            if (g.MeasureString(word, useFont, 1000).Width > (boxwidth.rigth - boxwidth.left))
                             {
-                                if (g.MeasureString(word.Word, useFont, 1000).Width > (boxwidth.rigth - boxwidth.left))
-                                {
-                                    return false;
-                                }
-
-                                if (g.MeasureString(word.Word, useFont, 1000).Width + currentCharacterWidth > boxwidth.rigth)
-                                {
-                                    currentCharacterHigth += g.MeasureString(word.Item1, useFont, 1000).Height;
-                                    currentCharacterWidth = boxwidth.left;
-                                }
-                                currentCharacterWidth = g.MeasureString(word.Item1, useFont, 1000).Width + currentCharacterWidth;
+                                return false;
                             }
-                            break;
 
-                        case Typography.Bold:
-                            using (var useFont = new Font(fontName, fontSize, FontStyle.Bold))
+                            if (g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth > boxwidth.rigth)
                             {
-                                if (g.MeasureString(word.Word, useFont, 1000).Width > (boxwidth.rigth - boxwidth.left))
-                                {
-                                    return false;
-                                }
-
-                                if (g.MeasureString(word.Item1, useFont, 1000).Width + currentCharacterWidth > boxwidth.rigth)
-                                {
-                                    currentCharacterHigth += g.MeasureString(word.Item1, useFont, 1000).Height;
-                                    currentCharacterWidth = boxwidth.left;
-                                }
-                                currentCharacterWidth = g.MeasureString(word.Item1, useFont, 1000).Width + currentCharacterWidth;
-                            }
-                            break;
-
-                        case Typography.Italic:
-                            using (var useFont = new Font(fontName, fontSize, FontStyle.Italic))
-                            {
-                                if (g.MeasureString(word.Word, useFont, 1000).Width > (boxwidth.rigth - boxwidth.left))
-                                {
-                                    return false;
-                                }
-
-                                if (g.MeasureString(word.Item1, useFont, 1000).Width + currentCharacterWidth > boxwidth.rigth)
-                                {
-                                    currentCharacterHigth += g.MeasureString(word.Item1, useFont, 1000).Height;
-                                    currentCharacterWidth = boxwidth.left;
-                                }
-                                currentCharacterWidth = g.MeasureString(word.Item1, useFont, 1000).Width + currentCharacterWidth;
-                            }
-                            break;
-
-                        case Typography.LineBreak:
-                            using (var useFont = new Font(fontName, fontSize, FontStyle.Regular))
-                            {
-                                currentCharacterHigth += g.MeasureString(splitText[0].Word, useFont, 1000).Height;
+                                currentCharacterHigth += g.MeasureString(word, useFont, 1000).Height;
                                 currentCharacterWidth = boxwidth.left;
                             }
-                            break;
-                    }
+                            currentCharacterWidth = g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth;
+                        }
+                        break;
+
+                    case Typography.Bold:
+                        using (var useFont = new Font(fontName, fontSize, FontStyle.Bold))
+                        {
+                            if (g.MeasureString(word, useFont, 1000).Width > (boxwidth.rigth - boxwidth.left))
+                            {
+                                return false;
+                            }
+
+                            if (g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth > boxwidth.rigth)
+                            {
+                                currentCharacterHigth += g.MeasureString(word, useFont, 1000).Height;
+                                currentCharacterWidth = boxwidth.left;
+                            }
+                            currentCharacterWidth = g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth;
+                        }
+                        break;
+
+                    case Typography.Italic:
+                        using (var useFont = new Font(fontName, fontSize, FontStyle.Italic))
+                        {
+                            if (g.MeasureString(word, useFont, 1000).Width > (boxwidth.rigth - boxwidth.left))
+                            {
+                                return false;
+                            }
+
+                            if (g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth > boxwidth.rigth)
+                            {
+                                currentCharacterHigth += g.MeasureString(word, useFont, 1000).Height;
+                                currentCharacterWidth = boxwidth.left;
+                            }
+                            currentCharacterWidth = g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth;
+                        }
+                        break;
+
+                    case Typography.LineBreak:
+                        using (var useFont = new Font(fontName, fontSize, FontStyle.Regular))
+                        {
+                            currentCharacterHigth += g.MeasureString(splitText[0].Word, useFont, 1000).Height;
+                            currentCharacterWidth = boxwidth.left;
+                        }
+                        break;
                 }
-
-                using (var useFont = new Font(fontName, fontSize, FontStyle.Regular)) { currentCharacterHigth += g.MeasureString(splitText[0].Word, useFont, 1000).Height; }
-
-                return currentCharacterHigth < boxhigth.buttom;
             }
+
+            using (var useFont = new Font(fontName, fontSize, FontStyle.Regular)) { currentCharacterHigth += g.MeasureString(splitText[0].Word, useFont, 1000).Height; }
+
+            return currentCharacterHigth < boxhigth.buttom;
         }
     }
 }

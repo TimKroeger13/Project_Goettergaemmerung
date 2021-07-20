@@ -15,29 +15,27 @@ namespace Project_Goettergaemmerung.Components.DrawText
 {
     public interface IMeassureDrawMonsterCards
     {
-        bool MeassureTextForMonsterCards(string name, string level, Race race, string text, string flavorText, int nameFontsize, int lvlRaceFontsize, int textFontsize, int flavorTextFontsize);
+        bool MeassureTextForMonsterCards(string? name, string? level, Race race, string? text, string? flavorText, int nameFontsize, int lvlRaceFontsize, int textFontsize, int flavorTextFontsize);
     }
 
     public class MeassureDrawMonsterCards : IMeassureDrawMonsterCards
     {
-        private readonly IDrawStringWithTopograpy _drawStringWithTopograpy;
         private readonly IPicturesFromArchive _picturesFromArchive;
         private readonly IMeassureStringWithTopograpy _meassureStringWithTopograpy;
 
-        public MeassureDrawMonsterCards(IDrawStringWithTopograpy drawStringWithTopograpy, IPicturesFromArchive picturesFromArchive, IMeassureStringWithTopograpy meassureStringWithTopograpy)
+        public MeassureDrawMonsterCards(IPicturesFromArchive picturesFromArchive, IMeassureStringWithTopograpy meassureStringWithTopograpy)
         {
-            _drawStringWithTopograpy = drawStringWithTopograpy;
             _picturesFromArchive = picturesFromArchive;
             _meassureStringWithTopograpy = meassureStringWithTopograpy;
         }
 
-        public bool MeassureTextForMonsterCards(string name, string level, Race race, string text, string flavorText,
+        public bool MeassureTextForMonsterCards(string? name, string? level, Race race, string? text, string? flavorText,
             int nameFontsize, int lvlRaceFontsize, int textFontsize, int flavorTextFontsize)
         {
-            const int textOffset = 30;
+            const int TextOffset = 30;
             var textHigth = 20;
-            int textHigthFromButtom = 1000 - textHigth - 280;
-            var textBitmap = new Bitmap(700, 1000);
+            var textHigthFromButtom = 1000 - textHigth - 280;
+            using var textBitmap = new Bitmap(700, 1000);
             textBitmap.SetResolution(120, 120);
             var textRectangle = new RectangleF();
 
@@ -65,7 +63,7 @@ namespace Project_Goettergaemmerung.Components.DrawText
                 //Headline
                 using (var useFont = new Font("Segoe Print", nameFontsize, FontStyle.Bold))
                 {
-                    textRectangle.Location = new Point(textOffset, textHigth);
+                    textRectangle.Location = new Point(TextOffset, textHigth);
                     textRectangle.Size = new Size(640, (int)g.MeasureString(name, useFont, 640, formatCentert).Height);
                     textHigth = (int)textRectangle.Bottom;
                 }
@@ -76,32 +74,30 @@ namespace Project_Goettergaemmerung.Components.DrawText
                 {
                     var lvlRace = "(Stufe " + level + "-" + race.GetDescription() + ")";
 
-                    textRectangle.Location = new Point(textOffset, textHigth);
+                    textRectangle.Location = new Point(TextOffset, textHigth);
                     textRectangle.Size = new Size(640, (int)g.MeasureString(lvlRace, useFont, 640, formatCentert).Height);
                     textHigth = (int)textRectangle.Bottom;
                 }
 
                 //Dividingline
-                var dividingline = _picturesFromArchive.Dividingline;
+                using var dividingline = _picturesFromArchive.Dividingline();
                 textHigth += dividingline.Height;
 
                 //Text
                 if (text != "")
                 {
                     textHigth += (int)Math.Round(_meassureStringWithTopograpy.MeassureStringOnBitmapWithTopograpy(text, g, textHigth, textFontsize,
-                         (textOffset, textBitmap.Width), "Segoe Print"));
+                         (TextOffset, textBitmap.Width), "Segoe Print"));
                 }
 
                 //Falvor Text
                 if (flavorText != "")
                 {
-                    using (var useFont = new Font("Segoe Print", flavorTextFontsize, FontStyle.Italic))
-                    {
-                        textRectangle.Size = new Size(640, (int)g.MeasureString(flavorText, useFont, 640, formatInlined).Height);
-                        var textBoxHigth = (int)textRectangle.Bottom - (int)textRectangle.Top;
-                        textHigthFromButtom -= textBoxHigth;
-                        textRectangle.Location = new Point(textOffset, textHigthFromButtom);
-                    }
+                    using var useFont = new Font("Segoe Print", flavorTextFontsize, FontStyle.Italic);
+                    textRectangle.Size = new Size(640, (int)g.MeasureString(flavorText, useFont, 640, formatInlined).Height);
+                    var textBoxHigth = (int)textRectangle.Bottom - (int)textRectangle.Top;
+                    textHigthFromButtom -= textBoxHigth;
+                    textRectangle.Location = new Point(TextOffset, textHigthFromButtom);
                 }
             }
 
