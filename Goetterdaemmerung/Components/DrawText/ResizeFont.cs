@@ -15,27 +15,27 @@ namespace Project_Goettergaemmerung.Components.DrawText
 {
     public interface IResizeFont
     {
-        (int nameFontsize, int cardSubTypeFontsize, int twoHandedFontsize, int conditionFontsize, int modifiersFontsize, int centerFontsize, int textFontsize, int flavorTextFontsize, int scrappedFontsize) NewFontSize(int Runnumber, int nameFontsize, int cardSubTypeFontsize, int twoHandedFontsize, int conditionFontsize, int modifiersFontsize, int centerFontsize, int textFontsize, int flavorTextFontsize, int scrappedFontsize);
+        (int nameFontsize, int cardSubTypeFontsize, int twoHandedFontsize, int conditionFontsize, int modifiersFontsize, int centerFontsize, int textFontsize, int flavorTextFontsize, int scrappedFontsize) NewFontSize(int runnumber, int nameFontsize, int cardSubTypeFontsize, int twoHandedFontsize, int conditionFontsize, int modifiersFontsize, int centerFontsize, int textFontsize, int flavorTextFontsize, int scrappedFontsize);
     }
 
     public class ResizeFont : IResizeFont
     {
         public (int nameFontsize, int cardSubTypeFontsize, int twoHandedFontsize, int conditionFontsize, int modifiersFontsize, int centerFontsize, int textFontsize, int flavorTextFontsize, int scrappedFontsize) NewFontSize
-               (int Runnumber, int nameFontsize, int cardSubTypeFontsize, int twoHandedFontsize, int conditionFontsize, int modifiersFontsize, int centerFontsize, int textFontsize, int flavorTextFontsize, int scrappedFontsize)
+               (int runnumber, int nameFontsize, int cardSubTypeFontsize, int twoHandedFontsize, int conditionFontsize, int modifiersFontsize, int centerFontsize, int textFontsize, int flavorTextFontsize, int scrappedFontsize)
         {
-            int[] ListOfFonts = { nameFontsize, cardSubTypeFontsize, twoHandedFontsize, conditionFontsize, modifiersFontsize, textFontsize, flavorTextFontsize, scrappedFontsize };
+            int[] listOfFonts = { nameFontsize, cardSubTypeFontsize, twoHandedFontsize, conditionFontsize, modifiersFontsize, textFontsize, flavorTextFontsize, scrappedFontsize };
 
-            var BiggestFont = ListOfFonts.Max();
+            var biggestFont = listOfFonts.Max();
 
-            nameFontsize = (int)Math.Round(((Decimal)nameFontsize / (Decimal)BiggestFont) * ((Decimal)BiggestFont - (Decimal)Runnumber));
-            cardSubTypeFontsize = (int)Math.Round(((Decimal)cardSubTypeFontsize / (Decimal)BiggestFont) * ((Decimal)BiggestFont - (Decimal)Runnumber));
-            twoHandedFontsize = (int)Math.Round(((Decimal)twoHandedFontsize / (Decimal)BiggestFont) * ((Decimal)BiggestFont - (Decimal)Runnumber));
-            conditionFontsize = (int)Math.Round(((Decimal)conditionFontsize / (Decimal)BiggestFont) * ((Decimal)BiggestFont - (Decimal)Runnumber));
-            modifiersFontsize = (int)Math.Round(((Decimal)modifiersFontsize / (Decimal)BiggestFont) * ((Decimal)BiggestFont - (Decimal)Runnumber));
-            centerFontsize = (int)Math.Round(((Decimal)centerFontsize / (Decimal)BiggestFont) * ((Decimal)BiggestFont - (Decimal)Runnumber));
-            textFontsize = (int)Math.Round(((Decimal)textFontsize / (Decimal)BiggestFont) * ((Decimal)BiggestFont - (Decimal)Runnumber));
-            flavorTextFontsize = (int)Math.Round(((Decimal)flavorTextFontsize / (Decimal)BiggestFont) * ((Decimal)BiggestFont - (Decimal)Runnumber));
-            scrappedFontsize = (int)Math.Round(((Decimal)scrappedFontsize / (Decimal)BiggestFont) * ((Decimal)BiggestFont - (Decimal)Runnumber));
+            nameFontsize = (int)Math.Round(((decimal)nameFontsize / (decimal)biggestFont) * ((decimal)biggestFont - (decimal)runnumber));
+            cardSubTypeFontsize = (int)Math.Round(((decimal)cardSubTypeFontsize / (decimal)biggestFont) * ((decimal)biggestFont - (decimal)runnumber));
+            twoHandedFontsize = (int)Math.Round(((decimal)twoHandedFontsize / (decimal)biggestFont) * ((decimal)biggestFont - (decimal)runnumber));
+            conditionFontsize = (int)Math.Round(((decimal)conditionFontsize / (decimal)biggestFont) * ((decimal)biggestFont - (decimal)runnumber));
+            modifiersFontsize = (int)Math.Round(((decimal)modifiersFontsize / (decimal)biggestFont) * ((decimal)biggestFont - (decimal)runnumber));
+            centerFontsize = (int)Math.Round(((decimal)centerFontsize / (decimal)biggestFont) * ((decimal)biggestFont - (decimal)runnumber));
+            textFontsize = (int)Math.Round(((decimal)textFontsize / (decimal)biggestFont) * ((decimal)biggestFont - (decimal)runnumber));
+            flavorTextFontsize = (int)Math.Round(((decimal)flavorTextFontsize / (decimal)biggestFont) * ((decimal)biggestFont - (decimal)runnumber));
+            scrappedFontsize = (int)Math.Round(((decimal)scrappedFontsize / (decimal)biggestFont) * ((decimal)biggestFont - (decimal)runnumber));
 
             return (nameFontsize, cardSubTypeFontsize, twoHandedFontsize, conditionFontsize, modifiersFontsize, centerFontsize, textFontsize, flavorTextFontsize, scrappedFontsize);
         }

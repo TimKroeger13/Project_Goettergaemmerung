@@ -14,8 +14,8 @@ namespace Unittests.Components.DrawText
     public class DrawBoxWithTopograpyTests
     {
         private readonly ISplitStringInTypography _subSplitStringInTypography;
-        private readonly CreatePicture _createPicture = new CreatePicture();
-        private readonly PicturesFromArchive _picturesFromArchive = new PicturesFromArchive();
+        private readonly CreatePicture<Bitmap> _createPicture = new();
+        //private readonly PicturesFromArchive _picturesFromArchive = new PicturesFromArchive();
 
         public DrawBoxWithTopograpyTests()
         {
@@ -34,7 +34,7 @@ namespace Unittests.Components.DrawText
             var splitStringInTypographyTypography = JsonSerializer.Deserialize<Project_Goettergaemmerung.Components.Model.Typography[]>(TestResources.splitStringInTypography_Typography);
             var splitStringInTypographyList = new List<(string Word, Typography Marker)>();
 
-            for (int i = 0; i < splitStringInTypographyWords.Length; i++)
+            for (var i = 0; i < splitStringInTypographyWords.Length; i++)
             {
                 splitStringInTypographyList.Add((splitStringInTypographyWords[i], splitStringInTypographyTypography[i]));
             }
@@ -42,36 +42,36 @@ namespace Unittests.Components.DrawText
 
             // Arrange
             var drawBoxWithTopograpy = CreateDrawBoxWithTopograpy();
-            string text = "Wenn du eine 6 würfelst, hat diese Waffe stattdessen +4/0.";
+            const string Text = "Wenn du eine 6 würfelst, hat diese Waffe stattdessen +4/0.";
             using var textBitmap = new Bitmap(700, 1000);
             textBitmap.SetResolution(120, 120);
-            int fontSize = 20;
-            string fontName = "Segoe Print";
-            (int top, int buttom) boxhigth = (top: 760, buttom: 980);
-            (int left, int rigth) boxwidth = (left: 30, rigth: 335);
+            const int FontSize = 20;
+            const string FontName = "Segoe Print";
+            var boxhigth = (top: 760, buttom: 980);
+            var boxwidth = (left: 30, rigth: 335);
 
             // Act
             using (var g = Graphics.FromImage(textBitmap))
             {
                 drawBoxWithTopograpy.DrawBoxOnBitmapWithTopograpy(
-                text,
+                Text,
                 g,
-                fontSize,
-                fontName,
+                FontSize,
+                FontName,
                 boxhigth,
                 boxwidth);
             }
 
             using var testBitmapList = new DisposableList<Bitmap>();
 
-            testBitmapList.AddSingle(_picturesFromArchive.Class);
-            testBitmapList.AddSingle(_picturesFromArchive.Boarder);
-            testBitmapList.AddSingle(_picturesFromArchive.Win);
-            testBitmapList.AddSingle(textBitmap);
+            //testBitmapList.AddSingle(_picturesFromArchive.Class);
+            //testBitmapList.AddSingle(_picturesFromArchive.Boarder);
+            //testBitmapList.AddSingle(_picturesFromArchive.Win);
+            testBitmapList.Add(() => textBitmap);
 
-            using var Output = _createPicture.MergedBitmaps(testBitmapList);
+            using var output = _createPicture.MergedBitmaps(testBitmapList);
 
-            Output.Save("C:\\Users\\TKroeger\\Desktop\\Testordner\\TempName.png", ImageFormat.Png);
+            //Output.Save("C:\\Users\\TKroeger\\Desktop\\Testordner\\TempName.png", ImageFormat.Png);
 
             // Assert
             Assert.True(true);

@@ -66,7 +66,7 @@ namespace Project_Goettergaemmerung
             _cardPrinter.PrintCards();
         }
 
-        private void listBoxPrintModus_SelectedIndexChanged(object sender, EventArgs e)
+        private void ListBoxPrintModus_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (listBoxPrintModus.SelectedItems[0].ToString() == "Normal")
             {
@@ -82,11 +82,11 @@ namespace Project_Goettergaemmerung
             }
         }
 
-        private void labelPrintModus_Click(object sender, EventArgs e)
+        private void LabelPrintModus_Click(object sender, EventArgs e)
         {
         }
 
-        private void listBoxPrintLayout_SelectedIndexChanged(object sender, EventArgs e)
+        private void ListBoxPrintLayout_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (listBoxPrintLayout.SelectedItems[0].ToString() == "Druck 1")
             {
@@ -106,7 +106,7 @@ namespace Project_Goettergaemmerung
             }
         }
 
-        private void labelMainName_Click(object sender, EventArgs e)
+        private void LabelMainName_Click(object sender, EventArgs e)
         {
         }
     }

@@ -23,35 +23,15 @@ namespace Project_Goettergaemmerung.Components
 
         public bool PrintIsZero(int print1, int print2, int print3, int print4)
         {
-            int print;
-            switch (_userData.Printer)
+            var print = _userData.Printer switch
             {
-                case PrintType.Print1:
-                    print = print1;
-                    break;
-
-                case PrintType.Print2:
-                    print = print2;
-                    break;
-
-                case PrintType.Print3:
-                    print = print3;
-                    break;
-
-                case PrintType.Print4:
-                    print = print4;
-                    break;
-
-                default:
-                    print = 0;
-                    break;
-            }
-
-            if (print != 0)
-            {
-                return false;
-            }
-            return true;
+                PrintType.Print1 => print1,
+                PrintType.Print2 => print2,
+                PrintType.Print3 => print3,
+                PrintType.Print4 => print4,
+                _ => 0,
+            };
+            return print == 0;
         }
     }
 }

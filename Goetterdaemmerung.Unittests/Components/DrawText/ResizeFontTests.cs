@@ -44,7 +44,7 @@ namespace Unittests.Components.DrawText
             var twoHandedFontsize = 28;
             var conditionFontsize = 28;
             var modifiersFontsize = 36;
-            var cenerFontsize = 24;
+            //var cenerFontsize = 24;
             var textFontsize = 24;
             var flavorTextFontsize = 18;
             var scrappedFontsize = 22;

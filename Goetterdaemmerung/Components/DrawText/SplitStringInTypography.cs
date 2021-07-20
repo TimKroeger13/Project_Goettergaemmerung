@@ -54,7 +54,7 @@ namespace Project_Goettergaemmerung.Components.DrawText
                 }
                 if (punctuated.IsMatch(item))
                 {
-                    for (int i = punctuationMarker; i < punktuationCounter; i++)
+                    for (var i = punctuationMarker; i < punktuationCounter; i++)
                     {
                         typographyMarker[i] = (typographyMarker[i].Word, Typography.Bold);
                     }

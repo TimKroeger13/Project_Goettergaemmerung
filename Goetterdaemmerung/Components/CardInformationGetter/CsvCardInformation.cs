@@ -5,34 +5,42 @@ using System.Diagnostics;
 using System.Linq;
 using System;
 using System.Text;
+using Project_Goettergaemmerung.Components;
 
 namespace Project_Goettergaemmerung.Components.CardInformationGetter
 {
     public class CsvCardInformation : ICardInformationGetter
     {
+        private readonly IUserData _userData;
+
+        public CsvCardInformation(IUserData userData)
+        {
+            _userData = userData;
+        }
+
         private string LoadCsv(string path)
         {
             return File.ReadAllText(path);
         }
 
-        private string CleanStrings(string String)
+        private string CleanStrings(string rawString)
         {
-            if (String.Length > 0)
+            if (rawString.Length > 0)
             {
-                if (String[0] == '"')
+                if (rawString[0] == '"')
                 {
                     var outputString = new StringBuilder();
-                    bool skip = false;
+                    var skip = false;
 
-                    for (int i = 0; i < String.Length; i++)
+                    for (var i = 0; i < rawString.Length; i++)
                     {
-                        if (String[i] != '"' || skip)
+                        if (rawString[i] != '"' || skip)
                         {
-                            outputString.Append(String[i]);
+                            outputString.Append(rawString[i]);
 
                             if (skip) { skip = false; }
                         }
-                        if (String[i] == '"') { skip = true; }
+                        if (rawString[i] == '"') { skip = true; }
                     }
 
                     if (outputString[outputString.Length - 1] == '"' && outputString[outputString.Length - 2] == '"')
@@ -49,36 +57,47 @@ namespace Project_Goettergaemmerung.Components.CardInformationGetter
                 }
                 else
                 {
-                    return String;
+                    return rawString;
                 }
             }
             else
             {
-                return String;
+                return rawString;
             }
         }
 
         private string CheckIfNull(string print)
         {
-            if (print == "")
+            if (print.Length == 0)
             {
                 return "0";
             }
             return print;
         }
 
-        public IEnumerable<CardInformationModel> GetCardInformation(string path)
+        public IEnumerable<CardInformationModel> GetCardInformation()
         {
-            var dictionaryCardStructure = Enum.GetValues<CardStructure>().ToDictionary(ct => Enum.GetName(ct), StringComparer.OrdinalIgnoreCase);
-            var dictionaryCardType = Enum.GetValues<CardType>().ToDictionary(ct => Enum.GetName(ct), StringComparer.OrdinalIgnoreCase);
+            var dictionaryCardStructure = Enum.GetValues<CardStructure>().ToDictionary(i =>
+            { var enumName = Enum.GetName(i); return (enumName != null) ? enumName.ToUpper() : ""; });
+
+            var dictionaryCardType = Enum.GetValues<CardType>().ToDictionary(i =>
+            { var enumName = Enum.GetName(i); return (enumName != null) ? enumName.ToUpper() : ""; });
             dictionaryCardType.Add("", CardType.Empty);
-            var dictionaryCardSubType = Enum.GetValues<CardSubType>().ToDictionary(ct => Enum.GetName(ct), StringComparer.OrdinalIgnoreCase);
+
+            var dictionaryCardSubType = Enum.GetValues<CardSubType>().ToDictionary(i =>
+            { var enumName = Enum.GetName(i); return (enumName != null) ? enumName.ToUpper() : ""; });
             dictionaryCardSubType.Add("", CardSubType.Empty);
-            var dictionaryCondition = Enum.GetValues<Condition>().ToDictionary(ct => Enum.GetName(ct), StringComparer.OrdinalIgnoreCase);
+
+            var dictionaryCondition = Enum.GetValues<Condition>().ToDictionary(i =>
+            { var enumName = Enum.GetName(i); return (enumName != null) ? enumName.ToUpper() : ""; });
             dictionaryCondition.Add("", Condition.Empty);
-            var dictionaryRace = Enum.GetValues<Race>().ToDictionary(ct => Enum.GetName(ct), StringComparer.OrdinalIgnoreCase);
+
+            var dictionaryRace = Enum.GetValues<Race>().ToDictionary(i =>
+            { var enumName = Enum.GetName(i); return (enumName != null) ? enumName.ToUpper() : ""; });
             dictionaryRace.Add("", Race.Empty);
 
+            var path = _userData.ImportPath;
+            if (path == null) { path = ""; }
             var loadedCSV = LoadCsv(path);
             var newLineSplitted = loadedCSV.Split("\r\n");
             var splitMatrix = newLineSplitted.Select(line => line.Split(";"));
@@ -88,27 +107,29 @@ namespace Project_Goettergaemmerung.Components.CardInformationGetter
             {
                 if (row.Length < 18) continue;
                 if (row[0] == "Struktur") continue;
-                var model = new CardInformationModel();
-                model.Structure = dictionaryCardStructure[row[0]];
-                model.ExtraDeck = row[1] == "1";
-                model.CardType = dictionaryCardType[row[2]];
-                model.Name = CleanStrings(row[3]);
-                model.SubType = dictionaryCardSubType[row[4]];
-                model.TwoHanded = row[5] == "Zweihändig";
-                model.Condition = dictionaryCondition[row[6]];
-                model.Modifiers = CleanStrings(row[7]);
-                model.CenterText = CleanStrings(row[8]);
-                model.Text = CleanStrings(row[9]);
-                model.FlavorText = CleanStrings(row[10]);
-                model.Level = row[11];
-                model.Race = dictionaryRace[row[12]];
-                model.WinText = CleanStrings(row[13]);
-                model.LoseText = CleanStrings(row[14]);
-                model.Scrapped = CleanStrings(row[15]);
-                model.Print1 = int.Parse(CheckIfNull(row[16]));
-                model.Print2 = int.Parse(CheckIfNull(row[17]));
-                model.Print3 = int.Parse(CheckIfNull(row[18]));
-                model.Print4 = int.Parse(CheckIfNull(row[19]));
+                var model = new CardInformationModel
+                {
+                    Structure = dictionaryCardStructure[row[0].ToUpper()],
+                    ExtraDeck = row[1] == "1",
+                    CardType = dictionaryCardType[row[2].ToUpper()],
+                    Name = CleanStrings(row[3]),
+                    SubType = dictionaryCardSubType[row[4].ToUpper()],
+                    TwoHanded = row[5] == "Zweihändig",
+                    Condition = dictionaryCondition[row[6].ToUpper()],
+                    Modifiers = CleanStrings(row[7]),
+                    CenterText = CleanStrings(row[8]),
+                    Text = CleanStrings(row[9]),
+                    FlavorText = CleanStrings(row[10]),
+                    Level = row[11],
+                    Race = dictionaryRace[row[12].ToUpper()],
+                    WinText = CleanStrings(row[13]),
+                    LoseText = CleanStrings(row[14]),
+                    Scrapped = CleanStrings(row[15]),
+                    Print1 = int.Parse(CheckIfNull(row[16])),
+                    Print2 = int.Parse(CheckIfNull(row[17])),
+                    Print3 = int.Parse(CheckIfNull(row[18])),
+                    Print4 = int.Parse(CheckIfNull(row[19]))
+                };
 
                 result.Add(model);
             }

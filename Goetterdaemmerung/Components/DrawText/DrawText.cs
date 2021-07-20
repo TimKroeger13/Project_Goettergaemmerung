@@ -15,8 +15,8 @@ namespace Project_Goettergaemmerung.Components.DrawText
 {
     public interface IDrawText
     {
-        Bitmap DrawTextASBitmap(CardStructure structure, string name, CardSubType subType, bool twoHanded, Condition condition, string modifiers, string center, string text, string flavorText, string scrapped,
-            string lvl, string winText, string loseText, Race race);
+        Bitmap DrawTextASBitmap(CardStructure structure, string? name, CardSubType subType, bool twoHanded, Condition condition, string? modifiers, string? center, string? text, string? flavorText, string? scrapped,
+            string? lvl, string? winText, string? loseText, Race race);
     }
 
     public class DrawText : IDrawText
@@ -30,9 +30,9 @@ namespace Project_Goettergaemmerung.Components.DrawText
             _drawMonsterCards = drawMonsterCards;
         }
 
-        public Bitmap DrawTextASBitmap(CardStructure structure, string name, CardSubType subType, bool twoHanded, Condition condition,
-            string modifiers, string center, string text, string flavorText, string scrapped,
-            string lvl, string winText, string loseText, Race race)
+        public Bitmap DrawTextASBitmap(CardStructure structure, string? name, CardSubType subType, bool twoHanded, Condition condition,
+            string? modifiers, string? center, string? text, string? flavorText, string? scrapped,
+            string? lvl, string? winText, string? loseText, Race race)
         {
             var placeholder = new Bitmap(700, 1000);
             switch (structure)
@@ -43,6 +43,9 @@ namespace Project_Goettergaemmerung.Components.DrawText
 
                 case CardStructure.Monster:
                     return _drawMonsterCards.DrawTextForMonsterCards(name, lvl, race, winText, loseText, text, flavorText);
+
+                default:
+                    break;
             }
 
             return placeholder;

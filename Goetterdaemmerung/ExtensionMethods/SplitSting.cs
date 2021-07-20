@@ -11,7 +11,7 @@ namespace Project_Goettergaemmerung.ExtensionMethods
 
             if (text.Length > 0)
             {
-                for (int i = 0; i < text.Length; i++)
+                for (var i = 0; i < text.Length; i++)
                 {
                     if (text[i] == ' ')
                     {

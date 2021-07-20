@@ -15,8 +15,13 @@ namespace Project_Goettergaemmerung.ExtensionMethods
         public static string GetDescription(this Enum value)
         {
             var enumField = value.GetType().GetField(value.ToString());
-            var attributes = (DescriptionAttribute[])enumField.GetCustomAttributes(typeof(DescriptionAttribute), false);
-            return attributes[0].Description;
+
+            if (enumField != null)
+            {
+                var attributes = (DescriptionAttribute[])enumField.GetCustomAttributes(typeof(DescriptionAttribute), false);
+                return attributes[0].Description;
+            }
+            return "";
         }
     }
 }

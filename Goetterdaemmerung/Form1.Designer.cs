@@ -115,7 +115,7 @@ namespace Project_Goettergaemmerung
             this.listBoxPrintModus.Name = "listBoxPrintModus";
             this.listBoxPrintModus.Size = new System.Drawing.Size(150, 60);
             this.listBoxPrintModus.TabIndex = 9;
-            this.listBoxPrintModus.SelectedIndexChanged += new System.EventHandler(this.listBoxPrintModus_SelectedIndexChanged);
+            this.listBoxPrintModus.SelectedIndexChanged += new System.EventHandler(this.ListBoxPrintModus_SelectedIndexChanged);
             // 
             // labelPrintModus
             // 
@@ -125,7 +125,7 @@ namespace Project_Goettergaemmerung
             this.labelPrintModus.Size = new System.Drawing.Size(194, 20);
             this.labelPrintModus.TabIndex = 10;
             this.labelPrintModus.Text = "Choose Cardsaveing Format";
-            this.labelPrintModus.Click += new System.EventHandler(this.labelPrintModus_Click);
+            this.labelPrintModus.Click += new System.EventHandler(this.LabelPrintModus_Click);
             // 
             // listBoxPrintLayout
             // 
@@ -137,7 +137,7 @@ namespace Project_Goettergaemmerung
             this.listBoxPrintLayout.Name = "listBoxPrintLayout";
             this.listBoxPrintLayout.Size = new System.Drawing.Size(150, 80);
             this.listBoxPrintLayout.TabIndex = 11;
-            this.listBoxPrintLayout.SelectedIndexChanged += new System.EventHandler(this.listBoxPrintLayout_SelectedIndexChanged);
+            this.listBoxPrintLayout.SelectedIndexChanged += new System.EventHandler(this.ListBoxPrintLayout_SelectedIndexChanged);
             // 
             // pictureBox1
             // 
@@ -159,7 +159,7 @@ namespace Project_Goettergaemmerung
             this.labelMainName.TabIndex = 13;
             this.labelMainName.Text = "Götterdämmerung\r\nKarteneditor";
             this.labelMainName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.labelMainName.Click += new System.EventHandler(this.labelMainName_Click);
+            this.labelMainName.Click += new System.EventHandler(this.LabelMainName_Click);
             // 
             // pictureBox2
             // 

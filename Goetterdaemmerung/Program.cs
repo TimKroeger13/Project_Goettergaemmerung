@@ -29,7 +29,7 @@ namespace Project_Goettergaemmerung
             services.AddTransient<ICardInformationGetter, CsvCardInformation>(); //OdsCardInformation
 #endif
             services.AddTransient<ICardPrinter, CardPrinter>();
-            services.AddTransient<ICreatePicture, CreatePicture>();
+            services.AddTransient<ICreatePicture, CreatePicture<Bitmap>>();
             services.AddSingleton<IUserData, UserData>();
             services.AddSingleton<ITemplateBuilder, TemplateBuilder>();
             services.AddSingleton<IPicturesFromArchive, PicturesFromArchive>();
@@ -48,7 +48,6 @@ namespace Project_Goettergaemmerung
             services.AddTransient<IMeassureDrawMonsterCards, MeassureDrawMonsterCards>();
             services.AddTransient<ISaveImage, SaveImage>();
             services.AddTransient<ICheckIfPrintIsZero, CheckIfPrintIsZero>();
-            services.AddSingleton<IDisposeBitmaps<Bitmap>, DisposeBitmaps<Bitmap>>();
 
             services.AddSingleton<Form1>();
             using var provider = services.BuildServiceProvider();

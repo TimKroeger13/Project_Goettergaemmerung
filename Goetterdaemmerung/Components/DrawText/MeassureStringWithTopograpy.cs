@@ -12,7 +12,7 @@ namespace Project_Goettergaemmerung.Components.DrawText
 {
     public interface IMeassureStringWithTopograpy
     {
-        float MeassureStringOnBitmapWithTopograpy(string text, Graphics g, float textHigth, int fontSize, (int offSet, int width) widthBoarders, string fontName);
+        float MeassureStringOnBitmapWithTopograpy(string? text, Graphics g, float textHigth, int fontSize, (int offSet, int width) widthBoarders, string fontName);
     }
 
     public class MeassureStringWithTopograpy : IMeassureStringWithTopograpy
@@ -24,9 +24,10 @@ namespace Project_Goettergaemmerung.Components.DrawText
             _splitStringInTypography = splitStringInTypography;
         }
 
-        public float MeassureStringOnBitmapWithTopograpy(string text, Graphics g, float textHigth, int fontSize,
+        public float MeassureStringOnBitmapWithTopograpy(string? text, Graphics g, float textHigth, int fontSize,
             (int offSet, int width) widthBoarders, string fontName)
         {
+            if (text == null) { text = ""; }
             var splitText = _splitStringInTypography.SplitString(text).ToList();
 
             g.SmoothingMode = SmoothingMode.AntiAlias;
@@ -38,45 +39,45 @@ namespace Project_Goettergaemmerung.Components.DrawText
             g.CompositingQuality = CompositingQuality.HighQuality;
 
             float currentCharacterWidth = widthBoarders.offSet;
-            float currentCharacterHigth = textHigth;
+            var currentCharacterHigth = textHigth;
 
-            foreach (var word in splitText)
+            foreach (var (word, marker) in splitText)
             {
-                switch (word.Item2)
+                switch (marker)
                 {
                     case Typography.Regular:
                         using (var useFont = new Font(fontName, fontSize, FontStyle.Regular))
                         {
-                            if (g.MeasureString(word.Item1, useFont, 1000).Width + currentCharacterWidth > widthBoarders.width - widthBoarders.offSet)
+                            if (g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth > widthBoarders.width - widthBoarders.offSet)
                             {
-                                currentCharacterHigth += g.MeasureString(word.Item1, useFont, 1000).Height;
+                                currentCharacterHigth += g.MeasureString(word, useFont, 1000).Height;
                                 currentCharacterWidth = widthBoarders.offSet;
                             }
-                            currentCharacterWidth = g.MeasureString(word.Item1, useFont, 1000).Width + currentCharacterWidth;
+                            currentCharacterWidth = g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth;
                         }
                         break;
 
                     case Typography.Bold:
                         using (var useFont = new Font(fontName, fontSize, FontStyle.Bold))
                         {
-                            if (g.MeasureString(word.Item1, useFont, 1000).Width + currentCharacterWidth > widthBoarders.width - widthBoarders.offSet)
+                            if (g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth > widthBoarders.width - widthBoarders.offSet)
                             {
-                                currentCharacterHigth += g.MeasureString(word.Item1, useFont, 1000).Height;
+                                currentCharacterHigth += g.MeasureString(word, useFont, 1000).Height;
                                 currentCharacterWidth = widthBoarders.offSet;
                             }
-                            currentCharacterWidth = g.MeasureString(word.Item1, useFont, 1000).Width + currentCharacterWidth;
+                            currentCharacterWidth = g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth;
                         }
                         break;
 
                     case Typography.Italic:
                         using (var useFont = new Font(fontName, fontSize, FontStyle.Italic))
                         {
-                            if (g.MeasureString(word.Item1, useFont, 1000).Width + currentCharacterWidth > widthBoarders.width - widthBoarders.offSet)
+                            if (g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth > widthBoarders.width - widthBoarders.offSet)
                             {
-                                currentCharacterHigth += g.MeasureString(word.Item1, useFont, 1000).Height;
+                                currentCharacterHigth += g.MeasureString(word, useFont, 1000).Height;
                                 currentCharacterWidth = widthBoarders.offSet;
                             }
-                            currentCharacterWidth = g.MeasureString(word.Item1, useFont, 1000).Width + currentCharacterWidth;
+                            currentCharacterWidth = g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth;
                         }
                         break;
 

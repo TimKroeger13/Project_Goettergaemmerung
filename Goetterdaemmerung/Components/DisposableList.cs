@@ -24,14 +24,10 @@ namespace Project_Goettergaemmerung.Components
             _list.Add(action.Invoke());
         }
 
-        public void AddSingle(T bitmap)
-        {
-            _list.Add(bitmap);
-        }
-
         public void Dispose()
         {
             foreach (var item in _list) item?.Dispose();
+            GC.SuppressFinalize(this);
         }
 
         public IEnumerator<T> GetEnumerator()

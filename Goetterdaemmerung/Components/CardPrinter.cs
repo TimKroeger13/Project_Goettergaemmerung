@@ -14,31 +14,27 @@ namespace Project_Goettergaemmerung.Components
     public class CardPrinter : ICardPrinter
     {
         private readonly ICardInformationGetter _cardInformation;
-        private readonly IUserData _userData;
         private readonly ITemplateBuilder _templateBuilder;
         private readonly ICreatePicture _createPicture;
         private readonly IDisposableList<Bitmap> _disposableList;
         private readonly ISaveImage _saveImage;
         private readonly ICheckIfPrintIsZero _checkIfPrintIsZero;
-        private readonly IDisposeBitmaps<Bitmap> _disposeBitmaps;
 
-        public CardPrinter(ICardInformationGetter cardInformation, IUserData userData, ITemplateBuilder templateBuilder, ICreatePicture createPicture, IDisposableList<Bitmap> disposableList, ISaveImage saveImage, ICheckIfPrintIsZero checkIfPrintIsZero, IDisposeBitmaps<Bitmap> disposeBitmaps)
+        public CardPrinter(ICardInformationGetter cardInformation, ITemplateBuilder templateBuilder, ICreatePicture createPicture, IDisposableList<Bitmap> disposableList, ISaveImage saveImage, ICheckIfPrintIsZero checkIfPrintIsZero)
         {
             _cardInformation = cardInformation;
-            _userData = userData;
             _templateBuilder = templateBuilder;
             _createPicture = createPicture;
             _disposableList = disposableList;
             _saveImage = saveImage;
             _checkIfPrintIsZero = checkIfPrintIsZero;
-            _disposeBitmaps = disposeBitmaps;
         }
 
         public void PrintCards()
         {
-            var CardInformationList = _cardInformation.GetCardInformation(_userData.ImportPath).ToList();
+            var cardInformationList = _cardInformation.GetCardInformation().ToList();
 
-            foreach (var card in CardInformationList)
+            foreach (var card in cardInformationList)
             {
                 var structure = card.Structure;
                 var type = card.CardType;
@@ -66,18 +62,15 @@ namespace Project_Goettergaemmerung.Components
 
                 if (!_checkIfPrintIsZero.PrintIsZero(print1, print2, print3, print4))
                 {
-                    var Template = _templateBuilder.CardTemplate(structure, type, race, extra, name, subType, twoHanded, condition, modifier, center,
+                    using var template = _templateBuilder.CardTemplate(structure, type, race, extra, name, subType, twoHanded, condition, modifier, center,
                         text, flavorText, scrapped, lvl, winText, loseText);
 
-                    using var finalCard = _createPicture.MergedBitmaps(Template);
+                    using var finalCard = _createPicture.MergedBitmaps(template);
                     _saveImage.SaveCardasImage(finalCard, name, type, print1, print2, print3, print4);
-                    //SaveImage(finalCard, name);
-                    //Template.Dispose();
                     _disposableList.Dispose();
+                    _createPicture.Dispose();
                 }
             }
-
-            //_disposeBitmaps.DisposePicturesFromArchive();
         }
     }
 }

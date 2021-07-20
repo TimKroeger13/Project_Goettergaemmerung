@@ -10,7 +10,7 @@ namespace Project_Goettergaemmerung.Components
 {
     public interface ISaveImage
     {
-        void SaveCardasImage(Bitmap card, string filename, CardType type, int print1, int print2, int print3, int print4);
+        void SaveCardasImage(Bitmap card, string? filename, CardType type, int print1, int print2, int print3, int print4);
     }
 
     public class SaveImage : ISaveImage
@@ -33,7 +33,7 @@ namespace Project_Goettergaemmerung.Components
             card.Save(_userData.ExportPath + "\\" + name + ".png", ImageFormat.Png);
         }
 
-        private void SaveRebalenceFormat(Bitmap card, string filename, CardType type, int print)
+        private void SaveRebalenceFormat(Bitmap card)
         {
             var name = _userData.RebalenceNumber;
             card.Save(_userData.ExportPath + "\\" + name + ".png", ImageFormat.Png);
@@ -41,42 +41,27 @@ namespace Project_Goettergaemmerung.Components
 
         private void SaveTabeltopFormat(Bitmap card, string filename, CardType type, int print)
         {
-            for (int i = 0; i < print; i++)
+            for (var i = 0; i < print; i++)
             {
                 var name = type.GetDescription() + "_" + ChangePrintNumbers(i + 1) + "_" + filename;
                 card.Save(_userData.ExportPath + "\\" + name + ".png", ImageFormat.Png);
             }
         }
 
-        public void SaveCardasImage(Bitmap card, string filename, CardType type,
+        public void SaveCardasImage(Bitmap card, string? filename, CardType type,
             int print1, int print2, int print3, int print4)
         {
-            int print;
-            _userData.RebalenceNumber += 1;
+            if (filename == null) { filename = ""; }
 
-            switch (_userData.Printer)
+            _userData.RebalenceNumber++;
+            var print = _userData.Printer switch
             {
-                case PrintType.Print1:
-                    print = print1;
-                    break;
-
-                case PrintType.Print2:
-                    print = print2;
-                    break;
-
-                case PrintType.Print3:
-                    print = print3;
-                    break;
-
-                case PrintType.Print4:
-                    print = print4;
-                    break;
-
-                default:
-                    print = 0;
-                    break;
-            }
-
+                PrintType.Print1 => print1,
+                PrintType.Print2 => print2,
+                PrintType.Print3 => print3,
+                PrintType.Print4 => print4,
+                _ => 0,
+            };
             if (print != 0)
             {
                 if (_userData.CurrentFormat == SaveFormat.normal)
@@ -89,7 +74,7 @@ namespace Project_Goettergaemmerung.Components
                 }
                 if (_userData.CurrentFormat == SaveFormat.rebalence)
                 {
-                    SaveRebalenceFormat(card, filename, type, print);
+                    SaveRebalenceFormat(card);
                 }
             }
         }
