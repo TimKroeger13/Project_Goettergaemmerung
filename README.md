@@ -17,4 +17,4 @@ People who want to understand how to manipulate bitmaps in C#, perform blending 
 | -------- | --------- | ------ | ------- | -------- | ---------- | --------- | ------- | ------ | ----------- | --------------- | --------------- | ------ | ------ | ------- | ------- | ------- | ------- |
 | bool     | bool      | string | string  | string   | bool       | string    | string  | string | string      | string          | string          | string | string | integer | integer | integer | integer |
 |          |           |        | centert | centert  | centert    | centert   | centert |        |             | + Rasse centert | + Stufe centert |        |        |         |         |         |         |
-|          |           |        | fett    |          |            |           |         |        | kursive     | + Rasse fett    | + Stufe fett    |        |        |         |         |         |         |
+|          |           |        | bold    |          |            |           |         |        | italic     | +     | + Stufe fett    |        |        |         |         |         |         |
