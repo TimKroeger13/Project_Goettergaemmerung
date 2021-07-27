@@ -16,5 +16,3 @@ People who want to understand how to manipulate bitmaps in C#, perform blending 
 | Struktur | Extradeck | Typ    | Name    | Untertyp | Zweihändig | Bedingung | Stats   | Text   | Flavor_text | Stufe           | Rasse           | Win    | Lose   | Druck_1 | Druck_2 | Druck_3 | Druck_4 |
 | -------- | --------- | ------ | ------- | -------- | ---------- | --------- | ------- | ------ | ----------- | --------------- | --------------- | ------ | ------ | ------- | ------- | ------- | ------- |
 | bool     | bool      | string | string  | string   | bool       | string    | string  | string | string      | string          | string          | string | string | integer | integer | integer | integer |
-|          |           |        | centert | centert  | centert    | centert   | centert |        |             | + Rasse centert | + Stufe centert |        |        |         |         |         |         |
-|          |           |        | bold    |          |            |           |         |        | italic     | +     | + Stufe fett    |        |        |         |         |         |         |
