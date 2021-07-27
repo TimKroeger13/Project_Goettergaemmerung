@@ -1,5 +1,5 @@
 # Project_Goettergaemmerung
-Card Editor Program for private use <br>
+*Card Editor Program for private use* <br>
 
 ### What does Project Goetterdeammerung do:
 
