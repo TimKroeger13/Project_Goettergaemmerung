@@ -1,5 +1,5 @@
 # Project_Goettergaemmerung
-Card Editor Program for private use - *Documentation language is german.* <br>
+Card Editor Program for private use <br>
 #### Aufgabe des Scripts:
 
 **Ziel** dieses Programmes ist es aus einen gegebenen *.ods* File, welcher auf der Basis von LibreOffice Calc erstellt wurde, einzulesen und mit
@@ -63,7 +63,7 @@ integiert werden kann.
 Zeilenumbruch stattfindet oder nicht kann man dies auch als Information benutzen um herauszufinden ob eine Textbox passt oder nicht passt, wenn man weiß wie Breit eine
 Zeilen der gewählten Schriftart ist. Auch hier währe es sehr praktisch wenn leichten Weg gibt dies direkt in die Textbox zu integrieren.
 
-#### Aufbau der Excel und Formatierungen:
+#### Needed Excel Format:
 
 | Struktur | Extradeck | Typ    | Name    | Untertyp | Zweihändig | Bedingung | Stats   | Text   | Flavor_text | Stufe           | Rasse           | Win    | Lose   | Druck_1 | Druck_2 | Druck_3 | Druck_4 |
 | -------- | --------- | ------ | ------- | -------- | ---------- | --------- | ------- | ------ | ----------- | --------------- | --------------- | ------ | ------ | ------- | ------- | ------- | ------- |
