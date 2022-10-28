@@ -110,7 +110,7 @@ namespace Project_Goettergaemmerung.Components.CardInformationGetter
                 var model = new CardInformationModel
                 {
                     Structure = dictionaryCardStructure[row[0].ToUpper()],
-                    ExtraDeck = row[1] == "1",
+                    ExtraDeck = row[1] == "TRUE",
                     CardType = dictionaryCardType[row[2].ToUpper()],
                     Name = CleanStrings(row[3]),
                     SubType = dictionaryCardSubType[row[4].ToUpper()],

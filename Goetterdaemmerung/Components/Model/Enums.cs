@@ -25,8 +25,11 @@ namespace Project_Goettergaemmerung.Components.Model
 
     public enum CardSubType
     {
-        [Description("Artifact")]
+        [Description("Artefakt")]
         Artifact,
+
+        [Description("Merkmal")]
+        Attribute,
 
         [Description("(Ausrüstung-Waffe)")]
         Weapon,
@@ -46,17 +49,20 @@ namespace Project_Goettergaemmerung.Components.Model
         [Description("(Klasse)")]
         Class,
 
-        [Description("(Zauber-Falle)")]
-        SpellTrap,
-
         [Description("(Zauber-Katastrophe)")]
         SpellDisaster,
 
-        [Description("(Zauber-Schnell)")]
+        [Description("(Zauber-Hinterhalt)")]
+        SpellTrap,
+
+        [Description("(Zauber-Sofort)")]
         SpellFast,
 
-        [Description("(Zauber-Normal)")]
+        [Description("(Zauber-Ritual)")]
         SpellNormal,
+
+        [Description("(Elixier)")]
+        Elixier,
 
         [Description("(Zauber-Konter)")]
         SpellCounter,
@@ -73,8 +79,11 @@ namespace Project_Goettergaemmerung.Components.Model
         [Description("Zwerg")]
         Dwarf,
 
-        [Description("Oger")]
-        Ogre,
+        [Description("Elf")]
+        Elf,
+
+        [Description("Ork")]
+        Ork,
 
         [Description("Homunkulus")]
         Homunculus,
