@@ -8,95 +8,94 @@ using System.Drawing.Text;
 using System.Threading.Tasks;
 using Project_Goettergaemmerung.Components.Model;
 
-namespace Project_Goettergaemmerung.Components.DrawText
+namespace Project_Goettergaemmerung.Components.DrawText;
+
+public interface IDrawBoxWithTopograpy
 {
-    public interface IDrawBoxWithTopograpy
+    void DrawBoxOnBitmapWithTopograpy(string? text, Graphics g, int fontSize, string? fontName,
+                (int top, int buttom) boxhigth, (int left, int rigth) boxwidth);
+}
+
+public class DrawBoxWithTopograpy : IDrawBoxWithTopograpy
+{
+    private readonly ISplitStringInTypography _splitStringInTypography;
+
+    public DrawBoxWithTopograpy(ISplitStringInTypography splitStringInTypography)
     {
-        void DrawBoxOnBitmapWithTopograpy(string? text, Graphics g, int fontSize, string? fontName,
-                    (int top, int buttom) boxhigth, (int left, int rigth) boxwidth);
+        _splitStringInTypography = splitStringInTypography;
     }
 
-    public class DrawBoxWithTopograpy : IDrawBoxWithTopograpy
+    public void DrawBoxOnBitmapWithTopograpy(string? text, Graphics g, int fontSize, string? fontName,
+        (int top, int buttom) boxhigth, (int left, int rigth) boxwidth)
     {
-        private readonly ISplitStringInTypography _splitStringInTypography;
+        if (text == null) { text = ""; }
+        if (fontName == null) { fontName = ""; }
+        var splitText = _splitStringInTypography.SplitString(text).ToList();
 
-        public DrawBoxWithTopograpy(ISplitStringInTypography splitStringInTypography)
+        g.SmoothingMode = SmoothingMode.AntiAlias;
+        g.InterpolationMode = InterpolationMode.HighQualityBicubic;
+        g.PixelOffsetMode = PixelOffsetMode.HighQuality;
+        g.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
+        g.PageUnit = GraphicsUnit.Pixel;
+        g.CompositingMode = CompositingMode.SourceOver;
+        g.CompositingQuality = CompositingQuality.HighQuality;
+
+        float currentCharacterWidth = boxwidth.left;
+        float currentCharacterHigth = boxhigth.top;
+
+        foreach (var (word, marker) in splitText)
         {
-            _splitStringInTypography = splitStringInTypography;
-        }
-
-        public void DrawBoxOnBitmapWithTopograpy(string? text, Graphics g, int fontSize, string? fontName,
-            (int top, int buttom) boxhigth, (int left, int rigth) boxwidth)
-        {
-            if (text == null) { text = ""; }
-            if (fontName == null) { fontName = ""; }
-            var splitText = _splitStringInTypography.SplitString(text).ToList();
-
-            g.SmoothingMode = SmoothingMode.AntiAlias;
-            g.InterpolationMode = InterpolationMode.HighQualityBicubic;
-            g.PixelOffsetMode = PixelOffsetMode.HighQuality;
-            g.TextRenderingHint = TextRenderingHint.AntiAliasGridFit;
-            g.PageUnit = GraphicsUnit.Pixel;
-            g.CompositingMode = CompositingMode.SourceOver;
-            g.CompositingQuality = CompositingQuality.HighQuality;
-
-            float currentCharacterWidth = boxwidth.left;
-            float currentCharacterHigth = boxhigth.top;
-
-            foreach (var (word, marker) in splitText)
+            switch (marker)
             {
-                switch (marker)
-                {
-                    case Typography.Regular:
-                        using (var useFont = new Font(fontName, fontSize, FontStyle.Regular))
+                case Typography.Regular:
+                    using (var useFont = new Font(fontName, fontSize, FontStyle.Regular))
+                    {
+                        if (g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth > boxwidth.rigth)
                         {
-                            if (g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth > boxwidth.rigth)
-                            {
-                                currentCharacterHigth += g.MeasureString(word, useFont, 1000).Height;
-                                currentCharacterWidth = boxwidth.left;
-                            }
-
-                            g.DrawString(word, useFont, Brushes.Black, currentCharacterWidth, currentCharacterHigth);
-                            currentCharacterWidth = g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth;
-                        }
-                        break;
-
-                    case Typography.Bold:
-                        using (var useFont = new Font(fontName, fontSize, FontStyle.Bold))
-                        {
-                            if (g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth > boxwidth.rigth)
-                            {
-                                currentCharacterHigth += g.MeasureString(word, useFont, 1000).Height;
-                                currentCharacterWidth = boxwidth.left;
-                            }
-
-                            g.DrawString(word, useFont, Brushes.Black, currentCharacterWidth, currentCharacterHigth);
-                            currentCharacterWidth = g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth;
-                        }
-                        break;
-
-                    case Typography.Italic:
-                        using (var useFont = new Font(fontName, fontSize, FontStyle.Italic))
-                        {
-                            if (g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth > boxwidth.rigth)
-                            {
-                                currentCharacterHigth += g.MeasureString(word, useFont, 1000).Height;
-                                currentCharacterWidth = boxwidth.left;
-                            }
-
-                            g.DrawString(word, useFont, Brushes.Black, currentCharacterWidth, currentCharacterHigth);
-                            currentCharacterWidth = g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth;
-                        }
-                        break;
-
-                    case Typography.LineBreak:
-                        using (var useFont = new Font(fontName, fontSize, FontStyle.Regular))
-                        {
-                            currentCharacterHigth += g.MeasureString(splitText[0].Word, useFont, 1000).Height;
+                            currentCharacterHigth += g.MeasureString(word, useFont, 1000).Height;
                             currentCharacterWidth = boxwidth.left;
                         }
-                        break;
-                }
+
+                        g.DrawString(word, useFont, Brushes.Black, currentCharacterWidth, currentCharacterHigth);
+                        currentCharacterWidth = g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth;
+                    }
+                    break;
+
+                case Typography.Bold:
+                    using (var useFont = new Font(fontName, fontSize, FontStyle.Bold))
+                    {
+                        if (g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth > boxwidth.rigth)
+                        {
+                            currentCharacterHigth += g.MeasureString(word, useFont, 1000).Height;
+                            currentCharacterWidth = boxwidth.left;
+                        }
+
+                        g.DrawString(word, useFont, Brushes.Black, currentCharacterWidth, currentCharacterHigth);
+                        currentCharacterWidth = g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth;
+                    }
+                    break;
+
+                case Typography.Italic:
+                    using (var useFont = new Font(fontName, fontSize, FontStyle.Italic))
+                    {
+                        if (g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth > boxwidth.rigth)
+                        {
+                            currentCharacterHigth += g.MeasureString(word, useFont, 1000).Height;
+                            currentCharacterWidth = boxwidth.left;
+                        }
+
+                        g.DrawString(word, useFont, Brushes.Black, currentCharacterWidth, currentCharacterHigth);
+                        currentCharacterWidth = g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth;
+                    }
+                    break;
+
+                case Typography.LineBreak:
+                    using (var useFont = new Font(fontName, fontSize, FontStyle.Regular))
+                    {
+                        currentCharacterHigth += g.MeasureString(splitText[0].Word, useFont, 1000).Height;
+                        currentCharacterWidth = boxwidth.left;
+                    }
+                    break;
             }
         }
     }

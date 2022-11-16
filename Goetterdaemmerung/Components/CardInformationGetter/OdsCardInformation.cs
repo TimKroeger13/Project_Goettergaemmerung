@@ -1,18 +1,16 @@
-﻿using System.Collections.Generic;
-using Project_Goettergaemmerung.Components.Model;
+﻿using Project_Goettergaemmerung.Components.Model;
 
-namespace Project_Goettergaemmerung.Components.CardInformationGetter
+namespace Project_Goettergaemmerung.Components.CardInformationGetter;
+
+public class OdsCardInformation : ICardInformationGetter
 {
-    public class OdsCardInformation : ICardInformationGetter
+    public IEnumerable<CardInformationModel> GetCardInformation()
     {
-        public IEnumerable<CardInformationModel> GetCardInformation()
-        {
-            return new List<CardInformationModel>() { new CardInformationModel() };
-        }
+        return new List<CardInformationModel>() { new CardInformationModel() };
+    }
 
-        public IEnumerable<CardInformationModel> GetCardInformation(string path)
-        {
-            throw new System.NotImplementedException();
-        }
+    public IEnumerable<CardInformationModel> GetCardInformation(string path)
+    {
+        throw new System.NotImplementedException();
     }
 }
