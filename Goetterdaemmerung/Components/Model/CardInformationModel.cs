@@ -1,10 +1,8 @@
-﻿using System;
-using System.Drawing;
-
-namespace Project_Goettergaemmerung.Components.Model;
+﻿namespace Project_Goettergaemmerung.Components.Model;
 
 public class CardInformationModel
 {
+    public long Id { get; set; }
     public CardStructure Structure { get; set; }
     public bool ExtraDeck { get; set; }
     public CardType CardType { get; set; }

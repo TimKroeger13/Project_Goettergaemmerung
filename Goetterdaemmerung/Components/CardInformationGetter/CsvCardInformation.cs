@@ -94,7 +94,7 @@ public class CsvCardInformation : ICardInformationGetter
         dictionaryRace.Add("", Race.Empty);
 
         var loadedCSV = LoadCsv();
-        var newLineSplitted = loadedCSV.Split('\n');
+        var newLineSplitted = loadedCSV.Split("\r\n");
         var splitMatrix = newLineSplitted.Select(line => line.Trim().Split(";"));
 
         var result = new List<CardInformationModel>();

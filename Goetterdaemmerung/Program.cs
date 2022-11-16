@@ -1,7 +1,4 @@
-﻿using System;
-using System.Drawing;
-using System.Windows.Forms;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.Extensions.DependencyInjection;
 using Project_Goettergaemmerung.Components;
 using Project_Goettergaemmerung.Components.CardInformationGetter;
 using Project_Goettergaemmerung.Components.DrawText;

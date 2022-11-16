@@ -1,4 +1,6 @@
 ﻿using System.Text;
+using System.Text.Encodings.Web;
+using System.Text.Json;
 using FluentAssertions;
 using NSubstitute;
 using Project_Goettergaemmerung.Components;
@@ -22,6 +24,10 @@ public class CsvCardInformationTests
     {
         var csvCardInformation = CreateCsvCardInformation();
         var result = csvCardInformation.GetCardInformation();
+        var json = JsonSerializer.Serialize(result, new JsonSerializerOptions()
+        {
+            Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+        });
         result.Count().Should().BeGreaterThan(0);
     }
 }
