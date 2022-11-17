@@ -18,13 +18,7 @@ internal static class Program
         Application.SetCompatibleTextRenderingDefault(false);
 
         var services = new ServiceCollection();
-#if DEBUG
-        services.AddTransient<ICardInformationGetter, CsvCardInformation>();
-#elif DEBUGODS
-        services.AddTransient<ICardInformationGetter, CsvCardInformation>(); //OdsCardInformation
-#else
-        services.AddTransient<ICardInformationGetter, CsvCardInformation>(); //OdsCardInformation
-#endif
+        services.AddTransient<ICardInformationGetterFactory, CardInformationGetterFactory>();
         services.AddTransient<ICardPrinter, CardPrinter>();
         services.AddTransient<ICreatePicture, CreatePicture<Bitmap>>();
         services.AddSingleton<IUserData, UserData>();
@@ -49,6 +43,12 @@ internal static class Program
         services.AddSingleton<Form1>();
         using var provider = services.BuildServiceProvider();
         using var mainForm = provider.GetRequiredService<Form1>();
+        Application.ThreadException += Application_ThreadException;
         Application.Run(mainForm);
+    }
+
+    private static void Application_ThreadException(object sender, ThreadExceptionEventArgs e)
+    {
+        MessageBox.Show(e.Exception.Message);
     }
 }

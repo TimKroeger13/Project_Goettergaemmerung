@@ -2,6 +2,13 @@
 
 namespace Project_Goettergaemmerung.Components.Model;
 
+public enum CardImportType
+{
+    CSV,
+    Sqlite,
+    NA
+}
+
 public enum PrintType
 {
     Print1,
