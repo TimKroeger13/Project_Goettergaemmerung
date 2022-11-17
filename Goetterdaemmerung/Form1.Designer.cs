@@ -43,6 +43,7 @@ partial class Form1
             this.labelMainName = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.buttonJsonExport = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -62,10 +63,6 @@ partial class Form1
             this.buttonLoad.Text = "Load Cardinformation";
             this.buttonLoad.UseVisualStyleBackColor = false;
             this.buttonLoad.Click += new System.EventHandler(this.ButtonLoad_Click);
-            // 
-            // openFileDialog1
-            // 
-            this.openFileDialog1.FileName = "";
             // 
             // buttonExport
             // 
@@ -189,6 +186,21 @@ partial class Form1
             this.pictureBox3.TabIndex = 15;
             this.pictureBox3.TabStop = false;
             // 
+            // buttonJsonExport
+            // 
+            this.buttonJsonExport.BackColor = System.Drawing.Color.Goldenrod;
+            this.buttonJsonExport.Enabled = false;
+            this.buttonJsonExport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonJsonExport.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.buttonJsonExport.Location = new System.Drawing.Point(356, 270);
+            this.buttonJsonExport.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.buttonJsonExport.Name = "buttonJsonExport";
+            this.buttonJsonExport.Size = new System.Drawing.Size(99, 22);
+            this.buttonJsonExport.TabIndex = 16;
+            this.buttonJsonExport.Text = "Export JSON";
+            this.buttonJsonExport.UseVisualStyleBackColor = false;
+            this.buttonJsonExport.Click += new System.EventHandler(this.ButtonJsonExport_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -196,6 +208,7 @@ partial class Form1
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.Goldenrod;
             this.ClientSize = new System.Drawing.Size(484, 302);
+            this.Controls.Add(this.buttonJsonExport);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.labelMainName);
@@ -238,5 +251,6 @@ partial class Form1
     private System.Windows.Forms.Label labelMainName;
     private System.Windows.Forms.PictureBox pictureBox2;
     private System.Windows.Forms.PictureBox pictureBox3;
+    private Button buttonJsonExport;
 }
 
