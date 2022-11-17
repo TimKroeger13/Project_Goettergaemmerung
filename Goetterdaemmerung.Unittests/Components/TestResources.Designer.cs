@@ -71,19 +71,6 @@ namespace Unittests.Components {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Struktur;Extradeck;Typ;Name;Untertyp;Zweihändig;Bedingung;Stats;CenterText;Text;Flavor_text;Stufe;Rasse;Win;Lose;Scrapped;Druck1;Druck2;Druck3;Druck4
-        ///normal;;Action;Arm ab oder arm dran;;;;;;&quot;Du wirst vor die Wahl gestellt.
-        ///Entweder verlierst du alle bis auf 1 Ausrüstungskarte (mindestens eine) oder deinen rechten Arm.
-        ///Solltest du deinen Arm verlieren so erhälst du &quot;&quot;Armlos&quot;&quot; (Extra Deck).&quot;;Du solltest dir nächstes mal zweimal überlegen ob du in die Suppe der Königs...;;;;;;0;1;1;0
-        ///normal;;Action;Berge vo [rest of string was truncated]&quot;;.
-        /// </summary>
-        internal static string Götterdämmerung_Karten {
-            get {
-                return ResourceManager.GetString("Götterdämmerung_Karten", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
         internal static byte[] Karten_Version1 {
