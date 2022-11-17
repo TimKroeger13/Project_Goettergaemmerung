@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace Project_Goettergaemmerung.ExtensionMethods;
+﻿namespace Project_Goettergaemmerung.ExtensionMethods;
 
 public static class SplitSting
 {

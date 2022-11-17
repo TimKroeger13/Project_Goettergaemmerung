@@ -1,6 +1,4 @@
-﻿using NSubstitute;
-using Project_Goettergaemmerung.ExtensionMethods;
-using System;
+﻿using Project_Goettergaemmerung.ExtensionMethods;
 using Xunit;
 
 namespace Unittests.ExtensionMethods;

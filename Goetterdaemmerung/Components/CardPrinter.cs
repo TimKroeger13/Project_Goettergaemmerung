@@ -1,8 +1,4 @@
-﻿using System.Drawing;
-using System.Drawing.Imaging;
-using System.Linq;
-using System.Windows.Forms;
-using Project_Goettergaemmerung.Components.CardInformationGetter;
+﻿using Project_Goettergaemmerung.Components.CardInformationGetter;
 
 namespace Project_Goettergaemmerung.Components;
 
@@ -13,28 +9,28 @@ public interface ICardPrinter
 
 public class CardPrinter : ICardPrinter
 {
-    private readonly ICardInformationGetter _cardInformation;
     private readonly ITemplateBuilder _templateBuilder;
+    private readonly ICardInformationGetterFactory _cardInformationGetterFactory;
     private readonly ICreatePicture _createPicture;
     private readonly IDisposableList<Bitmap> _disposableList;
     private readonly ISaveImage _saveImage;
     private readonly ICheckIfPrintIsZero _checkIfPrintIsZero;
 
-    public CardPrinter(ICardInformationGetter cardInformation, ITemplateBuilder templateBuilder, ICreatePicture createPicture, IDisposableList<Bitmap> disposableList, ISaveImage saveImage, ICheckIfPrintIsZero checkIfPrintIsZero)
+    public CardPrinter(ITemplateBuilder templateBuilder, ICreatePicture createPicture,
+        IDisposableList<Bitmap> disposableList, ISaveImage saveImage, ICheckIfPrintIsZero checkIfPrintIsZero,
+        ICardInformationGetterFactory cardInformationGetterFactory)
     {
-        _cardInformation = cardInformation;
         _templateBuilder = templateBuilder;
         _createPicture = createPicture;
         _disposableList = disposableList;
         _saveImage = saveImage;
         _checkIfPrintIsZero = checkIfPrintIsZero;
+        _cardInformationGetterFactory = cardInformationGetterFactory;
     }
 
     public void PrintCards()
     {
-        var cardInformationList = _cardInformation.GetCardInformation().ToList();
-
-        foreach (var card in cardInformationList)
+        foreach (var card in _cardInformationGetterFactory.CreateCardInformationGetter().GetCardInformation().ToList())
         {
             var structure = card.Structure;
             var type = card.CardType;

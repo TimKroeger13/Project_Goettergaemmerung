@@ -1,15 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Drawing.Drawing2D;
-using System.Linq;
-using System.Text;
+﻿using System.Drawing.Drawing2D;
 using System.Drawing.Text;
-using System.Threading.Tasks;
 using Project_Goettergaemmerung.Components.Model;
-using System.ComponentModel;
 using Project_Goettergaemmerung.ExtensionMethods;
-using System.Drawing.Imaging;
 
 namespace Project_Goettergaemmerung.Components.DrawText;
 

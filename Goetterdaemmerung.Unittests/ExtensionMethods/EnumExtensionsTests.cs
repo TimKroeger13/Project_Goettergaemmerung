@@ -1,7 +1,5 @@
-﻿using NSubstitute;
-using Project_Goettergaemmerung.Components.Model;
+﻿using Project_Goettergaemmerung.Components.Model;
 using Project_Goettergaemmerung.ExtensionMethods;
-using System;
 using Xunit;
 using FluentAssertions;
 

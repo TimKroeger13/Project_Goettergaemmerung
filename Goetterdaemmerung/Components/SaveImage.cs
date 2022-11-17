@@ -1,8 +1,4 @@
-﻿using System.Drawing;
-using System.Drawing.Imaging;
-using System.Linq;
-using System.Windows.Forms;
-using Project_Goettergaemmerung.Components.CardInformationGetter;
+﻿using System.Drawing.Imaging;
 using Project_Goettergaemmerung.Components.Model;
 using Project_Goettergaemmerung.ExtensionMethods;
 

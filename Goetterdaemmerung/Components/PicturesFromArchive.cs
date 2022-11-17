@@ -1,6 +1,4 @@
-﻿using System.Drawing;
-using Project_Goettergaemmerung.Properties;
-using Project_Goettergaemmerung.Components;
+﻿using Project_Goettergaemmerung.Properties;
 
 namespace Project_Goettergaemmerung.Components;
 

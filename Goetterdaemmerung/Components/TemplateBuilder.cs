@@ -1,8 +1,5 @@
-﻿using System.Collections.Generic;
-using System.Drawing;
+﻿using Project_Goettergaemmerung.Components.DrawText;
 using Project_Goettergaemmerung.Components.Model;
-using System;
-using Project_Goettergaemmerung.Components.DrawText;
 
 namespace Project_Goettergaemmerung.Components;
 

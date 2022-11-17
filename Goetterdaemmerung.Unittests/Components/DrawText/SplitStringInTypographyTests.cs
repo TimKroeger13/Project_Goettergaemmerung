@@ -1,13 +1,6 @@
-﻿using NSubstitute;
-using Project_Goettergaemmerung.Components;
-using Project_Goettergaemmerung.Components.DrawText;
-using System;
+﻿using Project_Goettergaemmerung.Components.DrawText;
 using Xunit;
-using System.Linq;
 using FluentAssertions;
-using System.Text.Json;
-using System.Collections.Generic;
-using Project_Goettergaemmerung.Components.Model;
 using Project_Goettergaemmerung.ExtensionMethods;
 
 namespace Unittests.Components.DrawText;

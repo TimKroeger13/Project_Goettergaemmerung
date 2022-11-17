@@ -6,6 +6,7 @@ public interface IUserData
 {
     MemoryStream? GetCardData();
 
+    CardImportType ImportType { get; set; }
     string? ExportPath { get; set; }
     string? ImportPath { get; set; }
     PrintType Printer { get; set; }
@@ -15,6 +16,7 @@ public interface IUserData
 
 public class UserData : IUserData
 {
+    public CardImportType ImportType { get; set; } = CardImportType.NA;
     public string? ImportPath { get; set; }
     public string? ExportPath { get; set; }
     public PrintType Printer { get; set; } = PrintType.Print1;

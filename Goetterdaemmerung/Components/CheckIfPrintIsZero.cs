@@ -1,9 +1,4 @@
-﻿using System.Drawing;
-using System.Drawing.Imaging;
-using System.Linq;
-using System.Windows.Forms;
-using Project_Goettergaemmerung.Components.CardInformationGetter;
-using Project_Goettergaemmerung.Components.Model;
+﻿using Project_Goettergaemmerung.Components.Model;
 
 namespace Project_Goettergaemmerung.Components;
 

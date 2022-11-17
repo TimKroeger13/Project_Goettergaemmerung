@@ -1,6 +1,5 @@
 ﻿using System.Diagnostics;
 using System.Drawing;
-using System.Linq;
 using FluentAssertions;
 using Project_Goettergaemmerung.Components;
 using Project_Goettergaemmerung.ExtensionMethods;

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Runtime.InteropServices;
-using System.Threading.Tasks;
+﻿using System.Runtime.InteropServices;
 using Project_Goettergaemmerung.ExtensionMethods;
 
 namespace Project_Goettergaemmerung.Components;

@@ -2,10 +2,7 @@
 using Project_Goettergaemmerung.Components;
 using Project_Goettergaemmerung.Components.DrawText;
 using Project_Goettergaemmerung.Components.Model;
-using System;
-using System.Collections.Generic;
 using System.Drawing;
-using System.Drawing.Imaging;
 using System.Text.Json;
 using Xunit;
 

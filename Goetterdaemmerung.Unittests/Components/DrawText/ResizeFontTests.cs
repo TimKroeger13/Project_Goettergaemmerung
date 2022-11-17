@@ -1,7 +1,5 @@
 ﻿using FluentAssertions;
-using NSubstitute;
 using Project_Goettergaemmerung.Components.DrawText;
-using System;
 using Xunit;
 
 namespace Unittests.Components.DrawText;

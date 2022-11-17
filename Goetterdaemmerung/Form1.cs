@@ -1,14 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Diagnostics;
-using System.Drawing;
-using System.Drawing.Imaging;
-using System.Linq;
-using System.Windows.Forms;
-using Microsoft.Extensions.DependencyInjection;
-using Project_Goettergaemmerung.Components;
-using Project_Goettergaemmerung.Components.CardInformationGetter;
+﻿using Project_Goettergaemmerung.Components;
 using Project_Goettergaemmerung.Components.Model;
 
 namespace Project_Goettergaemmerung;
@@ -47,6 +37,9 @@ public partial class Form1 : Form
     {
         openFileDialog1.ShowDialog();
         _userData.ImportPath = openFileDialog1.FileName;
+        _userData.ImportType = _userData.ImportPath.EndsWith("csv", StringComparison.InvariantCultureIgnoreCase) ? CardImportType.CSV :
+            _userData.ImportPath.EndsWith("sqlite3", StringComparison.InvariantCultureIgnoreCase) ? CardImportType.Sqlite :
+            CardImportType.NA;
         buttonExport.Enabled = true;
         buttonLoad.BackColor = Color.Goldenrod;
         buttonExport.BackColor = Color.DarkGoldenrod;
@@ -68,15 +61,15 @@ public partial class Form1 : Form
 
     private void ListBoxPrintModus_SelectedIndexChanged(object sender, EventArgs e)
     {
-        if (listBoxPrintModus.SelectedItems[0].ToString() == "Normal")
+        if (listBoxPrintModus.SelectedItems[0]?.ToString() == "Normal")
         {
             _userData.CurrentFormat = SaveFormat.normal;
         }
-        if (listBoxPrintModus.SelectedItems[0].ToString() == "Tabeltop")
+        if (listBoxPrintModus.SelectedItems[0]?.ToString() == "Tabeltop")
         {
             _userData.CurrentFormat = SaveFormat.tabeltop;
         }
-        if (listBoxPrintModus.SelectedItems[0].ToString() == "Rebalence")
+        if (listBoxPrintModus.SelectedItems[0]?.ToString() == "Rebalence")
         {
             _userData.CurrentFormat = SaveFormat.rebalence;
         }
@@ -88,19 +81,19 @@ public partial class Form1 : Form
 
     private void ListBoxPrintLayout_SelectedIndexChanged(object sender, EventArgs e)
     {
-        if (listBoxPrintLayout.SelectedItems[0].ToString() == "Druck 1")
+        if (listBoxPrintLayout.SelectedItems[0]?.ToString() == "Druck 1")
         {
             _userData.Printer = PrintType.Print1;
         }
-        if (listBoxPrintLayout.SelectedItems[0].ToString() == "Druck 2")
+        if (listBoxPrintLayout.SelectedItems[0]?.ToString() == "Druck 2")
         {
             _userData.Printer = PrintType.Print2;
         }
-        if (listBoxPrintLayout.SelectedItems[0].ToString() == "Druck 3")
+        if (listBoxPrintLayout.SelectedItems[0]?.ToString() == "Druck 3")
         {
             _userData.Printer = PrintType.Print3;
         }
-        if (listBoxPrintLayout.SelectedItems[0].ToString() == "Druck 4")
+        if (listBoxPrintLayout.SelectedItems[0]?.ToString() == "Druck 4")
         {
             _userData.Printer = PrintType.Print4;
         }
