@@ -1,4 +1,5 @@
 ﻿using System.Text.Json;
+using System.Text.Json.Serialization;
 using Microsoft.EntityFrameworkCore;
 using Project_Goettergaemmerung.Components.Model;
 using Unittests.Components;
@@ -39,7 +40,9 @@ public class TestDataContext : DbContext
         modelBuilder.Entity<CardInformationModel>().Property(p => p.CardType).HasConversion<string>();
         modelBuilder.Entity<CardInformationModel>().Property(p => p.Condition).HasConversion<string>();
         modelBuilder.Entity<CardInformationModel>().Property(p => p.Race).HasConversion<string>();
-        var cardInformation = JsonSerializer.Deserialize<List<CardInformationModel>>(TestResources.Karten_Version1);
+        var options = new JsonSerializerOptions();
+        options.Converters.Add(new JsonStringEnumConverter());
+        var cardInformation = JsonSerializer.Deserialize<List<CardInformationModel>>(TestResources.Karten_Version1, options);
         for (var i = 0; i < cardInformation.Count; i++)
         {
             if (cardInformation[i].Id == 0) cardInformation[i].Id = i + 1;

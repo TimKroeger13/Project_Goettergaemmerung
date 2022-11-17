@@ -1,5 +1,6 @@
 ﻿using System.Text.Encodings.Web;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using Project_Goettergaemmerung.Components.CardInformationGetter;
 
 namespace Project_Goettergaemmerung.Components;
@@ -36,11 +37,14 @@ public class CardPrinter : ICardPrinter
     {
         var cardInformation = _cardInformationGetterFactory.CreateCardInformationGetter().GetCardInformation()
             .OrderBy(c => c.Id).ToList();
-        var json = JsonSerializer.Serialize(cardInformation, new JsonSerializerOptions()
+
+        var options = new JsonSerializerOptions()
         {
             WriteIndented = true,
             Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping
-        });
+        };
+        options.Converters.Add(new JsonStringEnumConverter());
+        var json = JsonSerializer.Serialize(cardInformation, options);
         File.WriteAllText(path, json);
     }
 
