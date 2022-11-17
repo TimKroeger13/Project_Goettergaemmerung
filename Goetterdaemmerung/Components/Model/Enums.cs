@@ -32,6 +32,15 @@ public enum CardStructure
 
 public enum CardSubType
 {
+    [Description("Magie - schwach")]
+    Magie1,
+
+    [Description("Magie - mittel")]
+    Magie2,
+
+    [Description("Magie - stark")]
+    Magie3,
+
     [Description("Artefakt")]
     Artifact,
 
@@ -115,6 +124,15 @@ public enum CardSubType
 
 public enum CardType
 {
+    [Description("ma1")]
+    Magie1,
+
+    [Description("ma2")]
+    Magie2,
+
+    [Description("ma3")]
+    Magie3,
+
     [Description("act")]
     Action,
 

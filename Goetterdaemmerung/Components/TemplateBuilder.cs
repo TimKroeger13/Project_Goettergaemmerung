@@ -95,6 +95,19 @@ public class TemplateBuilder : ITemplateBuilder
                         bitmaplist.Add(() => _createPicture.BlendingMultiply(() => _picturesFromArchive.Filter(), () => _picturesFromArchive.Spell()));
                         break;
 
+                    case CardType.Magie1:
+                        bitmaplist.Add(() => _createPicture.BlendingMultiply(() => _picturesFromArchive.Filter(), () => _picturesFromArchive.Spell()));
+                        break;
+
+                    case CardType.Magie2:
+                        bitmaplist.Add(() => _createPicture.BlendingMultiply(() => _picturesFromArchive.Filter(), () => _picturesFromArchive.Spell()));
+                        break;
+
+                    case CardType.Magie3:
+                        bitmaplist.Add(() => _createPicture.BlendingMultiply(() => _picturesFromArchive.Filter(), () => _picturesFromArchive.Spell()));
+                        break;
+
+
                     case CardType.Empty:
                         break;
                 }
