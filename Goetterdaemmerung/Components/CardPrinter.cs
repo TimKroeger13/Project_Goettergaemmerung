@@ -1,10 +1,14 @@
-﻿using Project_Goettergaemmerung.Components.CardInformationGetter;
+﻿using System.Text.Encodings.Web;
+using System.Text.Json;
+using Project_Goettergaemmerung.Components.CardInformationGetter;
 
 namespace Project_Goettergaemmerung.Components;
 
 public interface ICardPrinter
 {
     void PrintCards();
+
+    void ExportCardInformationAsJSON(string path);
 }
 
 public class CardPrinter : ICardPrinter
@@ -26,6 +30,18 @@ public class CardPrinter : ICardPrinter
         _saveImage = saveImage;
         _checkIfPrintIsZero = checkIfPrintIsZero;
         _cardInformationGetterFactory = cardInformationGetterFactory;
+    }
+
+    public void ExportCardInformationAsJSON(string path)
+    {
+        var cardInformation = _cardInformationGetterFactory.CreateCardInformationGetter().GetCardInformation()
+            .OrderBy(c => c.Id).ToList();
+        var json = JsonSerializer.Serialize(cardInformation, new JsonSerializerOptions()
+        {
+            WriteIndented = true,
+            Encoder = JavaScriptEncoder.UnsafeRelaxedJsonEscaping
+        });
+        File.WriteAllText(path, json);
     }
 
     public void PrintCards()

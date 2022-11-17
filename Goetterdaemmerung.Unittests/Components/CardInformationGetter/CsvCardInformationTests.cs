@@ -1,4 +1,4 @@
-﻿using System.Text;
+﻿using System.IO.Compression;
 using System.Text.Encodings.Web;
 using System.Text.Json;
 using FluentAssertions;
@@ -15,7 +15,12 @@ public class CsvCardInformationTests
 
     private CsvCardInformation CreateCsvCardInformation()
     {
-        _subUserData.GetCardData().Returns(new MemoryStream(Encoding.UTF8.GetBytes(TestResources.Götterdämmerung_Karten)));
+        using var zip = new ZipArchive(new MemoryStream(TestResources.Götterdämmerung_Karten), ZipArchiveMode.Read);
+        var memoryStream = new MemoryStream();
+        var csvStream = zip.Entries[0].Open();
+        csvStream.CopyTo(memoryStream);
+        memoryStream.Position = 0;
+        _subUserData.GetCardData().Returns(memoryStream);
         return new CsvCardInformation(_subUserData);
     }
 

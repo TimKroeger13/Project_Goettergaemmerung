@@ -42,6 +42,7 @@ public partial class Form1 : Form
             _userData.ImportPath.EndsWith("sqlite3", StringComparison.InvariantCultureIgnoreCase) ? CardImportType.Sqlite :
             CardImportType.NA;
         buttonExport.Enabled = true;
+        buttonJsonExport.Enabled = true;
         buttonLoad.BackColor = Color.Goldenrod;
         buttonExport.BackColor = Color.DarkGoldenrod;
     }
@@ -102,5 +103,16 @@ public partial class Form1 : Form
 
     private void LabelMainName_Click(object sender, EventArgs e)
     {
+    }
+
+    private void ButtonJsonExport_Click(object sender, EventArgs e)
+    {
+        var fileDialog = new OpenFileDialog()
+        {
+            Filter = "JSON (*.json)|*.json",
+        };
+        var result = fileDialog.ShowDialog();
+        if (result != DialogResult.OK) throw new Exception("No Valid file given");
+        _cardPrinter.ExportCardInformationAsJSON(fileDialog.FileName);
     }
 }
