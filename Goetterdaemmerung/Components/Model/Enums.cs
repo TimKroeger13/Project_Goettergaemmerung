@@ -4,263 +4,263 @@ namespace Project_Goettergaemmerung.Components.Model;
 
 public enum CardImportType
 {
-    CSV,
-    Sqlite,
-    NA
+    CSV = 1,
+    Sqlite = 2,
+    NA = 0
 }
 
 public enum PrintType
 {
-    Print1,
-    Print2,
-    Print3,
-    Print4
+    Print1 = 1,
+    Print2 = 2,
+    Print3 = 3,
+    Print4 = 4
 }
 
 public enum SaveFormat
 {
-    normal,
-    tabeltop,
-    rebalence
+    normal = 1,
+    tabeltop = 2,
+    rebalence = 3
 }
 
 public enum CardStructure
 {
-    Normal,
-    Monster
+    Normal = 1,
+    Monster = 2
 }
 
 public enum CardSubType
 {
     [Description("Magie - schwach")]
-    Magie1,
+    Magie1 = 1,
 
     [Description("Magie - mittel")]
-    Magie2,
+    Magie2 = 2,
 
     [Description("Magie - stark")]
-    Magie3,
+    Magie3 = 3,
 
     [Description("Artefakt")]
-    Artifact,
+    Artifact = 4,
 
     [Description("Merkmal")]
-    Attribute,
+    Attribute = 5,
 
     [Description("(Ausrüstung-Waffe)")]
-    Weapon,
+    Weapon = 6,
 
     [Description("(Ausrüstung-Rüstung)")]
-    Armor,
+    Armor = 7,
 
     [Description("(Ausrüstung-Helm)")]
-    Helmet,
+    Helmet = 8,
 
     [Description("(Ausrüstung-Schuhe)")]
-    Shoes,
+    Shoes = 9,
 
     [Description("Charaktereigenschaft")]
-    CharacterTrait,
+    CharacterTrait = 10,
 
     [Description("(Klasse)")]
-    Class,
+    Class = 11,
 
     [Description("(apokalypse)")]
-    SpellDisaster,
+    SpellDisaster = 12,
 
     [Description("(Schnellzauber)")]
-    SpellFast,
+    SpellFast = 13,
 
     [Description("(Zauber)")]
-    Spell,
+    Spell = 14,
 
     [Description("(Handel)")]
-    Trade,
+    Trade = 15,
 
     [Description("Segen")]
-    Blessing,
+    Blessing = 16,
 
     [Description("Fluch")]
-    Curse,
+    Curse = 17,
 
     [Description("Zwerg")]
-    Dwarf,
+    Dwarf = 18,
 
     [Description("Elf")]
-    Elf,
+    Elf = 19,
 
     [Description("Ork")]
-    Ork,
+    Ork = 20,
 
     [Description("Homunkulus")]
-    Homunculus,
+    Homunculus = 21,
 
     [Description("Goblin")]
-    Goblin,
+    Goblin = 22,
 
     [Description("Riese")]
-    Giant,
+    Giant = 23,
 
     [Description("Dämon")]
-    Demon,
+    Demon = 24,
 
     [Description("Taverne")]
-    Tavern,
+    Tavern = 25,
 
     [Description("Begleiter")]
-    Companion,
+    Companion = 26,
 
-    Empty
+    Empty = 0
 }
 
 public enum CardType
 {
     [Description("ma1")]
-    Magie1,
+    Magie1 = 1,
 
     [Description("ma2")]
-    Magie2,
+    Magie2 = 2,
 
     [Description("ma3")]
-    Magie3,
+    Magie3 = 3,
 
     [Description("act")]
-    Action,
+    Action = 4,
 
     [Description("mon1")]
-    Monster1,
+    Monster1 = 5,
 
     [Description("mon2")]
-    Monster2,
+    Monster2 = 6,
 
     [Description("mon3")]
-    Monster3,
+    Monster3 = 7,
 
     [Description("mon4")]
-    Monster4,
+    Monster4 = 8,
 
     [Description("mon5")]
-    Monster5,
+    Monster5 = 9,
 
     [Description("euq1")]
-    Equipment1,
+    Equipment1 = 10,
 
     [Description("euq2")]
-    Equipment2,
+    Equipment2 = 11,
 
     [Description("euq3")]
-    Equipment3,
+    Equipment3 = 12,
 
     [Description("com")]
-    Companion,
+    Companion = 13,
 
     [Description("lib")]
-    Library,
+    Library = 14,
 
     [Description("bar")]
-    Bar,
+    Bar = 15,
 
     [Description("due")]
-    Duell,
+    Duell = 16,
 
     [Description("cur")]
-    Curse,
+    Curse = 17,
 
     [Description("ble")]
-    Blessing,
+    Blessing = 18,
 
     [Description("dis")]
-    Disaster,
+    Disaster = 19,
 
     [Description("cla")]
-    Class,
+    Class = 20,
 
     [Description("tav")]
-    Tavern,
+    Tavern = 21,
 
     [Description("spe")]
-    Spell,
+    Spell = 22,
 
-    Empty
+    Empty = 0
 }
 
 public enum Condition
 {
     [Description("(Nur von Priestern nutzbar)")]
-    OnlyPrist,
+    OnlyPrist = 1,
 
     [Description("(Nicht von Priestern nutzbar)")]
-    NotPrist,
+    NotPrist = 2,
 
     [Description("(Nur von Bodybuildern nutzbar)")]
-    OnlyBodybuilder,
+    OnlyBodybuilder = 3,
 
     [Description("(Nicht von Bodybuildern nutzbar)")]
-    NotBodybuilder,
+    NotBodybuilder = 4,
 
     [Description("(Nur von Veganern nutzbar)")]
-    OnlyVegan,
+    OnlyVegan = 5,
 
     [Description("(Nicht von Veganern nutzbar)")]
-    NotVegan,
+    NotVegan = 6,
 
     [Description("(Nur von Lobbyisten nutzbar)")]
-    OnlyLobbyist,
+    OnlyLobbyist = 7,
 
     [Description("(Nicht von Lobbyisten nutzbar)")]
-    NotLobbyist,
+    NotLobbyist = 8,
 
     [Description("(Nur von Bürokraten nutzbar)")]
-    OnlyBureaucrat,
+    OnlyBureaucrat = 9,
 
     [Description("(Nicht von Bürokraten nutzbar)")]
-    NotBureaucrat,
+    NotBureaucrat = 10,
 
     [Description("(Nur von Vampiren nutzbar)")]
-    OnlyVampire,
+    OnlyVampire = 11,
 
     [Description("(Nicht von Vampiren nutzbar)")]
-    NotVampire,
+    NotVampire = 12,
 
     [Description("(Nur von Soldaten nutzbar)")]
-    OnlySoldier,
+    OnlySoldier = 13,
 
     [Description("(Nicht von Soldaten nutzbar)")]
-    NotSoldier,
+    NotSoldier = 14,
 
     [Description("(Nur von Bürokraten und Lobbyisten nutzbar)")]
-    OnlyBureaucratLobbyist,
+    OnlyBureaucratLobbyist = 15,
 
-    Empty
+    Empty = 0
 }
 
 public enum Race
 {
     [Description("Mensch")]
-    Human,
+    Human = 1,
 
     [Description("Soldat")]
-    Soldier,
+    Soldier = 2,
 
     [Description("Vampir")]
-    Vampire,
+    Vampire = 3,
 
     [Description("Tier")]
-    Animal,
+    Animal = 4,
 
     [Description("Gott")]
-    God,
+    God = 5,
 
     [Description("Ungeheuer")]
-    Monster,
+    Monster = 6,
 
     [Description("All")]
-    All,
+    All = 7,
 
     [Description("Fels")]
-    Rock,
+    Rock = 8,
 
-    Empty
+    Empty = 0
 }
 
 public enum Typography
