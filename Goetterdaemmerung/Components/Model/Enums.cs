@@ -65,26 +65,17 @@ public enum CardSubType
     [Description("(Klasse)")]
     Class,
 
-    [Description("(Zauber-Katastrophe)")]
+    [Description("(apokalypse)")]
     SpellDisaster,
 
-    [Description("(Zauber-Hinterhalt)")]
-    SpellTrap,
-
-    [Description("(Zauber-Sofort)")]
+    [Description("(Schnellzauber)")]
     SpellFast,
 
-    [Description("(Zauber-Ritual)")]
-    SpellNormal,
+    [Description("(Zauber)")]
+    Spell,
 
-    [Description("(Elixier)")]
-    Elixier,
-
-    [Description("(Zauber-Konter)")]
-    SpellCounter,
-
-    [Description("(Zauber-Handel)")]
-    SpellTrade,
+    [Description("(Handel)")]
+    Trade,
 
     [Description("Segen")]
     Blessing,
