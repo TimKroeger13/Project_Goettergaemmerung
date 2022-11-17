@@ -110,7 +110,24 @@ public enum CardSubType
     [Description("Begleiter")]
     Companion = 26,
 
-    Empty = 0
+    Empty = 0,
+
+    //rest script
+
+    [Description("(Zauber-Hinterhalt)")]
+    SpellTrap = 27,
+
+    [Description("(Elixier)")]
+    Elixier = 28,
+
+    [Description("(Zauber-Konter)")]
+    SpellCounter = 29,
+
+    [Description("(Zauber-Ritual)")]
+    SpellNormal = 30,
+
+    [Description("(Zauber-Handel)")]
+    SpellTrade = 31
 }
 
 public enum CardType
