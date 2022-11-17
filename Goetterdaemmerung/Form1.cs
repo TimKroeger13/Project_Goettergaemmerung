@@ -35,6 +35,7 @@ public partial class Form1 : Form
 
     private void ButtonLoad_Click(object sender, EventArgs e)
     {
+        openFileDialog1.Filter = "Cardinformation (*.sqlite3,*.csv,*.CSV)|*.sqlite3;*.csv;*.CSV";
         openFileDialog1.ShowDialog();
         _userData.ImportPath = openFileDialog1.FileName;
         _userData.ImportType = _userData.ImportPath.EndsWith("csv", StringComparison.InvariantCultureIgnoreCase) ? CardImportType.CSV :
