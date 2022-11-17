@@ -2,79 +2,75 @@
 using Project_Goettergaemmerung.Components;
 using Project_Goettergaemmerung.Components.DrawText;
 using Project_Goettergaemmerung.Components.Model;
-using System;
-using System.Collections.Generic;
 using System.Drawing;
-using System.Drawing.Imaging;
 using System.Text.Json;
 using Xunit;
 
-namespace Unittests.Components.DrawText
+namespace Unittests.Components.DrawText;
+
+public class DrawBoxWithTopograpyTests
 {
-    public class DrawBoxWithTopograpyTests
+    private readonly ISplitStringInTypography _subSplitStringInTypography;
+    private readonly CreatePicture<Bitmap> _createPicture = new();
+    //private readonly PicturesFromArchive _picturesFromArchive = new PicturesFromArchive();
+
+    public DrawBoxWithTopograpyTests()
     {
-        private readonly ISplitStringInTypography _subSplitStringInTypography;
-        private readonly CreatePicture<Bitmap> _createPicture = new();
-        //private readonly PicturesFromArchive _picturesFromArchive = new PicturesFromArchive();
+        _subSplitStringInTypography = Substitute.For<ISplitStringInTypography>();
+    }
 
-        public DrawBoxWithTopograpyTests()
+    private DrawBoxWithTopograpy CreateDrawBoxWithTopograpy()
+    {
+        return new DrawBoxWithTopograpy(_subSplitStringInTypography);
+    }
+
+    [Fact]
+    public void DrawBoxOnBitmapWithTopograpy_StateUnderTest_ExpectedBehavior()
+    {
+        var splitStringInTypographyWords = JsonSerializer.Deserialize<string[]>(TestResources.splitStringInTypography_Words);
+        var splitStringInTypographyTypography = JsonSerializer.Deserialize<Project_Goettergaemmerung.Components.Model.Typography[]>(TestResources.splitStringInTypography_Typography);
+        var splitStringInTypographyList = new List<(string Word, Typography Marker)>();
+
+        for (var i = 0; i < splitStringInTypographyWords.Length; i++)
         {
-            _subSplitStringInTypography = Substitute.For<ISplitStringInTypography>();
+            splitStringInTypographyList.Add((splitStringInTypographyWords[i], splitStringInTypographyTypography[i]));
+        }
+        _subSplitStringInTypography.SplitString("Wenn du eine 6 würfelst, hat diese Waffe stattdessen +4/0.").ReturnsForAnyArgs(splitStringInTypographyList);
+
+        // Arrange
+        var drawBoxWithTopograpy = CreateDrawBoxWithTopograpy();
+        const string Text = "Wenn du eine 6 würfelst, hat diese Waffe stattdessen +4/0.";
+        using var textBitmap = new Bitmap(700, 1000);
+        textBitmap.SetResolution(120, 120);
+        const int FontSize = 20;
+        const string FontName = "Segoe Print";
+        var boxhigth = (top: 760, buttom: 980);
+        var boxwidth = (left: 30, rigth: 335);
+
+        // Act
+        using (var g = Graphics.FromImage(textBitmap))
+        {
+            drawBoxWithTopograpy.DrawBoxOnBitmapWithTopograpy(
+            Text,
+            g,
+            FontSize,
+            FontName,
+            boxhigth,
+            boxwidth);
         }
 
-        private DrawBoxWithTopograpy CreateDrawBoxWithTopograpy()
-        {
-            return new DrawBoxWithTopograpy(_subSplitStringInTypography);
-        }
+        using var testBitmapList = new DisposableList<Bitmap>();
 
-        [Fact]
-        public void DrawBoxOnBitmapWithTopograpy_StateUnderTest_ExpectedBehavior()
-        {
-            var splitStringInTypographyWords = JsonSerializer.Deserialize<string[]>(TestResources.splitStringInTypography_Words);
-            var splitStringInTypographyTypography = JsonSerializer.Deserialize<Project_Goettergaemmerung.Components.Model.Typography[]>(TestResources.splitStringInTypography_Typography);
-            var splitStringInTypographyList = new List<(string Word, Typography Marker)>();
+        //testBitmapList.AddSingle(_picturesFromArchive.Class);
+        //testBitmapList.AddSingle(_picturesFromArchive.Boarder);
+        //testBitmapList.AddSingle(_picturesFromArchive.Win);
+        testBitmapList.Add(() => textBitmap);
 
-            for (var i = 0; i < splitStringInTypographyWords.Length; i++)
-            {
-                splitStringInTypographyList.Add((splitStringInTypographyWords[i], splitStringInTypographyTypography[i]));
-            }
-            _subSplitStringInTypography.SplitString("Wenn du eine 6 würfelst, hat diese Waffe stattdessen +4/0.").ReturnsForAnyArgs(splitStringInTypographyList);
+        using var output = _createPicture.MergedBitmaps(testBitmapList);
 
-            // Arrange
-            var drawBoxWithTopograpy = CreateDrawBoxWithTopograpy();
-            const string Text = "Wenn du eine 6 würfelst, hat diese Waffe stattdessen +4/0.";
-            using var textBitmap = new Bitmap(700, 1000);
-            textBitmap.SetResolution(120, 120);
-            const int FontSize = 20;
-            const string FontName = "Segoe Print";
-            var boxhigth = (top: 760, buttom: 980);
-            var boxwidth = (left: 30, rigth: 335);
+        //Output.Save("C:\\Users\\TKroeger\\Desktop\\Testordner\\TempName.png", ImageFormat.Png);
 
-            // Act
-            using (var g = Graphics.FromImage(textBitmap))
-            {
-                drawBoxWithTopograpy.DrawBoxOnBitmapWithTopograpy(
-                Text,
-                g,
-                FontSize,
-                FontName,
-                boxhigth,
-                boxwidth);
-            }
-
-            using var testBitmapList = new DisposableList<Bitmap>();
-
-            //testBitmapList.AddSingle(_picturesFromArchive.Class);
-            //testBitmapList.AddSingle(_picturesFromArchive.Boarder);
-            //testBitmapList.AddSingle(_picturesFromArchive.Win);
-            testBitmapList.Add(() => textBitmap);
-
-            using var output = _createPicture.MergedBitmaps(testBitmapList);
-
-            //Output.Save("C:\\Users\\TKroeger\\Desktop\\Testordner\\TempName.png", ImageFormat.Png);
-
-            // Assert
-            Assert.True(true);
-        }
+        // Assert
+        Assert.True(true);
     }
 }

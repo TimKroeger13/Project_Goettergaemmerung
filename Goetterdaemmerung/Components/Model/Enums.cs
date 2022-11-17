@@ -1,257 +1,263 @@
 ﻿using System.ComponentModel;
 
-namespace Project_Goettergaemmerung.Components.Model
+namespace Project_Goettergaemmerung.Components.Model;
+
+public enum CardImportType
 {
-    public enum PrintType
-    {
-        Print1,
-        Print2,
-        Print3,
-        Print4
-    }
+    CSV,
+    Sqlite,
+    NA
+}
 
-    public enum SaveFormat
-    {
-        normal,
-        tabeltop,
-        rebalence
-    }
+public enum PrintType
+{
+    Print1,
+    Print2,
+    Print3,
+    Print4
+}
 
-    public enum CardStructure
-    {
-        Normal,
-        Monster
-    }
+public enum SaveFormat
+{
+    normal,
+    tabeltop,
+    rebalence
+}
 
-    public enum CardSubType
-    {
-        [Description("Artefakt")]
-        Artifact,
+public enum CardStructure
+{
+    Normal,
+    Monster
+}
 
-        [Description("Merkmal")]
-        Attribute,
+public enum CardSubType
+{
+    [Description("Artefakt")]
+    Artifact,
 
-        [Description("(Ausrüstung-Waffe)")]
-        Weapon,
+    [Description("Merkmal")]
+    Attribute,
 
-        [Description("(Ausrüstung-Rüstung)")]
-        Armor,
+    [Description("(Ausrüstung-Waffe)")]
+    Weapon,
 
-        [Description("(Ausrüstung-Helm)")]
-        Helmet,
+    [Description("(Ausrüstung-Rüstung)")]
+    Armor,
 
-        [Description("(Ausrüstung-Schuhe)")]
-        Shoes,
+    [Description("(Ausrüstung-Helm)")]
+    Helmet,
 
-        [Description("Charaktereigenschaft")]
-        CharacterTrait,
+    [Description("(Ausrüstung-Schuhe)")]
+    Shoes,
 
-        [Description("(Klasse)")]
-        Class,
+    [Description("Charaktereigenschaft")]
+    CharacterTrait,
 
-        [Description("(Zauber-Katastrophe)")]
-        SpellDisaster,
+    [Description("(Klasse)")]
+    Class,
 
-        [Description("(Zauber-Hinterhalt)")]
-        SpellTrap,
+    [Description("(Zauber-Katastrophe)")]
+    SpellDisaster,
 
-        [Description("(Zauber-Sofort)")]
-        SpellFast,
+    [Description("(Zauber-Hinterhalt)")]
+    SpellTrap,
 
-        [Description("(Zauber-Ritual)")]
-        SpellNormal,
+    [Description("(Zauber-Sofort)")]
+    SpellFast,
 
-        [Description("(Elixier)")]
-        Elixier,
+    [Description("(Zauber-Ritual)")]
+    SpellNormal,
 
-        [Description("(Zauber-Konter)")]
-        SpellCounter,
+    [Description("(Elixier)")]
+    Elixier,
 
-        [Description("(Zauber-Handel)")]
-        SpellTrade,
+    [Description("(Zauber-Konter)")]
+    SpellCounter,
 
-        [Description("Segen")]
-        Blessing,
+    [Description("(Zauber-Handel)")]
+    SpellTrade,
 
-        [Description("Fluch")]
-        Curse,
+    [Description("Segen")]
+    Blessing,
 
-        [Description("Zwerg")]
-        Dwarf,
+    [Description("Fluch")]
+    Curse,
 
-        [Description("Elf")]
-        Elf,
+    [Description("Zwerg")]
+    Dwarf,
 
-        [Description("Ork")]
-        Ork,
+    [Description("Elf")]
+    Elf,
 
-        [Description("Homunkulus")]
-        Homunculus,
+    [Description("Ork")]
+    Ork,
 
-        [Description("Goblin")]
-        Goblin,
+    [Description("Homunkulus")]
+    Homunculus,
 
-        [Description("Riese")]
-        Giant,
+    [Description("Goblin")]
+    Goblin,
 
-        [Description("Dämon")]
-        Demon,
+    [Description("Riese")]
+    Giant,
 
-        [Description("Taverne")]
-        Tavern,
+    [Description("Dämon")]
+    Demon,
 
-        [Description("Begleiter")]
-        Companion,
+    [Description("Taverne")]
+    Tavern,
 
-        Empty
-    }
+    [Description("Begleiter")]
+    Companion,
 
-    public enum CardType
-    {
-        [Description("act")]
-        Action,
+    Empty
+}
 
-        [Description("mon1")]
-        Monster1,
+public enum CardType
+{
+    [Description("act")]
+    Action,
 
-        [Description("mon2")]
-        Monster2,
+    [Description("mon1")]
+    Monster1,
 
-        [Description("mon3")]
-        Monster3,
+    [Description("mon2")]
+    Monster2,
 
-        [Description("mon4")]
-        Monster4,
+    [Description("mon3")]
+    Monster3,
 
-        [Description("mon5")]
-        Monster5,
+    [Description("mon4")]
+    Monster4,
 
-        [Description("euq1")]
-        Equipment1,
+    [Description("mon5")]
+    Monster5,
 
-        [Description("euq2")]
-        Equipment2,
+    [Description("euq1")]
+    Equipment1,
 
-        [Description("euq3")]
-        Equipment3,
+    [Description("euq2")]
+    Equipment2,
 
-        [Description("com")]
-        Companion,
+    [Description("euq3")]
+    Equipment3,
 
-        [Description("lib")]
-        Library,
+    [Description("com")]
+    Companion,
 
-        [Description("bar")]
-        Bar,
+    [Description("lib")]
+    Library,
 
-        [Description("due")]
-        Duell,
+    [Description("bar")]
+    Bar,
 
-        [Description("cur")]
-        Curse,
+    [Description("due")]
+    Duell,
 
-        [Description("ble")]
-        Blessing,
+    [Description("cur")]
+    Curse,
 
-        [Description("dis")]
-        Disaster,
+    [Description("ble")]
+    Blessing,
 
-        [Description("cla")]
-        Class,
+    [Description("dis")]
+    Disaster,
 
-        [Description("tav")]
-        Tavern,
+    [Description("cla")]
+    Class,
 
-        [Description("spe")]
-        Spell,
+    [Description("tav")]
+    Tavern,
 
-        Empty
-    }
+    [Description("spe")]
+    Spell,
 
-    public enum Condition
-    {
-        [Description("(Nur von Priestern nutzbar)")]
-        OnlyPrist,
+    Empty
+}
 
-        [Description("(Nicht von Priestern nutzbar)")]
-        NotPrist,
+public enum Condition
+{
+    [Description("(Nur von Priestern nutzbar)")]
+    OnlyPrist,
 
-        [Description("(Nur von Bodybuildern nutzbar)")]
-        OnlyBodybuilder,
+    [Description("(Nicht von Priestern nutzbar)")]
+    NotPrist,
 
-        [Description("(Nicht von Bodybuildern nutzbar)")]
-        NotBodybuilder,
+    [Description("(Nur von Bodybuildern nutzbar)")]
+    OnlyBodybuilder,
 
-        [Description("(Nur von Veganern nutzbar)")]
-        OnlyVegan,
+    [Description("(Nicht von Bodybuildern nutzbar)")]
+    NotBodybuilder,
 
-        [Description("(Nicht von Veganern nutzbar)")]
-        NotVegan,
+    [Description("(Nur von Veganern nutzbar)")]
+    OnlyVegan,
 
-        [Description("(Nur von Lobbyisten nutzbar)")]
-        OnlyLobbyist,
+    [Description("(Nicht von Veganern nutzbar)")]
+    NotVegan,
 
-        [Description("(Nicht von Lobbyisten nutzbar)")]
-        NotLobbyist,
+    [Description("(Nur von Lobbyisten nutzbar)")]
+    OnlyLobbyist,
 
-        [Description("(Nur von Bürokraten nutzbar)")]
-        OnlyBureaucrat,
+    [Description("(Nicht von Lobbyisten nutzbar)")]
+    NotLobbyist,
 
-        [Description("(Nicht von Bürokraten nutzbar)")]
-        NotBureaucrat,
+    [Description("(Nur von Bürokraten nutzbar)")]
+    OnlyBureaucrat,
 
-        [Description("(Nur von Vampiren nutzbar)")]
-        OnlyVampire,
+    [Description("(Nicht von Bürokraten nutzbar)")]
+    NotBureaucrat,
 
-        [Description("(Nicht von Vampiren nutzbar)")]
-        NotVampire,
+    [Description("(Nur von Vampiren nutzbar)")]
+    OnlyVampire,
 
-        [Description("(Nur von Soldaten nutzbar)")]
-        OnlySoldier,
+    [Description("(Nicht von Vampiren nutzbar)")]
+    NotVampire,
 
-        [Description("(Nicht von Soldaten nutzbar)")]
-        NotSoldier,
+    [Description("(Nur von Soldaten nutzbar)")]
+    OnlySoldier,
 
-        [Description("(Nur von Bürokraten und Lobbyisten nutzbar)")]
-        OnlyBureaucratLobbyist,
+    [Description("(Nicht von Soldaten nutzbar)")]
+    NotSoldier,
 
-        Empty
-    }
+    [Description("(Nur von Bürokraten und Lobbyisten nutzbar)")]
+    OnlyBureaucratLobbyist,
 
-    public enum Race
-    {
-        [Description("Mensch")]
-        Human,
+    Empty
+}
 
-        [Description("Soldat")]
-        Soldier,
+public enum Race
+{
+    [Description("Mensch")]
+    Human,
 
-        [Description("Vampir")]
-        Vampire,
+    [Description("Soldat")]
+    Soldier,
 
-        [Description("Tier")]
-        Animal,
+    [Description("Vampir")]
+    Vampire,
 
-        [Description("Gott")]
-        God,
+    [Description("Tier")]
+    Animal,
 
-        [Description("Ungeheuer")]
-        Monster,
+    [Description("Gott")]
+    God,
 
-        [Description("All")]
-        All,
+    [Description("Ungeheuer")]
+    Monster,
 
-        [Description("Fels")]
-        Rock,
+    [Description("All")]
+    All,
 
-        Empty
-    }
+    [Description("Fels")]
+    Rock,
 
-    public enum Typography
-    {
-        Regular,
-        Bold,
-        Italic,
-        LineBreak
-    }
+    Empty
+}
+
+public enum Typography
+{
+    Regular,
+    Bold,
+    Italic,
+    LineBreak
 }

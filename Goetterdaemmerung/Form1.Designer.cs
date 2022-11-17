@@ -1,34 +1,34 @@
 ﻿
-namespace Project_Goettergaemmerung
+namespace Project_Goettergaemmerung;
+
+partial class Form1
 {
-    partial class Form1
+    /// <summary>
+    ///  Required designer variable.
+    /// </summary>
+    private System.ComponentModel.IContainer components = null;
+
+    /// <summary>
+    ///  Clean up any resources being used.
+    /// </summary>
+    /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+    protected override void Dispose(bool disposing)
     {
-        /// <summary>
-        ///  Required designer variable.
-        /// </summary>
-        private System.ComponentModel.IContainer components = null;
-
-        /// <summary>
-        ///  Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
+        if (disposing && (components != null))
         {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
+            components.Dispose();
         }
+        base.Dispose(disposing);
+    }
 
-        #region Windows Form Designer generated code
+    #region Windows Form Designer generated code
 
-        /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
-        /// </summary>
-        private void InitializeComponent()
-        {
+    /// <summary>
+    ///  Required method for Designer support - do not modify
+    ///  the contents of this method with the code editor.
+    /// </summary>
+    private void InitializeComponent()
+    {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.buttonLoad = new System.Windows.Forms.Button();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
@@ -54,17 +54,18 @@ namespace Project_Goettergaemmerung
             this.buttonLoad.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.buttonLoad.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonLoad.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.buttonLoad.Location = new System.Drawing.Point(303, 30);
+            this.buttonLoad.Location = new System.Drawing.Point(265, 22);
+            this.buttonLoad.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonLoad.Name = "buttonLoad";
-            this.buttonLoad.Size = new System.Drawing.Size(94, 29);
+            this.buttonLoad.Size = new System.Drawing.Size(146, 22);
             this.buttonLoad.TabIndex = 0;
-            this.buttonLoad.Text = "Load .CSV";
+            this.buttonLoad.Text = "Load Cardinformation";
             this.buttonLoad.UseVisualStyleBackColor = false;
             this.buttonLoad.Click += new System.EventHandler(this.ButtonLoad_Click);
             // 
             // openFileDialog1
             // 
-            this.openFileDialog1.FileName = "openFileDialog1";
+            this.openFileDialog1.FileName = "";
             // 
             // buttonExport
             // 
@@ -73,9 +74,10 @@ namespace Project_Goettergaemmerung
             this.buttonExport.Enabled = false;
             this.buttonExport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonExport.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.buttonExport.Location = new System.Drawing.Point(303, 65);
+            this.buttonExport.Location = new System.Drawing.Point(265, 49);
+            this.buttonExport.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonExport.Name = "buttonExport";
-            this.buttonExport.Size = new System.Drawing.Size(167, 29);
+            this.buttonExport.Size = new System.Drawing.Size(146, 22);
             this.buttonExport.TabIndex = 2;
             this.buttonExport.Text = "Choose Output Folder";
             this.buttonExport.UseVisualStyleBackColor = false;
@@ -87,9 +89,10 @@ namespace Project_Goettergaemmerung
             this.buttonConvert.Enabled = false;
             this.buttonConvert.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonConvert.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.buttonConvert.Location = new System.Drawing.Point(303, 100);
+            this.buttonConvert.Location = new System.Drawing.Point(265, 75);
+            this.buttonConvert.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonConvert.Name = "buttonConvert";
-            this.buttonConvert.Size = new System.Drawing.Size(94, 29);
+            this.buttonConvert.Size = new System.Drawing.Size(146, 22);
             this.buttonConvert.TabIndex = 3;
             this.buttonConvert.Text = "Convert";
             this.buttonConvert.UseVisualStyleBackColor = false;
@@ -99,9 +102,9 @@ namespace Project_Goettergaemmerung
             // 
             this.labelPrintSetup.AutoSize = true;
             this.labelPrintSetup.BackColor = System.Drawing.Color.Goldenrod;
-            this.labelPrintSetup.Location = new System.Drawing.Point(303, 143);
+            this.labelPrintSetup.Location = new System.Drawing.Point(265, 107);
             this.labelPrintSetup.Name = "labelPrintSetup";
-            this.labelPrintSetup.Size = new System.Drawing.Size(140, 20);
+            this.labelPrintSetup.Size = new System.Drawing.Size(114, 15);
             this.labelPrintSetup.TabIndex = 8;
             this.labelPrintSetup.Text = "Choose Print Layout";
             // 
@@ -110,19 +113,20 @@ namespace Project_Goettergaemmerung
             this.listBoxPrintModus.BackColor = System.Drawing.Color.Goldenrod;
             this.listBoxPrintModus.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBoxPrintModus.FormattingEnabled = true;
-            this.listBoxPrintModus.ItemHeight = 20;
-            this.listBoxPrintModus.Location = new System.Drawing.Point(303, 319);
+            this.listBoxPrintModus.ItemHeight = 15;
+            this.listBoxPrintModus.Location = new System.Drawing.Point(265, 239);
+            this.listBoxPrintModus.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listBoxPrintModus.Name = "listBoxPrintModus";
-            this.listBoxPrintModus.Size = new System.Drawing.Size(150, 60);
+            this.listBoxPrintModus.Size = new System.Drawing.Size(131, 45);
             this.listBoxPrintModus.TabIndex = 9;
             this.listBoxPrintModus.SelectedIndexChanged += new System.EventHandler(this.ListBoxPrintModus_SelectedIndexChanged);
             // 
             // labelPrintModus
             // 
             this.labelPrintModus.AutoSize = true;
-            this.labelPrintModus.Location = new System.Drawing.Point(303, 280);
+            this.labelPrintModus.Location = new System.Drawing.Point(265, 210);
             this.labelPrintModus.Name = "labelPrintModus";
-            this.labelPrintModus.Size = new System.Drawing.Size(194, 20);
+            this.labelPrintModus.Size = new System.Drawing.Size(156, 15);
             this.labelPrintModus.TabIndex = 10;
             this.labelPrintModus.Text = "Choose Cardsaveing Format";
             this.labelPrintModus.Click += new System.EventHandler(this.LabelPrintModus_Click);
@@ -132,19 +136,21 @@ namespace Project_Goettergaemmerung
             this.listBoxPrintLayout.BackColor = System.Drawing.Color.Goldenrod;
             this.listBoxPrintLayout.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBoxPrintLayout.FormattingEnabled = true;
-            this.listBoxPrintLayout.ItemHeight = 20;
-            this.listBoxPrintLayout.Location = new System.Drawing.Point(303, 181);
+            this.listBoxPrintLayout.ItemHeight = 15;
+            this.listBoxPrintLayout.Location = new System.Drawing.Point(265, 136);
+            this.listBoxPrintLayout.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.listBoxPrintLayout.Name = "listBoxPrintLayout";
-            this.listBoxPrintLayout.Size = new System.Drawing.Size(150, 80);
+            this.listBoxPrintLayout.Size = new System.Drawing.Size(131, 60);
             this.listBoxPrintLayout.TabIndex = 11;
             this.listBoxPrintLayout.SelectedIndexChanged += new System.EventHandler(this.ListBoxPrintLayout_SelectedIndexChanged);
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Project_Goettergaemmerung.Properties.Resources.Face;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 194);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 146);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(210, 209);
+            this.pictureBox1.Size = new System.Drawing.Size(184, 157);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
@@ -152,10 +158,10 @@ namespace Project_Goettergaemmerung
             // labelMainName
             // 
             this.labelMainName.AutoSize = true;
-            this.labelMainName.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.labelMainName.Location = new System.Drawing.Point(12, 56);
+            this.labelMainName.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.labelMainName.Location = new System.Drawing.Point(10, 42);
             this.labelMainName.Name = "labelMainName";
-            this.labelMainName.Size = new System.Drawing.Size(248, 62);
+            this.labelMainName.Size = new System.Drawing.Size(223, 58);
             this.labelMainName.TabIndex = 13;
             this.labelMainName.Text = "Götterdämmerung\r\nKarteneditor";
             this.labelMainName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -164,9 +170,10 @@ namespace Project_Goettergaemmerung
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Project_Goettergaemmerung.Properties.Resources.Textline;
-            this.pictureBox2.Location = new System.Drawing.Point(303, 165);
+            this.pictureBox2.Location = new System.Drawing.Point(265, 124);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(140, 10);
+            this.pictureBox2.Size = new System.Drawing.Size(122, 8);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 14;
             this.pictureBox2.TabStop = false;
@@ -174,20 +181,21 @@ namespace Project_Goettergaemmerung
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Project_Goettergaemmerung.Properties.Resources.Textline;
-            this.pictureBox3.Location = new System.Drawing.Point(303, 303);
+            this.pictureBox3.Location = new System.Drawing.Point(265, 227);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(140, 10);
+            this.pictureBox3.Size = new System.Drawing.Size(122, 8);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 15;
             this.pictureBox3.TabStop = false;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.Goldenrod;
-            this.ClientSize = new System.Drawing.Size(553, 403);
+            this.ClientSize = new System.Drawing.Size(484, 302);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.labelMainName);
@@ -201,6 +209,7 @@ namespace Project_Goettergaemmerung
             this.Controls.Add(this.buttonLoad);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -212,23 +221,22 @@ namespace Project_Goettergaemmerung
             this.ResumeLayout(false);
             this.PerformLayout();
 
-        }
-
-        #endregion
-
-        private System.Windows.Forms.Button buttonLoad;
-        private System.Windows.Forms.OpenFileDialog openFileDialog1;
-        private System.Windows.Forms.Button buttonExport;
-        private System.Windows.Forms.Button buttonConvert;
-        private System.Windows.Forms.FolderBrowserDialog folderBrowserDialogOutputFolder;
-        private System.Windows.Forms.Label labelPrintSetup;
-        private System.Windows.Forms.ListBox listBoxPrintModus;
-        private System.Windows.Forms.Label labelPrintModus;
-        private System.Windows.Forms.ListBox listBoxPrintLayout;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label labelMainName;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
     }
+
+    #endregion
+
+    private System.Windows.Forms.Button buttonLoad;
+    private System.Windows.Forms.OpenFileDialog openFileDialog1;
+    private System.Windows.Forms.Button buttonExport;
+    private System.Windows.Forms.Button buttonConvert;
+    private System.Windows.Forms.FolderBrowserDialog folderBrowserDialogOutputFolder;
+    private System.Windows.Forms.Label labelPrintSetup;
+    private System.Windows.Forms.ListBox listBoxPrintModus;
+    private System.Windows.Forms.Label labelPrintModus;
+    private System.Windows.Forms.ListBox listBoxPrintLayout;
+    private System.Windows.Forms.PictureBox pictureBox1;
+    private System.Windows.Forms.Label labelMainName;
+    private System.Windows.Forms.PictureBox pictureBox2;
+    private System.Windows.Forms.PictureBox pictureBox3;
 }
 
