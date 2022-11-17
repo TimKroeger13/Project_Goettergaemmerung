@@ -1,8 +1,5 @@
-﻿using System.Text;
+﻿using System.Text.Json;
 using Microsoft.EntityFrameworkCore;
-using NSubstitute;
-using Project_Goettergaemmerung.Components;
-using Project_Goettergaemmerung.Components.CardInformationGetter;
 using Project_Goettergaemmerung.Components.Model;
 using Unittests.Components;
 using Xunit;
@@ -42,9 +39,7 @@ public class TestDataContext : DbContext
         modelBuilder.Entity<CardInformationModel>().Property(p => p.CardType).HasConversion<string>();
         modelBuilder.Entity<CardInformationModel>().Property(p => p.Condition).HasConversion<string>();
         modelBuilder.Entity<CardInformationModel>().Property(p => p.Race).HasConversion<string>();
-        var userData = Substitute.For<IUserData>();
-        userData.GetCardData().Returns(new MemoryStream(Encoding.UTF8.GetBytes(TestResources.Götterdämmerung_Karten)));
-        var cardInformation = new CsvCardInformation(userData).GetCardInformation().ToList();
+        var cardInformation = JsonSerializer.Deserialize<List<CardInformationModel>>(TestResources.Karten_Version1);
         for (var i = 1; i < cardInformation.Count; i++)
         {
             cardInformation[i].Id = i;

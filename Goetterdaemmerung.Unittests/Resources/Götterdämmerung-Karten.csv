@@ -36,7 +36,7 @@ Diese Karte: Schiebe sie verdeckt ungefährt in die Mitte des Aktionskartenstape
 normal;;Action;Großbrand;;;;;;Alle Spieler müssen 4 Handkarten abwerfen.;;;;;;;0;1;1;0
 normal;;Action;Hochwasser;;;;;;"Alle Spieler dürfen am Ende ihres nächsten Zuges nur maximal 2 Karten auf der Hand halten.
 Den Rest müssen sie abwerfen.";;;;;;;0;1;1;0
-normal;;Action;Höhentrainingslager;;;;;;"Du kannst die nächsten 2 Runden aussetzen, um durch das Training deine Kondition zu verbessern, wodurch du dauerhaft 0/+2 erhälst. Ziehe dafür ""Höhentraining"" auf dem Extra Deck.";;;;;;;0;1;1;0
+normal;;Action;Höhentrainingslager;;;;;;"Du kannst die nächsten 2 Runden aussetzen, um durch das Training deine Kondition zu verbessern, wodurch du dauerhaft 0/+2 erhälst. Ziehe dafür ""Höhentraining"" (Extra Deck).";;;;;;;0;1;1;0
 normal;;Action;Im Auge eines Gottes;;;;;;"Alle Spieler würfeln mit einem D20.
 
 Für den, der das höchste Ergebnis erzielt, zählt dieses für seine nächste Runde als Würfelergebnis.
@@ -71,7 +71,7 @@ Lege 5 Zählmarken auf diese Karte und entferne am Anfang jeder neuen Runde, nac
 Wenn keine Zählmarken mehr auf dieser Karte liegen startet der Kampf:
 Alle Spielfieguren werden auf die Arena gelegt.
 Alle Spieler kämpfen gleichzeitig nach den Regeln des Mehrfachkampfes gegeneinander.
-In jeder Runde verlässt der schächste Spieler von allen die Arena.
+In jeder Runde verlässt der schwächste Spieler von allen die Arena.
 Sollte es mehere schwächste Spieler geben, kämpfen diese sofort noch einmal gegenander bis einer verliert.
 Diese Kämpfe werden so lange wiederholt bis es einen Sieger gibt.
 Der Sieger des Grand Tournaments erhält ""König der Arena"" (Extra Deck).";;;;;;;0;1;1;0
@@ -120,7 +120,7 @@ normal;;Class;Bürokrat;Class;;;+1 / -1;;Deine Bewegung ist immer mindestens 1.;
 Nur alles braucht seine Zeit...";;;;;;0;2;1;0
 normal;;Class;Lobbyist;Class;;;-1 / 0;gegen Spieler;"Intressen: Einmal pro Zug kannst du zwei Zauberkarten abwerfen, um eine Zauberkarte vom Stapel zu ziehen,
 Oder zwei gleichwerte Ausrüstungskarten abwerfen, um eine Ausrüstungskarte der gleichen Wertigkeit vom Stapel zu ziehen.";;;;;;;0;2;1;0
-normal;;Class;Priester;Class;;;;;Du gewinnst bei gleichstand.;"Haut dich einer rechts, gib ihn links...Ähm, also ich meine, gib ihm deine linke Wange ne, immer geschmeidig bleiben.
+normal;;Class;Priester;Class;;;;;Du gewinnst bei Gleichstand.;"Haut dich einer rechts, gib ihn links...Ähm, also ich meine, gib ihm deine linke Wange ne, immer geschmeidig bleiben.
 
 Jebus, Luka Evangolium 12.12";;;;;;0;2;1;0
 normal;;Class;Veganer;Class;;;;0 / +1;"Tierfreund:
@@ -140,7 +140,8 @@ normal;;Companion;Petrus der Leichtgläubige;Companion;;;+3 / 0;Kosten: 6;Glaube
 normal;;Companion;Ruth die Söldnerin;Companion;;;+4 / +4;Kosten: 10;;;;;;;;0;1;1;1
 normal;;Companion;Timothy der Barkeeper;Companion;;;+5 / 0;Kosten: 8;Trinkgeld: Jedes mal, wenn eine Tavernenrunde beginnt, ziehst du 4 Zauberkarten.;Außerdem bist du verpflichtet an diesen Spieleabend die Drinks auszuschenken.;;;;;;0;1;1;1
 normal;TRUE;Companion;2.5 Promille Gaul;Companion;;;0 / +2;;;Du wärest sogar noch schneller, wenn du nicht in Schlangenlinien reiten würdest.;;;;;;0;1;1;0
-normal;;Companion;Arena Ticket;;;;;Kosten: 6;Du kannst die Arena passieren.;;;;;;;0;6;1;0
+normal;;Companion;Arena Ticket;Artifact;;;;Kosten: 6;"Du kannst die Arena passieren.
+Du kannst nur ein Ticket haben. Es kann dir nicht gestohlen werden.";;;;;;;0;6;1;0
 normal;;Curse;Armbruch;Curse;;;-1 / 0;Wenn du den Kampf verlierst bricht dir das Monster zusätzlich deinen Arm. Ziehe “Gebrochender Arm” (Extra Deck);;;;;;;;0;1;1;0
 normal;;Curse;Hunger;Curse;;;-1 / 0;Ziehe “Ausgehungert” (Extra Deck);;;;;;;;0;1;1;0
 normal;;Curse;Armut;Curse;;;-1 / 0;Werfe alle Zauberkarten ab, wenn du diesen Kampf verlierst;;;;;;;;0;1;1;0
@@ -186,11 +187,11 @@ normal;;Disaster;Gomorra;;;;Faith-1;;"Apokalypse:
 Sollte ""Sodem"" offen liegen, so mische die vier apokalyptischen Reiter aus den Extra Deck oder dem Ablagstapel in die zugehörigen Stapel.";Und Gott sah die Schlechtheit der Menschen und Zorn überkam ihn!;;;;;;0;1;1;0
 normal;;Disaster;Harzen;;;;Der letzte Spieler hat 0 / +4;;;;;;;;;0;1;1;0
 normal;;Disaster;Monster Party;;;;;;Jedes Monster, dass einen Kampf gewinnt, wird zurück in den Nachziehstapel gemischt.;;;;;;;0;1;1;0
-normal;;Disaster;Nacht;;;;"0 / -3
+normal;;Disaster;Nacht;;;;"-4
 Auf den Fluchtwurf";;"Spieler, die mit einem D4 würfeln oder einen Gegenstand tragen, der das Wort ""Flammen"", ""Flammt"", ""Feuer"" oder ""Fackel"" enthält, sind von dieser Karte nicht betroffen.
 
 Gleich des tatsächlichen Sonnenstandes zählt die Sonne als bereits untergegangen.";;;;;;;0;1;1;0
-normal;;Disaster;Nieder mit den Reichen!;;;;"Der Führende Spieler hat
+normal;;Disaster;Nieder mit den Reichen!;;;;"Der führende Spieler hat
 0 / -2";;;;;;;;;0;1;1;0
 normal;;Disaster;Ragnarök;;;;;;"Öffne 2 Katastrophen und lege ""Ragnarök"" auf den Ablagestapel";;;;;;;0;1;1;0
 normal;;Disaster;Rückenwind;;;;0 / +2;;"Windstille:
@@ -374,26 +375,26 @@ normal;;Duell;Heimlich Karten vom Stapel klauen während der Dämon wegschaut;De
 Kämpfe gegen den Dämon";"Falls du selber der Dämon sein solltest, kämpfst du mit den selbem Kampfbonus gegen einen anderen Spieler deiner Wahl.
 
 Entferne eine Zählmarke von ""Tavernenrunde"".";;;;;;;0;1;1;0
-normal;TRUE;Equipment1;Belebte Rüstung;Armor;;;+2 / +1;;;Best friends forever.;;;;;"Extra schwer, extra sicher:
+normal;TRUE;Equipment1;Belebte Rüstung;Armor;;;+3 / +1;;;Best friends forever.;;;;;"Extra schwer, extra sicher:
 +1/-1";0;1;1;0
 normal;TRUE;Equipment1;Tomahawk;Weapon;;;+1 / +1;;Du kannst dich auch entscheiden den Tomahawk vor dem Auswürfeln deiner Kampfstärke zu werfen. Wenn du dies tust, hat diese Karte +3/+1, aber du verlierst sie, falls du den Kampf verlierst.;;;;;;"Risikoberechnung:
 +2/0, aber du verlierst die Waffe, falls du den Kampf verlierst.";0;1;1;0
 normal;;Equipment1;Degen;Weapon;;;+1 / 0;;Hat stattdessen +3/0, wenn du keine andere Waffe tragen solltest.;;;;;;+1/0;0;1;1;0
-normal;;Equipment1;Glücksklinge;Weapon;;;+1 / 0;;Wenn du eine 6 würfelst, hat diese Waffe stattdessen +4/0.;Glückstreffer sind die Spezialität dieser Waffe.;;;;;Wenn du eine 6 würfelst, hat die verstärkte Waffe stattdessen +2/0.;0;1;1;0
+normal;;Equipment1;Glücksklinge;Weapon;;;+1 / 0;;Wenn du eine 1 würfelst, hat diese Waffe stattdessen +5/0.;Glückstreffer sind die Spezialität dieser Waffe.;;;;;Wenn du eine 1 würfelst, hat die verstärkte Waffe stattdessen +5/0.;0;1;1;0
 normal;;Equipment1;Rostiges Schwert;Weapon;;;+1 / 0;;"Wenn du mit dieser Waffe einen Spieler im Kampf besiegst, würfelt dieser mit einem D4.
-Wenn er keine 4 Würfelt, hat er eine Blutvergiftung und muss in seinen nächsten beiden Zügen mit deinem D4 würfeln.";;;;;;Wenn du einen anderen Spieler besiegst, bekommt er eine Blutvergiftung.;0;1;1;0
+Wenn er keine 4 Würfelt, hat er eine Blutvergiftung und muss in seinen nächsten beiden Zügen mit deinem D4 würfeln.";;;;;;Wenn du einen anderen Spieler besiegst, bekommt er eine Blutvergiftung nach den Regeln des Rostiges Schwertes;0;1;1;0
 normal;;Equipment1;Fackel;Weapon;;;+1 / +1;;Hat stattdessen +2/+1, wenn die Sonne bereits untergegangen ist.;;;;;;"0/+1
 Sie leuchtet dir den Weg.";0;1;1;0
 normal;;Equipment1;Schmiedehammer;Weapon;;;+2 / -2;;;;;;;;+1/+1;0;1;1;0
 normal;;Equipment1;Edle Ritterrüstung;Armor;;;+2 / -1;;Hat stattdessen +3/-1, wenn du gegen einen Menschen kämpfst.;Ehre leitet dir den Weg.;;;;;+1/0;0;1;1;0
 normal;;Equipment1;Flammenschwert;Weapon;Zweihändig;;+4 / 0;;"Du kannst die ""Flasche Dämonenfeuer"" auf das Flammenschwert ausrüsten.
 Dadurch hat diese Waffe von nun an +6/0.";Es ist kein Glück, sondern Können.;;;;;+2/0;0;1;1;0
-normal;;Equipment1;Handtasche;Artifact;;NotBodybuilder;;;Du kannst 10 statt 8 Karten auf der Hand halten.;;;;;;;0;1;1;0
+normal;;Equipment1;Handtasche;Artifact;;NotBodybuilder;;;Du kannst 8 statt 6 Karten auf der Hand halten.;;;;;;;0;1;1;0
 normal;;Equipment1;Heilige Handschuhe des Windes;Weapon;Zweihändig;;"0 / +3
 Faith+2";;;;;;;;Faith +1;0;1;1;0
 normal;;Equipment1;Knoblauch;Artifact;;;+1 / 0;gegen Vampire;;;;;;;;0;1;1;0
 normal;;Equipment1;Lederhelm;Helmet;;NotVegan;+1 / 0;;;;;;;;+1/0;0;1;1;0
-normal;;Equipment1;Lederrucksack;Artifact;;NotVegan;;;Du kannst 10 statt 8 Karten auf der Hand halten.;;;;;;;0;1;1;0
+normal;;Equipment1;Lederrucksack;Artifact;;NotVegan;;;Du kannst 8 statt 6 Karten auf der Hand halten.;;;;;;;0;1;1;0
 normal;;Equipment1;Linker Schuh;Shoes;;;0 / +2;;"Auch in Kombination mit ""Rechter Schuh"" tragbar.
 Die Bewegung summiert sich.";;;;;;0/+1;0;1;1;0
 normal;;Equipment1;Radieschen Schuhe;Shoes;;OnlyVegan;0 / +3;;Wenn du gegen ein Tier kämpfst, hast du +6 auf deinen Fluchtwurf.;;;;;;+3 auf deinen Fluchtwurf.;0;1;1;0
@@ -401,15 +402,16 @@ normal;;Equipment1;Rechter Schuh;Shoes;;;0 / +2;;"Auch in Kombination mit ""Link
 Die Bewegung summiert sich.";;;;;;0/+1;0;1;1;0
 normal;;Equipment1;Schattenumhang;Armor;;;+1 / +2;;Der Kampf mit anderen Spielern zählt immer als ein Kampf in deinem Zug.;;;;;;"0/+1
 Der Kampf mit anderen Spielern zählt immer als ein Kampf in deinem Zug.";0;1;1;0
-normal;;Equipment1;Schulranzen;Artifact;;NotPrist;;;Du kannst 10 statt 8 Karten auf der Hand halten.;;;;;;;0;1;1;0
+normal;;Equipment1;Schulranzen;Artifact;;NotPrist;;;Du kannst 8 statt 6 Karten auf der Hand halten.;;;;;;;0;1;1;0
 normal;TRUE;Equipment1;Ring der Medici;Artifact;;;;;;;;;;;;0;1;1;0
 normal;;Equipment1;Übungsschwert;Weapon;Zweihändig;;+2 / 0;;"Wenn du mit dieser Waffe einen Spieler im Duell besiegst, lege eine Zählmarke auf diese Karte.
-Du verlierst keine Zählmarken, wenn du ein Duell verlierst.
+Lege außerdem ein Zählmarke auf diese Karte wenn du als stärkster Spieler einen Mehrfachkampf gewinnst.
+Du verlierst keine Zählmarken, wenn du einen Spielerkampf verlierst.
 
 Das Übungsschwert hat +1/0 für jede Zählmarke.
 (Maximal 11 Zählmarken)";;;;;;"Transferiere alle gesammelten Zählmarken auf die neue Waffe.
 Sie erhält +1/0 für jede Zählmarke.";0;1;1;0
-normal;;Equipment1;Gespaltene Persönlichkeit;;;;;;Du kannst 2 Charaktereigenschaften haben.;;;;;;;0;1;1;0
+normal;;Equipment1;Gespaltene Persönlichkeit;Attribute;;;;;Du kannst 2 Charaktereigenschaften haben.;;;;;;;0;1;1;0
 normal;;Equipment1;Wolfs Amulett;Artifact;;;+2 / 0;gegen Tiere;;;;;;;;0;1;1;0
 normal;;Equipment1;Raketenstiefel;Shoes;;;0 / +2;;Solltest du ohne Schuhe 0/+3 haben, haben die Raketenstiefel stattdessen 0/+5.;;;;;;0/+1;0;1;1;0
 normal;;Equipment1;Rollschuhe;Shoes;;;0 / +3;;Setze eine Runde aus, um die Rollschuhe aus- oder abzurüsten.;Endlich drin! Festziehen, schnüren, schnüren, Klettverschluss. Hää, Klettverschluss? Wo soll die Scheiße überhaupt hin?;;;;;0/+1;0;1;1;0
@@ -434,7 +436,7 @@ normal;;Equipment2;Schwertscheide;Weapon;;;0 / +5;;"Diese Karte nimmt keinen Waf
 normal;;Equipment2;Duelldegen;Weapon;;;+3 / +1;;"Wenn du eine Duellkarte ziehst, kannst du dir aussuchen gegen welchen Spieler du kämpfst.
 Der Effekt der Duellkarte bleibt erhalten.
 Lege für jeden Spieler, den du zum ersten Mal mit dieser Waffe in einem Duell besiegst, eine Zählmarke auf diese Karte.
-Der ""Duelldegen"" erhält 0/+1 für jede Zählmarke auf dieser Karte.";;;;;;"Transferiere alle gesammelten Zählmarken auf die neue Waffe.
+Der ""Duelldegen"" erhält 0/+1 für jede Zählmarke auf dieser Karte (maximal 5)";;;;;;"Transferiere alle gesammelten Zählmarken auf die neue Waffe.
 Sie erhält 0/+1 für jede Zählmarke.";0;1;1;0
 normal;;Equipment2;Karottenbogen;Weapon;Zweihändig;OnlyVegan;+8 / +1;;"Einmal im Spiel, wenn du gegen ein Monster Typ Tier kämpfst, kannst du es mit einem gezielten Schuss ablenken.
 Kämpfe sofort gegen das nächste Monster.";;;;;;+2/+1;0;1;1;0
@@ -451,9 +453,9 @@ normal;;Equipment2;Flammen-Helm;Helmet;;;Faith+1;;Du hast zusätzlich +5/0, wenn
 normal;;Equipment2;Stachelschwein Rüstung;Armor;;;+3 / 0;;Hat stattdessen +5/0, wenn es nicht dein Zug ist, oder in Mehrfachkämpfen.;Eine gute Verteidigung ist der beste Angriff!;;;;;"Noch schwerer, noch sicherer:
 +2/-2";0;1;1;0
 normal;;Equipment2;Hausschuhe;Shoes;;;0 / +4;;Du kannst sie im Kampf abwerfen, um +10 auf deinen Fluchtwurf zu erhalten.;;;;;;+5 auf deinen Fluchtwurf;0;1;1;0
-normal;;Equipment2;Jutebeutel;Artifact;;NotBureaucrat;;;Du kannst 10 statt 8 Karten auf der Hand halten.;;;;;;;0;1;1;0
+normal;;Equipment2;Jutebeutel;Artifact;;NotBureaucrat;;;Du kannst 8 statt 6 Karten auf der Hand halten.;;;;;;;0;1;1;0
 normal;;Equipment2;Ring des Windes;Artifact;;;0 / +1;;;;;;;;;0;1;1;0
-normal;;Equipment2;Transparenter Rucksack;Artifact;;NotLobbyist;;;Du kannst 10 statt 8 Karten auf der Hand halten.;;;;;;;0;1;1;0
+normal;;Equipment2;Transparenter Rucksack;Artifact;;NotLobbyist;;;Du kannst 8 statt 6 Karten auf der Hand halten.;;;;;;;0;1;1;0
 normal;;Equipment2;Turnschuhe;Shoes;;;0 / +5;;;;;;;;0/+2;0;1;1;0
 normal;;Equipment2;Badelatschen;Shoes;;;0 / +4;;"Wenn du einen Monsterkampf verlierst, kannst du auf dem Monsterfeld stehenbleiben, außer bei Endbossen.
 Wenn du dies machst, musst du nächste Runde erneut kämpfen.";Wasserdicht und rutschfest;;;;;0/+2;0;1;1;0
@@ -470,10 +472,10 @@ Die verstärkte Karte kann nicht abgerüstet werden!";0;1;1;0
 normal;;Equipment2;Fledermaus Form;Artifact;;OnlyVampire;0 / +2;;;;;;;;;0;1;1;0
 normal;;Equipment2;Paprika Granaten;Artifact;;OnlyVegan;;;"Wenn diese Karte zum ersten Mal ausgerüstet wird, erhälst sie 3 Zählmarken.
 Du kannst vor einem beliebigen Kampf eine Zählmarke von dieser Karte entfernen, um in diesem Kampf +3/0 zu erhalten.";;;;;;;0;1;1;0
-normal;;Equipment2;Oesiderh Mei Desideraias;Artifact;;;;;"Kann nur im Kampf anderer Spieler benutzt werden.
+normal;TRUE;Equipment2;Oesiderh Mei Desideraias;Artifact;;;;;"Kann nur im Kampf anderer Spieler benutzt werden.
 Wenn du das Ritual einmal beginnst kann es nur vollendet oder abgebrochen werden, wobei du diese Ritualkarte ebenfalls verlierst.
-Das Oesiderh Mei Desideraias, im Volksmund auch als das Opfern des Arms an den Verfluchten bekannt, verkrüppelt nicht nur sein Opfer sondern auch seinen Anwender, weswegen es nur in einen Akt purer verzweiflung benutzt werden sollte.
-Willst du den Schrecken beginnen, ziehe “Opferritual” und “Opfergaben an der Medium” und werfe diese Karte ab.";;;;;;;0;1;1;0
+Das Oesiderh Mei Desideraias, im Volksmund auch als das Opfern des Arms an den Verfluchten bekannt, verkrüppelt nicht nur sein Opfer, sondern auch seinen Anwender, weswegen es nur in einem Akt purer Verzweiflung benutzt werden sollte.
+Willst du den Schrecken beginnen, so ziehe “Opferritual” und “Opfergaben an das Medium” und werfe diese Karte ab.";;;;;;;0;1;1;0
 normal;;Equipment2;Plattenschuhe;Shoes;;;+2 / -1;;;;;;;;"Extra schwer, extra sicher:
 +1/-1";0;1;1;0
 normal;;Equipment2;Des Königs Krone;Helmet;;;+1 / +1;;Hat stattdessen +3/+1, solange du der führende Spieler bist.;Geboren um zu Herrschen.;;;;;+2/0, solange du der letzte Spieler bist.;0;1;1;0
@@ -527,7 +529,7 @@ normal;;Equipment3;7 Meilen Stiefel;Shoes;;;+1 / -2;;"Lege an Ende jeder Runde, 
 Solltest du einen Kampf verlieren und nicht fliehen können, entferne 5 Zählmarken von dieser Karte.
 (Maximal 7 Zählmarken).";;;;;;"Transferiere alle gesammelten Zählmarken auf die neuen Schuhe.
 Sie erhalten 0/+1 für jede Zählmarke.";0;1;1;0
-normal;;Equipment3;Cowboy Stiefel;Shoes;;;+1 / +5;;"Kavellerieangriff: Haben stattdessem +3/+5, wenn du den ""2.5 Promille Gaul"" reitest.";"Hüh hot mein braves Pferd!
+normal;;Equipment3;Cowboy Stiefel;Shoes;;;+1 / +5;;"Kavellerieangriff: Haben stattdessem +4/+5, wenn du den ""2.5 Promille Gaul"" reitest.";"Hüh hot mein braves Pferd!
 Auf, auf in den Kampf!";;;;;0/+3;0;1;1;0
 normal;;Equipment3;Das Siegel des Propheten;Artifact;;;;;"Wenn diese Karte zum ersten Mal ausgerüstet wird, erhält sie 3 Zählmarken.
 Du kannst am Anfang deines Zuges eine Zählmarke von dieser Karte entfernen, um in diesem Zug Faith+2 zu erhalten.";"Höre mich Mos...äh Entschuldigung!
@@ -549,9 +551,9 @@ Ist er dein Freund, lässt er dich fliegen.";;;;;Faith+1;0;1;1;0
 normal;TRUE;Equipment3;König der Arena;Helmet;;;+6 / -2;;;"Ihr hab geschwitz, geschrien und gekämpft..., doch ich habe gesiegt!
 Verneigt euch ihr Maden!";;;;;+3/0;0;1;1;0
 normal;TRUE;Equipment3;Yoga Buch;Artifact;;;+1 / +1;;Du musst eine Runde aussetzen nachdem du das Buch ausgerüsted hast. Gutes Yoga Wissen braucht seine Zeit.;;;;;;;0;1;1;0
-normal;TRUE;Library;Opfergaben an der Medium;;;;;;"Während der Ritualvorbereitung können dir andere Spieler Karten die sie besitzen (Hand und Ausrüstung) auf einen Stapel dabieten.
-Solltest du das Ritual erfolgreich beenden erhälst du all diese Karten.
-Solltest du es abbrechen erhält jeder Spieler seine Opfergaben zurück.";;;;;;;0;1;1;0
+normal;TRUE;Library;Opfergaben an das Medium;;;;;;"Während der Ritualvorbereitung können dir andere Spieler Karten, die sie besitzen (Hand und Ausrüstung), auf einen Stapel darbieten.
+Solltest du das Ritual erfolgreich beenden, erhälst du all diese Karten.
+Solltest du es abbrechen, erhält jeder Spieler seine Opfergaben zurück.";;;;;;;0;1;1;0
 normal;TRUE;Library;Opferritual;;;;;;"Jetzt ist die Zeit gekommensich zu entscheiden.
 
 Das Ritual vollführen:
@@ -601,7 +603,7 @@ normal;TRUE;Library;Ehrfürchtig;Attribute;;;-1 / 0;Gegen Götter;;;;;;;;0;1;2;0
 normal;TRUE;Library;Götterschlächter;Attribute;;;+2 / 0;wenn du gegen einen Gott kämpfst;;;;;;;;0;1;1;0
 normal;TRUE;Library;Hexer;Attribute;;;+1 / 0;Gegen Ungeheuer;;;;;;;;0;1;1;0
 normal;TRUE;Library;Höhentraining;Attribute;;;0 / +2;;;;;;;;;0;1;1;0
-normal;TRUE;Library;Klingenwirbel;Attribute;;;+1 / 0;Wenn du zwei einhändige Waffen trägst.;;;;;;;;0;1;1;0
+normal;TRUE;Library;Klingenwirbel;Attribute;;;+1 / +1;Wenn du zwei einhändige Waffen trägst.;;;;;;;;0;1;1;0
 normal;TRUE;Library;Königsmörder;Attribute;;;+2 / 0;"Gegen ""Skelettkrieger"" und den führenden Spieler.";;;;;;;;0;1;1;0
 normal;TRUE;Library;Lykanthropie;Attribute;;;0 / -1;;"Lege 3 Zählmarken auf diese Karte, wenn du sie erhältst.
 Entferne am Ende jeder Runde eine Zählmarke von dieser Karte.
@@ -611,9 +613,9 @@ normal;TRUE;Library;Pest;Attribute;;;-2 / -2;;"Wenn du Pest erhältst oder gegen
 Wenn du gegen einen anderen Spieler kämpfst erhälst dieser nach dem Kampf ""Pest"" (Extra Deck).
 Entferne am Ende jeder Runde eine Zählmarke von dieser Karte.
 Sollte diese Karte keine Zählmarken mehr haben, wird sie zerstört.";;;;;;;0;6;1;0
-normal;TRUE;Library;Vampir;Attribute;;;+2 / 0;Gegen Menschen;;;;;;;;0;6;1;0
+normal;TRUE;Library;Vampir;Attribute;;;+2 / 0;Gegen Menschen;Du bist kein Mensch mehr.;;;;;;;0;6;1;0
 normal;TRUE;Library;Vampirjäger;Attribute;;;+3 / 0;Gegen Vampire;;;;;;;;0;1;1;0
-normal;TRUE;Library;Werwolf;Attribute;;;0 / +4;;;;;;;;;0;1;1;0
+normal;TRUE;Library;Werwolf;Attribute;;;0 / +4;;Du bist außerdem ein Ungeheuer.;;;;;;;0;1;1;0
 normal;TRUE;Library;Zerschmettern;Attribute;;;+1 / 0;Wenn du eine zweihändige Waffe trägst.;;;;;;;;0;1;1;0
 normal;TRUE;Library;Bruchstück eines Gottes - Erde;Attribute;;;;Du musst nie wieder Züge aussetzten;;;;;;;;0;1;1;0
 normal;TRUE;Library;Bruchstück eines Gottes - Feuer;Attribute;;;+1 / 0;;;;;;;;;0;1;1;0
@@ -660,34 +662,35 @@ Du zählst für andere Karte nicht mehr als Armlos.";;;;;;;0;1;1;0
 normal;TRUE;Library;Vollkommen manifestierte Geisterhände;Attribute;;;;;"Du kannst alle Waffen ein und zweihändig mit einen Arm tragen.
 
 Du zählst für andere Karte nicht mehr als Armlos.";;;;;;;0;1;1;0
-monster;;Monster1;Betrunkender Gaul;;;;;;Hat +1, wenn du Schuhe trägst.;Da er dann auf deine Schuhe kotzt.;4;Animal;"Wenn du ihn besiegst kannst du ihn zähmen.
+monster;;Monster1;Betrunkender Gaul;;;;;;Hat +1, wenn du Schuhe trägst.;Da er dann auf deine Schuhe kotzt.;5;Animal;"Wenn du ihn besiegst kannst du ihn zähmen.
 Erhalte ""2.5 Promille Gaul"".";Er frisst deine Schuhe.;;0;1;1;0
 monster;;Monster1;Edward der Lappen;;;;;;"Hat +372 gegen Spielerinnen.
 Vampirismus (Wenn du den Kampf verlierst, wirst du zu einem Vampir (Extra Deck)).";"Nach ausführlicher Maniküre sind seine Nägel spitz. Seine vollen roten Lippen versprechen, leicht geöffnet, den süßesten Kuss - den des Todes.
 Sage mir junger Sterblicher, lässt du dich verführen?";1;Vampire;1 Ausrüstungskarte (Gewöhnlich);Vampirismus;;0;1;1;0
 monster;;Monster1;Einfacher Hausdämon;;;;;;Hat +1, für jeden Ausrüstungsgegenstand, den du trägst.;Der Neid auf all die schönen Sachen, die du trägst, funkelt in seinen Augen.;1;Monster;1 Ausrüstungskarte (Gewöhnlich);;;0;1;1;0
-monster;;Monster1;Erd-Elementar;;;;;;Hat die Stufe eines D6.;;D6;God;1 Ausrüstungskarte (Gewöhnlich);Setze 1 Runde aus.;;0;1;1;0
-monster;;Monster1;Bauer Knollennase;;;;;;Hat -2, wenn du keine Ausrüstungs trägst, denn er hat respekt vor Hinterwäldler.;;3;Human;Erhalte “Zwiebel” (Extra Deck);Bleibt auf den Feld stehen und ziehe eine Katastrophen;;0;1;;
-monster;;Monster1;Fauler Sack;;;;;;Hat -2, wenn du keine Bewegung durch Ausrüstung hast;Ihm fällt es schwer gegen Gleichgesinnte zu kämpfen.;3;Monster;"1 Ausrüstungskarte (Gewöhnlich).
+monster;;Monster1;Erd-Elementar;;;;;;Hat die Stufe eines D6.;;D6;God;Ziehe 2 Ausrüstungskarten, wähle 1 (Gewöhnlich);Setze 1 Runde aus.;;0;1;1;0
+monster;;Monster1;Bauer Knollennase;;;;;;Hat -2, wenn du keine Ausrüstung trägst, denn er hat Respekt vor Hinterwäldlern.;;3;Human;Erhalte “Zwiebel” (Extra Deck);Bleibe auf dem Feld stehen und ziehe eine Katastrophe;;0;1;;
+monster;;Monster1;Fauler Sack;;;;;;Hat -2, wenn du keine Bewegung durch Ausrüstung hast.;Ihm fällt es schwer gegen Gleichgesinnte zu kämpfen.;3;Monster;"1 Ausrüstungskarte (Gewöhnlich).
 Ziehe außerdem aus dem Sack eine Zauber-, Aktions- oder Katastrophenkarte.";"Setze eine Runde aus.
 Chillen, millen, Bierchen killen.";;0;1;1;0
 monster;;Monster1;Feuer-Elementar;;;;;;"Hat +1 gegen Spieler, die Menschen sind.
-Denn er ist ihr Gott
+Denn er ist ihr Gott.
 
 Hat die Stufe eines D4.";;D4;God;1 Ausrüstungskarte (Gewöhnlich);Würfel nächste Runde mit einem D4.;;0;1;1;0
 monster;;Monster1;Fremder am Straßenrand;;;;;;"Er fragt dich, ob du ihm Geld leihen kannst.
 Er würde dir dafür auch seinen Ring geben.
 Er sagt, dass der Ring dir eines Tages vielleicht einmal behilflich sein könnte.";;;Human;"Helfen:
--2 Handkarte
+-2 Handkarten
 Erhalte ""Ring der Medici"" (Extra Deck)";Ausrauben: 2 Zauberkarten;;0;1;1;0
 monster;;Monster1;Goblin;;;;;;"Er sieht schnell, dass er dir unterlegen ist und unterbreitet dir deswegen ein Abgebot:
-Wenn du sein armseliges Leben verschonst, gibt er dir als Gegenleistung eine ""Flasche Dämonenfeuer"" (Extra Deck).";Schwach wie er ist bettelt er um sein Leben. Findest du Barmherzigkeit?;4;Monster;Ziehe 2 Ausrüstungskarten, wähle 1 (Gewöhnlich).;Er versteckt sich. Mische den Goblin zurück in seinen Stapel.;;0;1;1;0
+Wenn du sein armseliges Leben verschonst, gibt er dir als Gegenleistung eine ""Flasche Dämonenfeuer"" (Extra Deck).";Schwach wie er ist, bettelt er um sein Leben. Findest du Barmherzigkeit?;4;Monster;Ziehe 2 Ausrüstungskarten, wähle 1 (Gewöhnlich).;Er versteckt sich. Mische den Goblin zurück in seinen Stapel.;;0;1;1;0
 monster;;Monster1;Hase;;;;;;"Er rennt vor dir weg!
 
-Kämpfe nur mit deiner Bewegung gegen ihn.";;2;Animal;"Erhalte ""Hasenpfote"" (Extra Deck)";Er rennt vor dir weg, du passierst.;;0;1;1;0
-monster;;Monster1;Lebende Rüstung;;;;;;"Sie sucht nach einem würdigen Träger und fordert dich deswegen zum Duell heraus.
+Kämpfe nur mit deiner Bewegung gegen ihn.";;3;Animal;"Erhalte ""Hasenpfote"" (Extra Deck).
+1 Ausrüstungskarte (Gewöhnlich)";Er rennt vor dir weg, du passierst.;;0;1;1;0
+monster;;Monster1;Lebende Rüstung;;;;;;"Sie sucht nach einem würdigen Träger und fordert dich deswegen zum einem Kampf heraus.
 
-Wenn die ""Lebende Rüstung"" einen Kampf gewinnt, wird sie zurück in ihren Stapel gemüscht.";;5;Monster;"Erhalte ""Belebte Rüstung"" (Extra Deck)";;;0;1;1;0
+Wenn die ""Lebende Rüstung"" den Kampf gewinnt, wird sie zurück in ihren Stapel gemischt.";;6;Monster;"Erhalte ""Belebte Rüstung"" (Extra Deck)";;;0;1;1;0
 monster;;Monster1;Lebende Schatzkiste;;;;;;"Hat -1, wenn du Schuhe trägst.
 Sie hasst es getreten zu werden.
 Sie will dir ihre Schätze freiwillig geben.
@@ -696,59 +699,62 @@ monster;;Monster1;Letzter seines Glaubens;;;;;;Hat +1 für jede offende Katastro
 monster;;Monster1;Mathematiker;;;;;;Du gewinnst sofort, wenn deine Kampfstärke eine Primzahl ist.;Er liebt sie einfach zu sehr.;8;Human;"Ziehe 2 Ausrüstungskarten, wähle 1 (Gewöhnlich).
 Aktiviere eine Aktionskarte";Öffne eine Katastrophe;;0;1;1;0
 monster;;Monster1;Platzhalter;;;;;;;"""Text hier einfügen""";2;Monster;1 Ausrüstungskarte (Gewöhnlich);;;0;1;1;0
-monster;;Monster1;Reicher Schnösel;;;;;;Wenn du diesen Kampf verlierst, erhalten alle Spieler außer dir 1 Ausrüstungskarte (Gewöhnlich).;"Das ist meine Gang!
-Und jetzt rück die Uhr raus!";0;Human;Ziehe 2 Ausrüstungskarten, wähle 1 (Gewöhnlich).;Werfe 2 Handkarten ab;;0;1;1;0
+monster;;Monster1;Reicher Schnösel;;;;;;"Wenn du diesen Kampf verlierst, erhalten alle Spieler außer dir 1 Ausrüstungskarte (Gewöhnlich).
+Diese können sie sofort ausrüsten.";"Das ist meine Gang!
+Und jetzt rück die Uhr raus!";0;Human;Ziehe 1 Ausrüstungskarte (Selten). ;Werfe 2 Handkarten ab;;0;1;1;0
 monster;;Monster1;Späher - Blinder Adler;;;;;;"Ist dein Würfel Ergebnis ungerade, übersieht er dich.
-Klaue seinen Schatz.";Er sieht dich... vielleicht.;5;Soldier;"Erhalte ""Tomahawk"" (Extra Deck)";"Deine Augen lassen dich im Stich und du stolperst herum.
+Klaue seinen Schatz.";Er sieht dich... vielleicht.;6;Soldier;"Erhalte ""Tomahawk"" (Extra Deck)";"Deine Augen lassen dich im Stich und du stolperst herum.
 Du hast in den nächsten zwei Zügen 0/-3.";;0;1;1;0
 monster;;Monster1;Verletzter Vampir;;;;;;"Hat +2, wenn du keine Ausrüstung trägst.
 Das gibt ihm Hoffnung den Kampf zu gewinnen.
 Vampirismus (Wenn du den Kampf verlierst, wirst du zu einem Vampir (Extra Deck)).";;2;Vampire;1 Ausrüstungskarte (Gewöhnlich);Vampirismus;;0;1;1;0
-monster;;Monster1;Wandelnder Albtraum;;;;;;Sollte der Wandelnde Apltraum diesen Kampf gewinnen, so lege ihn offen oben auf den Stapel zurück.;;5;Monster;"Erhalte ""Wiederkehrender Albtraum"" (Extra Deck)";;;0;1;1;0
-monster;TRUE;Monster1;Lebender Stein;;;;;;(Du kämpfst gegen beide Monster zusammen. Sie haben die Summe ihrer Stärke, Typ, Efekt, Win und Lose Eigenschaften);;4;Monster;2 Zauberkarte;1 Aktionskarte;;0;1;2;0
+monster;;Monster1;Wandelnder Albtraum;;;;;;Sollte der Wandelnde Apltraum diesen Kampf gewinnen, so lege ihn offen oben auf den Stapel zurück.;;5;Monster;"Erhalte ""Wiederkehrender Albtraum"" (Extra Deck)";Werfe eine Karte ab;;0;1;1;0
+monster;TRUE;Monster1;Lebender Stein;;;;;;(Du kämpfst gegen beide Monster zusammen. Sie haben die Summe ihrer Stärke, Typ, Effekt, Win und Lose Eigenschaften);;4;Monster;2 Zauberkarten;1 Aktionskarte;;0;1;2;0
 monster;;Monster2;Brückentroll;;;;;;"Du kannst 2 Handkarte abwerfen, um zu passieren.
-Das Angebot gilt auch, nachdem du deine Kampfstärke ausgewürfelt hast, aber der Preis hast sich dann verdoppelt.";;11;Monster;Ziehe 2 Ausrüstungskarten, wähle 1 (Selten).;Werfe 3 Handkarten ab;;0;1;1;0
+Das Angebot gilt auch, nachdem du deine Kampfstärke ausgewürfelt hast, aber der Preis hast sich dann verdoppelt.";;11;Monster;Ziehe 1 Ausrüstungskarten (Legendär);Werfe alle Handkarten ab;;0;1;1;0
 monster;;Monster2;Chimäre;;;;;;"Dieses Monster hat den Typ Mensch, Soldat, Vampir, Tier, Gott und Ungeheuer.
 
-Vampirismus (Wenn du den Kampf verlierst, wirst du zu einem Vampir (Extra Deck)).";;8;All;"1 Ausrüstungskarte (Gewöhnlich)
-2 Zauberkarten";Vampirismus;;0;1;1;0
-monster;;Monster2;Der Judoka;;;;;;Fairplay: Du kannst gänzlich ohne Ausrüstung und nur mit einem D6 gegen ihn kämpfen um stattdessen bei einem Sieg 1 Ausrüstungskarte (selten) zu erhalten.;Faul und bräsig ist er doch ein nicht zu unterschätzender Gegner, der sich vor allem kleinere und schwächere zum Opfer sucht.;5;Human;Ziehe 2 Ausrüstungskarten, wähle 1 (Gewöhnlich).;;;0;1;1;0
+Vampirismus (Wenn du den Kampf verlierst, wirst du zu einem Vampir (Extra Deck)).";;8;All;"1 Ausrüstungskarte (Selten)
+1 Zauberkarte";Vampirismus;;0;1;1;0
+monster;;Monster2;Der Judoka;;;;;;Fairplay: Du kannst gänzlich ohne Ausrüstung und nur mit einem D6 gegen ihn kämpfen um stattdessen bei einem Sieg 2 Ausrüstungskarte (selten) zu erhalten.;Faul und bräsig ist er doch ein nicht zu unterschätzender Gegner, der sich vor allem kleinere und schwächere zum Opfer sucht.;5;Human;Ziehe 2 Ausrüstungskarten, wähle 1 (Gewöhnlich).;Werfe einen Ausrüstungsgegenstand deiner Wahl ab;;0;1;1;0
 monster;;Monster2;Die Lady die zieht;;;;;;"In diesen Kampf zählt nur dein Würfelergebnis.
 
 Würfel einen zusätzlichen D4 in diesem Kampf, für jedes Faith, das du besitzt.";"Unbesiegbar?
-Verzage nicht edler Sterblicher. Setze all dein Glück in deinen Wurf und mit dem Zug der Lady wirst du auch diese überwinden.";8;God;"1 Ausrüstungskarte (Selten).
+Verzage nicht edler Sterblicher. Setze all dein Glück in deinen Wurf und mit dem Zug der Lady wirst du auch diese überwinden.";7;God;"1 Ausrüstungskarte (Selten).
 Du fügst den ""Heiligen Würfel Secundus"" deiner Hand hinzu.
-Ganz egal wo er sich gerade befindet.";Faith+1 im nächsten Zug.;;0;1;1;0
-monster;;Monster2;Diebische Elster;;;;;;Sie klaut dier deine stärkste Waffe und richtet sie gegen dich.;;3;Animal;"Erhalte ""Vogel der Stiehlt""";Sie bringt deine Waffe zum Pissbaum;;0;1;1;0
+Ganz egal wo er sich gerade befindet.";Faith+1 bis zum nächsten Zug.;;0;1;1;0
+monster;;Monster2;Diebische Elster;;;;;;"Sie klaut dir deine stärkste Waffe und richtet sie gegen dich.
+(Du kannst sie in diesen Kampf nicht benutzen und sie zählt für die Kampfstärke der Elster)
+
+Wenn du es schaffst zu fliehen, würfel einen D6. Wenn du eine 6 würfelst, ist die Elster von deiner Tat so verwirrt, dass sie die Waffe einfach liegen lässt und du sie zurückbekommst.";;1;Animal;"Erhalte ""Vogel der Stiehlt""";Sie bringt deine Waffe zum Pissbaum;;0;1;1;0
 monster;;Monster2;Fleischfressende Pflanze;;;;;;"Ich will echtes Fleisch!
 Hat -2 gegen Veganer.";"Fleisch, Fleisch, Fleisch, Fleisch, Fleisch, Fleisch, Fleisch, Fleisch, Fleisch, Fleisch, Fleisch, Fleisch, Fleisch, Fleisch, Fleisch, Fleisch, Fleisch
-Ich will Fleiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiisch!!!!!";8;Monster;Ziehe 3 Ausrüstungskarten, wähle 1 (Gewöhnlich).;;;0;1;1;0
-monster;;Monster2;Gargoyle-Nachtform;;;;;;"Wenn die Sonne noch nicht untergegangen ist, lege diese Karte auf den Ablagestapel und kämpfe stattdessen gegen ""Gargoyle Tagform"" (Extra Deck).";;10;Monster;Ziehe 3 Ausrüstungskarten, wähle 2 (Selten).;;;0;1;1;0
-monster;;Monster2;Gespenst;;;;;;"Sollte ""Kommunistischer Würfel"" zum Zeitpunkt des Kampfes auf dem Ablagstapel liegen, hat das Gespenst +3.";Es erschrickt dich, schaurig heulend.;6;Monster;"Ziehe 2 Ausrüstungskarten, wähle 1 (Gewöhnlich).
-Stattdessen: Ziehe 1 Ausrüstungskarte (Selten) bei ""Kommunistischer Würfel""";Das Würfelergebnis in deiner nächsten Runde ist immer 4.;;0;1;1;0
+Ich will Fleiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiisch!!!!!";8;Monster;Ziehe 1 Ausrüstungskarte (Selten);Bist du Veganer, so verlierst du deine Klasse;;0;1;1;0
+monster;;Monster2;Gargoyle-Nachtform;;;;;;"Wenn die Sonne noch nicht untergegangen ist, lege diese Karte auf den Ablagestapel und kämpfe stattdessen gegen ""Gargoyle Tagform"" (Extra Deck).";;9;Monster;Ziehe 2 Ausrüstungskarten, wähle 1 (Selten).;;;0;1;1;0
+monster;;Monster2;Gespenst;;;;;;"Sollte ""Kommunistischer Würfel"" zum Zeitpunkt des Kampfes auf dem Ablagstapel liegen, hat das Gespenst +2.";Es erschrickt dich, schaurig heulend.;7;Monster;"Ziehe 1 eine Ausrüstungskarte (Selten)
+Stattdessen: Ziehe 2 Ausrüstungskarten (Selten) bei ""Kommunistischer Würfel""";Das Würfelergebnis in deiner nächsten Runde ist immer 4.;;0;1;1;0
 monster;;Monster2;Graf Zahl;;;;;;"Hat +2, wenn sich deine Kampfstärke ohne Rest durch 2 teilen lässt.
-Vampirismus (Wenn du den Kampf verlierst, wirst du zu einem Vampir (Extra Deck)).";;6;Vampire;"Ziehe 2 Ausrüstungskarten, wähle 1 (Gewöhnlich).
-Ziehe 1 Zauberkarte.";Vampirismus;;0;1;1;0
-monster;;Monster2;Irrlicht;;;;;;Hat -2, wenn du der letzte Spieler in der Rangfolge bist.;Denn du hast dich schon längst auf den Wegen des Lebens verirrt;7;Monster;"Du erhältst ""Irrlicht"" (Extra Deck)";Der Spieler Rechts von dir entscheidet, wo du in der nächsten Runde langläufst.;;0;1;1;0
-monster;;Monster2;Alter Nekromant;;;;;;"Bevor er stirbt will er dir einen Teil seines Vermächtnisses aufzwingen, kannst du dich wiedersetzen?
-Du hast -5 auf deinen Fluchtwurf, denn sein Skelettbegleiter betrachtet jeden Schritt den du machst.";Er ist nur noch Haut und Knochen und fast so bleich wie das Skelett das ihn begleitet. Warscheinlich hat er schon angefangen sich selbst zu totenbändigen.;10;Human;Erhalte “Marius der Verschlissende” (Extra Deck) als Begleiter.;"Setze eine Runde aus.
+Vampirismus (Wenn du den Kampf verlierst, wirst du zu einem Vampir (Extra Deck)).";;6;Vampire;Ziehe 1 Ausrüstungskarte (Selten);Vampirismus;;0;1;1;0
+monster;;Monster2;Irrlicht;;;;;;Hat -2, wenn du der letzte Spieler in der Rangfolge bist.;Denn du hast dich schon längst auf den Wegen des Lebens verirrt;8;Monster;"1 Ausrüstungskarte (Selten)
+Erhalte ""Irrlicht"" (Extra Deck)";Der Spieler Rechts von dir entscheidet, wo du in der nächsten Runde langläufst.;;0;1;1;0
+monster;;Monster2;Alter Nekromant;;;;;;"Bevor er stirbt, will er dir einen Teil seines Vermächtnisses aufzwingen. Kannst du dich wiedersetzen?
+Du kannst in diesem Kampf nicht fliehen, denn sein Skelettbegleiter betrachtet jeden Schritt, den du machst.";Er ist nur noch Haut und Knochen und fast so bleich wie das Skelett, das ihn begleitet. Warscheinlich hat er schon angefangen sich selbst zu totenbändigen.;10;Human;Erhalte “Marius der Verschlissene” (Extra Deck) als Begleiter;"Setze eine Runde aus
 Er lehrt dich das “Oesiderh Mei Desideraias” (Extra Deck)";;0;1;1;0
 monster;;Monster2;Knausriger Kobold;;;;;;"Wenn du ihn mit 5 oder mehr Kampfstärke besiegst als du benötigst, erhältst du doppelt so viele Schätze.
-(Bei Stärke 6 benötigt man z.B. 12 Kampfstärke)";;6;Monster;"1 Ausrüstungskarte (Gewöhnlich).
-1 Zauberkarte.";Werfe alle Ausrüstungskarten aus deiner Hand ab.;;0;1;1;0
+(Bei Stärke 6 benötigt man z.B. 12 Kampfstärke)";;6;Monster;"1 Ausrüstungskarte (Gewöhnlich)
+2 Zauberkarten";Werfe alle Ausrüstungskarten aus deiner Hand ab.;;0;1;1;0
 monster;;Monster2;Krieger - Weicher Igel;;;;;;"Willst du nicht kämpfen, so setze dich zu ihm nieder und genieße seinen vorzüglichen Tabak.
-Setze eine Runde aus, erhalte die Hälfte seines Schatzes und ein einmaliges Erlebnis.";Er ist begierig zu kämpfen... vielleicht.;9;Soldier;"2 Ausrüstungskarten (Gewöhnlich).
-2 Zauberkarten.";"Er mag keine spitzen Gegenstände.
+Setze eine Runde aus, erhalte die Hälfte seines Schatzes und ein einmaliges Erlebnis.";Er ist begierig zu kämpfen... vielleicht.;9;Soldier;"2 Ausrüstungskarten (Selten)
+2 Zauberkarten";"Er mag keine spitzen Gegenstände.
 Er nimmt dir die stärkste Waffe weg und bringt sie zu seinem Heiligtum, dem Pissbaum.";;0;1;1;0
-monster;;Monster2;Meister der Einhandwafffen;;;;;;Hat +1, wenn du zwei einhändige Waffen trägst.;Er hat Respekt vor diesem Kampfstiel.;8;Human;"Er unterrichtet dich in seinem Kampfstil.
+monster;;Monster2;Meister der Einhandwafffen;;;;;;Hat +1, wenn du zwei einhändige Waffen trägst.;Er hat Respekt vor diesem Kampfstil.;8;Human;"Er unterrichtet dich in seinem Kampfstil.
 Erhalte ""Klingenwirbel""";Du verlierst deine Charaktereigenschaft;;0;1;1;0
 monster;;Monster2;Moderator;;;;;;"Der Moderator kündigt sofort den nächsten Kampf an.
 Ziehe ein weiteres Monster vom Stapel.
 
 (Du kämpfst gegen beide Monster zusammen.
-Sie haben die Summe ihrer Stärke, Typ, Efekt, Win und Lose Eigenschaften)";;2;Human;1 Zauberkarte;"1 Zauberkarte
-Für die gute Show";;0;1;1;0
-monster;;Monster2;Riesige Matrjoschka;;;;;;Hat -2, wenn du keine Handkarten hast.;Sie kann mit dem Gefühl der Leere nicht umgehen.;10;Monster;"Erhalte ""Große Matrjoschka"" (Extra Deck)";;;0;1;1;0
+Sie haben die Summe ihrer Stärke, Typ, Effekt, Win und Lose Eigenschaften)";;2;Human;1 Zauberkarte;p web;;0;1;1;0
+monster;;Monster2;Riesige Matrjoschka;;;;;;Hat -2, wenn du keine Handkarten hast.;Sie kann mit dem Gefühl der Leere nicht umgehen.;8;Monster;"Erhalte ""Große Matrjoschka"" (Extra Deck)";Schenke einem Spieler deiner Wahl 2 deiner Zauberkarten;;0;1;1;0
 monster;;Monster2;Selbst ausgedachtes Monster;;;;;;"Hat -5 an Montagen. Es hasst Montage.
 Hat +1 an Samstagen. Da geht es immer gerne ins Kino.
 Hat +2, wenn es grade regnet. Es liebt Regen.
@@ -756,19 +762,21 @@ Hat +1 gegen Personen, die heute schon Alkohol getrunken haben. Da es neidisch i
 Hat -2, wenn du dich grade zuhause befindest. Weil es trotz alle dem gastfreundlich ist.
 Hat -1, wenn du das Spiel zum ersten Mal spielst. Den es ist ein Freund von Anfängern.";;6;Monster;"Ziehe 2 Ausrüstungskarten, wähle 1 (Gewöhnlich).
 +1 Zauberkarte an Samstagen";Öffne eine Katastrophe;;0;1;1;0
-monster;;Monster2;Sirene;;;;;;Hat +2, wenn du Soldat bist.;;7;Monster;"Ziehe 3 Ausrüstungskarten, wähle 1 (Gewöhnlich).
-+1 Zauberkarte, wenn du Soldat bist.";;;0;1;1;0
+monster;;Monster2;Sirene;;;;;;Hat +2, wenn du Soldat bist.;;7;Monster;"Ziehe 1 Ausrüstungskarte (Selten).
++1 Zauberkarte, wenn du Soldat bist";"Sie betören dich.
+Schenke ihnen eine Ausrüstungskarte einer Wahl";;0;1;1;0
 monster;;Monster2;Stadtwache;;;;;;"Hat +2, wenn du Vampir oder Soldat bist.
 Ungeziefer kommt hier nicht rein!
 
-Falls du den Ring der Medici hast, lässt er dich passieren und du bekommst 2 Ausrüstungskarten (Selten) geschenkt.";;9;Soldier;Ziehe 1 Ausrüstungskarte (Selten) und 1 Aktionskarte.;Setze eine Rund aus.;;0;1;1;0
+Falls du den Ring der Medici hast, lässt er dich passieren und du bekommst 2 Ausrüstungskarten (Selten) geschenkt.";;9;Soldier;"Ziehe 2 Ausrüstungskarten, wähle 1 (Selten).
+Ziehe 1 Aktionskarte.";Setze eine Runde aus.;;0;1;1;0
 monster;;Monster2;Stylist;;;;;;Du bist in seine Fänge geraten und wirst ihm erst nach einem radikalen Umstyling wieder entkommen.;Heul nicht, deine Haare sahen eh scheiße aus!!!;6;Human;Ziehe 2 Ausrüstungskarten, wähle 1 (Gewöhnlich).;Du musst die Klasse wechseln.;;0;1;1;0
 monster;;Monster2;Waldgeist;;;;;;Hat -7 gegen Veganer.;Denn sie sind Freunde des Waldes.;7;Monster;"Ziehe 2 Ausrüstungskarten, wähle 1 (Gewöhnlich).
 Faith+1 im nächsten Zug.";Faith+2 im nächsten Zug.;;0;1;1;0
 monster;;Monster2;Wiedergänger;;;;;;"Solltest du ihn besiegen, kämpfst du sofort ein zweites Mal gegen ihn.
 
-Du erhältst jedes Mal deine Belohnung.";;8;Monster;"1 Ausrüstungskarte (Gewöhnlich).
-1 Zauberkarte.";;;0;1;1;0
+Du erhältst jedes Mal deine Belohnung.";;7;Monster;"1 Ausrüstungskarte (Gewöhnlich).
+1 Zauberkarte.";Ziehe verdeckt einen Fluch, er aktiviert sich im nächsten Kampf;;0;1;1;0
 monster;;Monster2;Verhüllte Gestalt;;;;;;"Er unterbreitet dir ein großartiges Angebot.
 Wie durch Zauberrei zieht er 3 mächtige Gegenstände aus seinem Gewand hervor.
 Er zeigt dir offen 3 Ausrüstungskarten (Legendär).
@@ -777,7 +785,7 @@ Als Gegenleistung erwartet er nur eine unwichtige Kleinigkeit.
 (Mische die anderen beiden Karten zurück in ihren Stapel)";;?;Human;"Handeln: Erhalte den Legendären Ausrüstungsgegenstand deiner Wahl.
 Ziehe ""Seelenlos""";"Er verschwindet wie von Geisterhand.
 Passiere";;0;1;1;0
-monster;TRUE;Monster2;Gargoyle-Tagform;;;;;;;Er verträgt das Sonnenlicht nicht so sehr, er ist schon ganz starr vor Schock.;6;Monster;Ziehe 2 Ausrüstungskarten, wähle 1 (Gewöhnlich).;Er versperrt dir den Weg. Bleib auf den Monsterfeld stehen und kämpfe nächste Runde erneut.;;0;1;1;0
+monster;TRUE;Monster2;Gargoyle-Tagform;;;;;;;Er verträgt das Sonnenlicht nicht so sehr, er ist schon ganz starr vor Schock.;6;Monster;Ziehe 2 Ausrüstungskarten, wähle 1 (Gewöhnlich).;Er versperrt dir den Weg. Bleib auf dem Monsterfeld stehen und kämpfe nächste Runde erneut.;;0;1;1;0
 monster;;Monster3;Basilisk;;;;;;"Wenn du den Kampf verlierst, wirst du für 1 Runden in Stein verwandelt.
 Während du in Stein verwandelt bist, kann kein Spieler an dir vorbeilaufen.
 (Nicht dein Feld betreten)
@@ -785,47 +793,47 @@ Du gewinnst automatisch, wenn du die Spiegelrüstung trägst.";;13;Monster;"1 Au
 1 Zauberkarte.";"In Stein verwandelt.
 1 Ausrüstungskarte (Selten).
 1 Zauberkarte.
-Die hat er einfach liegen lassen.";;0;1;1;0
+Die hat er einfach liegen lassen";;0;1;1;0
 monster;;Monster3;Der Antichrist;;;;;;Du hast in diesen Kampf Faith-2.;;11;Human;"Ziehe 3 Ausrüstungskarten, wähle 1 (Selten).
 Du hast im nächsten Zug Faith-1";Du hast im nächsten Zu Faith+1;;0;1;1;0
 monster;;Monster3;Der Lord der Stößt;;;;;;Dein Glück hat sich gewendet, dein Würfelergebnis zählt in diesen Kampf gegen dich.;"Zu deinem Unglück
 … für den Lord.";11;God;"Ziehe 2 Ausrüstungskarten, wähle 1 (Selten).
 Du fügst den ""Heiligen Würfel Secundus"" deiner Hand hinzu.
 Ganz egal wo er sich gerade befindet.";"Passiere
-Faith-1 im nächsten Zug.";;0;1;1;0
+Faith-1 im nächsten Zug";;0;1;1;0
 monster;;Monster3;Drachenhort;;;;;;"Du kannst 3 Felder zurückgehen, um zu fliehen, bevor dich einer der Drachen entdeckt.
 
 Vor ihrem Hort liegt ein Berg aus Gold (1 Legendär). Solltest du diesen Stehlen, wirst du daraufin sofort von den Drachen angegriffen, die ihren Verlust bemerken.";;18;Monster;"Passiere
 Du behälst die Ausrüstungskarte.";"Verliere deine Rüstung und Helm.
-Du behälst die Ausrüstungskarte.";;0;1;1;0
-monster;;Monster3;Einsamer Krieger;;;;;;Als letzter Überlebender seines Trupps braucht er Unterstützung, um diesen Kampf zu gewinnen!;;10;Soldier;Ziehe 1 Ausrüstungskarte (Selten).;Setze 2 Runden aus, um ihm Gesellschaft zu leisten.;;0;1;1;0
+Du behälst die Ausrüstungskarte";;0;1;1;0
+monster;;Monster3;Einsamer Krieger;;;;;;Als letzter Überlebender seines Trupps braucht er Unterstützung, um diesen Kampf zu gewinnen!;;10;Soldier;Ziehe 1 Ausrüstungskarte (Selten).;Setze 2 Runden aus, um ihm Gesellschaft zu leisten;;0;1;1;0
 monster;;Monster3;Engel der Apokalypse;;;;;;Öffne sofort eine Katastrophe!;;15;God;"Ziehe 1 Ausrüstungskarte (Selten).
 Ziehe 2 Zauberkarten.
-Schließe eine Katastrophe.";Öffne eine weitere Katastrophe.;;0;1;1;0
+Schließe eine Katastrophe.";Öffne eine weitere Katastrophe;;0;1;1;0
 monster;;Monster3;Grabräuber;;;;;;Hat +1 für jedes Artifact, das du trägst.;;11;Human;"Ziehe 2 Zauberkarten.
-Erhalte ""Antiker Ring"" (Extra Deck).";Du verlierst ein Artifact deiner Wahl.;;0;1;1;0
+Erhalte ""Antiker Ring"" (Extra Deck).";Du verlierst ein Artifact deiner Wahl;;0;1;1;0
 monster;;Monster3;Graf Orlok;;;;;;"Hat +2, wenn die Sonne bereits untergegangen ist.
 (+1 bei Dämmerung)
 
 Vampirismus (Wenn du den Kampf verlierst, wirst du zu einem Vampir (Extra Deck)).";;11;Vampire;"Ziehe 2 Zauberkarten.
-Erhalte ""Vampirjäger"" (Extra Deck).";"Verliere deine Charaktereigenschaft.
+Erhalte ""Vampirjäger"" (Extra Deck).";"Verliere deine Charaktereigenschaft
 Vampirismus";;0;1;1;0
 monster;;Monster3;Lava-Golem;;;;;;"Hat die Stufe von vier D4.
 
-Gegenstände die das Wort ""Flammen"", ""Flammt"", ""Feuer"" oder ""Fackel"" enthalten, bringen dir in diesem Kampf keinen Bonus.";;4xD4;Rock;Ziehe 1 Ausrüstungskarte (Selten).;Du musst 3 Handkarten abwerfen.;;0;1;1;0
+Gegenstände die das Wort ""Flammen"", ""Flammt"", ""Feuer"" oder ""Fackel"" enthalten, bringen dir in diesem Kampf keinen Bonus.";;4xD4;Rock;Ziehe 1 Ausrüstungskarte (Selten).;Du musst 3 Handkarten abwerfen;;0;1;1;0
 monster;;Monster3;Meister der Zweihandwaffen;;;;;;Hat +1, wenn du eine zweihändige Waffe trägst.;"Eine mit der Kraft zweier Arme geführte Waffe zerschmettert und zerstört.
 Nur Dummköpfe geben diesen Vorteil aus.";12;Human;"Ziehe 2 Zauberkarten
 Er unterrichtet dich in seinem Kampfstil.
 Erhalte ""Zerschmettern"" (Extra Deck).";"Verliere deine Waffe.
-Hast du 2 lässt er dir die Wahl, welche du abwirfst.";;0;1;1;0
+Hast du 2 lässt er dir die Wahl, welche du abwirfst";;0;1;1;0
 monster;;Monster3;Meistertänzer;;;;;;Kämpfe nur mit deiner Bewegung gegen ihn.;"Mit dieser mangelhaften Fußbekleidung willst du tanzen können?
 Gib sie her.
 Tanz ist Leichtigkeit.
-Du wirst sehen.";7;Human;"Erhalte ""Schuhe des Meistertänzers"" (Extra Deck).";Verliere deine Schuhe.;;0;1;1;0
+Du wirst sehen.";7;Human;"Erhalte ""Schuhe des Meistertänzers"" (Extra Deck).";Verliere deine Schuhe;;0;1;1;0
 monster;;Monster3;Die Gilde;;;;;;"Die Gilde setzt einen Attentäter auf dich an.
 
 Ziehe ein weiteres Monster vom Stapel. 
-(Du kämpfst gegen beide Monster zusammen. Sie haben die Summe ihrer Stärke, Typ, Efekt, Win und Lose Eigenschaften)
+(Du kämpfst gegen beide Monster zusammen. Sie haben die Summe ihrer Stärke, Typ, Effekt, Win und Lose Eigenschaften)
 
 Solltest du den “Ring des Medici” tragen sehen sie welchen Fehler sie begannen haben und kämpfen mit statt gegen dich.
 (Du bekommst trotzdem beide Wins bei Sieg)";Du bist langsam zu bekannt geworden, zeit dich loszuwerden.;2;Human;Erhalte 1 “Ehre”;Verliere 1 “Ehre”;;0;1;1;0
@@ -968,24 +976,28 @@ Es hat stattdessen +3, wenn ""Vollmond"" im Ablagestapel liegt.";;;;;;;0;1;1;0
 normal;;Spell;Bürokratische Zeitverschiebung;SpellCounter;;OnlyBureaucrat;;;"Der Effekt einer eingesetzten Karte tritt erst eine Runde später in Kraft.
 Sollte sie dann kein Ziel mehr haben, wird sie einfach zerstört.";;;;;;;0;1;1;0
 normal;;Spell;Chancengleichheit;SpellCounter;;;;;Konter eine Karte, die im Duell oder Mehrfachkampf gespielt wurde.;;;;;;;0;1;1;0
-normal;;Spell;Dance Battle;SpellFast;;;;;"Du kannst diese Karte nur in einem Duell spielen.
-Ihr kämpft in diesen Kampf mit eurer Bewegung, anstatt eurer Stärke.";;;;;;;0;1;1;0
+normal;;Spell;Dance Battle;SpellFast;;;;;"Du kannst diese Karte nur in einem Spielerkampf spielen.
+Alle Spieler kämpft in diesen Kampf nur mit ihrer Bewegung, anstatt der Kampfstärke.";;;;;;;0;1;1;0
 normal;;Spell;Dehnübungen;SpellCounter;;NotBodybuilder;;;"Spiele diese Karte, wenn du eine oder mehrere Runden aussetzen musst.
 Du dehnst dich währenddessen, wodurch du in deinem nächsten Zug +2/+2, für jede Runde, die du dich gedehnt hast, erhälst.";;;;;;;0;1;1;0
-normal;;Spell;Earth, Wind & Fire;SpellFast;;;;;"Nur in einen Duell spielbar.
-Beide Spieler werfen zusätzlich einen weiteren D6.
+normal;;Spell;Earth, Wind & Fire;SpellFast;;;;;"Nur in einen Spielerkampf spielbar.
+Beide Spieler werfen zusätzlich einen weiteren D6, D8 und D12.
 Die Summe addieren sie zu ihrer Kampfstärke.";Manchmal muss man einfach mit Kanonen auf Spatzen schießen.;;;;;;0;1;1;0
 normal;;Spell;Eigenbedarf;SpellNormal;;;;;"Erhalte das Handelsgut einer deiner eigenen Handelskarten.
 Werfe dazu die Handelskarte ab.";;;;;;;0;1;1;0
 normal;;Spell;Entflammt;SpellNormal;;;;;Du erhälst in diesen Kampf zusätzlich die Stärke eines D4.;Klar es ist Öl und du hast dir die Hand verbrannt, aber who cares?;;;;;;0;1;1;0
 normal;;Spell;Entschädigung;SpellCounter;;;;;Wenn du eine oder mehrere Handkarten abwerfen musst, ziehst du die gleiche Mege Zauberkarten vom Stapel nach.;;;;;;;0;1;1;0
 normal;;Spell;Extra Zug;SpellTrade;;;;;Der Käufer hat in seinem nächsten Zug 2 Züge hintereinander.;;;;;;;0;1;1;0
-normal;;Spell;Fair Play;SpellFast;;;;;Nur vor einem Duell spielbar. In diesem Kampf können keine Zauberkarten benutzt werden.;;;;;;;0;1;1;0
+normal;;Spell;Fair Play;SpellFast;;;;;Nur vor einem Spielerkampf spielbar. In diesem Kampf können keine Zauberkarten benutzt werden.;;;;;;;0;1;1;0
 normal;;Spell;Fangzähne;SpellFast;;;;;Gib einem Tier oder Vampir im Kampf +3/0.;;;;;;;0;1;1;0
-normal;;Spell;Fehdenhandschuh der Bettlers;SpellNormal;;;;;Du forderst einen anderen Spieler zum Duell heraus. Falls er ablehnt, muss er 4 Handandkarten abwerfen.;;;;;;;0;1;1;0
-normal;;Spell;Fehdenhandschuh der Ehre;SpellNormal;;;;;Du forderst einen anderen Spieler zum Duell heraus. Falls er ablehnt, muss er die nächste Runde aus Schade aussetzen.;;;;;;;0;1;1;0
-normal;;Spell;Fehdenhandschuh der kämpfers;SpellNormal;;;;;Du forderst einen anderen Spieler zum Duell heraus. Falls er ablehnt, hat er in seinem nächsten Zug -3/0.;;;;;;;0;1;1;0
-normal;;Spell;Fehdenhandschuh eines Gläubigen;SpellNormal;;;;;Du forderst einen anderen Spieler zum Duell heraus. Falls er ablehnt, hat er in seinem nächsten Zug Faith-2.;;;;;;;0;1;1;0
+normal;;Spell;Fehdenhandschuh der Bettlers;SpellNormal;;;;;"Du forderst einen anderen Spieler zum Duell heraus. Falls er ablehnt, muss er 2 Handandkarten abwerfen.
+Entferne eine Zählmarke von ""Tavernenrunde"".";;;;;;;0;1;1;0
+normal;;Spell;Fehdenhandschuh der Ehre;SpellNormal;;;;;"Du forderst einen anderen Spieler zum Duell heraus. Falls er ablehnt, muss er die nächste Runde aus Schade aussetzen.
+Entferne eine Zählmarke von ""Tavernenrunde"".";;;;;;;0;1;1;0
+normal;;Spell;Fehdenhandschuh der kämpfers;SpellNormal;;;;;"Du forderst einen anderen Spieler zum Duell heraus. Falls er ablehnt, hat er in seinem nächsten Zug -2/0.
+Entferne eine Zählmarke von ""Tavernenrunde"".";;;;;;;0;1;1;0
+normal;;Spell;Fehdenhandschuh eines Gläubigen;SpellNormal;;;;;"Du forderst einen anderen Spieler zum Duell heraus. Falls er ablehnt, hat er in seinem nächsten Zug Faith-1.
+Entferne eine Zählmarke von ""Tavernenrunde"".";;;;;;;0;1;1;0
 normal;;Spell;Feige;CharacterTrait;;;;;Wenn du ein Monsterfeld betrittst, kannst du dir das Monster vor den Kampf ansehen und dich entscheiden, ob du gegen es kämpfst oder dich auf dein ursprüngliches Feld zurückziehst. Dabei wird der Effekt des Feldes, auf das du dich zurückziehst nicht aktiviert.;Von wegen Feige, das ist ein taktischer Rückzug!;;;;;;0;1;1;0
 normal;;Spell;Fluchtinstinkt;CharacterTrait;;;;;Wenn du bei Gleichstand einen Kampf verlierst, hast du +10 auf deinen Fluchtwurf.;;;;;;;0;1;1;0
 normal;;Spell;Frisch geschliffene Waffen;SpellNormal;;;;;Gibt +1/0 im Kampf für jede Waffe, die du trägst.;;;;;;;0;1;1;0
@@ -993,17 +1005,19 @@ normal;;Spell;Geizig;CharacterTrait;;;;;Du kannst 2 weitere Handkarten halten.;;
 normal;;Spell;Gigantismus;SpellTrap;;;;;Gibt einem Monster der Stufe 4 oder niedriger +4 im Kampf.;;;;;;;0;1;1;0
 normal;;Spell;Glücklicher Fund;SpellNormal;;;;;Füge die oberste Karte des Zauberkarten Ablagestapels deiner Hand hinzu.;;;;;;;0;1;1;0
 normal;;Spell;Göttliche Intervention;SpellTrap;;;;;Würfel die Stärke eines Monsters mit einem D20 neu aus.;;;;;;;0;1;1;0
-normal;;Spell;Göttliche Woge;SpellFast;;OnlyPrist;;;Nur in einem Duell spielbar. In diesen Kampf zählt nur das Würfelergebnis, Segen und Füche.;;;;;;;0;1;1;0
+normal;;Spell;Göttliche Woge;SpellFast;;OnlyPrist;;;Nur in einem Spielerkampf spielbar. In diesen Kampf zählt nur das Würfelergebnis, Segen und Flüche.;;;;;;;0;1;1;0
 normal;;Spell;Großer Sprung;SpellNormal;;;;;Gehe bei einem Bewegungswurf 3 Felder weiter.;;;;;;;0;1;1;0
 normal;;Spell;Hochmut;CharacterTrait;;;;;"Einmal pro Runde kannst du einen Spieler aus einem höheren Areal zu einen Duell herausfordern. Falls er ablehnt, hat er im nächsten Zug Faith-1.
-Aus Scham.";;;;;;;0;1;1;0
+Aus Scham.
+Wenn du dies tutst hast du diesen Zug 0/-4.";;;;;;;0;1;1;0
 normal;;Spell;Hoffnung;SpellFast;;;;;Gib einem Menschen im Kampf +2/0.;;;;;;;0;1;1;0
 normal;;Spell;Illegale Sportwetten;SpellTrap;;;;;Gib einem Monster im Kampf +4. Wenn das Monster den Kampf gewinnt, erhältst du eine Zauberkarte. Falls nicht, musst du alle deine Handkarten abwerfen.;;;;;;;0;1;1;0
 normal;;Spell;Kampfesglück;SpellFast;;;;;"Gib einer Seite im Kampf +1/0.
 
 Erhält zusätzlich +1/0 für jedes andere kampfesglück auf der gleichen Seite.";;;;;;;0;15;1;0
 normal;;Spell;Kampfeslust;CharacterTrait;;;;;"Du kannst gegen jeden Spieler kämpfen, an dem du vorberläufst.
-Dazu betrittst du das Feld, auf dem dein Gegner steht.";;;;;;;0;1;1;0
+Dazu betrittst du das Feld, auf dem dein Gegner steht.
+Wenn es ein Monster Feld ist wird es nicht ausgelöst.";;;;;;;0;1;1;0
 normal;;Spell;Kassenzettel;SpellFast;;;;;Wirf zwei beliebige Handkarte ab und ziehe zwei neue nach.;Dir gefallen deine Handkarten nicht, doch welch Glück, du bist ein ordentlicher Mensch und hast jeden Bon sucher verwahrt.;;;;;;0;1;1;0
 normal;;Spell;kleiner Sprung;SpellNormal;;;;;Gehe bei einem Bewegungswurf 1 Feld weiter.;;;;;;;0;1;1;0
 normal;;Spell;Kommunistischer Würfel;SpellNormal;;;;;"Nach deinem Wurf zu spielen.
@@ -1028,14 +1042,14 @@ Es hat stattdessen -3, wenn ""Verwundet"" im Ablagestapel liegt.";;;;;;;0;1;1;0
 normal;;Spell;Monsterkatapult;SpellTrap;;;;;"Ein ""Lebender Stein"" der Stufe 4 tritt dem Kampf bei (Extra Deck).
 (Du kämpfst gegen beide zusammen. Sie haben die Summe ihrer Stärke, Typ, Effekt, Win und Lose Eigenschaften).";;;;;;;0;1;1;0
 normal;;Spell;Mundgeruch;SpellNormal;;;;;Du kannst vor einen Gegner Typ Mensch, Vampir oder Tier sofort fliehen (gehe dazu 1 Feld zurück).;Du riechst nicht, du stinkst!;;;;;;0;1;1;0
-normal;;Spell;Namenloser Held;SpellFast;;;;;"Nur einen Duell spielbar.
+normal;;Spell;Namenloser Held;SpellFast;;;;;"Nur in einen Spielerkampf spielbar.
 In diesem Kampf zählen nur die Augen der Würfel.
 
 Du würfelst mit einem D4 und dein Gegner mit einem D6, bei Gleichstand gewinnst du!";;;;;;;0;1;1;0
 normal;;Spell;Packt mit dem Teufel;SpellNormal;;;;;"Erhalte in diesen Kampf +4/0.
 Du hast dafür in deinem nächsten Kampf -4/0.";;;;;;;0;1;1;0
 normal;;Spell;Papiere fälschen;SpellNormal;;;;;Lege oder entferne bis zu 2 Zählmarken auf eine/von einer Karte.;;;;;;;0;1;1;0
-normal;;Spell;Protein Shake;SpellNormal;;OnlyBodybuilder;+4 / 0;Im Kampf;;;;;;;;0;1;1;0
+normal;;Spell;Protein Shake;SpellNormal;;OnlyBodybuilder;+6 / 0;Im Kampf;;;;;;;;0;1;1;0
 normal;;Spell;Rauch Granate;SpellFast;;;;;Du erhälst in diesen Kampf +8 auf deinem Fluchtwurf.;;;;;;;0;1;1;0
 normal;;Spell;Rückerstattung;SpellFast;;;;;Wenn du eine Zauberkarte benutzt, fügst du sie wieder deiner Hand hinzu, anstatt sie abzuwerfen.;;;;;;;0;1;1;0
 normal;;Spell;Schatten;SpellFast;;;;;"Spiele diese Karte, wenn ein Spieler ein Monsterfeld betritt.
@@ -1077,8 +1091,9 @@ Es hat stattdessen +3, wenn ""Blutmond"" im Ablagestapel liegt.";;;;;;;0;1;1;0
 normal;;Spell;Weihwasser;SpellFast;;;;"Gib einem Vampir im
 Kampf -4/0";;;;;;;;0;1;1;0
 normal;;Spell;Zornig;CharacterTrait;;;;;"Lege eine Zählmarke auf diese Karte für jeden Kampf mit einen anderen Spieler, den du verlierst.
+(Merfachkämpfe die du nicht gewinnst zählen als verlorende Kämpfe)
 Entferne alle Zählmarken von dieser Karte, um in einem Duell +1/0 für jede Zählmarke zu erhalten.";;;;;;;0;1;1;0
-normal;;Spell;Zwei gegen einen;SpellTrap;;;;;Gib einem Spieler, der sich im Duell oder Mehrfachkampf befindet -3/0.;;;;;;;0;1;1;0
+normal;;Spell;Zwei gegen einen;SpellTrap;;;;;Gib einem Spieler im Spielerkampf -3/0.;;;;;;;0;1;1;0
 normal;;Spell;Raubüberfall;SpellNormal;;;;;"Nur im Duell Spielbar.
 Du erhälst -5/0 in diesen Kampf.
 Wenn du den Kampf gewinnst erhälst du alle “Ehre” deines Gegeners (Maximal 5)";;;;;;;0;1;1;0
@@ -1090,9 +1105,10 @@ normal;TRUE;Spell;Flasche Dämonenfeuer;SpellFast;;;;;Gib einem Ungeheuer im Kam
 normal;TRUE;Spell;Geisterwanderer;SpellNormal;;;;;Füge eine Ausrüstungskarte vom Ablagestapel deiner Hand hinzu.;Der Sieg über den großen Schamnen hat dich zum Kontakt mit den Ahnen befähigt. Er verleiht dir in die Vergangenheit zu greifen.;;;;;;0;1;1;0
 normal;TRUE;Spell;Große Matrjoschka;SpellNormal;;;;;"Du erhälst im Kampf +3/0.
 Füge ""Mittlere Matrjoschka"" deiner Hand hinzu (Extra Deck).";;;;;;;0;1;1;0
-normal;TRUE;Spell;Hasenpfote;SpellNormal;;;;;"Nur vor einen Kampf spielbar.
-Du erhälst in diesen Kampf +10 auf deinen Fluchtwurf.";;;;;;;0;1;1;0
-normal;TRUE;Spell;Irrlicht;SpellTrap;;;;;Nur am Anfang deines Zuges eines anderen Spielers spielbar. Dieser läuft diesen Zug den Weg deiner Wahl.;;;;;;;0;1;1;0
+normal;TRUE;Spell;Hasenpfote;SpellNormal;;;;;"Nur vor einen Kampf spielbar. (Bevor Karten aufgedeckt werden)
+Du erhälst in diesen Kampf +10 auf deinen Fluchtwurf.
+";;;;;;;0;1;1;0
+normal;TRUE;Spell;Irrlicht;SpellTrap;;;;;Nur am Anfang eines Zuges eines anderen Spielers spielbar. Dieser läuft diesen Zug den Weg deiner Wahl.;;;;;;;0;1;1;0
 normal;TRUE;Spell;Kleine Matrjoschka;SpellNormal;;;;;Du erhälst im Kampf +1/0.;;;;;;;0;1;1;0
 normal;TRUE;Spell;Kriegsgesang;SpellTrap;;;;;Nur am Ende deines Zuges spielbar. Alle Monster haben bis zum Anfang deines nächsten Zuges +3.;;;;;;;0;1;1;0
 normal;TRUE;Spell;Mittlere Matrjoschka;SpellNormal;;;;;"Du erhälst im Kampf +2/0.
@@ -1103,70 +1119,70 @@ Nicht auf dem letzten Feld spielbar.";;;;;;;0;1;1;0
 normal;TRUE;Spell;Totem;SpellNormal;;;;;Wenn du einen Kampf gegen ein Monster verlierst, kannst du das Totem beschwören, um den Lose auf einen anderen Spieler zu lenken.;;;;;;;0;1;1;0
 normal;TRUE;Spell;Unsterblich;SpellNormal;;;;;"Wenn du einen Kampf verlierst, kannst du allen negativen Folgen des Kampfes entgehen (kein Lose).
 Du kannst das Monster passieren oder nächste Runde erneut gegen ein Monster auf diesen Feld kämpfen.";;;;;;;0;1;1;0
-normal;TRUE;Equipment3;Verflucht;Artifact;;;;;"Werfe diese Karte ab um einen Spieler im Kampf gegen ""Apokalyptischer Reiter – Tod"" -4 oder den ""Tod"" -4/0 in einen Kampf zu geben.";;;;;;;0;1;1;0
+normal;TRUE;Equipment3;Verflucht;Artifact;;;;;"Werfe diese Karte ab um einem Spieler im Kampf gegen ""Apokalyptischer Reiter – Tod"" -4 oder den ""Tod"" -4/0 in einen Kampf zu geben.";;;;;;;0;1;1;0
 normal;TRUE;Spell;Vogel der Stiehlt;SpellTrap;;;;;"Du setzt deinen treuen Begleiter darauf an einen Gegenstand deiner Wahl von deinem Mitspieler zu stehlen.
 Dieser dumme Vodel bringt ihn aber nicht zu dir, sondern zum Pissbaum.";Wie ein Blitz schlägt es von oben auf dich herab und hinterlässt dich… BERAUBT.;;;;;;0;1;1;0
 normal;TRUE;Spell;Wiederkehrender Albtraum;SpellFast;;;;;"Gib einem Spieler im Duell -1/0.
 
-Füge diese Karte am Ende des Duells wieder deiner Hand hinzu (bevor du beklaut wirst). Auch wenn sie gekontert wurde.
+Füge diese Karte am Ende des Kampfes wieder deiner Hand hinzu (bevor du im Duell beklaut wirst). Auch wenn sie gekontert wurde.
 
 Nur einmal pro Runde nutzbar.";;;;;;;0;1;1;0
-normal;TRUE;Spell;Cocktail des Molotows;SpellFast;;;+2 / 0;;"Nur in einem Duell zu werfen.
-Die Rüstung deines Gegners verbrennt sofort.";;;;;;;0;1;1;0
-normal;;Tavern;Eine Runde Bananenweizen;Tavern;;;;;"Alle Spieler können miteinander handeln.
+normal;TRUE;Spell;Cocktail des Molotows;SpellFast;;;+2 / 0;;"Nur in einem Spielerkampf zu spielen.
+Die Rüstung eines Gegners verbrennt sofort.";;;;;;;0;1;1;0
+normal;;Tavern;Eine Runde Bananenweizen;Tavern;;;;;"Alle Spieler können miteinander handeln und Karten aus- und abrüsten.
 
-Alle Spieler im letzten Areal haben nächste Runde +2/2.
+Alle Spieler im letzten Areal haben bis Ende ihrer nächsten Runde +2/2.
 
-Alle Spieler kämpfen gegeneinander. Der Gewinner erhält einen Ehrenmarker für jeden besiegten Gegner";;;;;;;0;1;1;0
-normal;;Tavern;Eine Runde Butterbier;Tavern;;;;;"Alle Spieler können miteinander handeln.
+Alle Spieler kämpfen gegeneinander. Alle Erhalten einen Ehrenmarker für jeden besiegten Gegner.";;;;;;;0;1;1;0
+normal;;Tavern;Eine Runde Butterbier;Tavern;;;;;"Alle Spieler können miteinander handeln und Karten aus- und abrüsten.
 
 Alle Spieler im letzten Areal erhalten 4 Zauberkaten.
 
-Alle Spieler kämpfen gegeneinander. Der Gewinner erhält einen Ehrenmarker für jeden besiegten Gegner";;;;;;;0;1;1;0
-normal;;Tavern;Eine Runde Feuerwasser;Tavern;;;;;"Alle Spieler können miteinander handeln.
+Alle Spieler kämpfen gegeneinander. Alle Erhalten einen Ehrenmarker für jeden besiegten Gegner.";;;;;;;0;1;1;0
+normal;;Tavern;Eine Runde Feuerwasser;Tavern;;;;;"Alle Spieler können miteinander handeln und Karten aus- und abrüsten.
 
 Schließe alle offenen Katastrophen und öffne 3 neue.
 
-Alle Spieler kämpfen gegeneinander. Der Gewinner erhält einen Ehrenmarker für jeden besiegten Gegner";;;;;;;0;1;1;0
-normal;;Tavern;Eine Runde Pangalaktischer Donnergurgler;Tavern;;;;;"Alle Spieler können miteinander handeln.
+Alle Spieler kämpfen gegeneinander. Alle Erhalten einen Ehrenmarker für jeden besiegten Gegner.";;;;;;;0;1;1;0
+normal;;Tavern;Eine Runde Pangalaktischer Donnergurgler;Tavern;;;;;"Alle Spieler können miteinander handeln und Karten aus- und abrüsten.
 
-Alle Spieler im ersten Areal haben nächste Runde 0/-4.
+Alle Spieler im ersten Areal haben bis Ende ihrer nächsten Runde 0/-4.
 
-Alle Spieler kämpfen gegeneinander. Der Gewinner erhält einen Ehrenmarker für jeden besiegten Gegner";;;;;;;0;1;1;0
-normal;;Tavern;Eine Runde Quecksilber;Tavern;;;;;"Alle Spieler können miteinander handeln.
+Alle Spieler kämpfen gegeneinander. Alle Erhalten einen Ehrenmarker für jeden besiegten Gegner.";;;;;;;0;1;1;0
+normal;;Tavern;Eine Runde Quecksilber;Tavern;;;;;"Alle Spieler können miteinander handeln und Karten aus- und abrüsten.
 
 Der letzte Spieler wird von einem Werwolf gebissen.
 Er erhält ""Lykanthropie"" (Extra Deck).
 
-Alle Spieler kämpfen gegeneinander. Der Gewinner erhält einen Ehrenmarker für jeden besiegten Gegner";;;;;;;0;1;1;0
-normal;;Tavern;Eine Runde Rattengift;Tavern;;;;;"Alle Spieler können miteinander handeln.
+Alle Spieler kämpfen gegeneinander. Alle Erhalten einen Ehrenmarker für jeden besiegten Gegner.";;;;;;;0;1;1;0
+normal;;Tavern;Eine Runde Rattengift;Tavern;;;;;"Alle Spieler können miteinander handeln und Karten aus- und abrüsten.
 
-Alle Spieler im führenden Areal erhalten ""Pest"" (Extra Deck)
+Alle Spieler kämpfen gegeneinander. Alle Erhalten einen Ehrenmarker für jeden besiegten Gegner.
 
-Alle Spieler kämpfen gegeneinander. Der Gewinner erhält einen Ehrenmarker für jeden besiegten Gegner";;;;;;;0;1;1;0
-normal;;Tavern;Eine Runde Super Dry Gin;Tavern;;;;;"Alle Spieler können miteinander handeln.
+Alle Spieler im führenden Areal erhalten ""Pest"" (Extra Deck)";;;;;;;0;1;1;0
+normal;;Tavern;Eine Runde Super Dry Gin;Tavern;;;;;"Alle Spieler können miteinander handeln und Karten aus- und abrüsten.
 
 Der führende Spieler erhält ""Ausgehungert"" (Extra Deck).
 
-Alle Spieler kämpfen gegeneinander. Der Gewinner erhält einen Ehrenmarker für jeden besiegten Gegner";;;;;;;0;1;1;0
-normal;;Tavern;Eine Runde Weihwasser;Tavern;;;;;"Alle Spieler können miteinander handeln.
+Alle Spieler kämpfen gegeneinander. Alle Erhalten einen Ehrenmarker für jeden besiegten Gegner.";;;;;;;0;1;1;0
+normal;;Tavern;Eine Runde Weihwasser;Tavern;;;;;"Alle Spieler können miteinander handeln und Karten aus- und abrüsten.
 
-Alle Spieler im letzten Areal haben in der nächsten Runde Faith+2.
+Alle Spieler im letzten Areal haben bis Ende ihrer nächsten Runde Faith+2.
 
-Alle Spieler kämpfen gegeneinander. Der Gewinner erhält einen Ehrenmarker für jeden besiegten Gegner";;;;;;;0;1;1;0
-normal;;Tavern;Eine Runde Gammel Dansk;Tavern;;;;;"Alle Spieler können miteinander handeln.
+Alle Spieler kämpfen gegeneinander. Alle Erhalten einen Ehrenmarker für jeden besiegten Gegner.";;;;;;;0;1;1;0
+normal;;Tavern;Eine Runde Gammel Dansk;Tavern;;;;;"Alle Spieler können miteinander handeln und Karten aus- und abrüsten.
 
-Alle Spieler im führenden Areal haben in der nächsten Runde 0/-1 für jede Karte die sie auf der Hand halten.
+Alle Spieler im führenden Areal haben bis Ende ihrer nächsten Runde 0/-1 für jede Karte die sie auf der Hand halten.
 
-Alle Spieler kämpfen gegeneinander. Der Gewinner erhält einen Ehrenmarker für jeden besiegten Gegner";;;;;;;0;1;1;0
-normal;TRUE;Companion;Marius der Verschlissende;Companion;;;+4 / 0;;Hat stattdessen +8/0 gegen Skelettkkrieger und dem Skelettkönig.;"Er diente schon unter den Blutmagiern im großen Nekormantenkieg.
-Man sagt sich, dass Skelette mit eigenem Willen zuvor selber Nekromanten waren, die sich geweigert haben zu sterben und angefangen haben sich selbst zu totenbändigen.";;;;;;0;1;1;0
-normal;;Spell;Heiliger Würfel Primus;SpellFast;;;;;Du kannst diese Karte jederzeit spielen, um ein beliebiges Würfelergebnis aus 1 zu ändern. Kann nicht gekontert werden.;;;;;;;0;1;1;0
-normal;TRUE;Spell;Heiliger Würfel Secundus;SpellFast;;;;;Du kannst diese Karte jederzeit spielen, um ein beliebiges Würfelergebnis aus 2 zu ändern. Kann nicht gekontert werden.;;;;;;;0;1;1;0
-normal;;Spell;Heiliger Würfel Tertium;SpellFast;;;;;Du kannst diese Karte jederzeit spielen, um ein beliebiges Würfelergebnis aus 3 zu ändern. Kann nicht gekontert werden.;;;;;;;0;1;1;0
-normal;TRUE;Spell;Heiliger Würfel Quartus;SpellFast;;;;;Du kannst diese Karte jederzeit spielen, um ein beliebiges Würfelergebnis aus 4 zu ändern. Kann nicht gekontert werden.;;;;;;;0;1;1;0
-normal;;Spell;Heiliger Würfel Quintus;SpellFast;;;;;Du kannst diese Karte jederzeit spielen, um ein beliebiges Würfelergebnis aus 5 zu ändern. Kann nicht gekontert werden.;;;;;;;0;1;1;0
-normal;TRUE;Spell;Heiliger Würfel Tandem;SpellFast;;;;;Du kannst diese Karte jederzeit spielen, um ein beliebiges Würfelergebnis aus 6 zu ändern. Kann nicht gekontert werden.;;;;;;;0;1;1;0
+Alle Spieler kämpfen gegeneinander. Alle Erhalten einen Ehrenmarker für jeden besiegten Gegner.";;;;;;;0;1;1;0
+normal;TRUE;Companion;Marius der Verschlissene;Companion;;;+4 / 0;;Hat stattdessen +8/0 gegen Skelettkkrieger und dem Skelettkönig.;"Er diente schon unter den Blutmagiern im großen Nekormantenkieg.
+Man erzählt sich, dass Skelette mit eigenem Willen zuvor selber Nekromanten waren, die sich geweigert haben zu sterben und angefangen haben sich selbst zu totenbändigen.";;;;;;0;1;1;0
+normal;;Spell;Heiliger Würfel Primus;SpellFast;;;;;Du kannst diese Karte jederzeit spielen, um ein beliebiges Würfelergebnis auf 1 zu ändern. Kann nicht gekontert werden.;;;;;;;0;1;1;0
+normal;TRUE;Spell;Heiliger Würfel Secundus;SpellFast;;;;;Du kannst diese Karte jederzeit spielen, um ein beliebiges Würfelergebnis auf 2 zu ändern. Kann nicht gekontert werden.;;;;;;;0;1;1;0
+normal;;Spell;Heiliger Würfel Tertium;SpellFast;;;;;Du kannst diese Karte jederzeit spielen, um ein beliebiges Würfelergebnis auf 3 zu ändern. Kann nicht gekontert werden.;;;;;;;0;1;1;0
+normal;TRUE;Spell;Heiliger Würfel Quartus;SpellFast;;;;;Du kannst diese Karte jederzeit spielen, um ein beliebiges Würfelergebnis auf 4 zu ändern. Kann nicht gekontert werden.;;;;;;;0;1;1;0
+normal;;Spell;Heiliger Würfel Quintus;SpellFast;;;;;Du kannst diese Karte jederzeit spielen, um ein beliebiges Würfelergebnis auf 5 zu ändern. Kann nicht gekontert werden.;;;;;;;0;1;1;0
+normal;TRUE;Spell;Heiliger Würfel Tandem;SpellFast;;;;;Du kannst diese Karte jederzeit spielen, um ein beliebiges Würfelergebnis auf 6 zu ändern. Kann nicht gekontert werden.;;;;;;;0;1;1;0
 normal;;Class;Wanderer;Class;;;;;Diese Klasse ist nicht am Anfang des Spieles wählbar, sondern wird dem Spieler gegeben der verspätet am Spiel teilnimmt. Erhalte “Ritualwerkzeuge”, “Wanderers Segen”, “Rauschmittel eines fremden Landes”, “Wüstengewand”, “Versiegelte Urne”, “Des wanderers Gedanken” und “Händler aus einen fernen Lande” (Extra Deck);;;;;;;0;1;1;0
 normal;TRUE;Library;Wanderers Segen;Attribute;;;Faith+1;Exportgut;;;;;;;;0;1;1;0
 normal;TRUE;Library;Rauschmittel eines fremden Landes;Attribute;;;+1 / 0;Exportgut;;;;;;;;0;1;1;0
@@ -1204,4 +1220,4 @@ normal;;Spell;Elixier der magischen Verdünnung;Elixier;;;;;Es braucht 5 Elxiere
 normal;;Spell;Elixier des Mutes;Elixier;;;+1 / 0;Für einen Menschen;Alchemie: Sollten 2 oder mehr Elixiere ausliegen gibt diese Karte stattdessen +3/0 für Menschen.;;;;;;;3;3;1;0
 normal;;Spell;Elixier des Schwarzpulvers;Elixier;;;+1 / 0;Für einen Soldat;Alchemie: Sollten 2 oder mehr Elixiere ausliegen gibt diese Karte stattdessen +3/0 für Soldaten.;;;;;;;3;3;1;0
 normal;;Spell;Elixier des Ungetüms;Elixier;;;+1 / 0 ;Für ein Ungeheuer;Alchemie: Sollten 2 oder mehr Elixiere ausliegen gibt diese Karte stattdessen +3/0 für Ungeheuer.;;;;;;;3;3;1;0
-normal;;Spell;Elixier der Sprengung;Elixier;;;-1 / 0;Für eine Seite in einen Spielerkampf;Alchemie: Sollten 2 oder mehr Elixiere ausliegen gibt diese Karte stattdessen -3/0 für eine Seite.;;;;;;;3;3;1;0
+normal;;Spell;Elixier der Sprengung;Elixier;;;-1 / 0;Für eine Seite in einem Spielerkampf;Alchemie: Sollten 2 oder mehr Elixiere ausliegen gibt diese Karte stattdessen -3/0 für eine Seite.;;;;;;;3;3;1;0
