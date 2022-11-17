@@ -73,6 +73,16 @@ namespace Unittests.Components {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
+        internal static byte[] Götterdämmerung_Karten {
+            get {
+                object obj = ResourceManager.GetObject("Götterdämmerung_Karten", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
         internal static byte[] Karten_Version1 {
             get {
                 object obj = ResourceManager.GetObject("Karten_Version1", resourceCulture);
