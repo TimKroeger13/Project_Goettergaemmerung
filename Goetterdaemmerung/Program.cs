@@ -49,6 +49,6 @@ internal static class Program
 
     private static void Application_ThreadException(object sender, ThreadExceptionEventArgs e)
     {
-        MessageBox.Show(e.Exception.Message);
+        MessageBox.Show(e.Exception.Message + Environment.NewLine + e.Exception.StackTrace);
     }
 }
