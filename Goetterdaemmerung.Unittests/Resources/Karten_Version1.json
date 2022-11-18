@@ -12717,5 +12717,28 @@
     "Print2": 6,
     "Print3": 6,
     "Print4": 0
+  },
+  {
+    "Id": 10001,
+    "Structure": "Normal",
+    "ExtraDeck": false,
+    "CardType": "Library",
+    "Name": "Besondere Orte",
+    "SubType": "Empty",
+    "TwoHanded": false,
+    "Condition": "Empty",
+    "Modifiers": "",
+    "CenterText": "",
+    "Text": "Die Garnision:\r\nSetze 2 Runden aus und ziehe dafür \"Ausgebildet\" vom Extradeck\r\n\r\nDie Akademie:\r\nPlaceholder\r\n\r\nDer Pissbaum:\r\nSetze 1 Runde aus und ziehe eine beliebige Ausrüstungskarte vom Ablagestapel.\r\n\r\nDie Arena:\r\nWird als normales Duellfeld behandelt. Kann nur mit einem Arenaticket passiert werden.\r\n\r\nDer Endboss:\r\nZiehe einen Endboss. Der Gewinner des Kampfes hat das Spiel gewonnen.",
+    "FlavorText": "",
+    "Level": "",
+    "Race": "Empty",
+    "WinText": "",
+    "LoseText": "",
+    "Scrapped": "",
+    "Print1": 4,
+    "Print2": 4,
+    "Print3": 4,
+    "Print4": 0
   }
 ]
