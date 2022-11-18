@@ -1251,7 +1251,7 @@
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "0 / +5",
-    "CenterText": "+2 / 0 gegen Spieler\r\n-1 / 0 gegen Monster\r\nHandkartenlimit: 4\r\nBewegung mindestens 2",
+    "CenterText": "+2 / 0 gegen Spieler\r\nHandkartenlimit: 3\r\nBewegung mindestens 2",
     "Text": "",
     "FlavorText": "Große Muskeln, aber nicht dahinter...",
     "Level": "",
