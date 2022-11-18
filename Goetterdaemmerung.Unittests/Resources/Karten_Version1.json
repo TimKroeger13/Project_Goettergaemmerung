@@ -12694,5 +12694,28 @@
     "Print2": 1,
     "Print3": 1,
     "Print4": 0
+  },
+  {
+    "Id": 10000,
+    "Structure": "Normal",
+    "ExtraDeck": true,
+    "CardType": "Library",
+    "Name": "Spielerreferenz",
+    "SubType": "Empty",
+    "TwoHanded": false,
+    "Condition": "Empty",
+    "Modifiers": "",
+    "CenterText": "",
+    "Text": "Aktionsreihenfolge:\r\n1. Ausrüstung anlegen oder ablegen.\r\n2. Zauber einsetzen. Movezauber gelten nur für die Bewegung.\r\n3. Move = Zauber + Bewegungswürfel + Bewegungsmodifikatoren + Katastrophe.\r\n4. Move Schritte in eine Richtung. Monsterfelder blockieren.\r\n5. Bei Monster und Aktionsfeld 1 Karte des Typs ziehen und auslösen. \r\nBei Zauberfeld 2 Zauberkarten auf die Hand ziehen.\r\n6. Monster und Aktionen auf den Ablagestapel zurücklegen.\r\n\r\nKampfregeln:\r\n1. Segen pro positivem Faith ziehen. Flüche pro negativem.\r\n2. Kampfstärke = Ausrüstungsstärke + Zauber + Segen/Flüche + Kampfwürfel + Katastrophe.\r\n3. Segen/Flüche werden nach dem Würfelwurf aufgedeckt.\r\n4. Zauber müssen aufgedeckt vor dem Würfelwurf gespielt werden.\r\n5. Sieg, wenn Kampfstärke größer als Level des Gegners.\r\n6. Sieg/Niederlage löst Win oder Lose des Monsters aus.\r\n7. Bei Niederlage zum Feld mit dem Pfeil gehen und auslösen.\r\n\r\nFlucht:\r\n1. Der Spieler kann im Kampf nur vor dem Würfelwurf fliehen.\r\n2. Flucht = Zauber + Bewegungswürfel + Bewegungsmodifikatoren + Katastrophe.\r\n2. Erfolg, wenn gewürfelter Fluchtwert größer als Level des Gegners.\r\n3. Misserfolg löst Lose aus. Bei Erfolg ein Feld weitergehen und auslösen.",
+    "FlavorText": "",
+    "Level": "",
+    "Race": "Empty",
+    "WinText": "",
+    "LoseText": "",
+    "Scrapped": "",
+    "Print1": 6,
+    "Print2": 6,
+    "Print3": 6,
+    "Print4": 0
   }
 ]
