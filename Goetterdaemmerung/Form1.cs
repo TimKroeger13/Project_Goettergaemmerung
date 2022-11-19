@@ -43,6 +43,8 @@ public partial class Form1 : Form
             CardImportType.NA;
         buttonExport.Enabled = true;
         buttonJsonExport.Enabled = true;
+        inputCardId.Enabled = true;
+        buttonShowCard.Enabled = true;
         buttonLoad.BackColor = Color.Goldenrod;
         buttonExport.BackColor = Color.DarkGoldenrod;
     }
@@ -114,5 +116,24 @@ public partial class Form1 : Form
         var result = fileDialog.ShowDialog();
         if (result != DialogResult.OK) throw new Exception("No Valid file given");
         _cardPrinter.ExportCardInformationAsJSON(fileDialog.FileName);
+    }
+
+    private void ButtonShowCard_Click(object sender, EventArgs e)
+    {
+        var success = long.TryParse(inputCardId.Text, out var id);
+        if (!success) throw new Exception("Card-Id must be a number");
+        var cardToShow = _cardPrinter.CreateBitmap(id);
+        var form = new Form
+        {
+            Height = cardToShow.Height,
+            Width = cardToShow.Width
+        };
+        var pictureBox = new PictureBox()
+        {
+            Image = cardToShow,
+            Dock = DockStyle.Fill
+        };
+        form.Controls.Add(pictureBox);
+        form.Show();
     }
 }

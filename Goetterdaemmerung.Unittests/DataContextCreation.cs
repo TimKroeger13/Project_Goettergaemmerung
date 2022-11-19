@@ -35,11 +35,16 @@ public class TestDataContext : DbContext
         {
             entity.HasKey(e => e.Id);
         });
-        modelBuilder.Entity<CardInformationModel>().Property(p => p.SubType).HasConversion<string>();
-        modelBuilder.Entity<CardInformationModel>().Property(p => p.Structure).HasConversion<string>();
-        modelBuilder.Entity<CardInformationModel>().Property(p => p.CardType).HasConversion<string>();
-        modelBuilder.Entity<CardInformationModel>().Property(p => p.Condition).HasConversion<string>();
-        modelBuilder.Entity<CardInformationModel>().Property(p => p.Race).HasConversion<string>();
+        modelBuilder.Entity<CardInformationModel>().Property(p => p.SubType).HasConversion<string>()
+                                                   .HasDefaultValueSql($"'{nameof(CardSubType.Empty)}'");
+        modelBuilder.Entity<CardInformationModel>().Property(p => p.Structure).HasConversion<string>()
+                                                   .HasDefaultValueSql($"'{nameof(CardStructure.Normal)}'");
+        modelBuilder.Entity<CardInformationModel>().Property(p => p.CardType).HasConversion<string>()
+                                                   .HasDefaultValueSql($"'{nameof(CardType.Empty)}'");
+        modelBuilder.Entity<CardInformationModel>().Property(p => p.Condition).HasConversion<string>()
+                                                   .HasDefaultValueSql($"'{nameof(Condition.Empty)}'");
+        modelBuilder.Entity<CardInformationModel>().Property(p => p.Race).HasConversion<string>()
+                                                   .HasDefaultValueSql($"'{nameof(Race.Empty)}'");
         var options = new JsonSerializerOptions();
         options.Converters.Add(new JsonStringEnumConverter());
         var cardInformation = JsonSerializer.Deserialize<List<CardInformationModel>>(TestResources.Karten_Version1, options);

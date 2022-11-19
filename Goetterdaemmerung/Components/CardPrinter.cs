@@ -10,6 +10,8 @@ public interface ICardPrinter
     void PrintCards();
 
     void ExportCardInformationAsJSON(string path);
+
+    Bitmap CreateBitmap(long cardId);
 }
 
 public class CardPrinter : ICardPrinter
@@ -48,41 +50,31 @@ public class CardPrinter : ICardPrinter
         File.WriteAllText(path, json);
     }
 
+    public Bitmap CreateBitmap(long cardId)
+    {
+        var card = _cardInformationGetterFactory.CreateCardInformationGetter().GetCardInformation()
+                                                .FirstOrDefault(c => c.Id == cardId);
+        if (card == null) throw new Exception($"Card with ID: {cardId} was not found");
+        using var template = _templateBuilder.CardTemplate(card.Structure, card.CardType, card.Race, card.ExtraDeck,
+            card.Name, card.SubType, card.TwoHanded, card.Condition, card.Modifiers, card.CenterText,
+            card.Text, card.FlavorText, card.Scrapped, card.Level, card.WinText, card.LoseText);
+        var result = _createPicture.MergedBitmaps(template);
+        _disposableList.Dispose();
+        _createPicture.Dispose();
+        return result;
+    }
+
     public void PrintCards()
     {
         foreach (var card in _cardInformationGetterFactory.CreateCardInformationGetter().GetCardInformation().ToList())
         {
-            var structure = card.Structure;
-            var type = card.CardType;
-            var race = card.Race;
-            var extra = card.ExtraDeck;
-
-            var name = card.Name;
-            var subType = card.SubType;
-            var twoHanded = card.TwoHanded;
-            var condition = card.Condition;
-            var modifier = card.Modifiers;
-            var center = card.CenterText;
-            var text = card.Text;
-            var flavorText = card.FlavorText;
-            var scrapped = card.Scrapped;
-
-            var lvl = card.Level;
-            var winText = card.WinText;
-            var loseText = card.LoseText;
-
-            var print1 = card.Print1;
-            var print2 = card.Print2;
-            var print3 = card.Print3;
-            var print4 = card.Print4;
-
-            if (!_checkIfPrintIsZero.PrintIsZero(print1, print2, print3, print4))
+            if (!_checkIfPrintIsZero.PrintIsZero(card.Print1, card.Print2, card.Print3, card.Print4))
             {
-                using var template = _templateBuilder.CardTemplate(structure, type, race, extra, name, subType, twoHanded, condition, modifier, center,
-                    text, flavorText, scrapped, lvl, winText, loseText);
-
+                using var template = _templateBuilder.CardTemplate(card.Structure, card.CardType, card.Race, card.ExtraDeck,
+                        card.Name, card.SubType, card.TwoHanded, card.Condition, card.Modifiers, card.CenterText,
+                        card.Text, card.FlavorText, card.Scrapped, card.Level, card.WinText, card.LoseText);
                 using var finalCard = _createPicture.MergedBitmaps(template);
-                _saveImage.SaveCardasImage(finalCard, name, type, print1, print2, print3, print4);
+                _saveImage.SaveCardasImage(finalCard, card.Name, card.CardType, card.Print1, card.Print2, card.Print3, card.Print4);
                 _disposableList.Dispose();
                 _createPicture.Dispose();
             }
