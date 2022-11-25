@@ -238,6 +238,7 @@ partial class Form1
             // 
             // Form1
             // 
+            this.AcceptButton = this.buttonShowCard;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;

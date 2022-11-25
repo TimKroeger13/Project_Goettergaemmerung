@@ -127,7 +127,9 @@ public enum CardSubType
     SpellNormal = 30,
 
     [Description("(Zauber-Handel)")]
-    SpellTrade = 31
+    SpellTrade = 31,
+    [Description("Quest")]
+    Quest = 101
 }
 
 public enum CardType
