@@ -110,6 +110,9 @@ public enum CardSubType
     [Description("Begleiter")]
     Companion = 26,
 
+    [Description("Ticket")]
+    Ticket = 32,
+
     Empty = 0,
 
     //rest script
@@ -197,6 +200,9 @@ public enum CardType
 
     [Description("spe")]
     Spell = 22,
+
+    [Description("tic")]
+    Ticket = 23,
 
     Empty = 0
 }

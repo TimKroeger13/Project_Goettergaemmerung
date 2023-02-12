@@ -61,6 +61,10 @@ public class TemplateBuilder : ITemplateBuilder
                         bitmaplist.Add(() => _createPicture.BlendingMultiply(() => _picturesFromArchive.Filter(), () => _picturesFromArchive.Soilder()));
                         break;
 
+                    case CardType.Ticket:
+                        bitmaplist.Add(() => _createPicture.BlendingMultiply(() => _picturesFromArchive.Filter(), () => _picturesFromArchive.Equipment()));
+                        break;
+
                     case CardType.Library:
                         bitmaplist.Add(() => _createPicture.BlendingMultiply(() => _picturesFromArchive.Filter(), () => _picturesFromArchive.Spell()));
                         break;
@@ -74,11 +78,11 @@ public class TemplateBuilder : ITemplateBuilder
                         break;
 
                     case CardType.Curse:
-                        bitmaplist.Add(() => _createPicture.BlendingMultiply(() => _picturesFromArchive.Filter(), () => _picturesFromArchive.Desaster()));
+                        bitmaplist.Add(() => _createPicture.BlendingMultiply(() => _picturesFromArchive.Filter(), () => _picturesFromArchive.Fluch()));
                         break;
 
                     case CardType.Blessing:
-                        bitmaplist.Add(() => _createPicture.BlendingMultiply(() => _picturesFromArchive.Filter(), () => _picturesFromArchive.Animal()));
+                        bitmaplist.Add(() => _createPicture.BlendingMultiply(() => _picturesFromArchive.Filter(), () => _picturesFromArchive.Segen()));
                         break;
 
                     case CardType.Disaster:
