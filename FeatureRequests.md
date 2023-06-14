@@ -1,5 +1,5 @@
 
-# Feautre Request List:
+# Feature Request List:
 
 - Es währe nett eine möglichkeit zu haben den base path zu ändern:
   - so könnte man für einen kartenset mithilfe eines Folder Pickers z.B der ordner "V:\Brettspiele\Timgammen_aktuell\Karten\Cards_V1_02_04" Auswählen
