@@ -111,6 +111,10 @@ public class TemplateBuilder : ITemplateBuilder
                         bitmaplist.Add(() => _createPicture.BlendingMultiply(() => _picturesFromArchive.Filter(), () => _picturesFromArchive.Spell()));
                         break;
 
+                    case CardType.Spellblade:
+                        bitmaplist.Add(() => _createPicture.BlendingMultiply(() => _picturesFromArchive.Filter(), () => _picturesFromArchive.Desaster()));
+                        break;
+
 
                     case CardType.Empty:
                         break;

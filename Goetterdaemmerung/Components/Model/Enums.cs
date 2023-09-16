@@ -113,6 +113,9 @@ public enum CardSubType
     [Description("Ticket")]
     Ticket = 32,
 
+    [Description("Spellblade")]
+    Spellblade = 33,
+
     Empty = 0,
 
     //rest script
@@ -203,6 +206,9 @@ public enum CardType
 
     [Description("tic")]
     Ticket = 23,
+
+    [Description("sbl")]
+    Spellblade = 24,
 
     Empty = 0
 }
