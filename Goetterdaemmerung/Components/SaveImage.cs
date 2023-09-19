@@ -6,7 +6,7 @@ namespace Project_Goettergaemmerung.Components;
 
 public interface ISaveImage
 {
-    void SaveCardasImage(Bitmap card, string? filename, CardType type, bool extraDeck, int print1, int print2, int print3, int print4);
+    void SaveCardasImage(Bitmap card, string? filename, CardType type, bool extraDeck, int print1, int print2, int print3, int print4, long id);
 }
 
 public class SaveImage : ISaveImage
@@ -29,10 +29,10 @@ public class SaveImage : ISaveImage
         card.Save(_userData.ExportPath + "\\" + name + ".png", ImageFormat.Png);
     }
 
-    private void SaveRebalenceFormat(Bitmap card)
+    private void SaveRebalenceFormat(Bitmap card, long id)
     {
         var name = _userData.RebalenceNumber;
-        card.Save(_userData.ExportPath + "\\" + name + ".png", ImageFormat.Png);
+        card.Save(_userData.ExportPath + "\\" + id + ".png", ImageFormat.Png);
     }
 
     private void SaveTabeltopFormat(Bitmap card, string filename, CardType type, int print, bool extraDeck)
@@ -53,7 +53,7 @@ public class SaveImage : ISaveImage
     }
 
     public void SaveCardasImage(Bitmap card, string? filename, CardType type, bool extraDeck,
-        int print1, int print2, int print3, int print4)
+        int print1, int print2, int print3, int print4, long id)
     {
         if (filename == null) { filename = ""; }
 
@@ -78,7 +78,7 @@ public class SaveImage : ISaveImage
             }
             if (_userData.CurrentFormat == SaveFormat.rebalence)
             {
-                SaveRebalenceFormat(card);
+                SaveRebalenceFormat(card, id);
             }
         }
     }

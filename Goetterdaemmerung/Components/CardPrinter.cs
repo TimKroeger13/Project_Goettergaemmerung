@@ -74,7 +74,7 @@ public class CardPrinter : ICardPrinter
                         card.Name, card.SubType, card.TwoHanded, card.Condition, card.Modifiers, card.CenterText,
                         card.Text, card.FlavorText, card.Scrapped, card.Level, card.WinText, card.LoseText);
                 using var finalCard = _createPicture.MergedBitmaps(template);
-                _saveImage.SaveCardasImage(finalCard, card.Name, card.CardType, card.ExtraDeck, card.Print1, card.Print2, card.Print3, card.Print4);
+                _saveImage.SaveCardasImage(finalCard, card.Name, card.CardType, card.ExtraDeck, card.Print1, card.Print2, card.Print3, card.Print4, card.Id);
                 _disposableList.Dispose();
                 _createPicture.Dispose();
             }
