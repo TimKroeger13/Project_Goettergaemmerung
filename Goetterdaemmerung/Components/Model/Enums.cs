@@ -68,10 +68,10 @@ public enum CardSubType
     [Description("(apokalypse)")]
     SpellDisaster = 12,
 
-    [Description("(Schnellzauber)")]
+    [Description("(Kampf-Zauber)")]
     SpellFast = 13,
 
-    [Description("(Zauber)")]
+    [Description("(Zug-Zauber)")]
     Spell = 14,
 
     [Description("(Handel)")]
