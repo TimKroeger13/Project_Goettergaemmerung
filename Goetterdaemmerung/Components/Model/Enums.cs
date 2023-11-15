@@ -210,6 +210,15 @@ public enum CardType
     [Description("sbl")]
     Spellblade = 24,
 
+    [Description("ac1")]
+    Action1 = 25,
+
+    [Description("ac2")]
+    Action2 = 26,
+
+    [Description("ac3")]
+    Action3 = 27,
+
     Empty = 0
 }
 

@@ -33,6 +33,12 @@ public class TemplateBuilder : ITemplateBuilder
             case CardStructure.Normal:
                 switch (type)
                 {
+                    case CardType.Action1:
+
+                    case CardType.Action2:
+
+                    case CardType.Action3:
+
                     case CardType.Action:
                         bitmaplist.Add(() => _createPicture.BlendingMultiply(() => _picturesFromArchive.Filter(), () => _picturesFromArchive.Action()));
                         break;
