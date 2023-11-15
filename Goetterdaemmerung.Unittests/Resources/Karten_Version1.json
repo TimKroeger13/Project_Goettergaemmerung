@@ -240,7 +240,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Diese Karte betrifft nur die beiden rangletzten Spieler.\r\nSie können beide zu einem Spieler fusionieren, wobei sie alle ihre Karten zusammenführen.\r\nSie spielen mit der Spielfigur ihrer Wahl weiter.\r\n\r\nSollten sie ablehnen, habe die obersten 10 Karten des Aktionkartenstapels ab und mische die Karte in den unteren Teil.\r\nZiehe ein weitere ationskarte wenn dies passiert.\r\n",
+    "Text": "Diese Karte betrifft nur die beiden rangletzten Spieler.\r\nSie können beide zu einem Spieler fusionieren, wobei sie alle ihre Karten zusammenführen.\r\nSie spielen mit der Spielfigur ihrer Wahl weiter.\r\n\r\nSollten sie ablehnen, habe die obersten 10 Karten des Aktionkartenstapels ab und mische die Karte in den unteren Teil.\r\nZiehe ein weitere Aktionskarte wenn dies passiert.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -2420,7 +2420,7 @@
     "ExtraDeck": true,
     "CardType": "Spell",
     "Name": "Pestilenz",
-    "SubType": "Spell",
+    "SubType": "SpellFast",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "",
@@ -3470,7 +3470,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 169,
@@ -3506,7 +3506,7 @@
     "Condition": "Empty",
     "Modifiers": "Crit+1",
     "CenterText": "",
-    "Text": "Nur für deine Seite.",
+    "Text": "Solltest du keine anderen Ausrüstungskarten tragen, hat diese Waffe stattdessen Crit+2.",
     "FlavorText": "Glückstreffer sind die Spezialität dieser Waffe.",
     "Level": "",
     "Race": "Empty",
@@ -6276,7 +6276,7 @@
     "Print1": 0,
     "Print2": 6,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 292,
@@ -6299,7 +6299,7 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 293,
@@ -6473,7 +6473,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Gibt dir aussließlich während des \"The Grand Tournament\" und Arena kämpfen +2/0.\nLege diese Karte nach dem Ende des Grand Tournaments auf den Ablagestapel.",
+    "Text": "Gibt dir aussließlich während des \"The Grand Tournament\" und Arena kämpfen +5/0.\nLege diese Karte nach dem Ende des Grand Tournaments auf den Ablagestapel.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -8451,7 +8451,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Bist du der ranghöchste Spieler schießt er mit voller verachtung mit seinen Bogen auf dich.\r\nZiehe \"Pfeil im Knie\" (Extra Deck).\n\nLässt dich sofort gewinnen, wenn du der Rangletzte Spieler bist.",
+    "Text": "Bist du der ranghöchste Spieler schießt er mit voller verachtung mit seinen Bogen auf dich.\r\nZiehe \"Pfeil im Knie\" (Extra Deck).\n\nLässt dich sofort gewinnen, wenn du der rangletzte Spieler bist.",
     "FlavorText": "",
     "Level": "29",
     "Race": "Human",
@@ -8883,7 +8883,7 @@
     "ExtraDeck": false,
     "CardType": "Spell",
     "Name": "All in",
-    "SubType": "Spell",
+    "SubType": "SpellFast",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "",
@@ -8957,7 +8957,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Du kannst einem Spieler ein Bein stellen, welcher dein Feld betritt. \nEr fällt hin und ein duell findet statt. \nIn diesem Kampf hat er -2/0.",
+    "Text": "Du kannst einem Spieler ein Bein stellen, welcher dein Feld betritt. \nEr wirft nächten Zug nicht seine Schicksalswürfel, sondern kämpft in einen Duell gegen dich.\r\nDu zieht dafür eine Duellkarte und erhälst ihren Bonus, gegen den Spieler.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -9072,7 +9072,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Offenbaren:\r\nDiese Karte muss und kann vor einen Kampf gespielt werden (Kämpfe sind aufgedeckt, aber der Timer nicht gestartet).\n\nDu kannst diese Karte nur in einem Spielerkampf spielen.\nAlle Spieler erhalten ihren Fluchtwurf Wert (Nicht Flucht) als Kampfstärke.",
+    "Text": "Offenbaren:\r\nDiese Karte kann und muss vor einem Kampf gespielt werden (Kämpfe sind aufgedeckt, aber der Timer nicht gestartet).\n\nDu kannst diese Karte nur in einem Spielerkampf spielen.\nAlle Spieler erhalten ihren Fluchtwurf Wert (Nicht Flucht) als Kampfstärke.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -9090,7 +9090,7 @@
     "ExtraDeck": false,
     "CardType": "Spell",
     "Name": "Dehnübungen",
-    "SubType": "SpellFast",
+    "SubType": "Spell",
     "TwoHanded": false,
     "Condition": "NotBodybuilder",
     "Modifiers": "",
@@ -9159,7 +9159,7 @@
     "ExtraDeck": false,
     "CardType": "Spell",
     "Name": "Entflammt",
-    "SubType": "Spell",
+    "SubType": "SpellFast",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "",
@@ -9211,7 +9211,7 @@
     "Modifiers": "",
     "CenterText": "",
     "Text": "Der Käufer hat nächste Runde 3 Züge zeitgleich.\nEr würfelt seinen Schicksalswurf 3 mal aus. Er führt alle gewählten Wege gleichzeitig aus (Er bestimmt die Reinfolge).",
-    "FlavorText": "If I could save time in a bottle\nThe first thing that I'd like to do\nIs to save every day till eternity passes away\nJust to spend them with you",
+    "FlavorText": "If I could save time in a bottle.\nThe first thing that I'd like to do.\nIs to save every day till eternity passes away.\nJust to spend them with you.",
     "Level": "",
     "Race": "Empty",
     "WinText": "",
@@ -9233,7 +9233,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Offenbaren:\r\nDiese Karte muss und kann vor einen Kampf gespielt werden (Kämpfe sind aufgedeckt, aber der Timer nicht gestartet).\n\nNur vor einem Spielerkampf spielbar. In diesem Kampf können keine Zauberkarten benutzt werden.",
+    "Text": "Offenbaren:\r\nDiese Karte kann und muss vor einem Kampf gespielt werden (Kämpfe sind aufgedeckt, aber der Timer nicht gestartet).\n\nNur vor einem Spielerkampf spielbar. In diesem Kampf können keine Zauberkarten benutzt werden.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -9279,7 +9279,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Du forderst einen anderen Spieler zum Duell heraus. Falls er ablehnt, muss er 2 Handandkarten abwerfen.\nEntferne eine Zählmarke von \"Tavernenrunde\".",
+    "Text": "Nur nach deinen Schicksalswurf zu spielen, wenn du diese Runde keinen Kampf initiiert hast.\r\n\r\nDu forderst einen anderen Spieler zum Duell heraus. Falls er ablehnt, muss er 2 Handandkarten abwerfen.\nEntferne eine Zählmarke von \"Tavernenrunde\".",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -9302,7 +9302,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Du forderst einen anderen Spieler zum Duell heraus. Falls er ablehnt, verliert er 1 Ehre.\nEntferne eine Zählmarke von \"Tavernenrunde\".",
+    "Text": "Nur nach deinen Schicksalswurf zu spielen, wenn du diese Runde keinen Kampf initiiert hast.\r\n\r\nDu forderst einen anderen Spieler zum Duell heraus. Falls er ablehnt, verliert er 1 Ehre.\nEntferne eine Zählmarke von \"Tavernenrunde\".",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -9325,7 +9325,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Du forderst einen anderen Spieler zum Duell heraus. Falls er ablehnt, hat er diese Runde -2/0.\nEntferne eine Zählmarke von \"Tavernenrunde\".",
+    "Text": "Nur nach deinen Schicksalswurf zu spielen, wenn du diese Runde keinen Kampf initiiert hast.\r\n\r\nDu forderst einen anderen Spieler zum Duell heraus. Falls er ablehnt, hat er diese Runde -2/0.\nEntferne eine Zählmarke von \"Tavernenrunde\".",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -9348,7 +9348,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Du forderst einen anderen Spieler zum Duell heraus. Falls er ablehnt, hat er diese Runde Faith-1.\nEntferne eine Zählmarke von \"Tavernenrunde\".",
+    "Text": "Nur nach deinen Schicksalswurf zu spielen, wenn du diese Runde keinen Kampf initiiert hast.\r\n\r\nDu forderst einen anderen Spieler zum Duell heraus. Falls er ablehnt, hat er diese Runde Faith-1.\nEntferne eine Zählmarke von \"Tavernenrunde\".",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -9412,7 +9412,7 @@
     "ExtraDeck": false,
     "CardType": "Spell",
     "Name": "Frisch geschliffene Waffen",
-    "SubType": "Spell",
+    "SubType": "SpellFast",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "",
@@ -9688,7 +9688,7 @@
     "ExtraDeck": false,
     "CardType": "Spell",
     "Name": "Kassenzettel",
-    "SubType": "SpellFast",
+    "SubType": "Spell",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "",
@@ -9854,7 +9854,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Du forderst einen anderen Spieler zum Duell heraus. Falls er ablehnt, hat er diese Runde 0/-2.",
+    "Text": "Nur nach deinen Schicksalswurf zu spielen, wenn du diese Runde keinen Kampf initiiert hast.\r\n\r\nDu forderst einen anderen Spieler zum Duell heraus. Falls er ablehnt, hat er diese Runde 0/-2.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -9900,7 +9900,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Vor der Kampfphase zu spielen:\n\nEin Spieler deiner Wahl wird von einem Monster angegriffen.\nDie Stufe des Monsters entspricht derjenigen des nächstliegenden Monsterfeldes.\n(Bei Gleichstand darfst du entscheiden)\r\nDas Monster hat +5.",
+    "Text": "Nach den Schicksalswurf auf einen Spieler zu spielen, welcher diese Runde keinen Kampf initiiert hat.\n\nDer betroffende Spieler wird von einem Monster angegriffen.\nDie Stufe des Monsters entspricht derjenigen der maximalen Stufe seines jetzigen Arials +1.\r\n(Maxiaml Stufe 5)\r\nDas Monster hat +5.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -9923,7 +9923,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Erhalte \"Monsterjagt\" (Extra Deck) solange diese Karte ausgerüstest ist und verliere das Spellblade wenn du diese Karte verlierst.\r\n[+2/0, gegen Monster]\r\n\r\nEmpathielos:\r\nDu kannst diese Karte von deiner Hand abwerfen, um 1 Ehre zu erhalten.",
+    "Text": "Erhalte \"Monsterjagd\" (Extra Deck) solange diese Karte ausgerüstest ist und verliere das Spellblade wenn du diese Karte verlierst.\r\n[+2/0, gegen Monster]\r\n\r\nEmpathielos:\r\nDu kannst diese Karte von deiner Hand abwerfen, um 1 Ehre zu erhalten.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -9969,7 +9969,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Nur in einen Monsterkampf Spielbar:\r\nDu kannst einen Stein auf einen deiner Gegner werfen um ihn sein Leben zu erschwären.\n\r\nStopp die Zeit:\r\nEin \"Lebender Stein\" der Stufe 5 tritt dem Kampf bei (Extra Deck).\n(Der Spieler kämpft gegen beide Monster zusammen. Sie haben die Summe ihrer Stärke, Typ, Effekt, Win und Lose Eigenschaften)",
+    "Text": "Nur in einen Monsterkampf spielbar:\r\nDu kannst einen Stein auf einen deiner Gegner werfen um ihn sein Leben zu erschwären.\n\r\nStopp die Zeit:\r\nEin \"Lebender Stein\" der Stufe 5 tritt dem Kampf bei (Extra Deck).\n(Der Spieler kämpft gegen beide Monster zusammen. Sie haben die Summe ihrer Stärke, Typ, Effekt, Win und Lose Eigenschaften)",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -9987,7 +9987,7 @@
     "ExtraDeck": false,
     "CardType": "Spell",
     "Name": "Mundgeruch",
-    "SubType": "Spell",
+    "SubType": "SpellFast",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "",
@@ -10015,7 +10015,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Nur in einen Spielerkampf spielbar\n\nOffenbaren:\r\nDiese Karte muss und kann vor einen Kampf gespielt werden (Kämpfe sind aufgedeckt, aber der Timer nicht gestartet).\n\nIn diesem Kampf zählen nur die Augen der Würfel.\n\nDu würfelst mit einem D4 und dein Gegner mit einem D6, bei Gleichstand gewinnst du!",
+    "Text": "Nur in einen Spielerkampf spielbar\n\nOffenbaren:\r\nDiese Karte kann und muss vor einem Kampf gespielt werden (Kämpfe sind aufgedeckt, aber der Timer nicht gestartet).\r\n\nIn diesem Kampf zählen nur die Augen der Würfel.\n\nDu würfelst mit einem D4 und dein Gegner mit einem D6, bei Gleichstand gewinnst du!",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -10033,7 +10033,7 @@
     "ExtraDeck": false,
     "CardType": "Spell",
     "Name": "Packt mit dem Teufel",
-    "SubType": "Spell",
+    "SubType": "SpellFast",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "",
@@ -10079,7 +10079,7 @@
     "ExtraDeck": false,
     "CardType": "Spell",
     "Name": "Protein Shake",
-    "SubType": "Spell",
+    "SubType": "SpellFast",
     "TwoHanded": false,
     "Condition": "OnlyBodybuilder",
     "Modifiers": "+6 / 0",
@@ -10153,7 +10153,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Offenbaren:\r\nDiese Karte muss und kann vor einen Kampf gespielt werden (Kämpfe sind aufgedeckt, aber der Timer nicht gestartet).\n\nIn diesen Kampf werden alle Zauberkarten verdeckt gespielt und erst am ende aller Timer Aufgedeckt.",
+    "Text": "Offenbaren:\r\nDiese Karte kann und muss vor einem Kampf gespielt werden (Kämpfe sind aufgedeckt, aber der Timer nicht gestartet).\n\nIn diesen Kampf werden alle Zauberkarten verdeckt gespielt und erst am ende aller Timer Aufgedeckt.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -10171,7 +10171,7 @@
     "ExtraDeck": false,
     "CardType": "Spell",
     "Name": "Schnelles Gebet",
-    "SubType": "Spell",
+    "SubType": "SpellFast",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "",
@@ -10245,7 +10245,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Führe beide Wege deiner Schicksalswürfe aus. Du bestimmt die Reinfolge.",
+    "Text": "Führe beide Wege deiner Schicksalswürfel aus. Du bestimmt die Reinfolge.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -10424,7 +10424,7 @@
     "ExtraDeck": false,
     "CardType": "Spell",
     "Name": "Umkleide",
-    "SubType": "SpellFast",
+    "SubType": "Spell",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "",
@@ -10447,7 +10447,7 @@
     "ExtraDeck": false,
     "CardType": "Spell",
     "Name": "Umleitung",
-    "SubType": "SpellFast",
+    "SubType": "Spell",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "",
@@ -10815,12 +10815,12 @@
     "ExtraDeck": false,
     "CardType": "Spell",
     "Name": "Raubüberfall",
-    "SubType": "Spell",
+    "SubType": "SpellFast",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Nur im Duell Spielbar.\n\nOffenbaren:\r\nDiese Karte muss und kann vor einen Kampf gespielt werden (Kämpfe sind aufgedeckt, aber der Timer nicht gestartet).\n\nDu erhälst -5/0 in diesen Kampf.\nWenn du den Kampf gewinnst erhälst du alle \"Ehre\" deines Gegners (Maximal 5)",
+    "Text": "Nur im Duell spielbar.\n\nOffenbaren:\r\nDiese Karte kann und muss vor einem Kampf gespielt werden (Kämpfe sind aufgedeckt, aber der Timer nicht gestartet).\n\nDu erhälst -5/0 in diesen Kampf.\nWenn du den Kampf gewinnst erhälst du alle \"Ehre\" deines Gegners (Maximal 5)",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -10953,7 +10953,7 @@
     "ExtraDeck": true,
     "CardType": "Spell",
     "Name": "Große Matrjoschka",
-    "SubType": "Spell",
+    "SubType": "SpellFast",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "",
@@ -10976,7 +10976,7 @@
     "ExtraDeck": true,
     "CardType": "Spell",
     "Name": "Hasenpfote",
-    "SubType": "Spell",
+    "SubType": "SpellFast",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "",
@@ -10999,7 +10999,7 @@
     "ExtraDeck": true,
     "CardType": "Spell",
     "Name": "Verirrt",
-    "SubType": "SpellFast",
+    "SubType": "Spell",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "",
@@ -11022,7 +11022,7 @@
     "ExtraDeck": true,
     "CardType": "Spell",
     "Name": "Kleine Matrjoschka",
-    "SubType": "Spell",
+    "SubType": "SpellFast",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "",
@@ -11068,7 +11068,7 @@
     "ExtraDeck": true,
     "CardType": "Spell",
     "Name": "Mittlere Matrjoschka",
-    "SubType": "Spell",
+    "SubType": "SpellFast",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "",
@@ -11091,7 +11091,7 @@
     "ExtraDeck": true,
     "CardType": "Spell",
     "Name": "Todesnebel",
-    "SubType": "Spell",
+    "SubType": "SpellFast",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "",
@@ -11114,7 +11114,7 @@
     "ExtraDeck": true,
     "CardType": "Spell",
     "Name": "Totem",
-    "SubType": "Spell",
+    "SubType": "SpellFast",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "",
@@ -11137,7 +11137,7 @@
     "ExtraDeck": true,
     "CardType": "Spell",
     "Name": "Unsterblich",
-    "SubType": "Spell",
+    "SubType": "SpellFast",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "",
@@ -11165,7 +11165,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Du musst diese Karte ausrüsten, wenn du sie erhälst.\r\nWerfe diese Karte ab um einem Spieler im Kampf gegen \"Apokalyptischer Reiter – Tod\" -5 oder den \"Tod\" -5/0 in einen Kampf zu geben.",
+    "Text": "Du musst diese Karte ausrüsten, wenn du sie erhälst.\r\nWerfe diese Karte ab um einem Spieler im Kampf gegen \"Apokalyptischer Reiter – Tod\" -5 oder den \"Tod\" -5/0 in einem Kampf zu geben.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -11183,7 +11183,7 @@
     "ExtraDeck": true,
     "CardType": "Spell",
     "Name": "Vogel der stiehlt",
-    "SubType": "SpellFast",
+    "SubType": "Spell",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "",
@@ -11873,7 +11873,7 @@
     "ExtraDeck": true,
     "CardType": "Spell",
     "Name": "Der wahre Name eines vergessenden Gottes",
-    "SubType": "Spell",
+    "SubType": "SpellFast",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "",
@@ -11924,7 +11924,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Jederzeit Spielbar.\nÄndere einen beliebiegen Würfelwurf zu einen D12 Würfelwurf.\n\nWerfe diese Karte zusammen mit \"Der wahre Name eines vergessenden Gottes\" und \"Jungfreuliche Erde\" von deiner Hand ab um \"Golem Begleiter\" (Extra Deck) zu ziehen",
+    "Text": "Jederzeit spielbar.\nÄndere einen beliebiegen Würfelwurf zu einen D12 Würfelwurf.\n\nWerfe diese Karte zusammen mit \"Der wahre Name eines vergessenden Gottes\" und \"Jungfreuliche Erde\" von deiner Hand ab um \"Golem Begleiter\" (Extra Deck) zu ziehen",
     "FlavorText": "Ein Mythos besagt das Klares wasser rein \"Entflammt\"",
     "Level": "",
     "Race": "Empty",
@@ -12476,7 +12476,7 @@
     "Condition": "Empty",
     "Modifiers": "-1 / 0",
     "CenterText": "",
-    "Text": "Erhalte \"Trauma Therapie\" (Extra Deck) solange diese Karte ausgerüstest ist und verliere das Spellblade wenn du diese Karte verlierst.\r\n[-3/-1, gegen Soldaten]",
+    "Text": "Erhalte \"Traumatherapie\" (Extra Deck) solange diese Karte ausgerüstest ist und verliere das Spellblade wenn du diese Karte verlierst.\r\n[-3/-1, gegen Soldaten]",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -12660,7 +12660,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Du wurdest auf das königliche Fest eingeladen.\r\nHättest du dich nur zurückgehalten, hätte es ein schöner Abend sein können.\r\n\r\nNun laufen wutentbrannt Wachen umher und suchen nach dem Täter. Solltest du der ranghöchste Spieler sein wurdest du bei der Tat ertappt und sie versuchen dich gefangen zu nehmen.\r\nSolltest du nicht der ranghöchste Spieler sein, kannst du den Verdacht von dir ablenken indem du einen anderen Spieler deiner Wahl beschuldigst, welchen die Wachen dann versuchen ferstzunehmen.\r\n\r\nDie Spieler der von den Wachen verfolgt wird kann versuchen wie vor einen Monster zu fliehen. (Karten sind Spielbar)\r\nScheitert die Flucht zieht er \"Armlos\" (Extra Deck).",
+    "Text": "Du wurdest auf das königliche Fest eingeladen.\r\nHättest du dich nur zurückgehalten, hätte es ein schöner Abend sein können.\r\n\r\nNun laufen wutentbrannt Wachen umher und suchen nach dem Täter. Solltest du der ranghöchste Spieler sein wurdest du bei der Tat ertappt und sie versuchen dich gefangen zu nehmen.\r\nSolltest du nicht der ranghöchste Spieler sein, kannst du den Verdacht von dir ablenken indem du einen anderen Spieler deiner Wahl beschuldigst, welchen die Wachen dann versuchen ferstzunehmen.\r\n\r\nDie Spieler der von den Wachen verfolgt wird kann versuchen wie vor einen Monster zu fliehen. (Karten sind spielbar)\r\nScheitert die Flucht zieht er \"Armlos\" (Extra Deck).",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -13115,7 +13115,7 @@
     "ExtraDeck": false,
     "CardType": "Spell",
     "Name": "Glück",
-    "SubType": "Spell",
+    "SubType": "SpellFast",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "Crit+1",
@@ -13138,7 +13138,7 @@
     "ExtraDeck": false,
     "CardType": "Spell",
     "Name": "Backstep",
-    "SubType": "Spell",
+    "SubType": "SpellFast",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "-1 / 0\r\nCrit+1",
@@ -13971,7 +13971,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Der Rangletzte Spieler erhält \"Schrei nach Hilfe\" (Extra Deck) solange diese Karte ausgerüstest ist. Zerstöre das Spellblade wenn du diese Karte verlierst.\r\n[Hilf dem Schwächsten Spieler]\r\n\r\nGibt es mehere wähle einen.",
+    "Text": "Der rangletzte Spieler erhält \"Schrei nach Hilfe\" (Extra Deck) solange diese Karte ausgerüstest ist. Zerstöre das Spellblade wenn du diese Karte verlierst.\r\n[Hilf dem Schwächsten Spieler]\r\n\r\nGibt es mehere wähle einen.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -15052,7 +15052,7 @@
     "Condition": "Empty",
     "Modifiers": "-2 / 0",
     "CenterText": "",
-    "Text": "Erhalte \"Tugendstärke\" (Extra Deck) solange diese Karte ausgerüstest ist und verliere das Spellblade wenn du diese Karte verlierst.\r\n[-2/-1, gegen Menschen]",
+    "Text": "Erhalte \"Tugendhaft\" (Extra Deck) solange diese Karte ausgerüstest ist und verliere das Spellblade wenn du diese Karte verlierst.\r\n[-2/-1, gegen Menschen]",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -15236,7 +15236,7 @@
     "Condition": "Empty",
     "Modifiers": "-2 / 0",
     "CenterText": "für einen anderen Spieler",
-    "Text": "Du musst mindestens 3 Ehre besitzen, um diese Karte spielen zu können:\r\nDu kannst diese Karte auf andere Spieler Spielen.\r\n\r\nOffenbaren:\r\nDiese Karte muss und kann vor einen Kampf gespielt werden (Kämpfe sind aufgedeckt, aber der Timer nicht gestartet).\r\n\r\nSollte er den Kampf gewinnen, erhälst du 1 Ehre.\r\nSollte er den Kampf verlieren, verlierst du 3 Ehre.",
+    "Text": "Du musst mindestens 3 Ehre besitzen, um diese Karte spielen zu können:\r\nDu kannst diese Karte auf andere Spieler Spielen.\r\n\r\nOffenbaren:\r\nDiese Karte kann und muss vor einem Kampf gespielt werden (Kämpfe sind aufgedeckt, aber der Timer nicht gestartet).\r\n\r\nSollte er den Kampf gewinnen, erhälst du 1 Ehre.\r\nSollte er den Kampf verlieren, verlierst du 3 Ehre.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -15673,7 +15673,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Du bist tod und hast das Spiel verloren. Zumindest fast, denn dein Wille brennt immer noch wie Feuer.\r\nWirf alle deine Handkarten ab.\r\nDeine Leiche wird gelooted und du verlierst deine Spielfigur.\r\nDu suchst den Spieler heim der zur aktivierung dieser Karte der Rangletzte Spieler ist.\r\nSollte dieser Spieler das Spiel gewinnen, gewinnst du ebenfalls das Spiel. \r\n(Sollte ihr Siege zählen, ist dies ein halber Sieg!)\r\n\r\nZiehe \"Schweigen\" (Extra Deck).\r\n\r\nZiehe jeden Zug 1 Segen und 1 Fluch und füge ihn deiner Handkarten hinzu.\r\nDein Handkartenlimit ist 4.\r\nDu kannst Segen in Kämpfen wie Kampf-Zauber für eine beliebige Seite spielen.\r\nDu kannst nicht handeln.",
+    "Text": "Du bist tod und hast das Spiel verloren. Zumindest fast, denn dein Wille brennt immer noch wie Feuer.\r\nWirf alle deine Handkarten ab.\r\nDeine Leiche wird gelooted und du verlierst deine Spielfigur.\r\nDu suchst den Spieler heim der zur aktivierung dieser Karte der rangletzte Spieler ist.\r\nSollte dieser Spieler das Spiel gewinnen, gewinnst du ebenfalls das Spiel. \r\n(Sollte ihr Siege zählen, ist dies ein halber Sieg!)\r\n\r\nZiehe \"Schweigen\" (Extra Deck).\r\n\r\nZiehe jeden Zug 1 Segen und 1 Fluch und füge ihn deiner Handkarten hinzu.\r\nDein Handkartenlimit ist 4.\r\nDu kannst Segen in Kämpfen wie Kampf-Zauber für eine beliebige Seite spielen.\r\nDu kannst nicht handeln.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -16335,7 +16335,7 @@
     "ExtraDeck": true,
     "CardType": "Spell",
     "Name": "Feueratem",
-    "SubType": "Spell",
+    "SubType": "SpellFast",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "+3 / 0",
@@ -16363,7 +16363,7 @@
     "Condition": "Empty",
     "Modifiers": "+3 / +1",
     "CenterText": "Kosten: 8",
-    "Text": "Erhalte \"Wortgewandheit\" (Extra Deck) solange diese Karte ausgerüstest ist und verliere das Spellblade wenn du diese Karte verlierst.\r\n[1 weitere Ehre in gewonnenden Duellen]\r\n\r\nVerkauf: 4 Ehre",
+    "Text": "Erhalte \"Wortgewand\" (Extra Deck) solange diese Karte ausgerüstest ist und verliere das Spellblade wenn du diese Karte verlierst.\r\n[1 weitere Ehre in gewonnenden Duellen]\r\n\r\nVerkauf: 4 Ehre",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -16808,7 +16808,7 @@
     "LoseText": "",
     "Scrapped": "",
     "Print1": 0,
-    "Print2": 1,
+    "Print2": 2,
     "Print3": 1,
     "Print4": 0
   },
@@ -16846,7 +16846,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Nur in einen Monsterkampf eines anderen Spielers Spielbar:\r\nDu kannst einen mächtigen Dämon beschwören der deinen Gegner in fetzen reißen wirt. Dafür Musst du aber selber ein Opfer bringen.\r\n\nStopp die Zeit:\r\nZiehe \"Verwundet\" (Extra Deck).\r\n\r\nEin \"Packdämon\" der Stufe 6 tritt dem Kampf bei (Extra Deck).\n(Der Spieler kämpft gegen beide Monster zusammen. Sie haben die Summe ihrer Stärke, Typ, Effekt, Win und Lose Eigenschaften)",
+    "Text": "Nur in einen Monsterkampf eines anderen Spielers spielbar:\r\nDu kannst einen mächtigen Dämon beschwören der deinen Gegner in fetzen reißen wirt. Dafür Musst du aber selber ein Opfer bringen.\r\n\nStopp die Zeit:\r\nZiehe \"Verwundet\" (Extra Deck).\r\n\r\nEin \"Packdämon\" der Stufe 6 tritt dem Kampf bei (Extra Deck).\n(Der Spieler kämpft gegen beide Monster zusammen. Sie haben die Summe ihrer Stärke, Typ, Effekt, Win und Lose Eigenschaften)",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -16994,7 +16994,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 789,
@@ -17017,7 +17017,7 @@
     "Print1": 0,
     "Print2": 6,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 790,
@@ -17063,7 +17063,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 792,
@@ -17086,7 +17086,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 793,
@@ -17109,7 +17109,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 794,
@@ -17132,7 +17132,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 795,
@@ -17155,7 +17155,7 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 796,
@@ -17178,7 +17178,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 797,
@@ -17201,7 +17201,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 798,
@@ -17224,7 +17224,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 799,
@@ -17237,7 +17237,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Jederzeit Spielbar:\r\n\r\nEinmal im Spiel, wenn du gegen ein Monster Typ Tier kämpfst, kannst du es mit einem gezielten Schuss ablenken.\r\nKämpfe sofort gegen das nächste Monster und lege das Tier unter sein Deck.\r\nVerliere danach diese Karte.",
+    "Text": "Jederzeit spielbar:\r\n\r\nEinmal im Spiel, wenn du gegen ein Monster Typ Tier kämpfst, kannst du es mit einem gezielten Schuss ablenken.\r\nKämpfe sofort gegen das nächste Monster und lege das Tier unter sein Deck.\r\nVerliere danach diese Karte.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -17247,7 +17247,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 800,
@@ -17270,7 +17270,7 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 801,
@@ -17293,7 +17293,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 802,
@@ -17316,7 +17316,7 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 803,
@@ -17339,7 +17339,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 804,
@@ -17362,7 +17362,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 805,
@@ -17385,7 +17385,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 806,
@@ -17396,9 +17396,9 @@
     "SubType": "Spellblade",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "-6 / 0",
-    "CenterText": "für den Spieler der die \"Rüstung des Auserwählten\" trägt",
-    "Text": "",
+    "Modifiers": "+6 / 0",
+    "CenterText": "",
+    "Text": "für dich, wenn du gegen den Spieler, der die \"Rüstung des Auserwählten\" trägt, kämpfst.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -17408,7 +17408,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 808,
@@ -17421,7 +17421,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Offenbaren:\r\nDiese Karte muss und kann vor einen Kampf gespielt werden (Kämpfe sind aufgedeckt, aber der Timer nicht gestartet).\r\n\r\nWürfel vor dem Kampf deinen Fluchtwurf aus und nicht nach dem Kampf. Wenn du dies tust zählt das Ergebnis ebenfalls als Kampfstärke, wenn es sich um einen erfolgreichen Fluchtwurf handelt.\r\n\r\nSollte sich dein Fluchtwert im Kampf ändern stop die Zeit und würfel deinen Fluchtwurf neu aus.",
+    "Text": "Offenbaren:\r\nDiese Karte kann und muss vor einem Kampf gespielt werden (Kämpfe sind aufgedeckt, aber der Timer nicht gestartet).\r\n\r\nWürfel vor dem Kampf deinen Fluchtwurf aus und nicht nach dem Kampf. Wenn du dies tust, zählt das Ergebnis ebenfalls als Kampfstärke, wenn es sich um einen erfolgreichen Fluchtwurf handelt.\r\n\r\nDein Fluchtwurf kann in diesem Kampf nicht verändert werden.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -17431,7 +17431,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 809,
@@ -17444,7 +17444,7 @@
     "Condition": "Empty",
     "Modifiers": "-3 / -1",
     "CenterText": "gegen Götter",
-    "Text": "Diese Karte kann nur in einen Kampf gegen ein Gott gespielt werden.\r\n\r\nOffenbaren:\r\nDiese Karte muss und kann vor einen Kampf gespielt werden (Kämpfe sind aufgedeckt, aber der Timer nicht gestartet).\r\n\r\nWenn du den Kampf gewinnst verlierst du \"Ehrfürchtig\"",
+    "Text": "Diese Karte kann nur in einem Kampf gegen einen Gott gespielt werden.\r\n\r\nOffenbaren:\r\nDiese Karte kann und muss vor einem Kampf gespielt werden (Kämpfe sind aufgedeckt, aber der Timer nicht gestartet).\r\n\r\nWenn du den Kampf gewinnst, verlierst du \"Ehrfürchtig\".",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -17454,7 +17454,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 810,
@@ -17466,8 +17466,8 @@
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "-3 / -1",
-    "CenterText": "gegen vampire",
-    "Text": "Diese Karte kann nur in einen Kampf gegen einen Vampir gespielt werden.\r\n\r\nOffenbaren:\r\nDiese Karte muss und kann vor einen Kampf gespielt werden (Kämpfe sind aufgedeckt, aber der Timer nicht gestartet).\r\n\r\nWenn du den Kampf gewinnst verlierst du \"Blutdurchtränkt\"",
+    "CenterText": "gegen Vampire",
+    "Text": "Diese Karte kann nur in einem Kampf gegen einen Vampir gespielt werden.\r\n\r\nOffenbaren:\r\nDiese Karte kann und muss vor einem Kampf gespielt werden (Kämpfe sind aufgedeckt, aber der Timer nicht gestartet).\r\n\r\nWenn du den Kampf gewinnst, verlierst du \"Blutdurchtränkt\".",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -17477,20 +17477,20 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 811,
     "Structure": "Normal",
     "ExtraDeck": true,
     "CardType": "Spellblade",
-    "Name": "Trauma Therapie",
+    "Name": "Traumatherapie",
     "SubType": "Spellblade",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "-3 / -1",
     "CenterText": "gegen Soldaten",
-    "Text": "Diese Karte kann nur in einen Kampf gegen einen Soldaten gespielt werden.\r\n\r\nOffenbaren:\r\nDiese Karte muss und kann vor einen Kampf gespielt werden (Kämpfe sind aufgedeckt, aber der Timer nicht gestartet).\r\n\r\nWenn du den Kampf gewinnst verlierst du \"Trauma\"",
+    "Text": "Diese Karte kann nur in einem Kampf gegen einen Soldaten gespielt werden.\r\n\r\nOffenbaren:\r\nDiese Karte kann und muss vor einem Kampf gespielt werden (Kämpfe sind aufgedeckt, aber der Timer nicht gestartet).\r\n\r\nWenn du den Kampf gewinnst, verlierst du \"Trauma\".",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -17500,7 +17500,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 812,
@@ -17513,7 +17513,7 @@
     "Condition": "Empty",
     "Modifiers": "+2 / 0",
     "CenterText": "",
-    "Text": "Annuliere den Effekt dieser Karte, wenn eine \"Feuerkarte\" am Kampf beteiligt ist.\r\n\r\nOffende Karten:\r\nDu kannst diese Karte nicht in im letzten Timer-Zug spielen.",
+    "Text": "Annuliere den Effekt dieser Karte, wenn eine \"Feuerkarte\" am Kampf beteiligt ist.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -17523,20 +17523,20 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 813,
     "Structure": "Normal",
     "ExtraDeck": true,
     "CardType": "Spellblade",
-    "Name": "Tugendstärke",
+    "Name": "Tugendhaft",
     "SubType": "Spellblade",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "-2 / -1",
     "CenterText": "gegen Menschen",
-    "Text": "Diese Karte kann nur in einen Kampf gegen einen Mensch gespielt werden.\r\n\r\nOffenbaren:\r\nDiese Karte muss und kann vor einen Kampf gespielt werden (Kämpfe sind aufgedeckt, aber der Timer nicht gestartet).\r\n\r\nWenn du den Kampf gewinnst verlierst du \"Wollüstig\"",
+    "Text": "Diese Karte kann nur in einem Kampf gegen einen Mensch gespielt werden.\r\n\r\nOffenbaren:\r\nDiese Karte kann und muss vor einem Kampf gespielt werden (Kämpfe sind aufgedeckt, aber der Timer nicht gestartet).\r\n\r\nWenn du diesen Kampf gewinnst, verlierst du \"Wollüstig\".",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -17546,7 +17546,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 814,
@@ -17559,7 +17559,7 @@
     "Condition": "Empty",
     "Modifiers": "+2 / 0",
     "CenterText": "",
-    "Text": "Wenn dich ein anderer Spieler im Kampf unterstützt",
+    "Text": "Wenn dich ein anderer Spieler im Kampf unterstützt.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -17569,7 +17569,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 815,
@@ -17582,7 +17582,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Nur in Monsterkämpfen Spielbar:\r\nSolltest du diesen Kampf verlieren, verliert der Spieler mit \"Gerechtigkeitswahn\" 1 Ehre.\r\n\r\nWenn du nicht mehr der Rangletzte Spieler sein solltest, lege diese Karte zu den Rangletzten Spieler.\r\nGibt es mehere wähle einen.",
+    "Text": "Nur in Monsterkämpfen spielbar:\r\nSolltest du diesen Kampf verlieren, verliert der Spieler mit \"Gerechtigkeitswahn\" 1 Ehre.\r\n\r\nWenn du nicht mehr der rangletzte Spieler sein solltest, lege diese Karte zu dem rangletzten Spieler.\r\nGibt es mehere, wähle einen.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -17592,7 +17592,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 816,
@@ -17615,7 +17615,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 817,
@@ -17638,7 +17638,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 818,
@@ -17661,7 +17661,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 819,
@@ -17674,7 +17674,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Wenn du es in diesen Kampf nicht schaffst zu fliehen, kannst du deinen Fluchtwurf einmalig wiederholen.",
+    "Text": "Wenn du es in diesem Kampf nicht schaffst zu fliehen, kannst du deinen Fluchtwurf einmalig wiederholen.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -17684,7 +17684,7 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 821,
@@ -17697,7 +17697,7 @@
     "Condition": "Empty",
     "Modifiers": "+11 / 0",
     "CenterText": "",
-    "Text": "Du musst dem Golem 1 \"Ehre\" opfern um diese Karte Spielen zu können.",
+    "Text": "Du musst dem Golem 1 \"Ehre\" opfern, um diese Karte spielen zu können.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -17707,7 +17707,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 822,
@@ -17730,20 +17730,20 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 823,
     "Structure": "Normal",
     "ExtraDeck": true,
     "CardType": "Spellblade",
-    "Name": "Wortgewandheit",
+    "Name": "Wortgewand",
     "SubType": "Spellblade",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Nur in Duellen Spielbar:\r\nErhalte 1 weitere \"Ehre\" wenn du erfolgreich aus einen Duell fliehst.",
+    "Text": "Nur in Duellen spielbar:\r\nErhalte 1 weitere \"Ehre\", wenn du erfolgreich aus einem Duell fliehst.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -17753,7 +17753,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 824,
@@ -17766,7 +17766,7 @@
     "Condition": "Empty",
     "Modifiers": "+3 / -100",
     "CenterText": "",
-    "Text": "Offenbaren:\r\nDiese Karte muss und kann vor einen Kampf gespielt werden (Kämpfe sind aufgedeckt, aber der Timer nicht gestartet).\r\n\r\nVerliere \"Hochmut\", wenn du einen Kampf verlierst.\r\nBei Mehrfachkämpfen verlierst du sie anschließend, wenn du nicht der Stärkste bist.",
+    "Text": "Offenbaren:\r\nDiese Karte kann und muss vor einem Kampf gespielt werden (Kämpfe sind aufgedeckt, aber der Timer nicht gestartet).\r\n\r\nVerliere \"Hochmut\", wenn du diesen Kampf verlierst.\r\nBei Mehrfachkämpfen verlierst du sie, wenn du nicht der Stärkste bist.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -17776,7 +17776,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 825,
@@ -17799,20 +17799,20 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 826,
     "Structure": "Normal",
     "ExtraDeck": true,
     "CardType": "Spellblade",
-    "Name": "Monsterjagt",
+    "Name": "Monsterjagd",
     "SubType": "Spellblade",
     "TwoHanded": false,
     "Condition": "Empty",
     "Modifiers": "+2 / 0",
     "CenterText": "gegen Monster",
-    "Text": "Wenn du gegen ein Monster einen Kampf verlierst, verlierst du \"Monsterjäger\".",
+    "Text": "Solltest du diesen Monsterkampf verlieren, verlierst du \"Monsterjäger\".",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -17822,7 +17822,7 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 827,
@@ -17845,28 +17845,143 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 1
+    "Print4": 0
   },
   {
     "Id": 828,
     "Structure": "Normal",
     "ExtraDeck": false,
-    "CardType": "Spell",
-    "Name": "Kampfesrausch",
-    "SubType": "SpellFast",
+    "CardType": "Action1",
+    "Name": "Haus in der Steppe",
+    "SubType": "Empty",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "",
+    "Modifiers": "≤x",
     "CenterText": "",
-    "Text": "Du kannst in einen Zug 2 Zauberkarten ausspielen.\r\nSpiele sie zusammen mit dieser Karte aus um dies aufzuzeigen.\r\n(Kampfesrausch stacked nicht)",
-    "FlavorText": "",
+    "Text": "Erleichterungen:\r\n2 pro 10 Kampfstärke.\r\n2, wenn du Soldat bist.\r\n\r\nDu triffst einen alten Veteranen in einen Haus im nirgendwo an. Bevor du dich erklären kannst, greift er dich an.\r\nSuccess:\r\nEr erkennt deine Stärke an.\r\nZiehe 1 gewöhnlich Ausrüstungskarte, 2 wenn du Soldat bist.\r\nFailure:\r\nEr verprügelt dich, befor du es schaffst dich zu verteidigen. Ziehe \"Verknüppelt\" (Extra Deck).",
+    "FlavorText": "Stärke1",
     "Level": "",
     "Race": "Empty",
     "WinText": "",
     "LoseText": "",
     "Scrapped": "",
     "Print1": 0,
-    "Print2": 0,
+    "Print2": 1,
+    "Print3": 1,
+    "Print4": 1
+  },
+  {
+    "Id": 829,
+    "Structure": "Normal",
+    "ExtraDeck": false,
+    "CardType": "Action1",
+    "Name": "Glühende Münzen",
+    "SubType": "Empty",
+    "TwoHanded": false,
+    "Condition": "Empty",
+    "Modifiers": "≤x",
+    "CenterText": "",
+    "Text": "Erleichterungen:\r\n3, wenn du keine Ehre besitzt.\r\n1, wenn du Schuhe trägst.\r\n\r\nWie es jedes Jahr tradition ist, wirf der Adel glühend heiße Münzen auf die Straße, damit sich die armen die Hände verbrennen können, während sie sich um den Reichtum prügeln.\r\nSchaffst du es ein paar kostbare Münzen zu ergattern?\r\nSuccess:\r\nErhalte D4 Ehre.\r\nFailure:\r\nDu verbrennst dir die Finger. Verliere alle deine Handkarten.",
+    "FlavorText": "Diverse1",
+    "Level": "",
+    "Race": "Empty",
+    "WinText": "",
+    "LoseText": "",
+    "Scrapped": "",
+    "Print1": 0,
+    "Print2": 1,
+    "Print3": 1,
+    "Print4": 1
+  },
+  {
+    "Id": 830,
+    "Structure": "Normal",
+    "ExtraDeck": false,
+    "CardType": "Action3",
+    "Name": "Brennender Busch",
+    "SubType": "Empty",
+    "TwoHanded": false,
+    "Condition": "Empty",
+    "Modifiers": "≤x",
+    "CenterText": "",
+    "Text": "Erleichterungen:\r\n2 pro Faith.\r\n2, als Priester.\r\n\r\nDein Busch brennt!\r\nEin Zeichen Gottes?\r\nSuccess:\r\nEin Gott hat dich erhört. Erhalte \"Auserwählt\" (Extra Deck).\r\nFailure:\r\nDu musst das Feuer löschen, wirf D4 Handkarten ab.",
+    "FlavorText": "Faith3",
+    "Level": "",
+    "Race": "Empty",
+    "WinText": "",
+    "LoseText": "",
+    "Scrapped": "",
+    "Print1": 0,
+    "Print2": 1,
+    "Print3": 1,
+    "Print4": 1
+  },
+  {
+    "Id": 831,
+    "Structure": "Normal",
+    "ExtraDeck": false,
+    "CardType": "Action2",
+    "Name": "Gottesopfer",
+    "SubType": "Empty",
+    "TwoHanded": false,
+    "Condition": "Empty",
+    "Modifiers": "≤x",
+    "CenterText": "",
+    "Text": "Erleichterungen:\r\n2 pro Flucht.\r\n4, als Rangletzter.\r\n\r\nDu triffst einen Priester ohne Arme am Wegesrand. Er blickt dir richtend in deine Augen und beurteilt deine Gewandheit.\r\nSuccess:\r\nEr erkennt dich an und macht dir ein Geschenk. Erhalte 4xD20 Würfel. Lege sie zu deinen Spielmaterial. Du kannst jederzeit einen belibigen Würfelwurf durch einen dieser Würfel austauschen. (Nicht nach einen Würfelwurf Spielbar)\r\nFailure:\r\nEr verurteilt dich.\r\nEr packt dich mit Geisterhänden und reißt dir einen Arm aus. Ziehe \"Armlos\" (Extra Deck).",
+    "FlavorText": "Flucht",
+    "Level": "",
+    "Race": "Empty",
+    "WinText": "",
+    "LoseText": "",
+    "Scrapped": "",
+    "Print1": 0,
+    "Print2": 1,
+    "Print3": 1,
+    "Print4": 1
+  },
+  {
+    "Id": 832,
+    "Structure": "Normal",
+    "ExtraDeck": false,
+    "CardType": "Action1",
+    "Name": "Steine und Hütchen",
+    "SubType": "Empty",
+    "TwoHanded": false,
+    "Condition": "Empty",
+    "Modifiers": "≤x",
+    "CenterText": "",
+    "Text": "Erleichterungen:\r\n2 pro Crit.\r\n2, für jeden anderen Spieler der diese Runde eine Aktionskarte gewählt hat.\r\n\r\nDu triffst einen Hütchenspieler der deine Aufmerksamkeit erregt. Der zieht einen seltsamen Stein hervor der so schwarz ist das man kaum sein konturen erkennen kann. Dann packt er ihn unter eines der Hütchen und mischt sie so schnell hin und her , das deine Augen kaum mithalten können. \r\nSuccess:\r\nErhalte \"Titanite Scherbe\" (Extra Deck).\r\nFailure:\r\nVerliere 2 Ehre.",
+    "FlavorText": "Glück",
+    "Level": "",
+    "Race": "Empty",
+    "WinText": "",
+    "LoseText": "",
+    "Scrapped": "",
+    "Print1": 0,
+    "Print2": 1,
+    "Print3": 1,
+    "Print4": 1
+  },
+  {
+    "Id": 833,
+    "Structure": "Normal",
+    "ExtraDeck": false,
+    "CardType": "Action1",
+    "Name": "Zelten im Dreck",
+    "SubType": "Empty",
+    "TwoHanded": false,
+    "Condition": "Empty",
+    "Modifiers": "≤x",
+    "CenterText": "",
+    "Text": "Erleichterungen:\r\n1, für jedes Tier2 Monster im Ablagestapel.\r\n\r\nAls du spät abends dein Zelt aufschlägst stößt du mit auf ein Stück Metal das im Boden Steckt. Du versuchst es auszugraben doch es ist sehr tief vergraben.\r\nSuccess:\r\nEs handelt sich um eine alte Waffe handelt.\r\nZiehe Legendäre Ausrüstungskarten bis du eine Waffe findest und erhalte diese. Mische die anderen Karten zurück in ihren Stapel. (Gibt es keine legendäre Waffe erhälst du keine).\r\nFailure:\r\nDu scheiterst, nichts passiert.",
+    "FlavorText": "divers",
+    "Level": "",
+    "Race": "Empty",
+    "WinText": "",
+    "LoseText": "",
+    "Scrapped": "",
+    "Print1": 0,
+    "Print2": 1,
     "Print3": 1,
     "Print4": 1
   }
