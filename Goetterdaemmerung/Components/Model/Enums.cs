@@ -113,7 +113,7 @@ public enum CardSubType
     [Description("Ticket")]
     Ticket = 32,
 
-    [Description("Spellblade")]
+    [Description("Fähigkeit")]
     Spellblade = 33,
 
     Empty = 0,
