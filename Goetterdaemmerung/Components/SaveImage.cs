@@ -23,10 +23,20 @@ public class SaveImage : ISaveImage
         return string.Format("{0:000}", print);
     }
 
-    private void SaveNormalFormat(Bitmap card, string filename, CardType type, int print)
+    private void SaveNormalFormat(Bitmap card, string filename, CardType type, int print, bool extraDeck)
     {
-        var name = type.GetDescription() + "_" + ChangePrintNumbers(print) + "_" + filename;
-        card.Save(_userData.ExportPath + "\\" + name + ".png", ImageFormat.Png);
+        if (extraDeck)
+        {
+            var name = type.GetDescription() + "_" + ChangePrintNumbers(print) + "_" + "E" + "_" + filename;
+            card.Save(_userData.ExportPath + "\\" + name + ".png", ImageFormat.Png);
+        }
+        else
+        {
+            var name = type.GetDescription() + "_" + ChangePrintNumbers(print) + "_" + "N" + "_" + filename;
+            card.Save(_userData.ExportPath + "\\" + name + ".png", ImageFormat.Png);
+        }
+
+
     }
 
     private void SaveRebalenceFormat(Bitmap card, long id)
@@ -70,7 +80,7 @@ public class SaveImage : ISaveImage
         {
             if (_userData.CurrentFormat == SaveFormat.normal)
             {
-                SaveNormalFormat(card, filename, type, print);
+                SaveNormalFormat(card, filename, type, print, extraDeck);
             }
             if (_userData.CurrentFormat == SaveFormat.tabeltop)
             {

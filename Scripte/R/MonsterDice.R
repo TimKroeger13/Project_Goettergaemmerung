@@ -1,0 +1,252 @@
+count_streaks = function(vector, value, min_streak_length) {
+  streaks <- rle(vector == value)
+  lengths <- streaks$lengths[streaks$values]
+  sum(lengths >= min_streak_length)
+}
+
+GetStreakNumber = function(vector, streak){
+  
+  true_streaks_count = count_streaks(vector, TRUE, streak)
+  false_streaks_count = count_streaks(vector, FALSE, streak)
+  
+  return(true_streaks_count + false_streaks_count)
+  
+}
+
+#Matrix
+InnerRandomisMatrix = matrix(NA,ncol = 5,nrow = 2)
+colnames(InnerRandomisMatrix) = c("2","3","4","5","6")
+row.names(InnerRandomisMatrix) = c("single","multi")
+
+
+
+
+
+
+
+#20 sided dice
+singleDice = 9
+rounds = 30
+
+Streak2 = 0
+Streak3 = 0
+Streak4 = 0
+Streak5 = 0
+Streak6 = 0
+
+AllsingleDiceHist = NULL
+
+
+for (i in 1:10000){
+  
+  singleDiceHist = NULL
+
+for (d in 1:rounds){
+  singleDiceHist = c(singleDiceHist,sample(1:20, 1)<=singleDice)
+}
+  
+  #count sreaks
+  Streak2 = Streak2 + GetStreakNumber(singleDiceHist, 2)
+  Streak3 = Streak3 + GetStreakNumber(singleDiceHist, 3)
+  Streak4 = Streak4 + GetStreakNumber(singleDiceHist, 4)
+  Streak5 = Streak5 + GetStreakNumber(singleDiceHist, 5)
+  Streak6 = Streak6 + GetStreakNumber(singleDiceHist, 6)
+
+  #Add to list
+  AllsingleDiceHist = c(AllsingleDiceHist,sum(singleDiceHist))
+
+}
+
+sample_mean = mean(AllsingleDiceHist)
+sample_sd = sd(AllsingleDiceHist)
+confidence_level = 0.95
+degrees_of_freedom = length(data) - 1
+alpha = 1 - confidence_level
+critical_value = qnorm(1 - alpha / 2, mean = 0, sd = 1)
+
+margin_of_error = critical_value * (sample_sd / sqrt(length(rounds)))
+
+lower_bound = sample_mean - margin_of_error
+upper_bound = sample_mean + margin_of_error
+
+#plot
+hist(AllsingleDiceHist)
+abline(v=lower_bound)
+abline(v=upper_bound)
+
+cat(paste("Confidence Interval (", confidence_level * 100, "%): [", lower_bound, ", ", upper_bound, "]\n"))
+
+single_upper_bound = upper_bound
+single_lower_bound = lower_bound
+
+InnerRandomisMatrix[1,1:5] = c(Streak2,Streak3,Streak4,Streak5,Streak6)
+
+
+plotValueSingle = c(sample_mean,sample_sd)
+
+
+
+
+
+
+
+
+Streak2 = 0
+Streak3 = 0
+Streak4 = 0
+Streak5 = 0
+Streak6 = 0
+
+#MultiDice
+AllMultiDiceHist = NULL
+MultiDice = 8
+AmountOfMultiDice = 1
+
+for (i in 1:10000){
+  
+  MultiDiceHist = NULL
+  
+  
+  for (d in 1:rounds){
+    
+    
+    for (m in 1:AmountOfMultiDice){
+      
+      MultiDiceRolls = sample(1:20, 1)<=MultiDice
+      
+      if (MultiDiceRolls == TRUE){
+        AmountOfMultiDice = 1
+        break
+      }
+    }
+    
+    if (MultiDiceRolls==FALSE){AmountOfMultiDice = AmountOfMultiDice+1}
+    
+    
+    MultiDiceHist = c(MultiDiceHist,MultiDiceRolls)
+  }
+  
+  #count sreaks
+  Streak2 = Streak2 + GetStreakNumber(MultiDiceHist, 2)
+  Streak3 = Streak3 + GetStreakNumber(MultiDiceHist, 3)
+  Streak4 = Streak4 + GetStreakNumber(MultiDiceHist, 4)
+  Streak5 = Streak5 + GetStreakNumber(MultiDiceHist, 5)
+  Streak6 = Streak6 + GetStreakNumber(MultiDiceHist, 6)
+  
+  AllMultiDiceHist = c(AllMultiDiceHist,sum(MultiDiceHist))
+  
+}
+
+sample_mean = mean(AllMultiDiceHist)
+sample_sd = sd(AllMultiDiceHist)
+confidence_level = 0.95
+degrees_of_freedom = length(data) - 1
+alpha = 1 - confidence_level
+critical_value = qnorm(1 - alpha / 2, mean = 0, sd = 1)
+
+margin_of_error = critical_value * (sample_sd / sqrt(length(rounds)))
+
+lower_bound = sample_mean - margin_of_error
+upper_bound = sample_mean + margin_of_error
+
+#plot
+hist(AllMultiDiceHist)
+abline(v=lower_bound)
+abline(v=upper_bound)
+
+cat(paste("Confidence Interval (", confidence_level * 100, "%): [", lower_bound, ", ", upper_bound, "]\n"))
+
+multi_upper_bound = upper_bound
+multi_lower_bound = lower_bound
+
+plotValueMulti = c(sample_mean,sample_sd)
+
+
+
+#matrix
+
+InnerRandomisMatrix[2,1:5] = c(Streak2,Streak3,Streak4,Streak5,Streak6)
+InnerRandomisMatrix = InnerRandomisMatrix / 10000
+
+InnerRandomisMatrix = rbind(InnerRandomisMatrix,(1 - InnerRandomisMatrix[2,] / InnerRandomisMatrix[1,]) * 100)
+
+InnerRandomisMatrix = round(InnerRandomisMatrix, digits = 2)
+
+
+
+single_upper_bound - single_lower_bound
+
+multi_upper_bound - multi_lower_bound
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Create a sequence of 100 equally spaced numbers between -4 and 4
+x <- rnorm(30, mean=0, sd=1)
+
+#create a vector of values that shows the height of the probability distribution
+#for each value in x
+y <- dnorm(x)
+
+#plot x and y as a scatterplot with connected lines (type = "l") and add
+#an x-axis with custom labels
+plot(NULL, xlim=c(2.5,18.5), ylim=c(0,0.25))
+
+curve(dnorm(x, mean=plotValueSingle[1],sd=plotValueSingle[2]), add=T, col="blue")
+
+curve(dnorm(x, mean=plotValueMulti[1],sd=plotValueMulti[2]), add=T, col="red")
+
+abline(v=single_lower_bound,col="blue", lty=2)
+abline(v=single_upper_bound,col="blue", lty=2)
+
+abline(v=multi_lower_bound,col="red", lty=2)
+abline(v=multi_upper_bound,col="red", lty=2)
+
+
+
+
+
+
+
+diceAntiSide = 12/20
+
+
+1-diceAntiSide #1
+
+1-diceAntiSide*diceAntiSide #2
+
+1-diceAntiSide*diceAntiSide*diceAntiSide #3
+
+1-diceAntiSide*diceAntiSide*diceAntiSide*diceAntiSide #4
+
+1-diceAntiSide*diceAntiSide*diceAntiSide*diceAntiSide*diceAntiSide #5
+
+1-diceAntiSide*diceAntiSide*diceAntiSide*diceAntiSide*diceAntiSide*diceAntiSide #6
+
+1-diceAntiSide*diceAntiSide*diceAntiSide*diceAntiSide*diceAntiSide*diceAntiSide*diceAntiSide #7
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
