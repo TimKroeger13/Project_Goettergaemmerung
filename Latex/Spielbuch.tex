@@ -1,0 +1,101 @@
+\documentclass[12pt,a4paper,twoside]{book}
+\usepackage{lipsum}
+\usepackage{afterpage}
+\usepackage{fancyhdr, lastpage, changepage, graphicx}    
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=4cm,rmargin=2cm}
+\usepackage{lastpage}
+\usepackage{fancyhdr} 
+\usepackage{calc}
+\usepackage{refcount}
+
+\makeatletter
+\let\ps@plain\ps@fancy% Plain page style = fancy page style
+\makeatother
+
+\providecommand*{\wb}[2]{\fontsize{#1}{#2}\usefont{U}{webo}{xl}{n}}
+\newcommand*{\cdiam}{\prec\kern-2pt\succ}
+
+\title{title}
+\author{names}
+\setlength\parindent{0pt}
+
+\newcommand{\numberOfTheLastPageMinusOne}{\the\numexpr\getpagerefnumber{LastPage}-1\relax}
+
+
+
+\pagestyle{fancy}
+\fancyhf{} % Clear existing header and footer settings
+\fancyfoot[C]{\the\numexpr\value{page}-1\relax\ von \numberOfTheLastPageMinusOne}
+\renewcommand{\headrulewidth}{0pt} % Remove the horizontal line in the header
+\renewcommand{\footrulewidth}{0.4pt} % Adjust the thickness of the horizontal line in the footer
+
+
+
+\begin{document}
+
+
+	
+	\begin{titlepage}
+		\fontfamily{pbk}\selectfont  
+		\vspace*{4.5\baselineskip}
+		\centering
+		\begin{picture}(600, 0)
+			\multiput(0, 110)(20, 0){20}{{\wb{10}{12}4}}                    % Top Line
+			\multiput(-5, 90)(0,-21){35}{\rotatebox{90}{{\wb{10}{12}4}}}    % Left Line
+			\multiput(0,-630)(20, 0){20}{{\wb{10}{12}4}}                    % Bottom Line
+			\multiput(400,90)(0,-21){35}{\rotatebox{90}{{\wb{10}{12}4}}}    % Right Line
+		\end{picture}
+		
+		\centering
+		\vspace*{2\baselineskip}
+		{\Huge Götterdämmerung} \\[1em]
+		{\large Ein Spiel der Halbgötter}\\[4em]
+		von T.Kroeger \& F.Feldwisch  \\[0.5\baselineskip]
+		Version 1.4.01 \par
+		\vspace*{5\baselineskip}
+		$\cdiam$\\[0.25\baselineskip]
+		$\cdiam\cdiam\cdiam$\\[0.25\baselineskip]
+		$\cdiam\cdiam\cdiam\cdiam\cdiam$\\[0.25\baselineskip]
+		$\cdiam\cdiam\cdiam$\\[0.25\baselineskip]
+		$\cdiam$\par
+		\vspace*{5\baselineskip}
+		{\large\scshape Für 3-6 Personen}
+		\vspace*{2\baselineskip}    
+		
+	\end{titlepage}
+
+\newpage
+
+%\restoregeometry % Restore the default geometry
+%\afterpage{\restoregeometry} 
+	
+	\vspace*{\fill}
+	\begin{quote}
+		\textit{"Der Mensch spielt nur, wo er in voller Bedeutung des Wortes Mensch ist, und er ist nur da ganz Mensch, wo er spielt"}\\\\
+		\textbf{Friedrich Schiller}\\
+		\footnotesize{Briefe über die ästhetische Erziehung des Menschen, 15. Brief}
+	\end{quote}
+	\vspace*{\fill}
+
+\newpage
+
+%Main Text
+
+\section*{Alea iacta est}
+
+aaa
+
+
+
+
+\vskip 2cm
+
+\lipsum[1-20]
+
+
+\end{document}
+
+
