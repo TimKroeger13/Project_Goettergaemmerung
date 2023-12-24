@@ -68,10 +68,10 @@ public enum CardSubType
     [Description("(apokalypse)")]
     SpellDisaster = 12,
 
-    [Description("(Schnellzauber)")]
+    [Description("(Kampf-Zauber)")]
     SpellFast = 13,
 
-    [Description("(Zauber)")]
+    [Description("(Zug-Zauber)")]
     Spell = 14,
 
     [Description("(Handel)")]
@@ -110,6 +110,12 @@ public enum CardSubType
     [Description("Begleiter")]
     Companion = 26,
 
+    [Description("Ticket")]
+    Ticket = 32,
+
+    [Description("Fähigkeit")]
+    Spellblade = 33,
+
     Empty = 0,
 
     //rest script
@@ -144,28 +150,28 @@ public enum CardType
     [Description("act")]
     Action = 4,
 
-    [Description("mon1")]
+    [Description("mo1")]
     Monster1 = 5,
 
-    [Description("mon2")]
+    [Description("mo2")]
     Monster2 = 6,
 
-    [Description("mon3")]
+    [Description("mo3")]
     Monster3 = 7,
 
-    [Description("mon4")]
+    [Description("mo4")]
     Monster4 = 8,
 
-    [Description("mon5")]
+    [Description("mo5")]
     Monster5 = 9,
 
-    [Description("euq1")]
+    [Description("eq1")]
     Equipment1 = 10,
 
-    [Description("euq2")]
+    [Description("eq2")]
     Equipment2 = 11,
 
-    [Description("euq3")]
+    [Description("eq3")]
     Equipment3 = 12,
 
     [Description("com")]
@@ -197,6 +203,21 @@ public enum CardType
 
     [Description("spe")]
     Spell = 22,
+
+    [Description("tic")]
+    Ticket = 23,
+
+    [Description("sbl")]
+    Spellblade = 24,
+
+    [Description("ac1")]
+    Action1 = 25,
+
+    [Description("ac2")]
+    Action2 = 26,
+
+    [Description("ac3")]
+    Action3 = 27,
 
     Empty = 0
 }

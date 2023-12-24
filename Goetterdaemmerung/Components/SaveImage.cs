@@ -6,7 +6,7 @@ namespace Project_Goettergaemmerung.Components;
 
 public interface ISaveImage
 {
-    void SaveCardasImage(Bitmap card, string? filename, CardType type, int print1, int print2, int print3, int print4);
+    void SaveCardasImage(Bitmap card, string? filename, CardType type, bool extraDeck, int print1, int print2, int print3, int print4, long id);
 }
 
 public class SaveImage : ISaveImage
@@ -23,29 +23,47 @@ public class SaveImage : ISaveImage
         return string.Format("{0:000}", print);
     }
 
-    private void SaveNormalFormat(Bitmap card, string filename, CardType type, int print)
+    private void SaveNormalFormat(Bitmap card, string filename, CardType type, int print, bool extraDeck)
     {
-        var name = type.GetDescription() + "_" + ChangePrintNumbers(print) + "_" + filename;
-        card.Save(_userData.ExportPath + "\\" + name + ".png", ImageFormat.Png);
+        if (extraDeck)
+        {
+            var name = type.GetDescription() + "_" + ChangePrintNumbers(print) + "_" + "E" + "_" + filename;
+            card.Save(_userData.ExportPath + "\\" + name + ".png", ImageFormat.Png);
+        }
+        else
+        {
+            var name = type.GetDescription() + "_" + ChangePrintNumbers(print) + "_" + "N" + "_" + filename;
+            card.Save(_userData.ExportPath + "\\" + name + ".png", ImageFormat.Png);
+        }
+
+
     }
 
-    private void SaveRebalenceFormat(Bitmap card)
+    private void SaveRebalenceFormat(Bitmap card, long id)
     {
         var name = _userData.RebalenceNumber;
-        card.Save(_userData.ExportPath + "\\" + name + ".png", ImageFormat.Png);
+        card.Save(_userData.ExportPath + "\\" + id + ".png", ImageFormat.Png);
     }
 
-    private void SaveTabeltopFormat(Bitmap card, string filename, CardType type, int print)
+    private void SaveTabeltopFormat(Bitmap card, string filename, CardType type, int print, bool extraDeck)
     {
         for (var i = 0; i < print; i++)
         {
-            var name = type.GetDescription() + "_" + ChangePrintNumbers(i + 1) + "_" + filename;
-            card.Save(_userData.ExportPath + "\\" + name + ".png", ImageFormat.Png);
+            if (extraDeck)
+            {
+                var name = type.GetDescription() + "_" + ChangePrintNumbers(i + 1) + "_" + "E" + "_" + filename;
+                card.Save(_userData.ExportPath + "\\" + name + ".png", ImageFormat.Png);
+            }
+            else
+            {
+                var name = type.GetDescription() + "_" + ChangePrintNumbers(i + 1) + "_" + "N" + "_" + filename;
+                card.Save(_userData.ExportPath + "\\" + name + ".png", ImageFormat.Png);
+            }
         }
     }
 
-    public void SaveCardasImage(Bitmap card, string? filename, CardType type,
-        int print1, int print2, int print3, int print4)
+    public void SaveCardasImage(Bitmap card, string? filename, CardType type, bool extraDeck,
+        int print1, int print2, int print3, int print4, long id)
     {
         if (filename == null) { filename = ""; }
 
@@ -62,15 +80,15 @@ public class SaveImage : ISaveImage
         {
             if (_userData.CurrentFormat == SaveFormat.normal)
             {
-                SaveNormalFormat(card, filename, type, print);
+                SaveNormalFormat(card, filename, type, print, extraDeck);
             }
             if (_userData.CurrentFormat == SaveFormat.tabeltop)
             {
-                SaveTabeltopFormat(card, filename, type, print);
+                SaveTabeltopFormat(card, filename, type, print, extraDeck);
             }
             if (_userData.CurrentFormat == SaveFormat.rebalence)
             {
-                SaveRebalenceFormat(card);
+                SaveRebalenceFormat(card, id);
             }
         }
     }

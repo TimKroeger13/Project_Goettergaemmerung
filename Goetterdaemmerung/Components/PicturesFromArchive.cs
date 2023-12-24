@@ -35,6 +35,10 @@ public interface IPicturesFromArchive
     Bitmap Spell();
 
     Bitmap Win();
+
+    Bitmap Fluch();
+
+    Bitmap Segen();
 }
 
 public class PicturesFromArchive : IPicturesFromArchive
@@ -147,6 +151,20 @@ public class PicturesFromArchive : IPicturesFromArchive
     public Bitmap Scrapped()
     {
         var newBitmap = new Bitmap(Resources.scrapped);
+        newBitmap.SetResolution(120, 120);
+        return newBitmap;
+    }
+
+    public Bitmap Fluch()
+    {
+        var newBitmap = new Bitmap(Resources.fluch);
+        newBitmap.SetResolution(120, 120);
+        return newBitmap;
+    }
+
+    public Bitmap Segen()
+    {
+        var newBitmap = new Bitmap(Resources.segen);
         newBitmap.SetResolution(120, 120);
         return newBitmap;
     }
