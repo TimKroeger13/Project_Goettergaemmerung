@@ -1,4 +1,4 @@
-\documentclass[11pt,a5paper,twoside]{book}
+\documentclass[11pt,a5paper,twoside,openright]{book}
 \usepackage{lipsum}
 \usepackage{afterpage}
 \usepackage{fancyhdr, lastpage, changepage, graphicx}    
@@ -11,7 +11,13 @@
 \usepackage{calc}
 \usepackage{refcount}
 \usepackage{arydshln}
+\usepackage{varioref}
+\usepackage{multicol}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{colortbl}
+\usepackage{soul}
 
+\definecolor{darkblue}{HTML}{07608F}
 
 \makeatletter
 \let\ps@plain\ps@fancy% Plain page style = fancy page style
@@ -24,31 +30,37 @@
 \author{names}
 \setlength\parindent{0pt}
 
-\newcommand{\numberOfTheLastPageMinusOne}{\the\numexpr\getpagerefnumber{LastPage}-1\relax}
-
 
 
 \pagestyle{fancy}
 \fancyhf{} % Clear existing header and footer settings
-\fancyfoot[C]{\the\numexpr\value{page}-1\relax\ von \numberOfTheLastPageMinusOne}
+\fancyfoot[LE,RO]{\textbf{\thepage}\ von \getpagerefnumber{LastPage}}
 \renewcommand{\headrulewidth}{0pt} % Remove the horizontal line in the header
 \renewcommand{\footrulewidth}{0.4pt} % Adjust the thickness of the horizontal line in the footer
 
 
 
 \begin{document}
-
-
 	
 	\begin{titlepage}
+		
+		\vspace*{\fill}
+		\begin{center}
+			\textbf{{\Huge Bitte Wenden!}}
+		\end{center}
+		\vspace*{\fill}
+		\newpage\thispagestyle{empty}
+		
+		\null\thispagestyle{empty}
+		
 		\fontfamily{pbk}\selectfont  
 		\vspace*{5.7\baselineskip}
 		\centering
 		\begin{picture}(600, 0)
-			\multiput(-5, 110)(17, 0){20}{{\wb{10}{12}4}}                    % Top Line
-			\multiput(-10, 90)(0,-18.5){30}{\rotatebox{90}{{\wb{10}{12}4}}}    % Left Line
-			\multiput(-5,-450)(17, 0){20}{{\wb{10}{12}4}}                    % Bottom Line
-			\multiput(338,90)(0,-18.5){30}{\rotatebox{90}{{\wb{10}{12}4}}}    % Right Line
+			\multiput(8, 110)(17, 0){20}{{\wb{10}{12}4}}                    % Top Line
+			\multiput(3, 90)(0,-18.5){30}{\rotatebox{90}{{\wb{10}{12}4}}}    % Left Line
+			\multiput(8,-450)(17, 0){20}{{\wb{10}{12}4}}                    % Bottom Line
+			\multiput(351,90)(0,-18.5){30}{\rotatebox{90}{{\wb{10}{12}4}}}    % Right Line
 		\end{picture}
 		
 		\centering
@@ -70,10 +82,10 @@
 		
 	\end{titlepage}
 
-\newpage
+	\newpage
+	\addtocounter{page}{-3}
 
-%\restoregeometry % Restore the default geometry
-%\afterpage{\restoregeometry} 
+	\null\thispagestyle{empty}
 	
 	\vspace*{\fill}
 	\begin{quote}
@@ -89,39 +101,105 @@
 
 \section*{Seid gegrüßt Sterbliche!}
 
-
-
-	%\begin{flushleft}
-		
-
-	
-
-
 Das Buch welches sich grade in ihren Händen befindet ist wahrlich kein normales Buch. Es ist eine Chance euren Wert für uns zu beweisen.\\
-Wir die Halbgötter dieser Sphäre sind es langsam überdrüssig von Wesen übertrumpft zu werden die sich als Götter betiteln. Ihre Unfähigkeit in der Lenkung des Schicksals ist mehr als nur töricht. Daher erscheint us eine Rebellion als unausweichlich. Zu unseren Bedauern mussten wir aber leider feststellen das uns an Frontkämpfern mangelt, welche die Gute Sache unterstützen. Und genau da kommt ihr ins Spiel; wortwörtlich um dies exakt zu betiteln.
+Wir die Halbgötter dieser Sphäre sind es langsam überdrüssig von Wesen übertrumpft zu werden die sich als Götter betiteln. Ihre Unfähigkeit in der Lenkung des Schicksals ist mehr als nur töricht. Daher erscheint uns eine Rebellion als unausweichlich. Zu unseren Bedauern mussten wir aber leider feststellen das uns an Frontkämpfern mangelt, welche die Gute Sache unterstützen. Und genau da kommt ihr ins Spiel; wortwörtlich um dies exakt zu betiteln.
 Damit wir diejenigen unter euch finden die mehr nutzen haben als Schaden anrichten haben wir eine Prüfung kreiert, welche mehrere Sterbliche auf einmal ablegen können.\\
-Diesen Test haben wir als ein Brettspiel getarnt, welches sich derzeitig in euren Händen befindet. Spielt es und man wird über euch richten, über jeden einzelnen von euch zu Urteilen. Zu den Würdigen unter euch werden wir Kontakt aufnehmen. Die Unwürdigen hingegen dürfen sich gerne mit erneuten Chancen, erneut zu beweisen und daraufhin werden wir euch erneut beurteilen.\\
+Diesen Test haben wir als ein Brettspiel getarnt, welches sich derzeitig in euren Händen befindet. Spielt es und man wird über euch richten, über jeden einzelnen von euch Urteilen. Zu den Würdigen unter euch werden wir Kontakt aufnehmen. Die Unwürdigen hingegen dürfen sich gerne mit erneuten Chancen, erneut versuchen sich zu beweisen und daraufhin werden wir euch erneut beurteilen.\\
 
 Das Wichtigste was noch gesagt werden muss ist das dieses Buch nicht nach eignen ermessen durchgeblättert werden darf. Ein Freier Wille ist daher nicht gestattet und wird bei verstoß mit 5 Jahren Höllenfeuer bestraft.\\
 Stattdessen ist am Ende jeder Doppelseite zu entnehmen wo weitergelesen werden darf. Sollte es mehrere Seiten zur Auswahl geben, müsst ihre eine Wahl fällen, oder den dort beschreibenden Bedingungen folge Leisten.\\
 Beginnen wir daher mit einer einfachen Frage!
-\vfill
 
+\vfill
 
 \textbf{Wie sehr sind ihnen komplexe Brettspiele vertraut?} \\
 \def\dashfill{\cleaders\hbox{-}\hfill}
 \hbox to \hsize{\dashfill\hfil}
-\textbf{Seite: X} - Ja, ich finde durchaus das ich mich verschiedensten Brettspielen auskenne. Ich schätze ich werde die Regeln recht schnell verstehen.\\
-\textbf{Seite: Y} - asdf
-
-	%\end{flushleft}
-
+\textbf{Seite: \pageref{AnleitungAlt}} - Ja, ich finde durchaus das ich mich verschiedensten Brettspielen auskenne. Ich schätze ich werde die Regeln recht schnell verstehen.\\
+\textbf{Seite: \pageref{AnleitungJung}} - Was Brettspiele?!? und dazu noch Komplexere, damit hab ich echt keine Erfahrung. Dazu ich sehe ja schon wie lange diese Spielregeln sind. Das ist keine Anleitung sondern ein verdammtes Buch! Wie soll ich das denn jemals verstehen. Ich hab auch noch besseres zu tun als den ganzen Tag nur Regeln zu lesen. Ich Spiele eigentlich wenn überhaupt nur kurze simple Spiele.
 
 \newpage
 
 
+
+
+
+
+\section*{Spielanleitung für altes Blut}
+\label{AnleitungAlt}
+Wo wir nun unter unsern gleichen sind wollen wir nur kurz anmerken das wir große Freunde von Personen sind die sich bereits mit Brettspielen auskennen. Das ungebildete Pack, welches durch sich durch lesen dieser Anleitung zum ersten mal mit den Strategischen denken von Brettspielen aussetzt dulden wir zwar, heißen es aber nicht willkommen. Daher freut es uns sehr auf einen Virtuosen des Werkes getroffen zu sein.\\
+
+Bevor wir uns dem Spielaufbau widmend wollen wir noch kurz ein paar Worte zu den eigentlichen Ziel der Prüfung... des Spiels verlieren!\\
+\ul{Ziel aller Sterblichen ist es in diesem Spiel mit der Hilfe der gütigen, wohlgesonnen und verständnisvollen Halbgötter den rachsüchtigen, verkommenden und sündhaften Abschaum von Göttern zu stützen indem man einen von ihnen im Kampf besiegt.} Wie ihr euch bei dieser Spielerischen Queste anstellt, wird von uns all-sehenden beurteilt.\\
+
+Wie Ihnen bereits durch ihre Erfahrung bekannt sein sollte gehen sie mit den Lesen dieser Spielanleitung einen Packt ein. Sie sind nun in der Verantwortung den weiteren Spielenden, welche sich an einen zukünftigen Spieleabend zu ihnen Gesellen den Spielaufbau und Spielregeln zu erklären. Um sie dabei besser von unserer Seite zu unterstützen steht auf weiteren Seiten in diesen Buch nochmals alle Regeln und der Spielaufbau in einer Kurzfassung beschrieben, welchen sie nutzen können um die Ungebildeteren zu bilden (Seite \textbf{\pageref{ZusammenfassungFlasch}}). Bis wir diesen Punkt erreicht haben empfehlen wir Ihnen aber die Show zu genießen und die Ausgedehnte Fassung der Regeln zu lesen.  
+
+\subsection*{Spielaufbau}
+
+Text\\
+\pageref{ZusammenfassungFlasch}\\
+\pageref{ZusammenfassungFlasch}-1\\
+\the\numexpr\value{page}-1\relax\
+
+
+\subsection*{Spielregeln}
+
 Text
 
+\newpage
+
+\section*{Spielanleitung für junges Blut}
+\label{AnleitungJung}
+Wo wir nun unter unsern gleichen sind wollen wir nur kurz anmerken das wir große Freunde von neuen Spieler sind die Aufgaben mit einen ungetrübten Geist betrachten und damit kreative Lösungen von Problemen finden. Das eingebildete Haufen der meint sich mit Brettspielen auszukennen arbeitet nur seine angelernten verhalten ab und vergisst dabei zu denken. Daher freut es uns sehr ein frische Seele begrüßen zu können.\\
+
+Bevor wir uns dem Spielaufbau widmend wollen wir noch kurz ein paar Worte zu den eigentlichen Ziel der Prüfung... des Spiels verlieren!\\
+\ul{Ziel aller Sterblichen ist es in diesem Spiel mit der Hilfe der gütigen, wohlgesonnen und verständnisvollen Halbgötter den rachsüchtigen, verkommenden und sündhaften Abschaum von Göttern zu stützen indem man einen von ihnen im Kampf besiegt.} Wie ihr euch bei dieser Spielerischen Queste anstellt, wird von uns all-sehenden beurteilt.
+
+\subsection*{Spielaufbau}
+Text 
+
+\subsection*{Spielregeln}
+
+text
+
+\newpage
+
+\section*{Fehlende Spieler}
+
+Text
+
+\newpage
+
+\section*{Regeln für Gäste}
+\label{ZusammenfassungFlasch}
+
+Wir dachten wir hätten uns klar ausgedrückt!\\
+Das Umblättern der Seiten nach eigenen ermessen ist Stick verboten!\\
+"Ja, aber da stand doch die Seitenzahl in der Klammer referenziert und daher dachte..." Nein! Hören sie gefällst auf mit diesen merkwürdigen Denken.\\
+Es "ist am Ende jeder Doppelseite zu entnehmen wo weitergelesen werden darf. Sollte es mehrere Seiten zur Auswahl geben, müsst ihre eine Wahl fällen, oder den dort beschreibenden Bedingungen folge Leisten".\\
+Diese einmal können wir es noch schaffen das Höllenfeuer von Ihnen fernzuhalten aber sie sollten sich in Zukunft nicht so Unvorsichtig anstellen.\\
+
+Da es ja nun danach aussah das sie die Ausführlich beschreibende Regeln umgehen wollten, geben wir ihnen hiermit nochmal eine Chance die offensichtliche Fehlentscheidung zu überdenken. Falls sie trotzdem fortfahren wollen ist es ihnen natürlich auch gestattet.
+
+\newpage
+
+---Bild von Höllenfeuern---
+
+\vfill
+
+
+\def\dashfill{\cleaders\hbox{-}\hfill}
+\hbox to \hsize{\dashfill\hfil}
+\textbf{Zu der Seite zurückblättern wo ich herkam} - Ich sehe meine Törichten Fehler ein und will die Regeln verständlich erklärt haben und mich noch nicht mit kryptisch zusammengefassten Regeln herumschlangen.\\
+\textbf{Seite: \pageref{Zusammenfassung}} - Ich bin unfähig meine Fehler einzusehen und schreite gegen aller Vernunft weiter voran.
+
+
+\newpage
+
+\section*{Die Richtigen Regeln für Gäste}
+\label{Zusammenfassung}
+
+Text
 
 \end{document}
 
