@@ -33,27 +33,27 @@ public class DrawMonsterCards : IDrawMonsterCards
 
     public Bitmap DrawTextForMonsterCards(string? name, string? level, Race race, string? winText, string? loseText, string? text, string? flavorText)
     {
-        const int TextOffset = 30;
-        var textHigth = 20;
-        var textHigthFromButtom = 2000 - textHigth - 280;
+        const int TextOffset = 60;
+        var textHigth = 40;
+        var textHigthFromButtom = 2000 - textHigth - 565;
         var textBitmap = new Bitmap(1400, 2000);
         textBitmap.SetResolution(120, 120);
         var textRectangle = new RectangleF();
 
-        const int WinLoseBoxHigth = 760;
-        const int WinLoseBoxHigthCardEnd = 980;
-        const int WinLeftBoarder = 30;
-        const int WinRigthBoarder = 340;
-        const int LoseLeftBoarder = 360;
-        const int LoseRigthBoarder = 670;
+        const int WinLoseBoxHigth = 1530;
+        const int WinLoseBoxHigthCardEnd = 1960;
+        const int WinLeftBoarder = 60;
+        const int WinRigthBoarder = 680;
+        const int LoseLeftBoarder = 720;
+        const int LoseRigthBoarder = 1340;
 
         //FontSize
-        var nameFontsize = 36;
-        var lvlRaceFontsize = 28;
-        var textFontsize = 24;
-        var flavorTextFontsize = 18;
-        var winTextFontsize = 20;
-        var loseTextFontsize = 20;
+        var nameFontsize = 72;
+        var lvlRaceFontsize = 56;
+        var textFontsize = 48;
+        var flavorTextFontsize = 36;
+        var winTextFontsize = 40;
+        var loseTextFontsize = 40;
 
         //MainFointSize
         var fontsizeIsCorrect = false;
@@ -135,7 +135,7 @@ public class DrawMonsterCards : IDrawMonsterCards
             using (var useFont = new Font("Segoe Print", nameFontsize, FontStyle.Bold))
             {
                 textRectangle.Location = new Point(TextOffset, textHigth);
-                textRectangle.Size = new Size(640, (int)g.MeasureString(name, useFont, 640, formatCentert).Height);
+                textRectangle.Size = new Size(1280, (int)g.MeasureString(name, useFont, 1280, formatCentert).Height);
                 textHigth = (int)textRectangle.Bottom;
                 g.DrawString(name, useFont, Brushes.Black, textRectangle, formatCentert);
             }
@@ -147,7 +147,7 @@ public class DrawMonsterCards : IDrawMonsterCards
                 var lvlRace = "(Stufe " + level + "-" + race.GetDescription() + ")";
 
                 textRectangle.Location = new Point(TextOffset, textHigth);
-                textRectangle.Size = new Size(640, (int)g.MeasureString(lvlRace, useFont, 640, formatCentert).Height);
+                textRectangle.Size = new Size(1280, (int)g.MeasureString(lvlRace, useFont, 1280, formatCentert).Height);
                 textHigth = (int)textRectangle.Bottom;
                 g.DrawString(lvlRace, useFont, Brushes.Black, textRectangle, formatCentert);
             }
@@ -171,7 +171,7 @@ public class DrawMonsterCards : IDrawMonsterCards
             if (flavorText != "")
             {
                 using var useFont = new Font("Segoe Print", flavorTextFontsize, FontStyle.Italic);
-                textRectangle.Size = new Size(640, (int)g.MeasureString(flavorText, useFont, 640, formatInlined).Height);
+                textRectangle.Size = new Size(1280, (int)g.MeasureString(flavorText, useFont, 1280, formatInlined).Height); //640
                 var textBoxHigth = (int)textRectangle.Bottom - (int)textRectangle.Top;
                 textHigthFromButtom -= textBoxHigth;
                 textRectangle.Location = new Point(TextOffset, textHigthFromButtom);

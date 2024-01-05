@@ -24,9 +24,9 @@ public class MeassureDrawMonsterCards : IMeassureDrawMonsterCards
     public bool MeassureTextForMonsterCards(string? name, string? level, Race race, string? text, string? flavorText,
         int nameFontsize, int lvlRaceFontsize, int textFontsize, int flavorTextFontsize)
     {
-        const int TextOffset = 30;
-        var textHigth = 20;
-        var textHigthFromButtom = 2000 - textHigth - 280;
+        const int TextOffset = 60;
+        var textHigth = 40;
+        var textHigthFromButtom = 2000 - textHigth - 565;
         using var textBitmap = new Bitmap(1400, 2000);
         textBitmap.SetResolution(120, 120);
         var textRectangle = new RectangleF();
@@ -56,7 +56,7 @@ public class MeassureDrawMonsterCards : IMeassureDrawMonsterCards
             using (var useFont = new Font("Segoe Print", nameFontsize, FontStyle.Bold))
             {
                 textRectangle.Location = new Point(TextOffset, textHigth);
-                textRectangle.Size = new Size(640, (int)g.MeasureString(name, useFont, 640, formatCentert).Height);
+                textRectangle.Size = new Size(1280, (int)g.MeasureString(name, useFont, 1280, formatCentert).Height);
                 textHigth = (int)textRectangle.Bottom;
             }
 
@@ -67,7 +67,7 @@ public class MeassureDrawMonsterCards : IMeassureDrawMonsterCards
                 var lvlRace = "(Stufe " + level + "-" + race.GetDescription() + ")";
 
                 textRectangle.Location = new Point(TextOffset, textHigth);
-                textRectangle.Size = new Size(640, (int)g.MeasureString(lvlRace, useFont, 640, formatCentert).Height);
+                textRectangle.Size = new Size(1280, (int)g.MeasureString(lvlRace, useFont, 1280, formatCentert).Height);
                 textHigth = (int)textRectangle.Bottom;
             }
 
@@ -86,7 +86,7 @@ public class MeassureDrawMonsterCards : IMeassureDrawMonsterCards
             if (flavorText != "")
             {
                 using var useFont = new Font("Segoe Print", flavorTextFontsize, FontStyle.Italic);
-                textRectangle.Size = new Size(640, (int)g.MeasureString(flavorText, useFont, 640, formatInlined).Height);
+                textRectangle.Size = new Size(1280, (int)g.MeasureString(flavorText, useFont, 1280, formatInlined).Height);
                 var textBoxHigth = (int)textRectangle.Bottom - (int)textRectangle.Top;
                 textHigthFromButtom -= textBoxHigth;
                 textRectangle.Location = new Point(TextOffset, textHigthFromButtom);
