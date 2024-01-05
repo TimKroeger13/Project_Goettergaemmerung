@@ -40,12 +40,12 @@ public class DrawBoxWithTopograpyTests
         // Arrange
         var drawBoxWithTopograpy = CreateDrawBoxWithTopograpy();
         const string Text = "Wenn du eine 6 würfelst, hat diese Waffe stattdessen +4/0.";
-        using var textBitmap = new Bitmap(700, 1000);
+        using var textBitmap = new Bitmap(1400, 2000);
         textBitmap.SetResolution(120, 120);
         const int FontSize = 20;
         const string FontName = "Segoe Print";
-        var boxhigth = (top: 760, buttom: 980);
-        var boxwidth = (left: 30, rigth: 335);
+        var boxhigth = (top: 1520, buttom: 1960);
+        var boxwidth = (left: 60, rigth: 670);
 
         // Act
         using (var g = Graphics.FromImage(textBitmap))

@@ -35,8 +35,6 @@ public class SaveImage : ISaveImage
             var name = type.GetDescription() + "_" + ChangePrintNumbers(print) + "_" + "N" + "_" + filename;
             card.Save(_userData.ExportPath + "\\" + name + ".png", ImageFormat.Png);
         }
-
-
     }
 
     private void SaveRebalenceFormat(Bitmap card, long id)

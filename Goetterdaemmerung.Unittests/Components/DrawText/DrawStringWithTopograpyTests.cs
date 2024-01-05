@@ -41,11 +41,11 @@ public class DrawStringWithTopograpyTests : IDisposable
 
         var drawStringWithTopograpy = CreateDrawStringWithTopograpy();
         const string Text = "Wenn du eine 6 würfelst, hat diese Waffe stattdessen +4/0.";
-        using var textBitmap = new Bitmap(700, 1000);
+        using var textBitmap = new Bitmap(1400, 2000);
         textBitmap.SetResolution(120, 120);
-        const float TextHigth = 400;
-        const int FontSize = 20;
-        var widthBoarders = (offSet: 30, width: 700);
+        const float TextHigth = 800;
+        const int FontSize = 40;
+        var widthBoarders = (offSet: 60, width: 1400);
         const string FontName = "Segoe Print";
 
         // Act

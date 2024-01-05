@@ -21,7 +21,7 @@ public class MeassureBoxWithTopograpy : IMeassureBoxWithTopograpy
     public bool MeassureBoxOnBitmapWithTopograpy(string? text, int fontSize, string? fontName,
         (int top, int buttom) boxhigth, (int left, int rigth) boxwidth)
     {
-        using var textBitmap = new Bitmap(700, 1000);
+        using var textBitmap = new Bitmap(1400, 2000);
         textBitmap.SetResolution(120, 120);
 
         using var g = Graphics.FromImage(textBitmap);
@@ -47,65 +47,65 @@ public class MeassureBoxWithTopograpy : IMeassureBoxWithTopograpy
                 case Typography.Regular:
                     using (var useFont = new Font(fontName, fontSize, FontStyle.Regular))
                     {
-                        if (g.MeasureString(word, useFont, 1000).Width > (boxwidth.rigth - boxwidth.left))
+                        if (g.MeasureString(word, useFont, 2000).Width > (boxwidth.rigth - boxwidth.left))
                         {
                             return false;
                         }
 
-                        if (g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth > boxwidth.rigth)
+                        if (g.MeasureString(word, useFont, 2000).Width + currentCharacterWidth > boxwidth.rigth)
                         {
-                            currentCharacterHigth += g.MeasureString(word, useFont, 1000).Height;
+                            currentCharacterHigth += g.MeasureString(word, useFont, 2000).Height;
                             currentCharacterWidth = boxwidth.left;
                         }
-                        currentCharacterWidth = g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth;
+                        currentCharacterWidth = g.MeasureString(word, useFont, 2000).Width + currentCharacterWidth;
                     }
                     break;
 
                 case Typography.Bold:
                     using (var useFont = new Font(fontName, fontSize, FontStyle.Bold))
                     {
-                        if (g.MeasureString(word, useFont, 1000).Width > (boxwidth.rigth - boxwidth.left))
+                        if (g.MeasureString(word, useFont, 2000).Width > (boxwidth.rigth - boxwidth.left))
                         {
                             return false;
                         }
 
-                        if (g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth > boxwidth.rigth)
+                        if (g.MeasureString(word, useFont, 2000).Width + currentCharacterWidth > boxwidth.rigth)
                         {
-                            currentCharacterHigth += g.MeasureString(word, useFont, 1000).Height;
+                            currentCharacterHigth += g.MeasureString(word, useFont, 2000).Height;
                             currentCharacterWidth = boxwidth.left;
                         }
-                        currentCharacterWidth = g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth;
+                        currentCharacterWidth = g.MeasureString(word, useFont, 2000).Width + currentCharacterWidth;
                     }
                     break;
 
                 case Typography.Italic:
                     using (var useFont = new Font(fontName, fontSize, FontStyle.Italic))
                     {
-                        if (g.MeasureString(word, useFont, 1000).Width > (boxwidth.rigth - boxwidth.left))
+                        if (g.MeasureString(word, useFont, 2000).Width > (boxwidth.rigth - boxwidth.left))
                         {
                             return false;
                         }
 
-                        if (g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth > boxwidth.rigth)
+                        if (g.MeasureString(word, useFont, 2000).Width + currentCharacterWidth > boxwidth.rigth)
                         {
-                            currentCharacterHigth += g.MeasureString(word, useFont, 1000).Height;
+                            currentCharacterHigth += g.MeasureString(word, useFont, 2000).Height;
                             currentCharacterWidth = boxwidth.left;
                         }
-                        currentCharacterWidth = g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth;
+                        currentCharacterWidth = g.MeasureString(word, useFont, 2000).Width + currentCharacterWidth;
                     }
                     break;
 
                 case Typography.LineBreak:
                     using (var useFont = new Font(fontName, fontSize, FontStyle.Regular))
                     {
-                        currentCharacterHigth += g.MeasureString(splitText[0].Word, useFont, 1000).Height;
+                        currentCharacterHigth += g.MeasureString(splitText[0].Word, useFont, 2000).Height;
                         currentCharacterWidth = boxwidth.left;
                     }
                     break;
             }
         }
 
-        using (var useFont = new Font(fontName, fontSize, FontStyle.Regular)) { currentCharacterHigth += g.MeasureString(splitText[0].Word, useFont, 1000).Height; }
+        using (var useFont = new Font(fontName, fontSize, FontStyle.Regular)) { currentCharacterHigth += g.MeasureString(splitText[0].Word, useFont, 2000).Height; }
 
         return currentCharacterHigth < boxhigth.buttom;
     }

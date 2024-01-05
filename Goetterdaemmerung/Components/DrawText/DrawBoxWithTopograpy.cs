@@ -44,49 +44,49 @@ public class DrawBoxWithTopograpy : IDrawBoxWithTopograpy
                 case Typography.Regular:
                     using (var useFont = new Font(fontName, fontSize, FontStyle.Regular))
                     {
-                        if (g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth > boxwidth.rigth)
+                        if (g.MeasureString(word, useFont, 2000).Width + currentCharacterWidth > boxwidth.rigth)
                         {
-                            currentCharacterHigth += g.MeasureString(word, useFont, 1000).Height;
+                            currentCharacterHigth += g.MeasureString(word, useFont, 2000).Height;
                             currentCharacterWidth = boxwidth.left;
                         }
 
                         g.DrawString(word, useFont, Brushes.Black, currentCharacterWidth, currentCharacterHigth);
-                        currentCharacterWidth = g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth;
+                        currentCharacterWidth = g.MeasureString(word, useFont, 2000).Width + currentCharacterWidth;
                     }
                     break;
 
                 case Typography.Bold:
                     using (var useFont = new Font(fontName, fontSize, FontStyle.Bold))
                     {
-                        if (g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth > boxwidth.rigth)
+                        if (g.MeasureString(word, useFont, 2000).Width + currentCharacterWidth > boxwidth.rigth)
                         {
-                            currentCharacterHigth += g.MeasureString(word, useFont, 1000).Height;
+                            currentCharacterHigth += g.MeasureString(word, useFont, 2000).Height;
                             currentCharacterWidth = boxwidth.left;
                         }
 
                         g.DrawString(word, useFont, Brushes.Black, currentCharacterWidth, currentCharacterHigth);
-                        currentCharacterWidth = g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth;
+                        currentCharacterWidth = g.MeasureString(word, useFont, 2000).Width + currentCharacterWidth;
                     }
                     break;
 
                 case Typography.Italic:
                     using (var useFont = new Font(fontName, fontSize, FontStyle.Italic))
                     {
-                        if (g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth > boxwidth.rigth)
+                        if (g.MeasureString(word, useFont, 2000).Width + currentCharacterWidth > boxwidth.rigth)
                         {
-                            currentCharacterHigth += g.MeasureString(word, useFont, 1000).Height;
+                            currentCharacterHigth += g.MeasureString(word, useFont, 2000).Height;
                             currentCharacterWidth = boxwidth.left;
                         }
 
                         g.DrawString(word, useFont, Brushes.Black, currentCharacterWidth, currentCharacterHigth);
-                        currentCharacterWidth = g.MeasureString(word, useFont, 1000).Width + currentCharacterWidth;
+                        currentCharacterWidth = g.MeasureString(word, useFont, 2000).Width + currentCharacterWidth;
                     }
                     break;
 
                 case Typography.LineBreak:
                     using (var useFont = new Font(fontName, fontSize, FontStyle.Regular))
                     {
-                        currentCharacterHigth += g.MeasureString(splitText[0].Word, useFont, 1000).Height;
+                        currentCharacterHigth += g.MeasureString(splitText[0].Word, useFont, 2000).Height;
                         currentCharacterWidth = boxwidth.left;
                     }
                     break;

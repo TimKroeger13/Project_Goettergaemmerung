@@ -29,8 +29,8 @@ public class MeassureDrawNormalCards : IMeassureDrawNormalCards
     {
         const int TextOffset = 30;
         var textHigth = 20;
-        var textHigthFromButtom = 1000 - textHigth;
-        using var textBitmap = new Bitmap(700, 1000);
+        var textHigthFromButtom = 2000 - textHigth;
+        using var textBitmap = new Bitmap(1400, 2000);
         textBitmap.SetResolution(120, 120);
         var textRectangle = new RectangleF();
 

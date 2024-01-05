@@ -23,7 +23,7 @@ public class DrawText : IDrawText
         string? modifiers, string? center, string? text, string? flavorText, string? scrapped,
         string? lvl, string? winText, string? loseText, Race race)
     {
-        var placeholder = new Bitmap(700, 1000);
+        var placeholder = new Bitmap(1400, 2000);
         switch (structure)
         {
             case CardStructure.Normal:

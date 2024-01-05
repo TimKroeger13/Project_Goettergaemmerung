@@ -16,7 +16,7 @@ public class CreatePicture<T> : ICreatePicture, IDisposable where T : IDisposabl
 {
     public Bitmap MergedBitmaps(DisposableList<Bitmap> bitmapList)
     {
-        var result = new Bitmap(700, 1000);
+        var result = new Bitmap(1400, 2000);
         result.SetResolution(120, 120);
         using (var g = Graphics.FromImage(result))
         {
@@ -30,7 +30,7 @@ public class CreatePicture<T> : ICreatePicture, IDisposable where T : IDisposabl
 
     public Bitmap BlendingMultiply(Func<Bitmap> bitmap1, Func<Bitmap> bitmap2)
     {
-        var result = new Bitmap(700, 1000);
+        var result = new Bitmap(1400, 2000);
         result.SetResolution(120, 120);
         var resultBytes = result.GetArgbBytes(out var bitmapDataResult);
         var bitmap1Bytes = (_disposeBitmap1 = bitmap1.Invoke()).GetArgbBytes();
