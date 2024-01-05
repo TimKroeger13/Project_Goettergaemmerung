@@ -16913,7 +16913,7 @@
     "SubType": "Artifact",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+2/-1",
+    "Modifiers": "+2 / -1",
     "CenterText": "",
     "Text": "",
     "FlavorText": "Er gibt Kraft, bestraft aber auch die Sündigen.",
