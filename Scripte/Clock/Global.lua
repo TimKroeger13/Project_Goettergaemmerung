@@ -97,10 +97,10 @@ end
 function UpdateSeconds(seconds)
 
     if (addTime > 5 or seconds > 0) and (addTime < 30 or seconds < 0) then
-
+    
         addTime = addTime+seconds
-
-        masterControl = getObjectFromGUID("813545")
+    
+        masterControl = getObjectFromGUID("396749")
         masterControl.editButton({index=0, label=addTime})
     end
 end

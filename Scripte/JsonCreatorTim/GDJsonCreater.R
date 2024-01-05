@@ -1,8 +1,12 @@
 pathOfTheCards = "V:/Brettspiele/Timgammen_aktuell/Karten/Cards_V1_05_00/"
-SavePathOfTheJsons = "V:/Brettspiele/Timgammen_aktuell/Scripte/JsonCreatorTim/Json"
+SavePathOfTheJsons = "V:/Brettspiele/Project_Goettergaemmerung/Scripte/JsonCreatorTim/Json/"
 
-UrlFronts = "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/AllCards/"
-UrlBacks = "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/Backs/"
+
+#UrlFronts = "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/AllCards/"
+#UrlBacks = "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/Backs/"
+
+UrlFronts = "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/AllCards/"
+UrlBacks = "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/Backs/"
 
 
 #Script

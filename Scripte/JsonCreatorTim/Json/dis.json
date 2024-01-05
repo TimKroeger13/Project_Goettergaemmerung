@@ -70,8 +70,8 @@
       ],
       "CustomDeck": {
         "1": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/AllCards/dis_001_N_Apokalypse.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/Backs/dis.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/AllCards/dis_001_N_Apokalypse.png",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/Backs/dis.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -79,8 +79,8 @@
           "Type": 0
         },
         "2": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/AllCards/dis_001_N_Diebesgilde.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/Backs/dis.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/AllCards/dis_001_N_Diebesgilde.png",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/Backs/dis.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -88,8 +88,8 @@
           "Type": 0
         },
         "3": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/AllCards/dis_001_N_Drachen!!!.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/Backs/dis.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/AllCards/dis_001_N_Drachen!!!.png",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/Backs/dis.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -97,8 +97,8 @@
           "Type": 0
         },
         "4": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/AllCards/dis_001_N_Göttliche Kriese.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/Backs/dis.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/AllCards/dis_001_N_Göttliche Kriese.png",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/Backs/dis.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -106,8 +106,8 @@
           "Type": 0
         },
         "5": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/AllCards/dis_001_N_Ragnaröck.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/Backs/dis.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/AllCards/dis_001_N_Ragnaröck.png",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/Backs/dis.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -115,8 +115,8 @@
           "Type": 0
         },
         "6": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/AllCards/dis_001_N_Schiffe am Horizont.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/Backs/dis.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/AllCards/dis_001_N_Schiffe am Horizont.png",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/Backs/dis.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -124,8 +124,8 @@
           "Type": 0
         },
         "7": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/AllCards/dis_001_N_Schwarze Flammen.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/Backs/dis.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/AllCards/dis_001_N_Schwarze Flammen.png",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/Backs/dis.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -133,8 +133,8 @@
           "Type": 0
         },
         "8": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/AllCards/dis_001_N_Tafelrunde.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/Backs/dis.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/AllCards/dis_001_N_Tafelrunde.png",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/Backs/dis.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -194,8 +194,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "1": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/AllCards/dis_001_N_Apokalypse.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/Backs/dis.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/AllCards/dis_001_N_Apokalypse.png",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/Backs/dis.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -255,8 +255,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "2": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/AllCards/dis_001_N_Diebesgilde.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/Backs/dis.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/AllCards/dis_001_N_Diebesgilde.png",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/Backs/dis.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -316,8 +316,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "3": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/AllCards/dis_001_N_Drachen!!!.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/Backs/dis.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/AllCards/dis_001_N_Drachen!!!.png",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/Backs/dis.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -377,8 +377,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "4": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/AllCards/dis_001_N_Göttliche Kriese.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/Backs/dis.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/AllCards/dis_001_N_Göttliche Kriese.png",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/Backs/dis.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -438,8 +438,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "5": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/AllCards/dis_001_N_Ragnaröck.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/Backs/dis.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/AllCards/dis_001_N_Ragnaröck.png",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/Backs/dis.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -499,8 +499,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "6": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/AllCards/dis_001_N_Schiffe am Horizont.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/Backs/dis.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/AllCards/dis_001_N_Schiffe am Horizont.png",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/Backs/dis.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -560,8 +560,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "7": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/AllCards/dis_001_N_Schwarze Flammen.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/Backs/dis.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/AllCards/dis_001_N_Schwarze Flammen.png",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/Backs/dis.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -621,8 +621,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "8": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/AllCards/dis_001_N_Tafelrunde.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_00/Backs/dis.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/AllCards/dis_001_N_Tafelrunde.png",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V1_05_00/Backs/dis.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
