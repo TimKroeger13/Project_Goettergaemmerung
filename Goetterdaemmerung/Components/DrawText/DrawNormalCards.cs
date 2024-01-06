@@ -30,23 +30,23 @@ public class DrawNormalCards : IDrawNormalCards
 
     public Bitmap DrawTextForNormalCards(string? name, CardSubType subType, bool twoHanded, Condition condition, string? modifiers, string? center, string? text, string? flavorText, string? scrapped)
     {
-        const int TextOffset = 30;
-        var textHigth = 20;
+        const int TextOffset = 60;
+        var textHigth = 40;
         var textHigthFromButtom = 2000 - textHigth;
         var textBitmap = new Bitmap(1400, 2000);
         textBitmap.SetResolution(120, 120);
         var textRectangle = new RectangleF();
 
         //FontSize
-        var nameFontsize = 36;
-        var cardSubTypeFontsize = 28;
-        var twoHandedFontsize = 28;
-        var conditionFontsize = 28;
-        var modifiersFontsize = 36;
-        var centerFontsize = 28;
-        var textFontsize = 24;
-        var flavorTextFontsize = 18;
-        var scrappedFontsize = 22;
+        var nameFontsize = 72;
+        var cardSubTypeFontsize = 56;
+        var twoHandedFontsize = 56;
+        var conditionFontsize = 56;
+        var modifiersFontsize = 72;
+        var centerFontsize = 56;
+        var textFontsize = 48;
+        var flavorTextFontsize = 36;
+        var scrappedFontsize = 44;
 
         var fontsizeIsCorrect = false;
         for (var run = 0; !fontsizeIsCorrect; run++)
@@ -99,7 +99,7 @@ public class DrawNormalCards : IDrawNormalCards
             using (var useFont = new Font("Segoe Print", nameFontsize, FontStyle.Bold))
             {
                 textRectangle.Location = new Point(TextOffset, textHigth);
-                textRectangle.Size = new Size(640, (int)g.MeasureString(name, useFont, 640, formatCentert).Height);
+                textRectangle.Size = new Size(1280, (int)g.MeasureString(name, useFont, 1280, formatCentert).Height);
                 textHigth = (int)textRectangle.Bottom;
                 g.DrawString(name, useFont, Brushes.Black, textRectangle, formatCentert);
             }
@@ -116,7 +116,7 @@ public class DrawNormalCards : IDrawNormalCards
 
                 using var useFont = new Font("Segoe Print", cardSubTypeFontsize, FontStyle.Bold);
                 textRectangle.Location = new Point(TextOffset, textHigth);
-                textRectangle.Size = new Size(640, (int)g.MeasureString(subTypeDescription, useFont, 640, formatCentert).Height);
+                textRectangle.Size = new Size(1280, (int)g.MeasureString(subTypeDescription, useFont, 1280, formatCentert).Height);
                 textHigth = (int)textRectangle.Bottom;
                 g.DrawString(subTypeDescription, useFont, Brushes.Black, textRectangle, formatCentert);
             }
@@ -125,7 +125,7 @@ public class DrawNormalCards : IDrawNormalCards
             {
                 using var useFont = new Font("Segoe Print", twoHandedFontsize, FontStyle.Bold);
                 textRectangle.Location = new Point(TextOffset, textHigth);
-                textRectangle.Size = new Size(640, (int)g.MeasureString("Zweihändig", useFont, 640, formatCentert).Height);
+                textRectangle.Size = new Size(1280, (int)g.MeasureString("Zweihändig", useFont, 1280, formatCentert).Height);
                 textHigth = (int)textRectangle.Bottom;
                 g.DrawString("Zweihändig", useFont, Brushes.Black, textRectangle, formatCentert);
             }
@@ -136,7 +136,7 @@ public class DrawNormalCards : IDrawNormalCards
 
                 using var useFont = new Font("Segoe Print", conditionFontsize, FontStyle.Bold);
                 textRectangle.Location = new Point(TextOffset, textHigth);
-                textRectangle.Size = new Size(640, (int)g.MeasureString(conditionDescription, useFont, 640, formatCentert).Height);
+                textRectangle.Size = new Size(1280, (int)g.MeasureString(conditionDescription, useFont, 1280, formatCentert).Height);
                 textHigth = (int)textRectangle.Bottom;
                 g.DrawString(conditionDescription, useFont, Brushes.Black, textRectangle, formatCentert);
             }
@@ -145,7 +145,7 @@ public class DrawNormalCards : IDrawNormalCards
             {
                 using var useFont = new Font("Segoe Print", modifiersFontsize, FontStyle.Bold);
                 textRectangle.Location = new Point(TextOffset, textHigth);
-                textRectangle.Size = new Size(640, (int)g.MeasureString(modifiers, useFont, 640, formatCentert).Height);
+                textRectangle.Size = new Size(1280, (int)g.MeasureString(modifiers, useFont, 1280, formatCentert).Height);
                 textHigth = (int)textRectangle.Bottom;
                 g.DrawString(modifiers, useFont, Brushes.Black, textRectangle, formatCentert);
             }
@@ -154,7 +154,7 @@ public class DrawNormalCards : IDrawNormalCards
             {
                 using var useFont = new Font("Segoe Print", centerFontsize, FontStyle.Bold);
                 textRectangle.Location = new Point(TextOffset, textHigth);
-                textRectangle.Size = new Size(640, (int)g.MeasureString(center, useFont, 640, formatCentert).Height);
+                textRectangle.Size = new Size(1280, (int)g.MeasureString(center, useFont, 1280, formatCentert).Height);
                 textHigth = (int)textRectangle.Bottom;
                 g.DrawString(center, useFont, Brushes.Black, textRectangle, formatCentert);
             }
@@ -187,7 +187,7 @@ public class DrawNormalCards : IDrawNormalCards
             if (flavorText != "")
             {
                 using var useFont = new Font("Segoe Print", flavorTextFontsize, FontStyle.Italic);
-                textRectangle.Size = new Size(640, (int)g.MeasureString(flavorText, useFont, 640, formatInlined).Height);
+                textRectangle.Size = new Size(1280, (int)g.MeasureString(flavorText, useFont, 1280, formatInlined).Height);
                 var textBoxHigth = (int)textRectangle.Bottom - (int)textRectangle.Top;
                 textHigthFromButtom -= textBoxHigth;
                 textRectangle.Location = new Point(TextOffset, textHigthFromButtom);

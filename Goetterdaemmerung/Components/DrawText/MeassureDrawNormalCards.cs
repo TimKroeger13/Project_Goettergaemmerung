@@ -27,8 +27,8 @@ public class MeassureDrawNormalCards : IMeassureDrawNormalCards
         int nameFontsize, int cardSubTypeFontsize, int twoHandedFontsize, int conditionFontsize, int modifiersFontsize, int centerFontsize,
         int textFontsize, int flavorTextFontsize, int scrappedFontsize)
     {
-        const int TextOffset = 30;
-        var textHigth = 20;
+        const int TextOffset = 60;
+        var textHigth = 40;
         var textHigthFromButtom = 2000 - textHigth;
         using var textBitmap = new Bitmap(1400, 2000);
         textBitmap.SetResolution(120, 120);
@@ -59,13 +59,13 @@ public class MeassureDrawNormalCards : IMeassureDrawNormalCards
             //Headline
             using (var useFont = new Font("Segoe Print", nameFontsize, FontStyle.Bold))
             {
-                if ((int)g.MeasureString(name, useFont, 640, formatCentert).Width > (640 - TextOffset))
+                if ((int)g.MeasureString(name, useFont, 1280, formatCentert).Width > (1280 - TextOffset))
                 {
                     return false;
                 }
 
                 textRectangle.Location = new Point(TextOffset, textHigth);
-                textRectangle.Size = new Size(640, (int)g.MeasureString(name, useFont, 640, formatCentert).Height);
+                textRectangle.Size = new Size(1280, (int)g.MeasureString(name, useFont, 1280, formatCentert).Height);
                 textHigth = (int)textRectangle.Bottom;
             }
 
@@ -81,7 +81,7 @@ public class MeassureDrawNormalCards : IMeassureDrawNormalCards
 
                 using var useFont = new Font("Segoe Print", cardSubTypeFontsize, FontStyle.Bold);
                 textRectangle.Location = new Point(TextOffset, textHigth);
-                textRectangle.Size = new Size(640, (int)g.MeasureString(subTypeDescription, useFont, 640, formatCentert).Height);
+                textRectangle.Size = new Size(1280, (int)g.MeasureString(subTypeDescription, useFont, 1280, formatCentert).Height);
                 textHigth = (int)textRectangle.Bottom;
             }
 
@@ -89,7 +89,7 @@ public class MeassureDrawNormalCards : IMeassureDrawNormalCards
             {
                 using var useFont = new Font("Segoe Print", twoHandedFontsize, FontStyle.Bold);
                 textRectangle.Location = new Point(TextOffset, textHigth);
-                textRectangle.Size = new Size(640, (int)g.MeasureString("Zweihändig", useFont, 640, formatCentert).Height);
+                textRectangle.Size = new Size(1280, (int)g.MeasureString("Zweihändig", useFont, 1280, formatCentert).Height);
                 textHigth = (int)textRectangle.Bottom;
             }
 
@@ -99,7 +99,7 @@ public class MeassureDrawNormalCards : IMeassureDrawNormalCards
 
                 using var useFont = new Font("Segoe Print", conditionFontsize, FontStyle.Bold);
                 textRectangle.Location = new Point(TextOffset, textHigth);
-                textRectangle.Size = new Size(640, (int)g.MeasureString(conditionDescription, useFont, 640, formatCentert).Height);
+                textRectangle.Size = new Size(1280, (int)g.MeasureString(conditionDescription, useFont, 1280, formatCentert).Height);
                 textHigth = (int)textRectangle.Bottom;
             }
 
@@ -107,7 +107,7 @@ public class MeassureDrawNormalCards : IMeassureDrawNormalCards
             {
                 using var useFont = new Font("Segoe Print", modifiersFontsize, FontStyle.Bold);
                 textRectangle.Location = new Point(TextOffset, textHigth);
-                textRectangle.Size = new Size(640, (int)g.MeasureString(modifiers, useFont, 640, formatCentert).Height);
+                textRectangle.Size = new Size(1280, (int)g.MeasureString(modifiers, useFont, 1280, formatCentert).Height);
                 textHigth = (int)textRectangle.Bottom;
             }
 
@@ -115,7 +115,7 @@ public class MeassureDrawNormalCards : IMeassureDrawNormalCards
             {
                 using var useFont = new Font("Segoe Print", centerFontsize, FontStyle.Bold);
                 textRectangle.Location = new Point(TextOffset, textHigth);
-                textRectangle.Size = new Size(640, (int)g.MeasureString(center, useFont, 640, formatCentert).Height);
+                textRectangle.Size = new Size(1280, (int)g.MeasureString(center, useFont, 1280, formatCentert).Height);
                 textHigth = (int)textRectangle.Bottom;
             }
 
@@ -140,7 +140,7 @@ public class MeassureDrawNormalCards : IMeassureDrawNormalCards
             if (flavorText != "")
             {
                 using var useFont = new Font("Segoe Print", flavorTextFontsize, FontStyle.Italic);
-                textRectangle.Size = new Size(640, (int)g.MeasureString(flavorText, useFont, 640, formatInlined).Height);
+                textRectangle.Size = new Size(1280, (int)g.MeasureString(flavorText, useFont, 1280, formatInlined).Height);
                 var textBoxHigth = (int)textRectangle.Bottom - (int)textRectangle.Top;
                 textHigthFromButtom -= textBoxHigth;
                 textRectangle.Location = new Point(TextOffset, textHigthFromButtom);
