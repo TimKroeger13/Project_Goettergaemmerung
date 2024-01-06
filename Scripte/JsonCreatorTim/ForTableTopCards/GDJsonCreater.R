@@ -1,11 +1,13 @@
-pathOfTheCards = "V:/Brettspiele/Timgammen_aktuell/Karten/Cards_V1_04_03/"
-SavePathOfTheJsons = "V:/Brettspiele/Timgammen_aktuell/Scripte/JsonCreatorTim/Json"
+#For Tabletop
+
+pathOfTheCards = "V:/Brettspiele/Timgammen_aktuell/Karten/Cards_V1_05_00/"
+SavePathOfTheJsons = "V:/Brettspiele/Project_Goettergaemmerung/Scripte/JsonCreatorTim/ForTableTopCards/Json/"
   
 #UrlFronts = "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards/AllCards/"
 #UrlBacks = "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards/Backs/"
 
-UrlFronts = "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/"
-UrlBacks = "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/"
+UrlFronts = "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/"
+UrlBacks = "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/"
 
 #UrlFronts = "V:/Brettspiele/Timgammen_aktuell/Karten/V_6/"
 #UrlBacks = "V:/Brettspiele/Timgammen_aktuell/Kartenrücken/TableTop/"
@@ -21,7 +23,7 @@ AllJsonFiles = list()
 
 #split into extra deck for no Extra deck
 
-extraDeckMask = substring(filenames, 9, 9) == "E"
+extraDeckMask = substring(filenames, 9, 9) == "E" & substring(filenames, 0, 3) != "sbl"
 
 AllJsonFiles[["ext"]] = filenames[extraDeckMask]
 

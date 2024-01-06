@@ -1,3 +1,5 @@
+#For Normal format
+
 pathOfTheCards = "V:/Brettspiele/Timgammen_aktuell/Karten/Cards_V1_05_00/"
 SavePathOfTheJsons = "V:/Brettspiele/Project_Goettergaemmerung/Scripte/JsonCreatorTim/Json/"
 

@@ -104,8 +104,8 @@
       ],
       "CustomDeck": {
         "1": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Bier über den Dämon ausgießen.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Bier über den Dämon ausgießen.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -113,8 +113,8 @@
           "Type": 0
         },
         "2": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Bier über den Elf ausgießen.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Bier über den Elf ausgießen.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -122,8 +122,8 @@
           "Type": 0
         },
         "3": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Bier über den Goblin ausgießen.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Bier über den Goblin ausgießen.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -131,8 +131,8 @@
           "Type": 0
         },
         "4": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Bier über den Homunkulus ausgießen.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Bier über den Homunkulus ausgießen.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -140,8 +140,8 @@
           "Type": 0
         },
         "5": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Bier über den Ork ausgießen.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Bier über den Ork ausgießen.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -149,8 +149,8 @@
           "Type": 0
         },
         "6": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Bier über den Riesen ausgießen.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Bier über den Riesen ausgießen.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -158,8 +158,8 @@
           "Type": 0
         },
         "7": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Bier über den Zwerg ausgießen.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Bier über den Zwerg ausgießen.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -167,8 +167,8 @@
           "Type": 0
         },
         "8": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Das Bier vom Dämon verschütten.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Das Bier vom Dämon verschütten.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -176,8 +176,8 @@
           "Type": 0
         },
         "9": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Das Bier vom Elf verschütten.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Das Bier vom Elf verschütten.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -185,8 +185,8 @@
           "Type": 0
         },
         "10": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Das Bier vom Goblin verschütten.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Das Bier vom Goblin verschütten.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -194,8 +194,8 @@
           "Type": 0
         },
         "11": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Das Bier vom Homunkulus verschütten.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Das Bier vom Homunkulus verschütten.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -203,8 +203,8 @@
           "Type": 0
         },
         "12": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Das Bier vom Ork verschütten.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Das Bier vom Ork verschütten.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -212,8 +212,8 @@
           "Type": 0
         },
         "13": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Das Bier vom Riesen verschütten.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Das Bier vom Riesen verschütten.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -221,8 +221,8 @@
           "Type": 0
         },
         "14": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Das Bier vom Zwerg verschütten.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Das Bier vom Zwerg verschütten.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -230,8 +230,8 @@
           "Type": 0
         },
         "15": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Dämon auf den Fuß treten.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Dämon auf den Fuß treten.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -239,8 +239,8 @@
           "Type": 0
         },
         "16": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Dämon beim Anstoßen nicht in die Augen schauen.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Dämon beim Anstoßen nicht in die Augen schauen.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -248,8 +248,8 @@
           "Type": 0
         },
         "17": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Elf auf den Fuß treten.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Elf auf den Fuß treten.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -257,8 +257,8 @@
           "Type": 0
         },
         "18": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Elf beim Anstoßen nicht in die Augen schauen.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Elf beim Anstoßen nicht in die Augen schauen.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -266,8 +266,8 @@
           "Type": 0
         },
         "19": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Goblin auf den Fuß treten.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Goblin auf den Fuß treten.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -275,8 +275,8 @@
           "Type": 0
         },
         "20": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Goblin beim Anstoßen nicht in die Augen schauen.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Goblin beim Anstoßen nicht in die Augen schauen.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -284,8 +284,8 @@
           "Type": 0
         },
         "21": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Homunkulus auf den Fuß treten.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Homunkulus auf den Fuß treten.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -293,8 +293,8 @@
           "Type": 0
         },
         "22": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Homunkulus beim Anstoßen nicht in die Augen schauen.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Homunkulus beim Anstoßen nicht in die Augen schauen.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -302,8 +302,8 @@
           "Type": 0
         },
         "23": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Ork auf den Fuß treten.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Ork auf den Fuß treten.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -311,8 +311,8 @@
           "Type": 0
         },
         "24": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Ork beim Anstoßen nicht in die Augen schauen.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Ork beim Anstoßen nicht in die Augen schauen.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -320,8 +320,8 @@
           "Type": 0
         },
         "25": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Riesen auf den Fuß treten.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Riesen auf den Fuß treten.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -329,8 +329,8 @@
           "Type": 0
         },
         "26": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Riesen beim Anstoßen nicht in die Augen schauen.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Riesen beim Anstoßen nicht in die Augen schauen.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -338,8 +338,8 @@
           "Type": 0
         },
         "27": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Zwerg auf den Fuß treten.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Zwerg auf den Fuß treten.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -347,8 +347,8 @@
           "Type": 0
         },
         "28": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Zwerg beim Anstoßen nicht in die Augen schauen.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Zwerg beim Anstoßen nicht in die Augen schauen.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -356,8 +356,8 @@
           "Type": 0
         },
         "29": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Dämon wegschaut.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Dämon wegschaut.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -365,8 +365,8 @@
           "Type": 0
         },
         "30": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Elf wegschaut.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Elf wegschaut.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -374,8 +374,8 @@
           "Type": 0
         },
         "31": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Goblin wegschaut.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Goblin wegschaut.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -383,8 +383,8 @@
           "Type": 0
         },
         "32": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Homunkulus wegschaut.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Homunkulus wegschaut.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -392,8 +392,8 @@
           "Type": 0
         },
         "33": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Ork wegschaut.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Ork wegschaut.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -401,8 +401,8 @@
           "Type": 0
         },
         "34": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Riese wegschaut.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Riese wegschaut.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -410,8 +410,8 @@
           "Type": 0
         },
         "35": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Zwerg wegschaut.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Zwerg wegschaut.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -419,8 +419,8 @@
           "Type": 0
         },
         "36": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Vor Wut den Dämon hauen.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Vor Wut den Dämon hauen.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -428,8 +428,8 @@
           "Type": 0
         },
         "37": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Vor Wut den Elf hauen.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Vor Wut den Elf hauen.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -437,8 +437,8 @@
           "Type": 0
         },
         "38": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Vor Wut den Goblin hauen.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Vor Wut den Goblin hauen.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -446,8 +446,8 @@
           "Type": 0
         },
         "39": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Vor Wut den Homunkulus hauen.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Vor Wut den Homunkulus hauen.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -455,8 +455,8 @@
           "Type": 0
         },
         "40": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Vor Wut den Ork hauen.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Vor Wut den Ork hauen.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -464,8 +464,8 @@
           "Type": 0
         },
         "41": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Vor Wut den Riesen hauen.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Vor Wut den Riesen hauen.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -473,8 +473,8 @@
           "Type": 0
         },
         "42": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Vor Wut den Zwerg hauen.png",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Vor Wut den Zwerg hauen.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -534,8 +534,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "1": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Bier über den Dämon ausgießen.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Bier über den Dämon ausgießen.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -595,8 +595,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "2": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Bier über den Elf ausgießen.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Bier über den Elf ausgießen.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -656,8 +656,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "3": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Bier über den Goblin ausgießen.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Bier über den Goblin ausgießen.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -717,8 +717,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "4": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Bier über den Homunkulus ausgießen.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Bier über den Homunkulus ausgießen.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -778,8 +778,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "5": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Bier über den Ork ausgießen.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Bier über den Ork ausgießen.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -839,8 +839,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "6": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Bier über den Riesen ausgießen.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Bier über den Riesen ausgießen.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -900,8 +900,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "7": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Bier über den Zwerg ausgießen.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Bier über den Zwerg ausgießen.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -961,8 +961,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "8": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Das Bier vom Dämon verschütten.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Das Bier vom Dämon verschütten.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -1022,8 +1022,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "9": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Das Bier vom Elf verschütten.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Das Bier vom Elf verschütten.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -1083,8 +1083,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "10": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Das Bier vom Goblin verschütten.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Das Bier vom Goblin verschütten.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -1144,8 +1144,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "11": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Das Bier vom Homunkulus verschütten.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Das Bier vom Homunkulus verschütten.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -1205,8 +1205,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "12": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Das Bier vom Ork verschütten.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Das Bier vom Ork verschütten.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -1266,8 +1266,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "13": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Das Bier vom Riesen verschütten.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Das Bier vom Riesen verschütten.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -1327,8 +1327,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "14": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Das Bier vom Zwerg verschütten.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Das Bier vom Zwerg verschütten.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -1388,8 +1388,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "15": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Dämon auf den Fuß treten.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Dämon auf den Fuß treten.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -1449,8 +1449,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "16": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Dämon beim Anstoßen nicht in die Augen schauen.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Dämon beim Anstoßen nicht in die Augen schauen.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -1510,8 +1510,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "17": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Elf auf den Fuß treten.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Elf auf den Fuß treten.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -1571,8 +1571,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "18": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Elf beim Anstoßen nicht in die Augen schauen.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Elf beim Anstoßen nicht in die Augen schauen.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -1632,8 +1632,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "19": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Goblin auf den Fuß treten.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Goblin auf den Fuß treten.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -1693,8 +1693,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "20": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Goblin beim Anstoßen nicht in die Augen schauen.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Goblin beim Anstoßen nicht in die Augen schauen.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -1754,8 +1754,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "21": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Homunkulus auf den Fuß treten.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Homunkulus auf den Fuß treten.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -1815,8 +1815,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "22": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Homunkulus beim Anstoßen nicht in die Augen schauen.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Homunkulus beim Anstoßen nicht in die Augen schauen.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -1876,8 +1876,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "23": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Ork auf den Fuß treten.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Ork auf den Fuß treten.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -1937,8 +1937,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "24": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Ork beim Anstoßen nicht in die Augen schauen.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Ork beim Anstoßen nicht in die Augen schauen.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -1998,8 +1998,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "25": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Riesen auf den Fuß treten.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Riesen auf den Fuß treten.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -2059,8 +2059,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "26": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Riesen beim Anstoßen nicht in die Augen schauen.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Riesen beim Anstoßen nicht in die Augen schauen.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -2120,8 +2120,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "27": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Zwerg auf den Fuß treten.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Zwerg auf den Fuß treten.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -2181,8 +2181,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "28": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Dem Zwerg beim Anstoßen nicht in die Augen schauen.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Dem Zwerg beim Anstoßen nicht in die Augen schauen.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -2242,8 +2242,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "29": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Dämon wegschaut.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Dämon wegschaut.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -2303,8 +2303,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "30": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Elf wegschaut.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Elf wegschaut.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -2364,8 +2364,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "31": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Goblin wegschaut.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Goblin wegschaut.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -2425,8 +2425,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "32": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Homunkulus wegschaut.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Homunkulus wegschaut.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -2486,8 +2486,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "33": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Ork wegschaut.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Ork wegschaut.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -2547,8 +2547,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "34": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Riese wegschaut.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Riese wegschaut.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -2608,8 +2608,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "35": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Zwerg wegschaut.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Heimlich Karten vom Stapel klauen, während der Zwerg wegschaut.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -2669,8 +2669,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "36": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Vor Wut den Dämon hauen.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Vor Wut den Dämon hauen.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -2730,8 +2730,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "37": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Vor Wut den Elf hauen.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Vor Wut den Elf hauen.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -2791,8 +2791,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "38": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Vor Wut den Goblin hauen.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Vor Wut den Goblin hauen.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -2852,8 +2852,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "39": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Vor Wut den Homunkulus hauen.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Vor Wut den Homunkulus hauen.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -2913,8 +2913,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "40": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Vor Wut den Ork hauen.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Vor Wut den Ork hauen.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -2974,8 +2974,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "41": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Vor Wut den Riesen hauen.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Vor Wut den Riesen hauen.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -3035,8 +3035,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "42": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/AllCards/due_001_N_Vor Wut den Zwerg hauen.png",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_04_03/Backs/due.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/due_001_N_Vor Wut den Zwerg hauen.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/due.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
