@@ -6,8 +6,8 @@ cat("\014")
 library(png)
 library(abind)
 
-importPath = "V:/Brettspiele/Timgammen_aktuell/Scripte/WhiteToPng/input/"
-exportPath = "V:/Brettspiele/Timgammen_aktuell/Scripte/WhiteToPng/output/"
+importPath = "V:/Brettspiele/Project_Goettergaemmerung/Scripte/WhiteToPng/input/"
+exportPath = "V:/Brettspiele/Project_Goettergaemmerung/Scripte/WhiteToPng/output/"
 
 
 allrawCards = list.files(importPath)

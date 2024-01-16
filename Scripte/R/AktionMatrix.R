@@ -54,7 +54,7 @@ for (gw in 0:9){
 paste(toString(roundTopointfive(gwValue)),"-",roundTopointfive(vlValue),sep = "")
 
 
-write.csv(GewinnVerlustMatrix, "V:/Brettspiele/Timgammen_aktuell/Scripte/R/AkMatrix.csv")
+//write.csv(GewinnVerlustMatrix, "V:/Brettspiele/Timgammen_aktuell/Scripte/R/AkMatrix.csv")
 
 
 
