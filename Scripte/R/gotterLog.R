@@ -5,9 +5,6 @@
 
 Faktor = 2.8
 Base = 1.4
-Length = 31
-
-
 
 
 
@@ -23,6 +20,17 @@ for (i in 3:Length){
 
 out[,1] = seq(from = 3, to = Length, by =1)
 
+#print(out)
+
+#new Formula
+Length = 33
+
+out = matrix(NA, nrow = Length-2, ncol = 2)
+
+for (i in 3:Length){
+  out[(i-2),2] = (i/3) + 4/3
+}
+out[,1] = seq(from = 3, to = Length, by =1)
 print(out)
 
 
