@@ -15,19 +15,6 @@ allrawCards = list.files(importPath)
 for (i in 1:length(allrawCards)){
   
   ImportImage = readPNG(paste(importPath,allrawCards[i],sep=""))
-
-  '
-  transparentLayer = matrix(1, nrow = dim(ImportImage)[1], ncol = dim(ImportImage)[2])
-  
-  for (row in 1:dim(transparentLayer)[1]){
-    
-    for (colum in 1:dim(transparentLayer)[2]){
-    
-      transparentLayer[row,colum] = 1 - sum(ImportImage[row,colum,1:3])/3
-      
-    }
-  }
-  '
   
   transparentLayer = 1 - ((ImportImage[,,1] + ImportImage[,,2] + ImportImage[,,3]) / 3)
   
@@ -52,14 +39,6 @@ for (i in 1:length(allrawCards)){
   writePNG(TransImage,paste(exportPath,allrawCards[i],sep=""))
   
   print(paste(i, "/", length(allrawCards)))
-  
-  #Transparence is a value between 0 and 1.
-  #o <- tranparent
-  #1 <- NON transparent
-  
-  #for the other values
-  #0 <- black
-  #1 <- white
   
   
 }
