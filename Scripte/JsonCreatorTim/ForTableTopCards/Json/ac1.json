@@ -72,8 +72,8 @@
       ],
       "CustomDeck": {
         "1": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/ac1_001_N_Alter Veteran.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/ac1.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/ac1_001_N_Alter Veteran.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/ac1.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -81,8 +81,8 @@
           "Type": 0
         },
         "2": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/ac1_001_N_Blutauktion.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/ac1.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/ac1_001_N_Blutauktion.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/ac1.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -90,8 +90,8 @@
           "Type": 0
         },
         "3": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/ac1_001_N_Glühende Münzen.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/ac1.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/ac1_001_N_Glühende Münzen.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/ac1.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -99,8 +99,8 @@
           "Type": 0
         },
         "4": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/ac1_001_N_Haus in der Steppe.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/ac1.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/ac1_001_N_Haus in der Steppe.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/ac1.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -108,8 +108,8 @@
           "Type": 0
         },
         "5": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/ac1_001_N_Heiße Quellen.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/ac1.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/ac1_001_N_Heiße Quellen.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/ac1.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -117,8 +117,8 @@
           "Type": 0
         },
         "6": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/ac1_001_N_Steine und Hütchen.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/ac1.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/ac1_001_N_Steine und Hütchen.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/ac1.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -126,8 +126,8 @@
           "Type": 0
         },
         "7": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/ac1_001_N_Trollkirsche.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/ac1.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/ac1_001_N_Trollkirsche.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/ac1.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -135,8 +135,8 @@
           "Type": 0
         },
         "8": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/ac1_001_N_Umherziehende Fangemeinde.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/ac1.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/ac1_001_N_Umherziehende Fangemeinde.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/ac1.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -144,8 +144,8 @@
           "Type": 0
         },
         "9": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/ac1_001_N_Wahrsager.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/ac1.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/ac1_001_N_Wahrsager.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/ac1.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -153,8 +153,8 @@
           "Type": 0
         },
         "10": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/ac1_001_N_Wanderung.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/ac1.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/ac1_001_N_Wanderung.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/ac1.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -214,8 +214,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "1": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/ac1_001_N_Alter Veteran.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/ac1.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/ac1_001_N_Alter Veteran.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/ac1.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -275,8 +275,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "2": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/ac1_001_N_Blutauktion.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/ac1.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/ac1_001_N_Blutauktion.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/ac1.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -336,8 +336,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "3": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/ac1_001_N_Glühende Münzen.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/ac1.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/ac1_001_N_Glühende Münzen.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/ac1.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -397,8 +397,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "4": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/ac1_001_N_Haus in der Steppe.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/ac1.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/ac1_001_N_Haus in der Steppe.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/ac1.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -458,8 +458,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "5": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/ac1_001_N_Heiße Quellen.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/ac1.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/ac1_001_N_Heiße Quellen.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/ac1.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -519,8 +519,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "6": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/ac1_001_N_Steine und Hütchen.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/ac1.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/ac1_001_N_Steine und Hütchen.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/ac1.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -580,8 +580,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "7": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/ac1_001_N_Trollkirsche.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/ac1.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/ac1_001_N_Trollkirsche.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/ac1.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -641,8 +641,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "8": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/ac1_001_N_Umherziehende Fangemeinde.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/ac1.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/ac1_001_N_Umherziehende Fangemeinde.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/ac1.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -702,8 +702,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "9": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/ac1_001_N_Wahrsager.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/ac1.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/ac1_001_N_Wahrsager.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/ac1.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -763,8 +763,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "10": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/ac1_001_N_Wanderung.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/ac1.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/ac1_001_N_Wanderung.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/ac1.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,

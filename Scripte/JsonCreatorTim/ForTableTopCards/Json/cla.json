@@ -74,8 +74,8 @@
       ],
       "CustomDeck": {
         "1": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/cla_001_N_Bodybuilder.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/cla.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/cla_001_N_Bodybuilder.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/cla.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -83,8 +83,8 @@
           "Type": 0
         },
         "2": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/cla_001_N_Bürokrat.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/cla.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/cla_001_N_Bürokrat.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/cla.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -92,8 +92,8 @@
           "Type": 0
         },
         "3": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/cla_001_N_Lobbyist.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/cla.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/cla_001_N_Lobbyist.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/cla.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -101,8 +101,8 @@
           "Type": 0
         },
         "4": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/cla_001_N_Maskenbildner.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/cla.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/cla_001_N_Maskenbildner.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/cla.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -110,8 +110,8 @@
           "Type": 0
         },
         "5": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/cla_001_N_Priester.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/cla.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/cla_001_N_Priester.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/cla.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -119,8 +119,8 @@
           "Type": 0
         },
         "6": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/cla_001_N_Pyromane.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/cla.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/cla_001_N_Pyromane.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/cla.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -128,8 +128,8 @@
           "Type": 0
         },
         "7": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/cla_001_N_Veganer - Rächer der Tiere.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/cla.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/cla_001_N_Veganer - Rächer der Tiere.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/cla.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -137,8 +137,8 @@
           "Type": 0
         },
         "8": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/cla_001_N_Veganer - Tierfreund.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/cla.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/cla_001_N_Veganer - Tierfreund.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/cla.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -146,8 +146,8 @@
           "Type": 0
         },
         "9": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/cla_002_N_Bodybuilder.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/cla.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/cla_002_N_Bodybuilder.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/cla.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -155,8 +155,8 @@
           "Type": 0
         },
         "10": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/cla_002_N_Bürokrat.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/cla.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/cla_002_N_Bürokrat.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/cla.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -164,8 +164,8 @@
           "Type": 0
         },
         "11": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/cla_002_N_Lobbyist.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/cla.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/cla_002_N_Lobbyist.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/cla.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -173,8 +173,8 @@
           "Type": 0
         },
         "12": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/cla_002_N_Priester.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/cla.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/cla_002_N_Priester.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/cla.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -234,8 +234,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "1": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/cla_001_N_Bodybuilder.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/cla.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/cla_001_N_Bodybuilder.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/cla.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -295,8 +295,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "2": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/cla_001_N_Bürokrat.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/cla.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/cla_001_N_Bürokrat.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/cla.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -356,8 +356,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "3": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/cla_001_N_Lobbyist.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/cla.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/cla_001_N_Lobbyist.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/cla.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -417,8 +417,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "4": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/cla_001_N_Maskenbildner.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/cla.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/cla_001_N_Maskenbildner.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/cla.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -478,8 +478,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "5": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/cla_001_N_Priester.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/cla.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/cla_001_N_Priester.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/cla.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -539,8 +539,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "6": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/cla_001_N_Pyromane.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/cla.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/cla_001_N_Pyromane.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/cla.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -600,8 +600,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "7": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/cla_001_N_Veganer - Rächer der Tiere.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/cla.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/cla_001_N_Veganer - Rächer der Tiere.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/cla.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -661,8 +661,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "8": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/cla_001_N_Veganer - Tierfreund.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/cla.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/cla_001_N_Veganer - Tierfreund.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/cla.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -722,8 +722,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "9": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/cla_002_N_Bodybuilder.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/cla.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/cla_002_N_Bodybuilder.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/cla.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -783,8 +783,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "10": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/cla_002_N_Bürokrat.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/cla.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/cla_002_N_Bürokrat.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/cla.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -844,8 +844,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "11": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/cla_002_N_Lobbyist.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/cla.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/cla_002_N_Lobbyist.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/cla.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -905,8 +905,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "12": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/cla_002_N_Priester.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/cla.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/cla_002_N_Priester.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/cla.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,

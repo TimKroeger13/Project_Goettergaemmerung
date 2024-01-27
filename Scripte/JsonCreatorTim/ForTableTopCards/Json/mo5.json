@@ -69,8 +69,8 @@
       ],
       "CustomDeck": {
         "1": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/mo5_001_N_Der verfluchte Gott.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/mo5.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/mo5_001_N_Der verfluchte Gott.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/mo5.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -78,8 +78,8 @@
           "Type": 0
         },
         "2": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/mo5_001_N_Herold der Flammen.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/mo5.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/mo5_001_N_Herold der Flammen.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/mo5.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -87,8 +87,8 @@
           "Type": 0
         },
         "3": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/mo5_001_N_Herold der Lichts.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/mo5.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/mo5_001_N_Herold der Lichts.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/mo5.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -96,8 +96,8 @@
           "Type": 0
         },
         "4": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/mo5_001_N_Herold des Meeres.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/mo5.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/mo5_001_N_Herold des Meeres.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/mo5.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -105,8 +105,8 @@
           "Type": 0
         },
         "5": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/mo5_001_N_Herold des Sturms.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/mo5.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/mo5_001_N_Herold des Sturms.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/mo5.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -114,8 +114,8 @@
           "Type": 0
         },
         "6": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/mo5_001_N_Schlafender Berg.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/mo5.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/mo5_001_N_Schlafender Berg.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/mo5.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -123,8 +123,8 @@
           "Type": 0
         },
         "7": {
-          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/mo5_001_N_Urquell der magie.jpg",
-          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/mo5.png",
+          "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/mo5_001_N_Urquell der magie.jpg",
+          "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/mo5.png",
           "NumWidth": 1,
           "NumHeight": 1,
           "BackIsHidden": true,
@@ -184,8 +184,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "1": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/mo5_001_N_Der verfluchte Gott.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/mo5.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/mo5_001_N_Der verfluchte Gott.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/mo5.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -245,8 +245,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "2": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/mo5_001_N_Herold der Flammen.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/mo5.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/mo5_001_N_Herold der Flammen.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/mo5.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -306,8 +306,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "3": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/mo5_001_N_Herold der Lichts.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/mo5.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/mo5_001_N_Herold der Lichts.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/mo5.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -367,8 +367,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "4": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/mo5_001_N_Herold des Meeres.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/mo5.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/mo5_001_N_Herold des Meeres.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/mo5.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -428,8 +428,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "5": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/mo5_001_N_Herold des Sturms.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/mo5.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/mo5_001_N_Herold des Sturms.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/mo5.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -489,8 +489,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "6": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/mo5_001_N_Schlafender Berg.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/mo5.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/mo5_001_N_Schlafender Berg.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/mo5.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
@@ -550,8 +550,8 @@
           "SidewaysCard": false,
           "CustomDeck": {
             "7": {
-              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/AllCards/mo5_001_N_Urquell der magie.jpg",
-              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Test_V2_05_00/Backs/mo5.png",
+              "FaceURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/AllCards/mo5_001_N_Urquell der magie.jpg",
+              "BackURL": "https://www.user.tu-berlin.de/timkroeger/TableTop/Cards_V1_05_01/Backs/mo5.png",
               "NumWidth": 1,
               "NumHeight": 1,
               "BackIsHidden": true,
