@@ -13,7 +13,7 @@ public class SplitStringInTypography : ISplitStringInTypography
 {
     public ICollection<(string Word, Typography Marker)> SplitString(string text)
     {
-        var boldKeys = new Regex("[0-9]|(?i)PASSIER.*|GEWÖHNLICH|EHRE|SELTEN|LEGENDÄR|VAMPIRISMUS|GLAUBE|KRIT|\\(FÄHIGKEIT\\)|\\||\\+|\\-(?-i)");
+        var boldKeys = new Regex("[0-9]|(?i)PASSIER.*|GEWÖHNLICH|EHRE|SELTEN|LEGENDÄR|VAMPIRISMUS|GLAUBE|KRIT|HANDKARTEN|\\(FÄHIGKEIT\\)|\\||\\+|\\-(?-i)");
         var italicKeys = new Regex("(?i)EXTRADECK|\\(EXTRA|DECK\\)(?-i)");
         var brackets = new Regex("\"");
         var punctuated = new Regex(":");
