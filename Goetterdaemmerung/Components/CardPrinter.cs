@@ -57,7 +57,7 @@ public class CardPrinter : ICardPrinter
         if (card == null) throw new Exception($"Card with ID: {cardId} was not found");
         using var template = _templateBuilder.CardTemplate(card.Structure, card.CardType, card.Race, card.ExtraDeck,
             card.Name, card.SubType, card.TwoHanded, card.Condition, card.Modifiers, card.CenterText,
-            card.Text, card.FlavorText, card.Scrapped, card.Level, card.WinText, card.LoseText);
+            card.Text, card.FlavorText, card.Scrapped, card.Level, card.WinText, card.LoseText, card.Border);
         var result = _createPicture.MergedBitmaps(template);
         _disposableList.Dispose();
         _createPicture.Dispose();
@@ -72,7 +72,7 @@ public class CardPrinter : ICardPrinter
             {
                 using var template = _templateBuilder.CardTemplate(card.Structure, card.CardType, card.Race, card.ExtraDeck,
                         card.Name, card.SubType, card.TwoHanded, card.Condition, card.Modifiers, card.CenterText,
-                        card.Text, card.FlavorText, card.Scrapped, card.Level, card.WinText, card.LoseText);
+                        card.Text, card.FlavorText, card.Scrapped, card.Level, card.WinText, card.LoseText, card.Border);
                 using var finalCard = _createPicture.MergedBitmaps(template);
                 _saveImage.SaveCardasImage(finalCard, card.Name, card.CardType, card.ExtraDeck, card.Print1, card.Print2, card.Print3, card.Print4, card.Id);
                 _disposableList.Dispose();

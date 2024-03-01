@@ -23,4 +23,5 @@ public class CardInformationModel
     public int Print2 { get; set; }
     public int Print3 { get; set; }
     public int Print4 { get; set; }
+    public string Border { get; set; } = "";
 }

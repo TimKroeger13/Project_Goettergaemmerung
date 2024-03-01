@@ -6,7 +6,7 @@ namespace Project_Goettergaemmerung.Components;
 public interface ITemplateBuilder
 {
     DisposableList<Bitmap> CardTemplate(CardStructure structure, CardType type, Race race, bool extra, string? name, CardSubType subType,
-        bool twoHanded, Condition condition, string? modifiers, string? center, string? text, string? flavorText, string? scrapped, string? lvl, string? winText, string? loseText);
+        bool twoHanded, Condition condition, string? modifiers, string? center, string? text, string? flavorText, string? scrapped, string? lvl, string? winText, string? loseText, string? Border);
 }
 
 public class TemplateBuilder : ITemplateBuilder
@@ -24,7 +24,7 @@ public class TemplateBuilder : ITemplateBuilder
 
     public DisposableList<Bitmap> CardTemplate(CardStructure structure, CardType type, Race race, bool extra,
         string? name, CardSubType subType, bool twoHanded, Condition condition, string? modifiers, string? center, string? text, string? flavorText, string? scrapped,
-        string? lvl, string? winText, string? loseText)
+        string? lvl, string? winText, string? loseText, string? Border)
     {
         var bitmaplist = new DisposableList<Bitmap>();
 
@@ -177,6 +177,12 @@ public class TemplateBuilder : ITemplateBuilder
         if (extra)
         {
             bitmaplist.Add(() => _picturesFromArchive.Extra());
+        }
+
+
+        if (Border == "fire")
+        {
+            bitmaplist.Add(() => _picturesFromArchive.Fire());
         }
 
         return bitmaplist;

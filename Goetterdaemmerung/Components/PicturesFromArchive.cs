@@ -39,6 +39,7 @@ public interface IPicturesFromArchive
     Bitmap Fluch();
 
     Bitmap Segen();
+    Bitmap Fire();
 }
 
 public class PicturesFromArchive : IPicturesFromArchive
@@ -60,6 +61,13 @@ public class PicturesFromArchive : IPicturesFromArchive
     public Bitmap Boarder()
     {
         var newBitmap = new Bitmap(Resources.boarder);
+        newBitmap.SetResolution(120, 120);
+        return newBitmap;
+    }
+
+    public Bitmap Fire()
+    {
+        var newBitmap = new Bitmap(Resources.Fire);
         newBitmap.SetResolution(120, 120);
         return newBitmap;
     }
