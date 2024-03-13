@@ -20,7 +20,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 29,
@@ -33,7 +34,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Sie greifen sofort den Spieler an, der für den Tod von König Jim Beam verantwortlich gemacht wird. Sollte ein anderer Spieler gegen sie kämpfen, ziehe eine weitere Aktionskarte.\r\nSolltest der Mörder es schaffen vor ihnen zu fliehen, wird diese Karte in die obersten 3 Karten des Aktionskartenstapels gemischt.\r\nSolltest der Mörder den \"Ring der Medici\" besitzen, so lassen sie ihn ziehen, nachdem er ihn vorzeigt.",
+    "Text": "Sie greifen sofort den Spieler an, der für den Tod von König Jim Beam verantwortlich gemacht wird. Sollte ein anderer Spieler gegen sie kämpfen, ziehe eine weitere Aktionskarte.\r\nSolltest der Mörder den \"Ring der Medici\" besitzen, so lassen sie ihn ziehen, nachdem er ihn vorzeigt.",
     "FlavorText": "Du elender Wicht, verbrennst einfach unseren geliebten König! Dir soll es an den Kragen gehen, endlich haben wir dich!!!",
     "Level": "31",
     "Race": "Soldier",
@@ -43,7 +44,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 30,
@@ -66,7 +68,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 31,
@@ -89,7 +92,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 32,
@@ -112,7 +116,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 33,
@@ -135,7 +140,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 34,
@@ -158,7 +164,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 35,
@@ -181,7 +188,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 36,
@@ -204,7 +212,8 @@
     "Print1": 0,
     "Print2": 6,
     "Print3": 3,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 37,
@@ -227,7 +236,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 38,
@@ -250,7 +260,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 39,
@@ -273,7 +284,8 @@
     "Print1": 0,
     "Print2": 15,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 40,
@@ -296,7 +308,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 41,
@@ -319,7 +332,8 @@
     "Print1": 0,
     "Print2": 15,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 42,
@@ -342,7 +356,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 43,
@@ -365,7 +380,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 44,
@@ -388,7 +404,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 45,
@@ -411,7 +428,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 46,
@@ -434,7 +452,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 47,
@@ -457,7 +476,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 48,
@@ -480,7 +500,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 49,
@@ -503,7 +524,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 50,
@@ -526,7 +548,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 51,
@@ -549,7 +572,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 52,
@@ -572,7 +596,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 53,
@@ -595,7 +620,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 54,
@@ -618,7 +644,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 55,
@@ -641,7 +668,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 56,
@@ -654,7 +682,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Archiv:\r\nDu kannst bis zu 2 Karten offen auf diese Karte legen.\r\nDiese sind nur von Karteneffekten und Diebstahl betroffen, wenn du dies willst.\r\nBehandel sie ansonsten wie deine Handkarten. \r\nDiese Karten zählen nicht zu deinem Handkartenlimit.",
+    "Text": "Archiv:\r\nDu kannst bis zu 2 Karten offen auf diese Karte legen.\r\nDiese sind nur von Karteneffekten und Diebstahl betroffen, wenn du dies willst.\r\nBehandel sie ansonsten wie deine Handkarten.\r\nDaher hast du Handkarten+2",
     "FlavorText": "Nichts schneidet tiefer, als eine scharf formulierte Abmahnung.\nNur alles braucht seine Zeit...",
     "Level": "",
     "Race": "Empty",
@@ -664,7 +692,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 57,
@@ -677,7 +706,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Vetternwirtschaft:\r\nWenn du diese Karte erhältst, erhalte 3 Ehre.\r\n\r\nErhalte \"Spekulation\" (Fähigkeit) solange diese Karte ausgerüstest ist und verliere die Fähigkeit, wenn du diese Karte verlierst.\r\n[-2/0, für einen anderen Spieler]",
+    "Text": "Vetternwirtschaft:\r\nWenn du diese Karte erhältst, erhalte 3 Ehre.\r\n\r\nErhalte \"Spekulation\" (Fähigkeit) solange diese Karte ausgerüstest ist und verliere die Fähigkeit, wenn du diese Karte verlierst.\r\n[-2, für einen anderen Spieler]",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -687,7 +716,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 58,
@@ -700,7 +730,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Erhalte \"Göttliches Gericht\" (Fähigkeit), solange diese Karte ausgerüstest ist und verliere sie, wenn du diese Karte verlierst.\r\n[+2/0, für einen anderen Spieler]\r\n\r\nLege die durch \"Göttliches Gericht\" erhaltenen Segen zu dieser Karte.\r\nSie aktivieren sich in deinem nächsten Kampf. (Maximal 2).",
+    "Text": "Erhalte \"Göttliches Gericht\" (Fähigkeit), solange diese Karte ausgerüstest ist und verliere sie, wenn du diese Karte verlierst.\r\n[+2, für einen anderen Spieler]\r\n\r\nLege die durch \"Göttliches Gericht\" erhaltenen Segen zu dieser Karte.\r\nSie aktivieren sich in deinem nächsten Kampf. (Maximal 2).",
     "FlavorText": "Schlägt dich einer rechts, gib ihm links...Ähm, also ich meine, gib ihm deine linke Wange. Nee! Ach weißte was, immer geschmeidig bleiben.\nJebus, Luka Evangolium 12.12",
     "Level": "",
     "Race": "Empty",
@@ -710,7 +740,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 59,
@@ -723,7 +754,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Wenn du gegen ein Tier kämpfst, bereche den Kampf ab und lege das Tier zu dieser Klassenkarte.\r\nWenn ein Tier gegen ein anderen Spieler einem Kampf \"gewinnt\", lege es nach dem Kampf ebenfalls zu dieser Klassenkarte.\r\n\r\nTiertotem- du hast:\r\n+1 / 0: Bei 1 Tier \r\n+2 / 0: Bei 2-4 Tieren\r\n+3 / 0: Bei 5 oder mehr Tieren",
+    "Text": "Wenn du gegen ein Tier kämpfst, bereche den Kampf ab und lege das Tier zu dieser Klassenkarte.\r\nWenn ein Tier gegen ein anderen Spieler einem Kampf \"gewinnt\", lege es nach dem Kampf ebenfalls zu dieser Klassenkarte.\r\n\r\nTiertotem- du hast:\r\n+1 : Bei 1 Tier \r\n+2: Bei 2-4 Tieren\r\n+3: Bei 5 oder mehr Tieren",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -733,7 +764,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 60,
@@ -744,9 +776,9 @@
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+7 / +1",
-    "CenterText": "Kosten: 21",
-    "Text": "Heroin: Wenn du einen Kampf verlierst, lege eine Zählmarke auf diese Karte.\r\nDu hast weitere +4/0, für jede Zählmarke auf dieser Karte.\r\n(Flucht zählt als verlorener Kampf)\r\n\r\nSollten du einen Kampf gewinnen, entferne alle Zählmarken von dieser Karte.\r\n\r\nVerkauf: 17 Ehre",
+    "Modifiers": "+7",
+    "CenterText": "Kosten: 22",
+    "Text": "Heroin: Wenn du einen Kampf verlierst, lege eine Zählmarke auf diese Karte.\r\nDu hast weitere +4, für jede Zählmarke auf dieser Karte.\r\n\r\nSollten du einen Kampf gewinnen, entferne alle Zählmarken von dieser Karte.\r\n\r\nVerkauf: 17 Ehre",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -756,7 +788,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 61,
@@ -767,9 +800,9 @@
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+9 / 0",
-    "CenterText": "Kosten: 26",
-    "Text": "Erhalte \"Drink aufs Haus\" (Fähigkeit), solange diese Karte ausgerüstest ist und verliere sie, wenn du diese Karte verlierst.\r\n[Segen, bei Flüchen]\r\n\r\nVerkauf: 22 Ehre",
+    "Modifiers": "+9",
+    "CenterText": "Kosten: 25",
+    "Text": "Erhalte \"Drink aufs Haus\" (Fähigkeit), solange diese Karte ausgerüstest ist und verliere sie, wenn du diese Karte verlierst.\r\n[Segen, bei Flüchen]\r\n\r\nVerkauf: 21 Ehre",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -779,7 +812,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 62,
@@ -790,9 +824,9 @@
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+2 / 0",
-    "CenterText": "Kosten: 5",
-    "Text": "Sie hat stattdessen +4/0, wenn du keine Schuhe trägst.\r\n\r\nVerkauf: 1 Ehre",
+    "Modifiers": "+2",
+    "CenterText": "Kosten: 6",
+    "Text": "Sie hat stattdessen +4, wenn du keine Schuhe trägst.\r\n\r\nVerkauf: 2 Ehre",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -802,7 +836,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 63,
@@ -813,9 +848,9 @@
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+4 / 0",
+    "Modifiers": "+4",
     "CenterText": "Kosten: 9",
-    "Text": "Erhalte \"Jagd\" (Fähigkeit), solange diese Karte ausgerüstest ist und verliere sie, wenn du diese Karte verlierst.\r\n[+4/0, gegen Tiere oder für ein Tier]\r\n\r\nVerkauf: 5 Ehre",
+    "Text": "Erhalte \"Jagd\" (Fähigkeit), solange diese Karte ausgerüstest ist und verliere sie, wenn du diese Karte verlierst.\r\n[+4, gegen Tiere oder für ein Tier]\r\n\r\nVerkauf: 5 Ehre",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -825,7 +860,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 64,
@@ -848,7 +884,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 65,
@@ -861,7 +898,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "Kosten: 3",
-    "Text": "Erhalte \"Duellant\" (Fähigkeit), solange diese Karte ausgerüstest ist und verliere sie, wenn du diese Karte verlierst.\r\n[+4/0, gegen Spieler]",
+    "Text": "Erhalte \"Duellant\" (Fähigkeit), solange diese Karte ausgerüstest ist und verliere sie, wenn du diese Karte verlierst.\r\n[+4, gegen Spieler]",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -871,7 +908,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 66,
@@ -882,9 +920,9 @@
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "0 / +1\r\nGLAUBE+2",
-    "CenterText": "Kosten: 10",
-    "Text": "Verkauf: 6 Ehre",
+    "Modifiers": "GLAUBE+2",
+    "CenterText": "Kosten: 9",
+    "Text": "Verkauf: 5 Ehre",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -894,7 +932,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 67,
@@ -905,9 +944,9 @@
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+9 / 0",
+    "Modifiers": "+9",
     "CenterText": "Kosten: 20",
-    "Text": "Keine Hände: Du kannst 2 Handkarten weniger halten.\r\n\r\nVerkauf: 16 Ehre",
+    "Text": "Keine Hände: Handkarten-2\r\n\r\nVerkauf: 16 Ehre",
     "FlavorText": "Keine Arme, keine Kekse.",
     "Level": "",
     "Race": "Empty",
@@ -917,21 +956,22 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 68,
     "Structure": "Normal",
     "ExtraDeck": false,
     "CardType": "Companion",
-    "Name": "Pablo der Feigling",
+    "Name": "Marvin der Magiekundige",
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+2 / +3",
+    "Modifiers": "Handkarten+7",
     "CenterText": "Kosten: 12",
-    "Text": "Erhalte \"Taktischer Rückzug\" (Fähigkeit), solange diese Karte ausgerüstest ist und verliere sie, wenn du diese Karte verlierst.\r\n[2 Fluchtwürfe]\r\n\r\nVerkauf: 8 Ehre",
-    "FlavorText": "",
+    "Text": "Verkauf: 8 Ehre",
+    "FlavorText": "Auch bekannt als der große MM",
     "Level": "",
     "Race": "Empty",
     "WinText": "",
@@ -940,7 +980,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 69,
@@ -963,7 +1004,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 70,
@@ -974,9 +1016,9 @@
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+12 / 0",
+    "Modifiers": "+12",
     "CenterText": "Kosten: 33",
-    "Text": "Erhalte \"Söldner Trupp\" (Fähigkeit) solange diese Karte ausgerüstest ist und verliere sie, wenn du diese Karte verlierst.\r\n[+2/0]\r\n\r\nVerkauf: 29 Ehre",
+    "Text": "Erhalte \"Söldner Trupp\" (Fähigkeit) solange diese Karte ausgerüstest ist und verliere sie, wenn du diese Karte verlierst.\r\n[+2]\r\n\r\nVerkauf: 29 Ehre",
     "FlavorText": "Gute Söldner kosten ihren Preis",
     "Level": "",
     "Race": "Empty",
@@ -986,7 +1028,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 71,
@@ -997,7 +1040,7 @@
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+12 / 0",
+    "Modifiers": "+12",
     "CenterText": "Kosten: 33",
     "Text": "Einmal pro Runde:\r\nDu kannst zu Beginn der Runde eine beliebige Anzahl von Ehre abwerfen um die gleiche Anzahl Zauberkarten zu ziehen.\r\n\r\nVerkauf: 29 Ehre",
     "FlavorText": "Außerdem bist du verpflichtet am heutigen Abend die Drinks auszuschenken.",
@@ -1009,7 +1052,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 72,
@@ -1020,9 +1064,9 @@
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+3 / 0",
+    "Modifiers": "+3",
     "CenterText": "",
-    "Text": "Satteltaschen: Du kannst 2 weitere Handkarten halten.",
+    "Text": "Satteltaschen: Handkarten+2",
     "FlavorText": "Du wärst sogar noch schneller, wenn du nicht in Schlangenlinien reiten würdest.",
     "Level": "",
     "Race": "Empty",
@@ -1032,7 +1076,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 74,
@@ -1045,7 +1090,7 @@
     "Condition": "Empty",
     "Modifiers": "-1",
     "CenterText": "",
-    "Text": "Wenn du den Kampf verlierst und es nicht schaffst zu fliehen, bricht dir dein Gegner zusätzlich den Arm. Ziehe in diesem Fall \"Gebrochener Arm\" (Extra Deck).",
+    "Text": "Wenn du den Kampf verlierst bricht dir dein Gegner zusätzlich den Arm. Ziehe in diesem Fall \"Gebrochener Arm\" (Extra Deck).",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -1055,7 +1100,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 75,
@@ -1078,7 +1124,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 76,
@@ -1091,7 +1138,7 @@
     "Condition": "Empty",
     "Modifiers": "-1",
     "CenterText": "",
-    "Text": "Werfe alle Zauberkarten ab, wenn du diesen Kampf verlierst und es nicht schaffst zu fliehen",
+    "Text": "Werfe alle Zauberkarten ab, wenn du diesen Kampf verlierst.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -1101,7 +1148,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 77,
@@ -1124,7 +1172,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 78,
@@ -1147,7 +1196,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 79,
@@ -1170,7 +1220,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 80,
@@ -1193,7 +1244,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 81,
@@ -1216,7 +1268,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 82,
@@ -1239,7 +1292,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 83,
@@ -1252,7 +1306,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Ziehe \"Ehrfürchtig\", wenn du diesen Kampf verlierst und es nicht schaffst zu fliehen.\r\nEntferne diese Karte bei Aktivierung aus dem Spiel.",
+    "Text": "Ziehe \"Ehrfürchtig\", wenn du diesen Kampf verlierst.\r\nEntferne diese Karte bei Aktivierung aus dem Spiel.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -1262,7 +1316,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 84,
@@ -1285,7 +1340,8 @@
     "Print1": 0,
     "Print2": 12,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 85,
@@ -1308,7 +1364,8 @@
     "Print1": 0,
     "Print2": 12,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 86,
@@ -1331,7 +1388,8 @@
     "Print1": 0,
     "Print2": 12,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 87,
@@ -1354,7 +1412,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 88,
@@ -1377,7 +1436,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 89,
@@ -1400,7 +1460,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 90,
@@ -1423,7 +1484,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 91,
@@ -1446,7 +1508,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 92,
@@ -1469,7 +1532,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 93,
@@ -1492,7 +1556,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 94,
@@ -1515,7 +1580,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 95,
@@ -1538,7 +1604,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 96,
@@ -1551,7 +1618,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Wenn du den Kampf verlierst und es nicht schaffst zu fliehen:\r\nZerstöre nach dem Kampf 1 ausgerüstete Ausrüstungskarte oder Artefakt.",
+    "Text": "Wenn du den Kampf verlierst:\r\nZerstöre nach dem Kampf 1 ausgerüstete Ausrüstungskarte oder Artefakt.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -1561,7 +1628,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 97,
@@ -1584,7 +1652,8 @@
     "Print1": 0,
     "Print2": 4,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 98,
@@ -1607,7 +1676,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 99,
@@ -1630,7 +1700,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 100,
@@ -1653,7 +1724,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 101,
@@ -1676,7 +1748,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 102,
@@ -1689,7 +1762,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Solltest du Kampf diesen verlieren und nicht fliehen können, erhalten alle anderen Spieler 2 Ehre.\r\nDer Kampf ist noch nicht beendet.\r\nAlle Spieler können 1 weitere Zauberkarte spielen.\r\nSegen, Flüche und dein Würfelergebnis bleiben liegen.\r\n\r\nWenn du diese Karte durch \"Animalische Magie\" oder \"Fluchgeist\" erhalten solltest, wirf sie ab und ziehe 2 Flüche nach.",
+    "Text": "Solltest du Kampf diesen verlieren erhalten alle anderen Spieler 2 Ehre.\r\nDer Kampf ist noch nicht beendet.\r\nAlle Spieler können 1 weitere Zauberkarte spielen.\r\nSegen, Flüche und dein Würfelergebnis bleiben liegen.\r\n\r\nWenn du diese Karte durch \"Animalische Magie\" oder \"Fluchgeist\" erhalten solltest, wirf sie ab und ziehe 2 Flüche nach.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -1699,7 +1772,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 117,
@@ -1712,7 +1786,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Lege diese Karte offen aus.\r\n\r\nIhr sterbt von nun an, wenn ihr einen Kampf gegen den Tod verliert.\r\nWenn einer von euch stirbt, wird seine Leiche von allen noch lebenden Spielern geplündert.\r\nIhr gewinnt das Spiel weiterhin mit den gleichen Siegbedingungen wie zuvor. Ihr müsst den Tod daher nicht besiegen, sondern könnt ihm auch aus dem Weg gehen, um ein langes und erfülltes Leben zu führen.\r\n\r\nIhr könnt vor dem Tod fliehen.\r\n\r\nSpieler, die den Tod im Kampf besiegen oder erfolgreich vor ihm fliehen, erhalten \"Dem Tod wiederstehen\" (Extra Deck). Sollte bereits ein anderer Spieler diese Karte haben, welchselt sie ihren Besitzer.",
+    "Text": "Lege diese Karte offen aus.\r\n\r\nIhr sterbt von nun an, wenn ihr einen Kampf gegen den Tod verliert.\r\nWenn einer von euch stirbt, wird seine Leiche von allen noch lebenden Spielern geplündert.\r\nIhr gewinnt das Spiel weiterhin mit den gleichen Siegbedingungen wie zuvor. Ihr müsst den Tod daher nicht besiegen, sondern könnt ihm auch aus dem Weg gehen, um ein langes und erfülltes Leben zu führen.\r\n\r\nSpieler, die den Tod im Kampf besiegen, erhalten \"Dem Tod wiederstehen\" (Extra Deck). Sollte bereits ein anderer Spieler diese Karte haben, welchselt sie ihren Besitzer.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -1720,9 +1794,10 @@
     "LoseText": "",
     "Scrapped": "",
     "Print1": 0,
-    "Print2": 1,
+    "Print2": 0,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 125,
@@ -1745,7 +1820,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 126,
@@ -1768,7 +1844,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 127,
@@ -1791,7 +1868,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 128,
@@ -1814,7 +1892,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 129,
@@ -1837,7 +1916,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 130,
@@ -1860,7 +1940,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 131,
@@ -1883,7 +1964,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 132,
@@ -1906,7 +1988,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 133,
@@ -1929,7 +2012,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 134,
@@ -1952,7 +2036,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 135,
@@ -1975,7 +2060,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 136,
@@ -1998,7 +2084,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 137,
@@ -2021,7 +2108,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 138,
@@ -2044,7 +2132,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 139,
@@ -2067,7 +2156,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 140,
@@ -2090,7 +2180,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 141,
@@ -2113,7 +2204,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 142,
@@ -2136,7 +2228,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 143,
@@ -2159,7 +2252,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 144,
@@ -2182,7 +2276,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 145,
@@ -2205,7 +2300,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 146,
@@ -2228,7 +2324,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 147,
@@ -2251,7 +2348,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 148,
@@ -2274,7 +2372,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 149,
@@ -2297,7 +2396,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 150,
@@ -2320,7 +2420,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 151,
@@ -2343,7 +2444,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 152,
@@ -2366,7 +2468,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 153,
@@ -2389,7 +2492,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 154,
@@ -2412,7 +2516,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 155,
@@ -2435,7 +2540,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 156,
@@ -2458,7 +2564,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 157,
@@ -2481,7 +2588,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 158,
@@ -2504,7 +2612,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 159,
@@ -2527,7 +2636,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 160,
@@ -2550,7 +2660,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 161,
@@ -2573,7 +2684,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 162,
@@ -2596,7 +2708,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 163,
@@ -2619,7 +2732,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 164,
@@ -2642,7 +2756,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 165,
@@ -2665,7 +2780,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 166,
@@ -2688,7 +2804,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 167,
@@ -2711,7 +2828,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 168,
@@ -2734,7 +2852,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 169,
@@ -2757,7 +2876,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 170,
@@ -2780,7 +2900,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 171,
@@ -2803,7 +2924,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 172,
@@ -2826,7 +2948,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 1,
+    "Border": "fire"
   },
   {
     "Id": 173,
@@ -2849,7 +2972,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 174,
@@ -2872,7 +2996,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 175,
@@ -2895,7 +3020,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 1,
+    "Border": "fire"
   },
   {
     "Id": 176,
@@ -2918,7 +3044,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 177,
@@ -2941,7 +3068,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 179,
@@ -2964,7 +3092,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 180,
@@ -2987,7 +3116,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 181,
@@ -3010,7 +3140,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 182,
@@ -3033,7 +3164,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 183,
@@ -3056,7 +3188,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 184,
@@ -3079,7 +3212,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 185,
@@ -3102,7 +3236,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 186,
@@ -3125,7 +3260,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 187,
@@ -3148,7 +3284,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 188,
@@ -3171,7 +3308,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 189,
@@ -3194,7 +3332,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 190,
@@ -3217,7 +3356,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 191,
@@ -3240,7 +3380,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 192,
@@ -3263,7 +3404,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 193,
@@ -3286,7 +3428,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 194,
@@ -3309,7 +3452,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 195,
@@ -3332,7 +3476,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 196,
@@ -3355,7 +3500,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 197,
@@ -3378,7 +3524,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 198,
@@ -3401,7 +3548,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 199,
@@ -3424,7 +3572,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 200,
@@ -3447,7 +3596,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 201,
@@ -3470,7 +3620,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 202,
@@ -3493,7 +3644,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 203,
@@ -3516,7 +3668,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 204,
@@ -3539,7 +3692,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 205,
@@ -3562,7 +3716,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 206,
@@ -3585,7 +3740,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 207,
@@ -3608,7 +3764,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 208,
@@ -3631,7 +3788,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 209,
@@ -3654,7 +3812,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 210,
@@ -3677,7 +3836,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 211,
@@ -3700,7 +3860,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 212,
@@ -3723,7 +3884,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 1,
+    "Border": "fire"
   },
   {
     "Id": 213,
@@ -3742,11 +3904,12 @@
     "Race": "Empty",
     "WinText": "",
     "LoseText": "",
-    "Scrapped": "GLAUBE+1",
+    "Scrapped": "GLAUBE+1 \r\n+ \"Feuerkarte\"",
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 1,
+    "Border": "fire"
   },
   {
     "Id": 214,
@@ -3769,7 +3932,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 215,
@@ -3792,7 +3956,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 216,
@@ -3815,7 +3980,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 217,
@@ -3838,7 +4004,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 218,
@@ -3861,7 +4028,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 219,
@@ -3884,7 +4052,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 220,
@@ -3907,7 +4076,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 221,
@@ -3930,7 +4100,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 222,
@@ -3953,7 +4124,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 223,
@@ -3976,7 +4148,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 224,
@@ -3999,7 +4172,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 225,
@@ -4022,7 +4196,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 226,
@@ -4045,7 +4220,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 227,
@@ -4068,7 +4244,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 228,
@@ -4091,7 +4268,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 229,
@@ -4114,7 +4292,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 230,
@@ -4137,7 +4316,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 231,
@@ -4160,7 +4340,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 232,
@@ -4183,7 +4364,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 233,
@@ -4206,7 +4388,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 234,
@@ -4229,7 +4412,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 235,
@@ -4252,7 +4436,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 236,
@@ -4275,7 +4460,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 237,
@@ -4298,7 +4484,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 238,
@@ -4321,7 +4508,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 239,
@@ -4344,7 +4532,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 240,
@@ -4367,7 +4556,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 241,
@@ -4390,7 +4580,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 242,
@@ -4413,7 +4604,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 243,
@@ -4436,7 +4628,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 244,
@@ -4459,7 +4652,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 245,
@@ -4482,7 +4676,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 246,
@@ -4505,7 +4700,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 247,
@@ -4528,7 +4724,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 248,
@@ -4551,7 +4748,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 249,
@@ -4574,7 +4772,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 250,
@@ -4587,7 +4786,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Würfel immer als erster Spieler deinen Schicskalswurf aus.\r\nZiehe anschließend 1 Fluch + 1 weitern Fluch für jeden gewürfelten Pfad der Magie.\r\n\r\nDu kannst Flüche in Kämpfen VERDECKT für einen Spieler spielen. Die Flüche und Segen müssen dabei immer die Spieler und keine Monster betreffen.\r\nDein Handkartenlimit ist 6.\n\nDu kannst dieses Artefakt nicht verlieren.",
+    "Text": "Würfel immer als erster Spieler deinen Schicskalswurf aus.\r\nZiehe anschließend 1 Fluch + 1 weitern Fluch für jeden gewürfelten Pfad der Magie.\r\n\r\nDu kannst Flüche in Kämpfen VERDECKT für einen Spieler spielen. Die Flüche und Segen müssen dabei immer die Spieler und keine Monster betreffen.\r\nDu kannst 6 Handkarten halten.\n\nDu kannst dieses Artefakt nicht verlieren.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -4597,7 +4796,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 251,
@@ -4610,7 +4810,7 @@
     "Condition": "Empty",
     "Modifiers": "+13 / 0",
     "CenterText": "",
-    "Text": "Wenn du einen Spieler im Kampf besiegst, stirbt er.\r\nSeine Leiche wird geplündert. Danach verliert er alle restlichen Karten und seine Günste.\r\nAnschließend aktiviert sich der Effekt von \"Bruderschaft\".\r\n\r\nSolltest du den Kampf hingegen verlieren, erhält der Spieler, gegen den du gekämpst hast, die Karte \"Dem Tod wiederstanden\" (Extra Deck).\r\n\r\nSolltet ihr beide gleich viel Kampfstärke haben, passiert nichts.\r\n\nDu kannst diese Waffe nicht verlieren.",
+    "Text": "Wenn du einen Spieler im Kampf besiegst, stirbt er.\r\nSeine Leiche wird geplündert.\r\nAnschließend aktiviert sich der Effekt von \"Bruderschaft\".\r\n\r\nSolltest du den Kampf hingegen verlieren, erhält der Spieler, gegen den du gekämpst hast, die Karte \"Dem Tod wiederstanden\" (Extra Deck).\r\n\r\nSolltet ihr beide gleich viel Kampfstärke haben, passiert nichts.\r\n\nDu kannst diese Waffe nicht verlieren.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -4620,7 +4820,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 252,
@@ -4643,7 +4844,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 253,
@@ -4666,7 +4868,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 254,
@@ -4689,7 +4892,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 255,
@@ -4712,7 +4916,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 256,
@@ -4735,7 +4940,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 257,
@@ -4758,7 +4964,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 258,
@@ -4781,7 +4988,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 259,
@@ -4804,7 +5012,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 260,
@@ -4827,7 +5036,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 261,
@@ -4850,7 +5060,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 262,
@@ -4873,7 +5084,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 263,
@@ -4896,7 +5108,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 264,
@@ -4919,7 +5132,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 265,
@@ -4942,7 +5156,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 266,
@@ -4965,7 +5180,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 267,
@@ -4988,7 +5204,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 268,
@@ -5011,7 +5228,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 269,
@@ -5034,7 +5252,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 270,
@@ -5057,7 +5276,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 271,
@@ -5080,7 +5300,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 272,
@@ -5103,7 +5324,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 273,
@@ -5116,7 +5338,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Du bist tod und hast das Spiel verloren. Du musst aber nicht der einzige Spieler, sein der es verliert.\r\nWirf alle deine ausgelegten Karten und Karten in deiner Hand ab, bis auf diese\nDeine Leiche wird geplündert und du verlierst deine Spielfigur.\nZiehe \"Handlanger des Verfluchten\" (Extra Deck).\n\nZiehe jeden Runde 1 Fluch und füge ihn deiner Handkarten hinzu.\nDein Handkartenlimit ist 2.\r\nDu kannst Flüche in Kämpfen wie Kampf-Zauber für eine beliebige Seite spielen.",
+    "Text": "Du bist tod und hast das Spiel verloren. Du musst aber nicht der einzige Spieler, sein der es verliert.\r\nWirf alle deine ausgelegten Karten und Karten in deiner Hand ab, bis auf diese\nDeine Leiche wird geplündert und du verlierst deine Spielfigur.\nZiehe \"Handlanger des Verfluchten\" (Extra Deck).\n\nZiehe jeden Runde 1 Fluch und füge ihn deiner Handkarten hinzu.\nDu kannst 2 Handkarten halten.\r\nDu kannst Flüche in Kämpfen wie Kampf-Zauber für eine beliebige Seite spielen.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -5126,7 +5348,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 274,
@@ -5149,7 +5372,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 275,
@@ -5172,7 +5396,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 276,
@@ -5195,7 +5420,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 277,
@@ -5218,7 +5444,8 @@
     "Print1": 0,
     "Print2": 6,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 278,
@@ -5241,7 +5468,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 279,
@@ -5264,7 +5492,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 280,
@@ -5277,7 +5506,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Du bist tot und wirst begraben.\nDeine Leiche wird geplündert.\r\nVerliere alle deine Karten und deine Günste. Du behälst nur deine Schicksalswürfel.\n\r\nZiehe die Karten \"Der Anfang vom Ende\", \"Der Tod\", \"Seelenfänger\", \"Des Todes Maske\", \"Weltenwanderer\", \"Ewiges Gewand\", \"Geduld\", \"Bruderschaft\" und \"Sanduhr\" (Extra Deck).",
+    "Text": "Du bist tot und wirst begraben.\nDeine Leiche wird geplündert.\r\nVerliere alle deine Karten. Du behälst nur deine Schicksalswürfel.\n\r\nZiehe die Karten \"Der Anfang vom Ende\", \"Der Tod\", \"Seelenfänger\", \"Des Todes Maske\", \"Weltenwanderer\", \"Ewiges Gewand\", \"Geduld\", \"Bruderschaft\" und \"Sanduhr\" (Extra Deck).",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -5287,7 +5516,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 281,
@@ -5300,7 +5530,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Der Tod gewinnt, wenn alle anderen Spieler tot, oder deine Brüder sind. Du kannst auch schon früher durch den Effekt von \"In Angst vereint\" gewinnen, falls diese Karte ausliegt.\r\n\r\nAndere Spieler sterben, wenn du im Kampf gegen sie gewinnst.\r\n\r\nDu zählst weiterhin als Spieler und nicht als Monster.\r\nDu und deine Brüder sind nicht mehr Teil der Rangliste und nehmen nicht an Tavernenrunden teil.\r\nIhr zieht deshalb auch keine Günste mehr.\r\nDu kannst nicht handeln.",
+    "Text": "Der Tod gewinnt, wenn alle anderen Spieler tot, oder deine Brüder sind. Du kannst auch schon früher durch den Effekt von \"In Angst vereint\" gewinnen, falls diese Karte ausliegt.\r\n\r\nAndere Spieler sterben, wenn du im Kampf gegen sie gewinnst.\r\n\r\nDu zählst weiterhin als Spieler und nicht als Monster.\r\nDu und deine Brüder sind nicht mehr Teil der Rangliste und nehmen nicht an Tavernenrunden teil.\r\nDu kannst nicht handeln.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -5310,7 +5540,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 282,
@@ -5333,7 +5564,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 283,
@@ -5356,7 +5588,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 284,
@@ -5379,7 +5612,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 285,
@@ -5402,7 +5636,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 286,
@@ -5425,7 +5660,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 287,
@@ -5448,7 +5684,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 288,
@@ -5471,7 +5708,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 289,
@@ -5494,7 +5732,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 290,
@@ -5517,7 +5756,8 @@
     "Print1": 0,
     "Print2": 6,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 291,
@@ -5540,7 +5780,8 @@
     "Print1": 0,
     "Print2": 6,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 292,
@@ -5563,7 +5804,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 293,
@@ -5586,7 +5828,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 294,
@@ -5609,7 +5852,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 295,
@@ -5632,7 +5876,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 296,
@@ -5655,7 +5900,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 1,
+    "Border": "fire"
   },
   {
     "Id": 297,
@@ -5678,7 +5924,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 298,
@@ -5691,7 +5938,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Wenn du ein Zauberkartenfeld betrittst, ziehst du eine weitere Zauberkarte.\r\n(Auch bei \"Animalische Magie\")\r\n\r\nDu kannst 4 weitere Handkarten auf der Hand halten.",
+    "Text": "Handkarten+2",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -5701,7 +5948,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 299,
@@ -5724,7 +5972,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 300,
@@ -5747,7 +5996,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 301,
@@ -5770,7 +6020,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 302,
@@ -5793,7 +6044,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 303,
@@ -5816,7 +6068,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 304,
@@ -5839,7 +6092,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 305,
@@ -5862,7 +6116,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 306,
@@ -5885,7 +6140,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 307,
@@ -5908,7 +6164,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 308,
@@ -5931,7 +6188,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 309,
@@ -5954,7 +6212,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 310,
@@ -5977,7 +6236,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 311,
@@ -6000,7 +6260,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 312,
@@ -6023,7 +6284,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 313,
@@ -6046,7 +6308,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 314,
@@ -6069,7 +6332,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 315,
@@ -6092,7 +6356,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 1,
+    "Border": "fire"
   },
   {
     "Id": 316,
@@ -6115,7 +6380,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 317,
@@ -6138,7 +6404,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 318,
@@ -6161,7 +6428,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 319,
@@ -6184,7 +6452,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 320,
@@ -6207,7 +6476,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 321,
@@ -6230,7 +6500,8 @@
     "Print1": 0,
     "Print2": 0,
     "Print3": 0,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 322,
@@ -6253,7 +6524,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 323,
@@ -6276,7 +6548,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 324,
@@ -6299,7 +6572,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 325,
@@ -6322,7 +6596,8 @@
     "Print1": 1,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 326,
@@ -6345,7 +6620,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 327,
@@ -6368,7 +6644,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 328,
@@ -6391,7 +6668,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 329,
@@ -6414,7 +6692,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 330,
@@ -6437,7 +6716,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 331,
@@ -6450,7 +6730,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Fairplay: Du kannst gänzlich ohne Ausrüstung und Begleiter gegen ihn kämpfen, um stattdessen bei einem Sieg 2 Ausrüstungskarten (selten) zu erhalten.\r\n\r\n(Nur deine Merkmale und Handkarten zählen)",
+    "Text": "Fairplay: Du kannst gänzlich ohne Ausrüstung und Begleiter gegen ihn kämpfen, um stattdessen bei einem Sieg 2 Ausrüstungskarten (selten) zu erhalten.\r\n(Nur deine Merkmale und Handkarten zählen)",
     "FlavorText": "Faul und bräsig ist er doch ein nicht zu unterschätzender Gegner, der sich vor allem kleinere und schwächere zum Opfer sucht.",
     "Level": "7",
     "Race": "Human",
@@ -6460,7 +6740,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 332,
@@ -6483,7 +6764,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 333,
@@ -6506,7 +6788,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 334,
@@ -6529,7 +6812,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 335,
@@ -6552,7 +6836,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 336,
@@ -6575,7 +6860,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 337,
@@ -6598,7 +6884,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 338,
@@ -6621,7 +6908,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 339,
@@ -6644,7 +6932,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 340,
@@ -6667,7 +6956,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 341,
@@ -6690,7 +6980,8 @@
     "Print1": 1,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 342,
@@ -6713,7 +7004,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 343,
@@ -6736,7 +7028,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 344,
@@ -6759,7 +7052,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 345,
@@ -6782,7 +7076,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 346,
@@ -6805,7 +7100,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 347,
@@ -6828,7 +7124,8 @@
     "Print1": 1,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 348,
@@ -6851,7 +7148,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 349,
@@ -6874,7 +7172,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 350,
@@ -6897,7 +7196,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 351,
@@ -6920,7 +7220,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 352,
@@ -6943,7 +7244,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 353,
@@ -6966,7 +7268,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 354,
@@ -6989,7 +7292,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 355,
@@ -7012,7 +7316,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 356,
@@ -7035,7 +7340,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 1,
+    "Border": "fire"
   },
   {
     "Id": 357,
@@ -7058,7 +7364,8 @@
     "Print1": 1,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 358,
@@ -7081,7 +7388,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 359,
@@ -7104,7 +7412,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 360,
@@ -7127,7 +7436,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 361,
@@ -7150,7 +7460,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 1,
+    "Border": "fire"
   },
   {
     "Id": 362,
@@ -7173,7 +7484,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 363,
@@ -7196,7 +7508,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 364,
@@ -7219,7 +7532,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 365,
@@ -7242,7 +7556,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 366,
@@ -7265,7 +7580,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 367,
@@ -7288,7 +7604,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 368,
@@ -7311,7 +7628,8 @@
     "Print1": 1,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 369,
@@ -7334,7 +7652,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 1,
+    "Border": "fire"
   },
   {
     "Id": 370,
@@ -7357,7 +7676,8 @@
     "Print1": 1,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 371,
@@ -7380,7 +7700,8 @@
     "Print1": 1,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 372,
@@ -7403,7 +7724,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 373,
@@ -7426,7 +7748,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 374,
@@ -7449,7 +7772,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 375,
@@ -7472,7 +7796,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 376,
@@ -7495,7 +7820,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 377,
@@ -7518,7 +7844,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 378,
@@ -7541,7 +7868,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 379,
@@ -7564,7 +7892,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 381,
@@ -7587,7 +7916,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 382,
@@ -7610,7 +7940,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 383,
@@ -7633,7 +7964,8 @@
     "Print1": 1,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 384,
@@ -7656,7 +7988,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 385,
@@ -7679,7 +8012,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 386,
@@ -7702,7 +8036,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 387,
@@ -7725,7 +8060,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 388,
@@ -7748,7 +8084,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 389,
@@ -7771,7 +8108,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 390,
@@ -7794,7 +8132,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 391,
@@ -7817,7 +8156,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 392,
@@ -7840,7 +8180,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 393,
@@ -7863,7 +8204,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 394,
@@ -7886,7 +8228,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 395,
@@ -7909,7 +8252,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 1,
+    "Border": "fire"
   },
   {
     "Id": 396,
@@ -7932,7 +8276,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 397,
@@ -7955,7 +8300,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 398,
@@ -7978,7 +8324,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 399,
@@ -8001,7 +8348,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 400,
@@ -8024,7 +8372,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 401,
@@ -8047,7 +8396,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 402,
@@ -8070,7 +8420,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 403,
@@ -8093,7 +8444,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 405,
@@ -8116,7 +8468,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 406,
@@ -8139,7 +8492,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 407,
@@ -8162,7 +8516,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 409,
@@ -8185,7 +8540,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 410,
@@ -8208,7 +8564,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 412,
@@ -8231,7 +8588,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 413,
@@ -8254,7 +8612,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 414,
@@ -8277,7 +8636,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 415,
@@ -8300,7 +8660,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 416,
@@ -8323,7 +8684,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 417,
@@ -8346,7 +8708,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 1,
+    "Border": "fire"
   },
   {
     "Id": 418,
@@ -8369,7 +8732,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 419,
@@ -8392,7 +8756,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 420,
@@ -8415,7 +8780,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 421,
@@ -8438,7 +8804,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 422,
@@ -8461,7 +8828,8 @@
     "Print1": 0,
     "Print2": 6,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 426,
@@ -8484,7 +8852,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 427,
@@ -8507,7 +8876,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 428,
@@ -8530,7 +8900,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 429,
@@ -8553,7 +8924,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 430,
@@ -8576,7 +8948,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 431,
@@ -8599,7 +8972,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 432,
@@ -8622,7 +8996,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 433,
@@ -8645,7 +9020,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 435,
@@ -8668,7 +9044,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 436,
@@ -8691,7 +9068,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 437,
@@ -8714,7 +9092,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 438,
@@ -8737,7 +9116,8 @@
     "Print1": 0,
     "Print2": 15,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 439,
@@ -8760,7 +9140,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 440,
@@ -8783,7 +9164,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 442,
@@ -8806,7 +9188,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 443,
@@ -8829,7 +9212,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 444,
@@ -8852,7 +9236,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 445,
@@ -8875,7 +9260,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 446,
@@ -8898,7 +9284,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 448,
@@ -8921,7 +9308,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 450,
@@ -8944,7 +9332,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 451,
@@ -8967,7 +9356,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 452,
@@ -8990,7 +9380,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 453,
@@ -9013,7 +9404,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 454,
@@ -9036,7 +9428,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 455,
@@ -9059,7 +9452,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 456,
@@ -9082,7 +9476,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 457,
@@ -9105,7 +9500,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 458,
@@ -9128,7 +9524,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 459,
@@ -9151,7 +9548,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 460,
@@ -9174,7 +9572,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 462,
@@ -9197,7 +9596,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 463,
@@ -9220,7 +9620,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 464,
@@ -9243,7 +9644,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 465,
@@ -9266,7 +9668,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 466,
@@ -9289,7 +9692,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 467,
@@ -9312,7 +9716,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 468,
@@ -9335,7 +9740,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 469,
@@ -9358,7 +9764,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 471,
@@ -9381,7 +9788,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 472,
@@ -9404,7 +9812,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 473,
@@ -9427,7 +9836,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 475,
@@ -9450,7 +9860,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 476,
@@ -9473,7 +9884,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 477,
@@ -9496,7 +9908,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 478,
@@ -9519,7 +9932,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 479,
@@ -9542,7 +9956,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 480,
@@ -9565,7 +9980,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 481,
@@ -9588,7 +10004,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 482,
@@ -9611,7 +10028,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 483,
@@ -9634,7 +10052,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 484,
@@ -9657,7 +10076,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 485,
@@ -9680,7 +10100,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 486,
@@ -9703,7 +10124,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 487,
@@ -9726,7 +10148,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 488,
@@ -9749,7 +10172,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 489,
@@ -9772,7 +10196,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 490,
@@ -9795,7 +10220,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 491,
@@ -9818,7 +10244,8 @@
     "Print1": 0,
     "Print2": 5,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 492,
@@ -9841,7 +10268,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 493,
@@ -9864,7 +10292,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 494,
@@ -9887,7 +10316,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 1,
+    "Border": "fire"
   },
   {
     "Id": 495,
@@ -9910,7 +10340,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 496,
@@ -9933,7 +10364,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 497,
@@ -9956,7 +10388,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 498,
@@ -9979,7 +10412,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 499,
@@ -10002,7 +10436,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 500,
@@ -10025,7 +10460,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 501,
@@ -10048,7 +10484,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 502,
@@ -10071,7 +10508,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 503,
@@ -10094,7 +10532,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 504,
@@ -10117,7 +10556,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 505,
@@ -10140,7 +10580,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 506,
@@ -10163,7 +10604,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 507,
@@ -10186,7 +10628,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 508,
@@ -10209,7 +10652,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 518,
@@ -10220,9 +10664,9 @@
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+7 / 0",
+    "Modifiers": "+7",
     "CenterText": "",
-    "Text": "Erhalte \"Königsmörder\" (Fähigkeit) solange diese Karte ausgerüstest ist und verliere sie, wenn du diese Karte verlierst.\r\n[+2/0, gegen Skelette und den Ranghöchsten Spieler]\r\n\r\nMarius der Verschlissene kann nicht sterben.",
+    "Text": "Erhalte \"Königsmörder\" (Fähigkeit) solange diese Karte ausgerüstest ist und verliere sie, wenn du diese Karte verlierst.\r\n[+2, gegen Skelette und den Ranghöchsten Spieler]\r\n\r\nMarius der Verschlissene kann nicht sterben.",
     "FlavorText": "Er diente schon unter den Blutmagiern im großen Nekormantenkieg.\nMan erzählt sich, dass Skelette mit eigenem Willen zuvor selber Nekromanten waren, die sich geweigert haben zu sterben und angefangen haben sich selbst zu totenbändigen.",
     "Level": "",
     "Race": "Empty",
@@ -10232,7 +10676,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 519,
@@ -10255,7 +10700,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 520,
@@ -10278,7 +10724,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 521,
@@ -10301,7 +10748,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 522,
@@ -10324,7 +10772,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 523,
@@ -10347,7 +10796,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 524,
@@ -10370,7 +10820,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 525,
@@ -10393,7 +10844,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 526,
@@ -10416,7 +10868,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 527,
@@ -10439,7 +10892,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 528,
@@ -10462,7 +10916,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 529,
@@ -10485,7 +10940,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 530,
@@ -10508,7 +10964,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 531,
@@ -10531,7 +10988,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 532,
@@ -10554,7 +11012,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 533,
@@ -10577,7 +11036,8 @@
     "Print1": 1,
     "Print2": 1,
     "Print3": 0,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 534,
@@ -10588,9 +11048,9 @@
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+5 / +2",
+    "Modifiers": "+4\r\nHandkarten+4",
     "CenterText": "",
-    "Text": "Endlich kannst du dich ein wenig freier bewegen\r\n\r\nTruhe:\r\nDu kannst bis zu 4 Handkarten offen in die True legen. Diese können nicht gestohlen werden und sind nur von Karteneffekten betroffen wenn du dies willst.",
+    "Text": "Endlich kannst du dich ein wenig freier bewegen\r\n\r\nTruhe:\r\nAlle deine Handkarten können nicht gestohlen werden und sind nur von Karteneffekten betroffen wenn du dies willst.",
     "FlavorText": "Sie liebt es all deinen Müll für dich zu tragen.",
     "Level": "",
     "Race": "Empty",
@@ -10600,7 +11060,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 535,
@@ -10623,7 +11084,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 536,
@@ -10646,7 +11108,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 537,
@@ -10669,7 +11132,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 538,
@@ -10692,7 +11156,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 539,
@@ -10705,7 +11170,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Erhalte \"Golem Angriff\" (Fähigkeit) solange diese Karte ausgerüstest ist und verliere sie, wenn du diese Karte verlierst.\r\n[+13/0, opfer 1 Ehre]",
+    "Text": "Erhalte \"Golem Angriff\" (Fähigkeit) solange diese Karte ausgerüstest ist und verliere sie, wenn du diese Karte verlierst.\r\n[+13, opfer 1 Ehre]",
     "FlavorText": "Er freut sich deinen Team beizutreten und frisst aus Dankbarkeit deinen alten Begleiter auf.",
     "Level": "",
     "Race": "Empty",
@@ -10715,7 +11180,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 540,
@@ -10738,7 +11204,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 1,
+    "Border": "fire"
   },
   {
     "Id": 541,
@@ -10761,7 +11228,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 542,
@@ -10784,7 +11252,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 1,
+    "Border": "fire"
   },
   {
     "Id": 543,
@@ -10807,7 +11276,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 544,
@@ -10830,7 +11300,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 545,
@@ -10853,7 +11324,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 546,
@@ -10876,7 +11348,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 547,
@@ -10899,7 +11372,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 548,
@@ -10922,7 +11396,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 554,
@@ -10945,7 +11420,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 555,
@@ -10968,7 +11444,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 556,
@@ -10991,7 +11468,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 557,
@@ -11014,7 +11492,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 558,
@@ -11027,7 +11506,7 @@
     "Condition": "Empty",
     "Modifiers": "+2 / 0",
     "CenterText": "",
-    "Text": "Wenn du diese Karte erhälst verlierst du alle deine Karten (Hand- und Ausrüstungskarten) außer Merkmale.\r\nSetze deine Spielfigur auf Start zurück.",
+    "Text": "Wenn du diese Karte erhälst verlierst du alle deine Karten (Hand- und Ausrüstungskarten) außer Merkmale.",
     "FlavorText": "Der Friedhof konnte dich nicht lange halten.",
     "Level": "",
     "Race": "Empty",
@@ -11037,7 +11516,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 559,
@@ -11060,7 +11540,8 @@
     "Print1": 0,
     "Print2": 6,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 563,
@@ -11083,7 +11564,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 564,
@@ -11106,7 +11588,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 565,
@@ -11129,7 +11612,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 566,
@@ -11152,7 +11636,8 @@
     "Print1": 0,
     "Print2": 4,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 567,
@@ -11175,7 +11660,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 568,
@@ -11198,7 +11684,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 569,
@@ -11221,7 +11708,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 571,
@@ -11244,7 +11732,8 @@
     "Print1": 0,
     "Print2": 5,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 576,
@@ -11267,7 +11756,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 577,
@@ -11290,7 +11780,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 578,
@@ -11313,7 +11804,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 579,
@@ -11336,7 +11828,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 580,
@@ -11359,7 +11852,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 581,
@@ -11382,7 +11876,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 582,
@@ -11405,7 +11900,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 583,
@@ -11428,7 +11924,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 584,
@@ -11451,7 +11948,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 585,
@@ -11474,7 +11972,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 586,
@@ -11497,7 +11996,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 587,
@@ -11520,7 +12020,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 588,
@@ -11543,7 +12044,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 589,
@@ -11566,7 +12068,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 590,
@@ -11589,7 +12092,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 591,
@@ -11612,7 +12116,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 592,
@@ -11635,7 +12140,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 593,
@@ -11658,7 +12164,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 594,
@@ -11681,7 +12188,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 595,
@@ -11704,7 +12212,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 596,
@@ -11727,7 +12236,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 598,
@@ -11750,7 +12260,8 @@
     "Print1": 0,
     "Print2": 0,
     "Print3": 0,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 599,
@@ -11771,9 +12282,10 @@
     "LoseText": "",
     "Scrapped": "",
     "Print1": 0,
-    "Print2": 1,
+    "Print2": 0,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 600,
@@ -11794,9 +12306,10 @@
     "LoseText": "",
     "Scrapped": "",
     "Print1": 0,
-    "Print2": 1,
+    "Print2": 0,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 601,
@@ -11817,32 +12330,10 @@
     "LoseText": "",
     "Scrapped": "",
     "Print1": 0,
-    "Print2": 1,
+    "Print2": 0,
     "Print3": 1,
-    "Print4": 0
-  },
-  {
-    "Id": 602,
-    "Structure": "Normal",
-    "ExtraDeck": false,
-    "CardType": "Disaster",
-    "Name": "Göttliche Kriese",
-    "SubType": "Empty",
-    "TwoHanded": false,
-    "Condition": "Empty",
-    "Modifiers": "",
-    "CenterText": "",
-    "Text": "Lege die Karte für den Rest des Spieles offen aus.\r\nSie betrifft alle Spieler.\r\n\r\nFür den Rest des Spiel ziehen alle Spieler 2 Gunst Karten weniger, wenn sie welche ziehen.",
-    "FlavorText": "",
-    "Level": "",
-    "Race": "Empty",
-    "WinText": "",
-    "LoseText": "",
-    "Scrapped": "",
-    "Print1": 0,
-    "Print2": 1,
-    "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 607,
@@ -11863,9 +12354,10 @@
     "LoseText": "",
     "Scrapped": "",
     "Print1": 0,
-    "Print2": 1,
+    "Print2": 0,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 609,
@@ -11888,7 +12380,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 610,
@@ -11911,7 +12404,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 611,
@@ -11934,7 +12428,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 612,
@@ -11957,7 +12452,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 613,
@@ -11980,7 +12476,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 614,
@@ -12003,7 +12500,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 615,
@@ -12026,7 +12524,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 616,
@@ -12049,7 +12548,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 617,
@@ -12072,7 +12572,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 618,
@@ -12095,7 +12596,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 619,
@@ -12118,7 +12620,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 620,
@@ -12141,7 +12644,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 621,
@@ -12164,7 +12668,8 @@
     "Print1": 0,
     "Print2": 0,
     "Print3": 0,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 622,
@@ -12175,7 +12680,7 @@
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+1 / +2\r\nGLAUBE+2\r\nKRIT+3",
+    "Modifiers": "KRIT+3\r\nGLAUBE+2\r\nHandkarten+2",
     "CenterText": "Kosten: 33",
     "Text": "Erhalte \"Schattenthron\" (Fähigkeit) solange diese Karte ausgerüstest ist und verliere sie, wenn du diese Karte verlierst.\r\n[1 Segen für jeden Krit Würfel]\r\n\r\nVerkauf: 29 Ehre",
     "FlavorText": "",
@@ -12187,7 +12692,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 623,
@@ -12198,9 +12704,9 @@
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+1 / +3\r\nKRIT+3",
-    "CenterText": "Kosten: 27",
-    "Text": "Erhalte \"Trophäenjagd\" (Fähigkeit) solange diese Karte ausgerüstest ist und verliere sie, wenn du diese Karte verlierst.\r\n[KRIT+1, gegen Vampire und Tiere]\r\n\r\nVerkauf: 23 Ehre",
+    "Modifiers": "+2\r\nKRIT+3",
+    "CenterText": "Kosten: 25",
+    "Text": "Erhalte \"Trophäenjagd\" (Fähigkeit) solange diese Karte ausgerüstest ist und verliere sie, wenn du diese Karte verlierst.\r\n[KRIT+1, gegen Vampire und Tiere]\r\n\r\nVerkauf: 21 Ehre",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -12210,7 +12716,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 624,
@@ -12221,9 +12728,9 @@
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+2 / 0",
+    "Modifiers": "",
     "CenterText": "Kosten: 4",
-    "Text": "Dein Handkartenlimit erhöht sich um 2.",
+    "Text": "Handkarten+3.\r\nZiehe Zauberkarten bis deine Hand voll ist, wenn du diese Karte erhälst.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -12233,7 +12740,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 625,
@@ -12244,9 +12752,9 @@
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+1 / +1\r\nKRIT+1",
-    "CenterText": "Kosten: 7",
-    "Text": "Verkauf: 3 Ehre",
+    "Modifiers": "Handkarten+1\r\nKRIT+1",
+    "CenterText": "Kosten: 5",
+    "Text": "Verkauf: 1 Ehre",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -12256,7 +12764,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 626,
@@ -12267,9 +12776,9 @@
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+6 / +2\r\nGLAUBE+1\r\nKRIT+1",
-    "CenterText": "Kosten: 22",
-    "Text": "Ziehe am Anfang jedes Kampfes 1 Fluch.\r\n\r\nVerkauf: 18 Ehre",
+    "Modifiers": "+4\r\nKRIT+1\r\nGLAUBE+1",
+    "CenterText": "Kosten: 21",
+    "Text": "Ziehe am Anfang jedes Kampfes 1 Fluch.\r\n\r\nVerkauf: 17 Ehre",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -12279,7 +12788,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 627,
@@ -12290,9 +12800,9 @@
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+11  / -3",
-    "CenterText": "Kosten: 23",
-    "Text": "Verkauf: 19 Ehre",
+    "Modifiers": "+11\r\nHandkarten-4",
+    "CenterText": "Kosten: 22",
+    "Text": "Verkauf: 18 Ehre",
     "FlavorText": "Langsam aber treu",
     "Level": "",
     "Race": "Empty",
@@ -12302,7 +12812,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 628,
@@ -12313,9 +12824,9 @@
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+5 / +3\r\nKRIT+2",
+    "Modifiers": "+6\r\nKRIT+2\r\nGlaube+1\r\nHandkarten-3",
     "CenterText": "Kosten: 33",
-    "Text": "Erhalte \"Tod den Göttern!\" (Fähigkeit) solange diese Karte ausgerüstest ist und verliere sie, wenn du diese Karte verlierst.\r\n[+3/0 gegen Götter]\r\n\r\nVerkauf: 29 Ehre",
+    "Text": "Erhalte \"Tod den Göttern!\" (Fähigkeit) solange diese Karte ausgerüstest ist und verliere sie, wenn du diese Karte verlierst.\r\n[+3 gegen Götter]\r\n\r\nVerkauf: 29 Ehre",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -12325,7 +12836,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 630,
@@ -12348,7 +12860,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 631,
@@ -12371,7 +12884,8 @@
     "Print1": 0,
     "Print2": 0,
     "Print3": 0,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 632,
@@ -12384,7 +12898,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Werfe alle deine Handkarten ab.\r\nDu kannst -2 Handkarten halten.\r\nWenn du auf ein Zauberkartenfeld trittst, ziehst du stattdessen 2 Segen oder 1 Fluch. Du hast die Wahl.\r\nDu kannst die Segen und Flüche in Kämpfen wie Kampf-Zauber für eine beliebige Seite spielen. Diese betreffen dann den Spieler oder das Monster.\r\n\r\nSollten dir Handkarten geklaut werden, können andere Spieler die Segen und Flüche auf die gleiche Weise benutzen. Das gleiche gilt auch, wenn du deine Handkarten handelst.",
+    "Text": "Werfe alle deine Handkarten ab.\r\nHandkarten-2.\r\nWenn du auf ein Zauberkartenfeld trittst, ziehst du stattdessen 2 Segen oder 1 Fluch. Du hast die Wahl.\r\nDu kannst die Segen und Flüche in Kämpfen wie Kampf-Zauber für eine beliebige Seite spielen. Diese betreffen dann den Spieler oder das Monster.\r\n\r\nSollten dir Handkarten geklaut werden, können andere Spieler die Segen und Flüche auf die gleiche Weise benutzen. Das gleiche gilt auch, wenn du deine Handkarten handelst.",
     "FlavorText": "Man kann Magie in Büchern und im Studium lernen.\r\nSie kann aber auch von der Natur erlernt werden.",
     "Level": "",
     "Race": "Empty",
@@ -12394,7 +12908,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 633,
@@ -12417,7 +12932,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 634,
@@ -12440,7 +12956,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 635,
@@ -12463,7 +12980,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 636,
@@ -12486,7 +13004,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 637,
@@ -12509,7 +13028,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 638,
@@ -12532,7 +13052,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 639,
@@ -12555,7 +13076,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 640,
@@ -12578,7 +13100,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 641,
@@ -12601,7 +13124,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 642,
@@ -12624,7 +13148,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 643,
@@ -12647,7 +13172,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 644,
@@ -12670,7 +13196,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 645,
@@ -12693,7 +13220,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 648,
@@ -12716,7 +13244,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 649,
@@ -12739,7 +13268,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 650,
@@ -12762,7 +13292,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 651,
@@ -12785,7 +13316,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 652,
@@ -12808,7 +13340,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 653,
@@ -12831,7 +13364,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 654,
@@ -12854,7 +13388,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 655,
@@ -12877,7 +13412,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 656,
@@ -12888,9 +13424,9 @@
     "SubType": "CharacterTrait",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "",
+    "Modifiers": "-1 / 0",
     "CenterText": "",
-    "Text": "Wenn du Zauberkarten ziehst, ziehst du eine weitere Zauberkarte.\r\n(Auch bei \"Animalische Magie\")\r\n\r\nEmpathielos:\r\nDu kannst diese Karte von deiner Hand abwerfen, um 1 Ehre zu erhalten.",
+    "Text": "Handkarten+3\r\n(Auch bei \"Animalische Magie\")\r\n\r\nEmpathielos:\r\nDu kannst diese Karte von deiner Hand abwerfen, um 1 Ehre zu erhalten.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -12900,7 +13436,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 657,
@@ -12923,7 +13460,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 658,
@@ -12946,7 +13484,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 659,
@@ -12969,14 +13508,15 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 660,
     "Structure": "Normal",
     "ExtraDeck": false,
     "CardType": "Spell",
-    "Name": "Glaubensstark",
+    "Name": "Gottlos",
     "SubType": "CharacterTrait",
     "TwoHanded": false,
     "Condition": "Empty",
@@ -12992,7 +13532,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 661,
@@ -13015,7 +13556,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 662,
@@ -13038,7 +13580,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 663,
@@ -13061,7 +13604,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 664,
@@ -13072,7 +13616,7 @@
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+2 / +2\r\nKRIT+2\r\nGLAUBE-1",
+    "Modifiers": "+3\r\nKRIT+2\r\nGLAUBE-1\r\nHandkarten+1",
     "CenterText": "Kosten: 13",
     "Text": "Verkauf: 9 Ehre",
     "FlavorText": "",
@@ -13084,7 +13628,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 665,
@@ -13095,9 +13640,9 @@
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+13 / -2\r\nGLAUBE-3\r\nKRIT+1",
+    "Modifiers": "+15\r\nKRIT+1\r\nGLAUBE-4",
     "CenterText": "Kosten: 17",
-    "Text": "Verkauf: 13 Ehre",
+    "Text": "Du ziehst in einen Kampf mindestens immer 1 Fluch, unabhängid davon wie viel GLAUBE du hast.\r\n\r\nVerkauf: 13 Ehre",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -13107,7 +13652,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 666,
@@ -13118,7 +13664,7 @@
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+16 / +1\r\nGLAUBE-2",
+    "Modifiers": "+17\r\nGLAUBE-2",
     "CenterText": "Kosten: 33",
     "Text": "Erhalte \"Den Names des Verdammten ausprechen\" (Fähigkeit) solange diese Karte ausgerüstest ist und verliere sie, wenn du diese Karte verlierst.\r\n[Ziehe 3 Segen und 1 Fluch]\r\n\r\nVerkauf: 29 Ehre",
     "FlavorText": "",
@@ -13130,7 +13676,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 667,
@@ -13153,7 +13700,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 668,
@@ -13176,7 +13724,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 669,
@@ -13199,7 +13748,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 670,
@@ -13222,7 +13772,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 671,
@@ -13245,7 +13796,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 672,
@@ -13256,7 +13808,7 @@
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "0 / +1",
+    "Modifiers": "",
     "CenterText": "",
     "Text": "Ziehe am Anfang jeder Runde 2 Segen und fügen diese deiner Hand hinzu.\r\n\r\nDu kannst die Segen in Kämpfen wie Kampf-Zauber für eine beliebige Seite spielen. Die Flüche und Segen müssen dabei immer die Spieler und keine Monster betreffen.\r\n\r\nSollten dir Handkarten geklaut werden, können andere Spieler die Segen auf die gleiche Weise benutzen. Das gleiche gilt auch, wenn du deine Handkarten handelst.",
     "FlavorText": "",
@@ -13268,7 +13820,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 673,
@@ -13291,7 +13844,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 675,
@@ -13314,7 +13868,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 676,
@@ -13337,7 +13892,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 677,
@@ -13360,7 +13916,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 678,
@@ -13383,7 +13940,8 @@
     "Print1": 0,
     "Print2": 5,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 679,
@@ -13396,7 +13954,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Wenn du den Kampf verlierst und es nicht schaffst zu fliehen,  ziehe nach dem Kampf \"Ausgehungert\" (Extra Deck).",
+    "Text": "Wenn du den Kampf verlierst, ziehe nach dem Kampf \"Ausgehungert\" (Extra Deck).",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -13406,7 +13964,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 680,
@@ -13429,7 +13988,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 681,
@@ -13452,7 +14012,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 682,
@@ -13465,7 +14026,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Zerstöre nach dem Kampf 1 ausgerüstete Ausrüstungskarte oder Artefakt.\r\n\r\nDu kannst versuchen wie vor einen Monster zu fliehen um diesen Effekt zu entgehen (Karten sind spielbar).",
+    "Text": "Zerstöre nach dem Kampf 1 ausgerüstete Ausrüstungskarte oder Artefakt.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -13475,7 +14036,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 683,
@@ -13498,7 +14060,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 684,
@@ -13521,7 +14084,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 685,
@@ -13544,7 +14108,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 686,
@@ -13567,7 +14132,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 687,
@@ -13590,7 +14156,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 688,
@@ -13613,7 +14180,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 690,
@@ -13636,7 +14204,8 @@
     "Print1": 0,
     "Print2": 4,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 691,
@@ -13659,7 +14228,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 692,
@@ -13682,7 +14252,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 720,
@@ -13705,7 +14276,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 722,
@@ -13728,7 +14300,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 1,
+    "Border": "fire"
   },
   {
     "Id": 723,
@@ -13751,7 +14324,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 1,
+    "Border": "fire"
   },
   {
     "Id": 724,
@@ -13764,7 +14338,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Molotov:\r\nErhalte \"Feuerball\" (Fähigkeit) solange diese Karte ausgerüstest ist und verliere sie, wenn du diese Karte verlierst.\r\n[+1/0, für eine Seite]\r\n\r\nFüge \"Großer Feuerball\" (Fähigkeit) zu den Begleiter Stapel hinzu.\r\n[+3/0, für eine Seite]",
+    "Text": "Molotov:\r\nErhalte \"Feuerball\" (Fähigkeit) solange diese Karte ausgerüstest ist und verliere sie, wenn du diese Karte verlierst.\r\n[+1, für eine Seite]\r\n\r\nFüge \"Großer Feuerball\" (Fähigkeit) zu den Begleiter Stapel hinzu.\r\n[+3, für eine Seite]",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -13774,7 +14348,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 725,
@@ -13795,9 +14370,10 @@
     "LoseText": "",
     "Scrapped": "",
     "Print1": 0,
-    "Print2": 1,
+    "Print2": 0,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 726,
@@ -13820,7 +14396,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 727,
@@ -13843,7 +14420,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 728,
@@ -13866,7 +14444,8 @@
     "Print1": 0,
     "Print2": 0,
     "Print3": 0,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 729,
@@ -13887,9 +14466,10 @@
     "LoseText": "",
     "Scrapped": "",
     "Print1": 0,
-    "Print2": 1,
+    "Print2": 0,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 730,
@@ -13912,7 +14492,8 @@
     "Print1": 0,
     "Print2": 6,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 1,
+    "Border": "fire"
   },
   {
     "Id": 731,
@@ -13935,7 +14516,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 732,
@@ -13958,7 +14540,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 733,
@@ -13979,9 +14562,10 @@
     "LoseText": "",
     "Scrapped": "",
     "Print1": 0,
-    "Print2": 1,
+    "Print2": 0,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 734,
@@ -14004,7 +14588,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 735,
@@ -14027,7 +14612,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 736,
@@ -14050,7 +14636,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 737,
@@ -14073,7 +14660,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 738,
@@ -14086,7 +14674,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Kaltblüter:\r\nHat -5, wenn die Sonne bereits untergegangen ist.\r\n\r\nDrachenfeuer:\r\nDie Gigantische Bartagame hat +2, für jede Feuerkarte die am Kampf beteiligt ist.\r\n\r\n(Gefressende Begleiter werden vom Spiel entfernt)",
+    "Text": "Kaltblüter:\r\nHat -5, wenn die Sonne bereits untergegangen ist.\r\n\r\nDrachenfeuer:\r\nDie Gigantische Bartagame hat +2, für jede andere Feuerkarte die am Kampf beteiligt ist.\r\n\r\nDiese Karte ist eine \"Feuerkarte\".\r\n\r\n(Gefressende Begleiter werden vom Spiel entfernt)",
     "FlavorText": "",
     "Level": "13",
     "Race": "Animal",
@@ -14096,7 +14684,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 1,
+    "Border": "fire"
   },
   {
     "Id": 739,
@@ -14119,7 +14708,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 740,
@@ -14132,7 +14722,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Du kannst eine deiner Waffen abwerfen damit er ein Stöckchen zum Spielen hat.\r\nWenn du dies tust hat er -8.\r\n\r\nDrachenfeuer:\r\nDer Fledermaus Drache hat +2, für jede Feuerkarte die am Kampf beteiligt ist.\r\n\r\n(Gefressende Begleiter werden vom Spiel entfernt)",
+    "Text": "Du kannst eine deiner Waffen abwerfen damit er ein Stöckchen zum Spielen hat.\r\nWenn du dies tust hat er -8.\r\n\r\nDrachenfeuer:\r\nDer Fledermaus Drache hat +2, für jede andere Feuerkarte die am Kampf beteiligt ist.\r\n\r\nDiese Karte ist eine \"Feuerkarte\".\r\n\r\n(Gefressende Begleiter werden vom Spiel entfernt)",
     "FlavorText": "",
     "Level": "26",
     "Race": "Animal",
@@ -14142,7 +14732,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 1,
+    "Border": "fire"
   },
   {
     "Id": 741,
@@ -14155,7 +14746,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Horder:\r\nHat +5, wenn du 5 oder mehr Ehre besitzt.\r\n\r\nDrachenfeuer:\r\nDie Goldschuppe hat +2, für jede Feuerkarte die am Kampf beteiligt ist.\r\n\r\n(Gefressende Begleiter werden vom Spiel entfernt)",
+    "Text": "Horder:\r\nHat +5, wenn du 5 oder mehr Ehre besitzt.\r\n\r\nDrachenfeuer:\r\nDie Goldschuppe hat +2, für jede andere Feuerkarte die am Kampf beteiligt ist.\r\n\r\nDiese Karte ist eine \"Feuerkarte\".\r\n\r\n(Gefressende Begleiter werden vom Spiel entfernt)",
     "FlavorText": "",
     "Level": "24",
     "Race": "Animal",
@@ -14165,7 +14756,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 1,
+    "Border": "fire"
   },
   {
     "Id": 742,
@@ -14176,7 +14768,7 @@
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+12 / 0",
+    "Modifiers": "+12",
     "CenterText": "",
     "Text": "Diese Karte ist eine \"Feuerkarte\".",
     "FlavorText": "Deine Waffe ist definitive weg. Er hat sie zwar noch, aber jetzt ist sie nichts mehr als ein Kauknochen",
@@ -14188,7 +14780,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 1,
+    "Border": "fire"
   },
   {
     "Id": 743,
@@ -14201,7 +14794,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Sein Flug ist maximal ineffizent. Ganz egal ob du den Kampf gewinnst, verlierst oder es schaffst zu fliehen, der Kolibri Drache stirbt nach den Kampf an Erschöpfung.\r\nErhalte in allen fällen den Win des Monsters.\r\n\r\nDrachenfeuer:\r\nDer Kolibri Drache hat +2, für jede Feuerkarte die am Kampf beteiligt ist.\r\n\r\n(Gefressende Begleiter werden vom Spiel entfernt)",
+    "Text": "Sein Flug ist maximal ineffizent. Ganz egal ob du den Kampf gewinnst oder verlierst, der Kolibri Drache stirbt nach den Kampf an Erschöpfung.\r\nErhalte in allen fällen den Win des Monsters.\r\n\r\nDrachenfeuer:\r\nDer Kolibri Drache hat +2, für jede andere Feuerkarte die am Kampf beteiligt ist.\r\n\r\nDiese Karte ist eine \"Feuerkarte\".\r\n\r\n(Gefressende Begleiter werden vom Spiel entfernt)",
     "FlavorText": "",
     "Level": "37",
     "Race": "Animal",
@@ -14211,7 +14804,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 1,
+    "Border": "fire"
   },
   {
     "Id": 744,
@@ -14224,7 +14818,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Du hast 0/-1.\r\n\r\nDrachenfeuer:\r\nDer fliegende Tod hat +2, für jede Feuerkarte die am Kampf beteiligt ist.",
+    "Text": "Drachenfeuer:\r\nDer fliegende Tod hat +2, für jede andere Feuerkarte die am Kampf beteiligt ist.\r\n\r\nDiese Karte ist eine \"Feuerkarte\".",
     "FlavorText": "",
     "Level": "41",
     "Race": "Animal",
@@ -14234,7 +14828,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 1,
+    "Border": "fire"
   },
   {
     "Id": 746,
@@ -14257,7 +14852,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 747,
@@ -14280,7 +14876,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 748,
@@ -14303,7 +14900,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 749,
@@ -14314,7 +14912,7 @@
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+1 / 0",
+    "Modifiers": "+1",
     "CenterText": "",
     "Text": "Du kannst einen weiteren Begleiter haben.\r\nEffekt die deinen Begleiter betreffen würden, betreffen stattdessen nur einen deiner Begleiter deiner Wahl.\r\n\r\nErfolg:\r\nSolltest du \"Federschmuck\" vom Pissbaum erhalten, dann verliere \"Federschmuck\" und \"Obein\".\r\n\r\nScheitern:\r\nSollte ein anderer Spieler \"Federschmuck\" vom Pissbaum erhalten, dann ziehe \"Pfeil im Knie\" (Extra Deck) und verliere \"Obein\".",
     "FlavorText": "",
@@ -14326,7 +14924,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 750,
@@ -14349,7 +14948,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 751,
@@ -14372,7 +14972,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 752,
@@ -14395,7 +14996,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 753,
@@ -14418,7 +15020,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 754,
@@ -14441,7 +15044,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 755,
@@ -14464,7 +15068,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 756,
@@ -14487,7 +15092,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 757,
@@ -14510,7 +15116,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 758,
@@ -14533,7 +15140,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 759,
@@ -14556,7 +15164,8 @@
     "Print1": 0,
     "Print2": 6,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 760,
@@ -14579,20 +15188,21 @@
     "Print1": 0,
     "Print2": 6,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 761,
     "Structure": "Normal",
     "ExtraDeck": false,
     "CardType": "Companion",
-    "Name": "Minh der Wortgewandte",
+    "Name": "Minh der Duellant",
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+4 / +1",
+    "Modifiers": "+2\r\nHandkarten+2",
     "CenterText": "Kosten: 11",
-    "Text": "Erhalte \"Wortgewand\" (Fähigkeit) solange diese Karte ausgerüstest ist und verliere sie, wenn du diese Karte verlierst.\r\n[1 Ehre, bei Flucht in Duellen]\r\n\r\nVerkauf: 7 Ehre",
+    "Text": "Erhalte 1 Ehre, wenn du ein Duell verursachst.\r\n\r\nVerkauf: 7 Ehre",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -14602,7 +15212,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 762,
@@ -14613,9 +15224,9 @@
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+1 / +2",
+    "Modifiers": "",
     "CenterText": "Kosten: 8",
-    "Text": "Wenn du erfolgreich aus einen Kampf fliehen kannst lege 1 Zählmarke auf diese Karte.\r\nDiese Karte gibt weitere +2/-1 für jede Zählmarke auf ihr.\r\n(Maximal 4)\r\n\r\nVerkauf: 4 Ehre",
+    "Text": "Am Anfang jeder Runde, lege ein Zählmarke auf diese Karte.\r\n\r\nDu kannst eine weitere Handkarte (Handkarten+1) für jede Zählmarke auf dieser Karte halten.\r\n(Maximal 7 Zählmarken)\r\n\r\nVerkauf: 4 Ehre",
     "FlavorText": "Man lernt nur aus fehlern",
     "Level": "",
     "Race": "Empty",
@@ -14625,20 +15236,21 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 763,
     "Structure": "Normal",
     "ExtraDeck": false,
     "CardType": "Companion",
-    "Name": "Jay der Meisterdieb",
+    "Name": "Jay der Erzmagier",
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+9 / 0",
+    "Modifiers": "Handkarten+10",
     "CenterText": "Kosten: 24",
-    "Text": "Der perfekte Diebstahl:\r\nWenn du erfolgreich aus einem Kampf fliehst und du eine 11,12 oder 13 in deinem Fluchtwurf geworfen hast, erhälst du den Wins des Monsters.\r\n\r\nVerkauf: 20 Ehre",
+    "Text": "Ziehe am Anfang jede Runde 2 Zauberkarten.\r\n\r\nVerkauf: 20 Ehre",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -14648,7 +15260,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 764,
@@ -14671,7 +15284,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 765,
@@ -14694,7 +15308,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 766,
@@ -14717,7 +15332,8 @@
     "Print1": 0,
     "Print2": 0,
     "Print3": 0,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 767,
@@ -14740,7 +15356,8 @@
     "Print1": 0,
     "Print2": 0,
     "Print3": 0,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 768,
@@ -14763,7 +15380,8 @@
     "Print1": 0,
     "Print2": 0,
     "Print3": 0,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 769,
@@ -14786,7 +15404,8 @@
     "Print1": 0,
     "Print2": 0,
     "Print3": 0,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 770,
@@ -14809,7 +15428,8 @@
     "Print1": 0,
     "Print2": 0,
     "Print3": 0,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 771,
@@ -14832,7 +15452,8 @@
     "Print1": 0,
     "Print2": 0,
     "Print3": 0,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 772,
@@ -14855,7 +15476,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 773,
@@ -14878,7 +15500,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 774,
@@ -14901,7 +15524,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 775,
@@ -14924,7 +15548,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 776,
@@ -14947,7 +15572,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 777,
@@ -14970,7 +15596,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 778,
@@ -14993,7 +15620,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 779,
@@ -15004,7 +15632,7 @@
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+2 / 0",
+    "Modifiers": "+2",
     "CenterText": "",
     "Text": "Diese Karte zählt für alle anderen Karteneffekte als Ausrüstungsgegenstand (Waffe - Einhändig - Gewöhnlich)\r\n\r\nDie Karte kann ebenfalls wie eine einhändige Waffe mit Schrott verbessert werden.",
     "FlavorText": "Knüppel in den Sack!",
@@ -15016,7 +15644,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 780,
@@ -15039,7 +15668,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 781,
@@ -15062,7 +15692,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 782,
@@ -15085,7 +15716,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 783,
@@ -15108,7 +15740,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 784,
@@ -15131,7 +15764,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 786,
@@ -15154,7 +15788,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 787,
@@ -15177,7 +15812,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 788,
@@ -15200,7 +15836,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 789,
@@ -15223,7 +15860,8 @@
     "Print1": 0,
     "Print2": 6,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 790,
@@ -15246,7 +15884,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 791,
@@ -15269,7 +15908,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 792,
@@ -15292,7 +15932,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 793,
@@ -15315,7 +15956,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 794,
@@ -15338,7 +15980,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 795,
@@ -15361,7 +16004,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 796,
@@ -15384,7 +16028,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 797,
@@ -15407,7 +16052,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 798,
@@ -15430,7 +16076,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 799,
@@ -15453,7 +16100,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 800,
@@ -15476,7 +16124,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 801,
@@ -15499,7 +16148,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 802,
@@ -15522,7 +16172,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 803,
@@ -15545,7 +16196,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 804,
@@ -15568,7 +16220,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 805,
@@ -15591,7 +16244,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 806,
@@ -15614,7 +16268,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 808,
@@ -15637,7 +16292,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 809,
@@ -15660,7 +16316,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 810,
@@ -15683,7 +16340,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 811,
@@ -15706,7 +16364,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 812,
@@ -15729,7 +16388,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 813,
@@ -15752,7 +16412,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 814,
@@ -15775,7 +16436,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 815,
@@ -15798,7 +16460,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 816,
@@ -15821,7 +16484,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 817,
@@ -15844,7 +16508,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 818,
@@ -15867,7 +16532,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 819,
@@ -15890,7 +16556,8 @@
     "Print1": 0,
     "Print2": 2,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 821,
@@ -15913,7 +16580,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 822,
@@ -15936,30 +16604,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
-  },
-  {
-    "Id": 823,
-    "Structure": "Normal",
-    "ExtraDeck": true,
-    "CardType": "Spellblade",
-    "Name": "Wortgewand",
-    "SubType": "Spellblade",
-    "TwoHanded": false,
-    "Condition": "Empty",
-    "Modifiers": "",
-    "CenterText": "",
-    "Text": "Nur in Duellen spielbar:\r\nErhalte 1 weitere \"Ehre\", wenn du das Duell verlierst und erfolgreich aus einem Duell fliehst.",
-    "FlavorText": "",
-    "Level": "",
-    "Race": "Empty",
-    "WinText": "",
-    "LoseText": "",
-    "Scrapped": "",
-    "Print1": 0,
-    "Print2": 1,
-    "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 824,
@@ -15982,7 +16628,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 825,
@@ -16005,7 +16652,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 826,
@@ -16028,7 +16676,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 827,
@@ -16051,7 +16700,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 828,
@@ -16074,7 +16724,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 829,
@@ -16097,7 +16748,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 830,
@@ -16120,7 +16772,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 831,
@@ -16133,7 +16786,7 @@
     "Condition": "Empty",
     "Modifiers": "≤14",
     "CenterText": "",
-    "Text": "Erleichterungen:\r\n1 pro positive Flucht\r\n2, als Rangletzter\r\n\r\nDu triffst einen Mönch ohne Arme am Wegesrand. Er blickt dir richtend in deine Augen und beurteilt deine Gewandheit.\r\nErfolg:\r\nDas Glück in beiden Händen halten.\r\nWähle in der nächsten Tavernenrunde eine zusätzliche göttliche Gunst aus deinem Ablagestapel aus. (Beide sind aktiv).\r\nMisserfolg:\r\nEr verurteilt dich.\r\nEr packt dich mit Geisterhänden und reißt dir einen Arm aus. Ziehe \"Armlos\" (Extra Deck).",
+    "Text": "Erleichterungen:\r\n2, als Rangletzter\r\n\r\nDu triffst einen Mönch ohne Arme am Wegesrand. Er blickt dir richtend in deine Augen und beurteilt deine Gewandheit.\r\nErfolg:\r\nEr zeigt dir auf loszulassen.\r\nDu kannst eine Ausrüstungskarte deiner Wahl abwerfen um zwei der gleichen Wertigkeit nachzuziehen.\r\nMisserfolg:\r\nEr verurteilt dich.\r\nEr packt dich mit Geisterhänden und reißt dir einen Arm aus. Ziehe \"Armlos\" (Extra Deck).",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -16143,7 +16796,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 832,
@@ -16166,7 +16820,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 833,
@@ -16189,7 +16844,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 834,
@@ -16212,7 +16868,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 835,
@@ -16235,7 +16892,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 836,
@@ -16248,7 +16906,7 @@
     "Condition": "Empty",
     "Modifiers": "≤6",
     "CenterText": "",
-    "Text": "Erleichterungen:\r\n1, pro positiver Flucht\r\n2, wenn du keine Schuhe trägst und barfuß umherwanderst\r\n\r\nDu gehst auf Wanderschaft, um nach Inspiration zu suchen.\r\nErfolg:\r\nErhalte 2xD4 als Zusatzwürfel.\r\nEinmal pro Runde kannst du einen Zusatzwürfel zu einem beliebigen Würfelwurf hinzufügen (vor dem Auswürfeln).\r\nLege die Zusatzwürfel zu deinem Spielmaterial. Du kannst sie handeln.\r\nMisserfolg:\r\nNichts passiert.",
+    "Text": "Erleichterungen:\r\n2, wenn du keine Schuhe trägst und barfuß umherwanderst\r\n\r\nDu gehst auf Wanderschaft, um nach Inspiration zu suchen.\r\nErfolg:\r\nErhalte 2xD4 als Zusatzwürfel.\r\nEinmal pro Runde kannst du einen Zusatzwürfel zu einem beliebigen Würfelwurf hinzufügen (vor dem Auswürfeln).\r\nLege die Zusatzwürfel zu deinem Spielmaterial. Du kannst sie handeln.\r\nMisserfolg:\r\nNichts passiert.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -16258,7 +16916,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 837,
@@ -16281,7 +16940,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 838,
@@ -16304,7 +16964,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 839,
@@ -16317,7 +16978,7 @@
     "Condition": "Empty",
     "Modifiers": "≤11",
     "CenterText": "",
-    "Text": "Erleichterungen:\r\n9, am 31.12\r\n2, für Soldaten\r\n\r\nRaketen fliegen und die Straßen sind in dichten Rauch gehüllt. Es ist wieder mal die Zeit in Jahr, wo jeder darum wetteifert wer den besten Sprengstoff bauen kann. \r\nErfolg:\r\nDu siehst einen alten, rußbedeckten Mann, der mit seiner Krücke über die Straßen wandert und kleine Bomben an Kinder verteilt. Als er an dir vorbeiläuft, lächelt er dich an und schenkt dir welche. Erhalte 3 \"Bömbchen\" (Extra Deck).\r\nMisserfolg:\r\nEtwas explodiert neben deinem Ohr. Das Knalltrauma lässt dich orientierungslos zurück. Du hast -5/0 bis du das näcshte Mal eine Aktionskarte ziehst.\r\n(Lege diese Karte vor dir aus, um dir diesen Effekt zu merken.)",
+    "Text": "Erleichterungen:\r\n9, am 31.12\r\n2, für Soldaten\r\n\r\nRaketen fliegen und die Straßen sind in dichten Rauch gehüllt. Es ist wieder mal die Zeit in Jahr, wo jeder darum wetteifert wer den besten Sprengstoff bauen kann. \r\nErfolg:\r\nDu siehst einen alten, rußbedeckten Mann, der mit seiner Krücke über die Straßen wandert und kleine Bomben an Kinder verteilt. Als er an dir vorbeiläuft, lächelt er dich an und schenkt dir welche. Erhalte 3 \"Bömbchen\" (Extra Deck).\r\nMisserfolg:\r\nEtwas explodiert neben deinem Ohr. Das Knalltrauma lässt dich orientierungslos zurück. Du hast -5 bis du das näcshte Mal eine Aktionskarte ziehst.\r\n(Lege diese Karte vor dir aus, um dir diesen Effekt zu merken.)",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -16327,7 +16988,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 840,
@@ -16350,7 +17012,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 841,
@@ -16373,7 +17036,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 842,
@@ -16386,7 +17050,7 @@
     "Condition": "Empty",
     "Modifiers": "≤9",
     "CenterText": "",
-    "Text": "Erleichterungen:\r\n1, pro KRIT\r\n1 pro positive Flucht\r\n\r\nDu wanderst den Weg der Diebe und lässt das Glück über dich entscheiden.\r\nErfolg:\r\nEine Fremder steht auf einmal neben dir und lächelt dich an. Dann reicht er dir deine Wertsachen, die er dir kurz zuvor geklaut hat. Er beklagt sich darüber, dass es keine wahren Herausforderungen mehr gibt. Du siehst eine Möglichkeit Profit aus dieser zufälligen Begegnung zu schlagen. Du beauftragst den Räuber einem Spieler deiner Wahl ein Artefakt zu klauen und es dir zu bringen.\r\nMisserfolg:\r\nWas hast du erwaret? Natürlich hast du kein Glück, die erstbesten Diebe fließen aus den Schatten, treten dir zwischen die Beine und beklauen dich.\r\nVerliere alle Handkarten und zwei Ehre.",
+    "Text": "Erleichterungen:\r\n1, pro KRIT\r\n\r\nDu wanderst den Weg der Diebe und lässt das Glück über dich entscheiden.\r\nErfolg:\r\nEine Fremder steht auf einmal neben dir und lächelt dich an. Dann reicht er dir deine Wertsachen, die er dir kurz zuvor geklaut hat. Er beklagt sich darüber, dass es keine wahren Herausforderungen mehr gibt. Du siehst eine Möglichkeit Profit aus dieser zufälligen Begegnung zu schlagen. Du beauftragst den Räuber einem Spieler deiner Wahl ein Artefakt zu klauen und es dir zu bringen.\r\nMisserfolg:\r\nWas hast du erwaret? Natürlich hast du kein Glück, die erstbesten Diebe fließen aus den Schatten, treten dir zwischen die Beine und beklauen dich.\r\nVerliere alle Handkarten und zwei Ehre.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -16396,7 +17060,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 843,
@@ -16409,7 +17074,7 @@
     "Condition": "Empty",
     "Modifiers": "≤8",
     "CenterText": "",
-    "Text": "Erleichterungen:\r\n2, wenn du kein Artefakt hast\r\n5, wenn du keinen Belgeiter hast\r\n\r\nAls du nach einem Überhang suchst, um dein Nachtlager aufzuschalgen, bemerkst du, dass sich im Felsvorsprung ein Eingang zu einer Höhle befindet. Als du die Höhle betrittst, bemerkst du, das es sich um einen Drachenhort handelt. Du findest aber kein Monster vor, sondern nur sein Skelett, das die Schätze umschlingt. Der Drache scheint schon seit Jahrhunderten tot zu sein. Der Weg scheint frei, dir die Schätze zu krallen.\r\nErfolg:\r\nErhalte 8 Ehre.\r\nMisserfolg:\r\nDer Berg von Gold bricht wie eine Lawine über dich hinnein. Du kannst dich mit zertrümmerten Rücken befreien.\r\nDu hast 0 / -3. \r\n(Lege diese Karte vor dir aus, um dir diesen Effekt zu merken.)\r\nLege diese Karte ab, wenn du gegen ein Monster kämpfst und es nicht schaffst erfolgreich zu fliehen.",
+    "Text": "Erleichterungen:\r\n2, wenn du kein Artefakt hast\r\n5, wenn du keinen Belgeiter hast\r\n\r\nAls du nach einem Überhang suchst, um dein Nachtlager aufzuschalgen, bemerkst du, dass sich im Felsvorsprung ein Eingang zu einer Höhle befindet. Als du die Höhle betrittst, bemerkst du, das es sich um einen Drachenhort handelt. Du findest aber kein Monster vor, sondern nur sein Skelett, das die Schätze umschlingt. Der Drache scheint schon seit Jahrhunderten tot zu sein. Der Weg scheint frei, dir die Schätze zu krallen.\r\nErfolg:\r\nErhalte 8 Ehre.\r\nMisserfolg:\r\nDer Berg von Gold bricht wie eine Lawine über dich hinnein. Du kannst dich mit zertrümmerter Rüstung befreien.\r\nVerliere deine Rüstung.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -16419,7 +17084,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 844,
@@ -16442,7 +17108,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 845,
@@ -16465,7 +17132,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 846,
@@ -16478,7 +17146,7 @@
     "Condition": "Empty",
     "Modifiers": "≤13",
     "CenterText": "",
-    "Text": "Erleichterungen:\r\n4, als rangletzter Spieler\r\n2, als Bodybuilder\r\n\r\nEs ging alles so schnell, ein Bier wurde verschüttet, Streit begann, Fäuste flogen und auf einmal war die ganze Taverne in Aufruhr. Du lässt dir die Chance nicht entgehen, schappst dir den erstbesten Stuhl und ziehst in die Schlacht.\r\nErfolg:\r\nAls die Schlacht sich legt, bist du einer der noch Stehenden. Ihr beklaut die Gefallenen und schwört euch zu unterstützten, falls es mal wieder zu einer solchen Situtation kommen sollte. Sieger müssen zusammenhalten. \r\nIn der nächsten Tavernenrunde hast +6/0.\r\n(Lege diese Karte vor dir aus, um dir diesen Effekt zu merken.)\r\nMisserfolg:\r\nAls die Schlacht sich legt, bist du einer der Gefallenen. Noch ohmächtig wirst du beklaut.\r\nZuerst zieht der Spieler links und danach der Spieler rechts von dir eine deiner Handkarten.",
+    "Text": "Erleichterungen:\r\n4, als rangletzter Spieler\r\n2, als Bodybuilder\r\n\r\nEs ging alles so schnell, ein Bier wurde verschüttet, Streit begann, Fäuste flogen und auf einmal war die ganze Taverne in Aufruhr. Du lässt dir die Chance nicht entgehen, schappst dir den erstbesten Stuhl und ziehst in die Schlacht.\r\nErfolg:\r\nAls die Schlacht sich legt, bist du einer der noch Stehenden. Ihr beklaut die Gefallenen und schwört euch zu unterstützten, falls es mal wieder zu einer solchen Situtation kommen sollte. Sieger müssen zusammenhalten. \r\nIn der nächsten Tavernenrunde hast +6.\r\n(Lege diese Karte vor dir aus, um dir diesen Effekt zu merken.)\r\nMisserfolg:\r\nAls die Schlacht sich legt, bist du einer der Gefallenen. Noch ohmächtig wirst du beklaut.\r\nZuerst zieht der Spieler links und danach der Spieler rechts von dir eine deiner Handkarten.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -16488,7 +17156,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 847,
@@ -16511,7 +17180,8 @@
     "Print1": 0,
     "Print2": 3,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 848,
@@ -16522,9 +17192,9 @@
     "SubType": "Companion",
     "TwoHanded": false,
     "Condition": "Empty",
-    "Modifiers": "+2 / 0",
+    "Modifiers": "+2",
     "CenterText": "",
-    "Text": "Du kannst einen weiteren Begleiter haben. Tabea verdrängt deinen anderen Begleiter nicht.\r\nEffekte, die auf deinen Begleiter einwirken, betreffen den Begleiter deiner Wahl.\r\n\r\nWenn diese Karte zum ersten Mal ausgerüstet wird, erhält sie 5 Zählmarken.\r\nTabea hat -1/0 für jede Zählmarke. Sie ist stark ausgehungert und muss erst wieder zu Kräften finden.\r\n\r\nEntferne am Anfang jeder Runde eine Zählmarke von dieser Karte.",
+    "Text": "Du kannst einen weiteren Begleiter haben. Tabea verdrängt deinen anderen Begleiter nicht.\r\nEffekte, die auf deinen Begleiter einwirken, betreffen den Begleiter deiner Wahl.\r\n\r\nWenn diese Karte zum ersten Mal ausgerüstet wird, erhält sie 5 Zählmarken.\r\nTabea hat -1 für jede Zählmarke. Sie ist stark ausgehungert und muss erst wieder zu Kräften finden.\r\n\r\nEntferne am Anfang jeder Runde eine Zählmarke von dieser Karte.",
     "FlavorText": "Wem der Hunger begegnet, wird sich nehmen was er kriegt.",
     "Level": "",
     "Race": "Empty",
@@ -16534,7 +17204,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 849,
@@ -16547,7 +17218,7 @@
     "Condition": "Empty",
     "Modifiers": "≤10",
     "CenterText": "",
-    "Text": "Erleichterungen:\r\n1 pro positive Flucht\r\n2, wenn du eine Ehren-Gunst ausliegen hast\r\n\r\nDu triffst auf eine umherziehende Fangemeinde. Sie teilen dir mit, dass sie auf dem Weg zum Grand Tournament sind. Du zeigst ihnen einige deiner Kampfkünste, um sie zu beeindrucken.\r\nErfolg:\r\nDu jonglierst mit deinen Waffen wie ein Akrobat. Sie versprechen, dich im Turnier anzufeuern. Erhalte \"Fangemeinde\" (Extra Deck).\r\nMisserfolg:\r\nDu stellst dich erbärmlich an. Steine fliegen vor Wut und treffen dich am Kopf. Dein Helm schützt dich, geht dabei aber verloren.\r\nVerliere deinen Helm und lege ihn zum Pissbaum.",
+    "Text": "Erleichterungen:\r\n\r\nDu triffst auf eine umherziehende Fangemeinde. Sie teilen dir mit, dass sie auf dem Weg zum Grand Tournament sind. Du zeigst ihnen einige deiner Kampfkünste, um sie zu beeindrucken.\r\nErfolg:\r\nDu jonglierst mit deinen Waffen wie ein Akrobat. Sie versprechen, dich im Turnier anzufeuern. Erhalte \"Fangemeinde\" (Extra Deck).\r\nMisserfolg:\r\nDu stellst dich erbärmlich an. Steine fliegen vor Wut und treffen dich am Kopf. Dein Helm schützt dich, geht dabei aber verloren.\r\nVerliere deinen Helm und lege ihn zum Pissbaum.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -16557,7 +17228,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 850,
@@ -16570,7 +17242,7 @@
     "Condition": "Empty",
     "Modifiers": "≤11",
     "CenterText": "",
-    "Text": "Erleichterungen:\r\n1 pro 10 Kampfstärke\r\n2, wenn du eine Ehren-Gunst ausliegen hast\r\n\r\nDu triffst auf einen freundlichen Ticketverkäufer. Er ist gerade dabei, Tickets an eine Vielzahl von Leuten zu verkaufen, die mittlerweile alle das Grand Tournament sehen wollen. Als sie erfahren, dass du daran teilnehmen willst, verlangen sie einen Showkampf. Ein zwei Meter großer Bauer tritt vor, um dich mit seiner Mistgabel herauszufordern.\r\nErfolg:\r\nDu stampfst den Bauern in den Boden und lässt ihn Dreck fressen. Die Leute versprechen, dich im Turnier anzufeuern. Erhalte \"Fangemeinde\" (Extra Deck).\r\nMisserfolg:\r\nEr wischt mit dir den Boden. Das gemeine Volk klaut dir deine Rüstung, denn du zeigst dich als unwürdig, sie zu tragen. Verliere deine Rüstung und lege sie zum Pissbaum",
+    "Text": "Erleichterungen:\r\n1 pro 10 Kampfstärke\r\n\r\nDu triffst auf einen freundlichen Ticketverkäufer. Er ist gerade dabei, Tickets an eine Vielzahl von Leuten zu verkaufen, die mittlerweile alle das Grand Tournament sehen wollen. Als sie erfahren, dass du daran teilnehmen willst, verlangen sie einen Showkampf. Ein zwei Meter großer Bauer tritt vor, um dich mit seiner Mistgabel herauszufordern.\r\nErfolg:\r\nDu stampfst den Bauern in den Boden und lässt ihn Dreck fressen. Die Leute versprechen, dich im Turnier anzufeuern. Erhalte \"Fangemeinde\" (Extra Deck).\r\nMisserfolg:\r\nEr wischt mit dir den Boden. Das gemeine Volk klaut dir deine Rüstung, denn du zeigst dich als unwürdig, sie zu tragen. Verliere deine Rüstung und lege sie zum Pissbaum",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -16580,7 +17252,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 851,
@@ -16593,7 +17266,7 @@
     "Condition": "Empty",
     "Modifiers": "≤12",
     "CenterText": "",
-    "Text": "Erleichterungen:\r\n1 pro positive Flucht\r\n2, wenn du eine Ehren-Gunst ausliegen hast\r\n\r\nDu hast es endlich geschafft. Vor dir liegt die Arena, die bis zu den Wolken reicht und in der das Turnier der Turniere stattfinden wird. Auch wenn es noch nicht so weit ist, meldest du dich zu einem Vorkampf an, um deine Kräfte zu testen. Ziehe \"The Grand Tournament\" (Extra Deck) und lege es offen aus.\r\nErfolg:\r\nEs handelt sich um eine Vielzahl sportlicher Wettkämpfe. Du kannst bei den Meisten glänzen und dadurch das Publikum beeindrucken. Sie versprechen, dich im Turnier anzufeuern. Erhalte \"Fangemeinde\" (Extra Deck).\r\nMisserfolg:\r\nBei dem Wettkampf handelt es sich um einen Staffellauf, mit der Besonderheit, dass ihr eure Waffen als Staffelstab benutzt. Als du deinem Teamkameraden deine Waffe übergibst, rennt er damit davon und lässt dich außer Atem zurück.\r\nVerliere eine deiner Waffen und lege sie zum Pissbaum.",
+    "Text": "Erleichterungen:\r\n\r\nDu hast es endlich geschafft. Vor dir liegt die Arena, die bis zu den Wolken reicht und in der das Turnier der Turniere stattfinden wird. Auch wenn es noch nicht so weit ist, meldest du dich zu einem Vorkampf an, um deine Kräfte zu testen. Ziehe \"The Grand Tournament\" (Extra Deck) und lege es offen aus.\r\nErfolg:\r\nEs handelt sich um eine Vielzahl sportlicher Wettkämpfe. Du kannst bei den Meisten glänzen und dadurch das Publikum beeindrucken. Sie versprechen, dich im Turnier anzufeuern. Erhalte \"Fangemeinde\" (Extra Deck).\r\nMisserfolg:\r\nBei dem Wettkampf handelt es sich um einen Staffellauf, mit der Besonderheit, dass ihr eure Waffen als Staffelstab benutzt. Als du deinem Teamkameraden deine Waffe übergibst, rennt er damit davon und lässt dich außer Atem zurück.\r\nVerliere eine deiner Waffen und lege sie zum Pissbaum.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -16603,7 +17276,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 854,
@@ -16626,7 +17300,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 855,
@@ -16649,7 +17324,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 856,
@@ -16672,7 +17348,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 857,
@@ -16695,7 +17372,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 858,
@@ -16718,7 +17396,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 859,
@@ -16731,7 +17410,7 @@
     "Condition": "Empty",
     "Modifiers": "≤13",
     "CenterText": "",
-    "Text": "Erleichterungen:\r\n2, pro positiver Flucht\r\n\r\nDu findest dich in einem der schönsten Wälder, den deine Augen je erblickt haben, wieder. Der Wald der Gefallenen, in ewigen Herbst gehüllt. Du erblickst einen Kirschbaum, der dir jedoch Unbehagen bereitet. Es handelt sich um die leckersten aller Kirschen, welche von Trollen genauso sehr geliebt werden wie von Menschen. Deiner Lust nachgebend, pflückst du dir eine einzelne Kirsche.\r\nErfolg:\r\nErhalte die eine \"Kirsche\" (Extra Deck)\r\nMisserfolg:\r\nMit lauten Schritten nähert sich die Bestie. Als du sie erblickst, ist es bereits zu spät. Mit der Absicht, dich für deine Gier zu bestrafen, reißt der Troll dir einen Arm aus. Ziehe \"Armlos\" und \"Kirsche\" (Extra Deck).",
+    "Text": "Erleichterungen:\r\n\r\nDu findest dich in einem der schönsten Wälder, den deine Augen je erblickt haben, wieder. Der Wald der Gefallenen, in ewigen Herbst gehüllt. Du erblickst einen Kirschbaum, der dir jedoch Unbehagen bereitet. Es handelt sich um die leckersten aller Kirschen, welche von Trollen genauso sehr geliebt werden wie von Menschen. Deiner Lust nachgebend, pflückst du dir eine einzelne Kirsche.\r\nErfolg:\r\nErhalte die eine \"Kirsche\" (Extra Deck)\r\nMisserfolg:\r\nMit lauten Schritten nähert sich die Bestie. Als du sie erblickst, ist es bereits zu spät. Mit der Absicht, dich für deine Gier zu bestrafen, reißt der Troll dir einen Arm aus. Ziehe \"Armlos\" und \"Kirsche\" (Extra Deck).",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -16741,7 +17420,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 860,
@@ -16764,7 +17444,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 861,
@@ -16787,7 +17468,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 862,
@@ -16810,7 +17492,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 863,
@@ -16833,7 +17516,8 @@
     "Print1": 0,
     "Print2": 15,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 864,
@@ -16846,7 +17530,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Wenn du gegen ein Tier kämpfst, bereche den Kampf ab und lege das Tier zu dieser Klassenkarte.\r\nWenn ein Tier gegen ein anderen Spieler einen Kampf \"verliert\", lege es nach den Kampf ebenfalls zu dieser Klassenkarte.\r\n\r\nTiertotem - du hast:\r\n+1 / 0: Bei 1-2 Tieren\r\n+2 / 0: Bei 3-5 Tieren\r\n+3 / 0: Bei 6 oder mehr Tieren",
+    "Text": "Wenn du gegen ein Tier kämpfst, bereche den Kampf ab und lege das Tier zu dieser Klassenkarte.\r\nWenn ein Tier gegen ein anderen Spieler einen Kampf \"verliert\", lege es nach den Kampf ebenfalls zu dieser Klassenkarte.\r\n\r\nTiertotem - du hast:\r\n+1: Bei 1-2 Tieren\r\n+2: Bei 3-5 Tieren\r\n+3: Bei 6 oder mehr Tieren",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -16856,7 +17540,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 865,
@@ -16879,7 +17564,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 866,
@@ -16902,7 +17588,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 867,
@@ -16915,7 +17602,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Ziehe am ende jeder Runde 2 Segen, wähle 1.\r\nZiehe am ende jeder Runde 2 Flüche, wähle 1.\r\n\r\nDu kannst Segen und Flüche in kämpfen VERDECKT für einen Spieler spielen. Die Flüche und Segen müssen dabei immer die Spieler und keine Monster betreffen.\r\nDein Handkartenlimit ist 6.\r\nDu kannst nicht handeln.",
+    "Text": "Ziehe am ende jeder Runde 2 Segen, wähle 1.\r\nZiehe am ende jeder Runde 2 Flüche, wähle 1.\r\n\r\nDu kannst Segen und Flüche in kämpfen VERDECKT für einen Spieler spielen. Die Flüche und Segen müssen dabei immer die Spieler und keine Monster betreffen.\r\nDu kannst 6 Handkarten halten.\r\nDu kannst nicht handeln.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -16925,7 +17612,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 868,
@@ -16948,7 +17636,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 869,
@@ -16971,7 +17660,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 870,
@@ -16984,7 +17674,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Du wirst stärker und fordest deinen rechtmäßigen Platz.\r\nTöte den Begleiter des heimgesuchten Spielers. Er verliert alle sein Ehre und kann keine mehr erhalten. Lege für jede 10 Ehre die er durch diesen Effekt verliert 1 Zählmarke auf \"Vorahnung\".\r\n\r\nEntfesselt:\r\nZiehe durch die Karte \"Fluch und Segen\" 1 weiteren Fluch und Segen (Du wirfst weiterhin nur 1 Segen und Fluch ab).\r\nDein Handkartenlimit ist um 2 Handkarten erhöht.\r\n\r\nDer Effekt von \"Entfesselt\" wird in jeder weitere Tavernenrunde nochmals ausgeführt (Der Effekt stacked). ",
+    "Text": "Du wirst stärker und fordest deinen rechtmäßigen Platz.\r\nTöte den Begleiter des heimgesuchten Spielers. Er verliert alle sein Ehre und kann keine mehr erhalten. Lege für jede 10 Ehre die er durch diesen Effekt verliert 1 Zählmarke auf \"Vorahnung\".\r\n\r\nEntfesselt:\r\nZiehe durch die Karte \"Fluch und Segen\" 1 weiteren Fluch und Segen (Du wirfst weiterhin nur 1 Segen und Fluch ab).\r\nHandkarten+2\r\n\r\nDer Effekt von \"Entfesselt\" wird in jeder weitere Tavernenrunde nochmals ausgeführt (Der Effekt stacked). ",
     "FlavorText": "Je später der Abend des so berohlicher wirken die Geister",
     "Level": "",
     "Race": "Empty",
@@ -16994,7 +17684,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 871,
@@ -17007,7 +17698,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Sterblich und unbedeutend.\r\nZumindest bis jetzt.\r\n\r\nOhne deine Ausrüstung und einen Krit Wert ist deine Kampfstärke zu beginn des Spiels ein einzelner D6.\r\n\r\nDazu kannst du 4 Handkarten halten.",
+    "Text": "Sterblich und unbedeutend.\r\nZumindest bis jetzt.\r\n\r\nOhne deine Ausrüstung und einen Krit Wert ist deine Kampfstärke zu beginn des Spiels ein einzelner D6.\r\n\r\nDazu kannst du 5 Handkarten halten.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -17017,7 +17708,8 @@
     "Print1": 0,
     "Print2": 6,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 872,
@@ -17030,7 +17722,7 @@
     "Condition": "Empty",
     "Modifiers": "≤14",
     "CenterText": "",
-    "Text": "Erleichterungen:\r\n3, wenn du eine Jägers-Gunst ausliegen hast.\r\n\r\nFriedlich schlummernd, weckt dich, jäh aus dem Himmel herrabstoßend, ein Greif. Seine weiten Schwingen, die schwingen des Todes. Doch Häscher sind auf seiner Fährte, den Greif zu erlegen. Deinen Schlachtruf auf den Lippen, schließt du dich ihnen an.\r\nErfolg:\r\nIhr harmoniert im Kampf, und zusammen erlegt ihr die Bestie mit Leichtigkeit.\r\nDie Jäger erkennen deine Stärke an und nehmen dich in ihren Zirkel auf. Erhalte \"Hexer\" (Extra Deck).\r\nMisserfolg:\r\nDu behinderst sie eher, als ihnen zu helfen. Sie verlangen als Bezahlung 10 deiner Ehre oder einen deiner ausgerüsteten Ausrüstungsgegenstände. Solltest du dich hingegen weigern, musst du anders bezahlen; ziehe in diesem Fall \"Armlos\" (Extra Deck).",
+    "Text": "Erleichterungen:\r\n\r\nFriedlich schlummernd, weckt dich, jäh aus dem Himmel herrabstoßend, ein Greif. Seine weiten Schwingen, die schwingen des Todes. Doch Häscher sind auf seiner Fährte, den Greif zu erlegen. Deinen Schlachtruf auf den Lippen, schließt du dich ihnen an.\r\nErfolg:\r\nIhr harmoniert im Kampf, und zusammen erlegt ihr die Bestie mit Leichtigkeit.\r\nDie Jäger erkennen deine Stärke an und nehmen dich in ihren Zirkel auf. Erhalte \"Hexer\" (Extra Deck).\r\nMisserfolg:\r\nDu behinderst sie eher, als ihnen zu helfen. Sie verlangen als Bezahlung 10 deiner Ehre oder einen deiner ausgerüsteten Ausrüstungsgegenstände. Solltest du dich hingegen weigern, musst du anders bezahlen; ziehe in diesem Fall \"Armlos\" (Extra Deck).",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -17040,7 +17732,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 873,
@@ -17053,7 +17746,7 @@
     "Condition": "Empty",
     "Modifiers": "≤1",
     "CenterText": "",
-    "Text": "Erleichterungen:\r\n3, wenn du eine Fremde-Gunst ausliegen hast\r\n1, für jede Karte am Pissbaum\r\n\r\nEure nächtliche Ruhe wird von einen Schatten erobert, der nun euren Schlaf in Albträumen regiert. Wie Wurzeln durchzieht er eure Gedanken. Doch eure Traumbilder sind nicht zerstreut, es gibt Organisation, ein Wille befiehlt. Der Schatten verlangt ein Opfer im Namen seines Gottes.\r\nErfolg:\r\nAlle Spieler, außer dir, würfeln sofort ihren Tribut aus.\r\nMisserfolg:\r\nAlle Spieler würfeln sofort ihren Tribut aus.\r\nTribut - Wirf einen D6:\r\n1-2: Verliere deine Waffe.\r\n3: Verliere deinen Helm.\r\n4: Verliere deine Rüstung.\r\n5: Verliere deine Schuhe.\r\n6: Verliere 4 Ehre.\r\nLege alle abgeworfenen Gegenstände zum Pissbaum.",
+    "Text": "Erleichterungen:\r\n1, für jede Karte am Pissbaum\r\n\r\nEure nächtliche Ruhe wird von einen Schatten erobert, der nun euren Schlaf in Albträumen regiert. Wie Wurzeln durchzieht er eure Gedanken. Doch eure Traumbilder sind nicht zerstreut, es gibt Organisation, ein Wille befiehlt. Der Schatten verlangt ein Opfer im Namen seines Gottes.\r\nErfolg:\r\nAlle Spieler, außer dir, würfeln sofort ihren Tribut aus.\r\nMisserfolg:\r\nAlle Spieler würfeln sofort ihren Tribut aus.\r\nTribut - Wirf einen D6:\r\n1-2: Verliere deine Waffe.\r\n3: Verliere deinen Helm.\r\n4: Verliere deine Rüstung.\r\n5: Verliere deine Schuhe.\r\n6: Verliere 4 Ehre.\r\nLege alle abgeworfenen Gegenstände zum Pissbaum.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -17063,7 +17756,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 874,
@@ -17076,7 +17770,7 @@
     "Condition": "Empty",
     "Modifiers": "≤3",
     "CenterText": "",
-    "Text": "Erleichterungen:\r\n5, als Rangletzter\r\n2, wenn du eine Gunst ausliegen hast\r\n\r\nMan sollte seine Bestimmung nicht zu lange herauszögern, sonst holt sie dich ein.\r\nDie Erde bebt, lässt angsterfüllt zittern.\r\nDie Wolken öffnen sich zu einem Tor in die Unendlichkeit.\r\nAus ihr steigt ein ungeduldiger Gott herab und fordert dich zum Kampf heraus. Kämpfe gegen ein Stufe 5 Monster.\r\nErfolg:\r\nDu hast +3/0 in diesem Kampf.\r\nMisserfolg:\r\nDu hast -3/0 in diesem Kampf.",
+    "Text": "Erleichterungen:\r\n5, als Rangletzter\r\n\r\nMan sollte seine Bestimmung nicht zu lange herauszögern, sonst holt sie dich ein.\r\nDie Erde bebt, lässt angsterfüllt zittern.\r\nDie Wolken öffnen sich zu einem Tor in die Unendlichkeit.\r\nAus ihr steigt ein ungeduldiger Gott herab und fordert dich zum Kampf heraus. Kämpfe gegen ein Stufe 5 Monster.\r\nErfolg:\r\nDu hast +3 in diesem Kampf.\r\nMisserfolg:\r\nDu hast -3 in diesem Kampf.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -17086,7 +17780,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 875,
@@ -17099,7 +17794,7 @@
     "Condition": "Empty",
     "Modifiers": "≤11",
     "CenterText": "",
-    "Text": "Erleichterungen:\r\n3, wenn du eine Arcane-Gunst ausliegen hast\r\n2, wenn du keine Handkarten hast\r\n\r\nAls du dich auf Wanderschaft befindest, gibt der Boden plötzlich unter dir nach. Während du noch die weithin bekannten Riesenmaulwürfe verfluchst, entdeckst du ein magisches Glitzern, das dem Loch entweicht. Dir wird schnell klar, was sich unter deinen Füßen befindet. Das war kein hinterhältiger Riesenmaulwurf, das ist ein Koboldbau, und in diesem verstecken sich stets die besten Schätze.\r\nErfolg:\r\nDer Bau scheint verlassen zu sein, aber der Schatz ist noch da. Erhalte \"Magischer Beutel\" (Extra Deck).\r\nMisserfolg:\r\nDer Bau ist bewohnt und wie! Ein ganzer Stamm Kobolde verjagt dich von ihrem Land. Ihr Schamane tritt vor und verflucht dich. Ziehe \"Fluch der Einsamkeit\" (Extra Deck).",
+    "Text": "Erleichterungen:\r\n2, wenn du keine Handkarten hast\r\n\r\nAls du dich auf Wanderschaft befindest, gibt der Boden plötzlich unter dir nach. Während du noch die weithin bekannten Riesenmaulwürfe verfluchst, entdeckst du ein magisches Glitzern, das dem Loch entweicht. Dir wird schnell klar, was sich unter deinen Füßen befindet. Das war kein hinterhältiger Riesenmaulwurf, das ist ein Koboldbau, und in diesem verstecken sich stets die besten Schätze.\r\nErfolg:\r\nDer Bau scheint verlassen zu sein, aber der Schatz ist noch da. Erhalte \"Magischer Beutel\" (Extra Deck).\r\nMisserfolg:\r\nDer Bau ist bewohnt und wie! Ein ganzer Stamm Kobolde verjagt dich von ihrem Land. Ihr Schamane tritt vor und verflucht dich. Ziehe \"Fluch der Einsamkeit\" (Extra Deck).",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -17109,7 +17804,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 876,
@@ -17132,7 +17828,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 877,
@@ -17155,7 +17852,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 878,
@@ -17178,7 +17876,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 879,
@@ -17191,7 +17890,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Du kannst 4 weitere Handkarten halten.\r\n\r\nWenn du diese Karte erhälst, ziehe Zauberkarten, bis deine Hand voll ist.\r\n(Dieser Effekt rekativiert sich beim Handeln für den neuen Besitzer)",
+    "Text": "Handkarten+4\r\n\r\nWenn du diese Karte erhälst, ziehe Zauberkarten, bis deine Hand voll ist.\r\n(Dieser Effekt rekativiert sich beim Handeln für den neuen Besitzer)",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -17201,7 +17900,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 880,
@@ -17224,7 +17924,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 881,
@@ -17237,7 +17938,7 @@
     "Condition": "Empty",
     "Modifiers": "",
     "CenterText": "",
-    "Text": "Wenn du diese Karte erhälst, wähle bis zu 3 Günste aus deinem Ablagetapel und mische sie zurück in dein Deck der Günste.\r\n\r\n\"Götterdämmerung\" wählt und aktiviert sich in jeder Tavernenrunde von selbst.\r\nDu kannst weiterhin eine zusätzliche Gunst wählen.\r\n\r\nDeine \"Jägers-Günste\" aktiveren sich auch, wenn du gegen ein Stufe 5 Monster kämpfst.",
+    "Text": "Anstatt deines Schicksalswurfes kannst du diese Karte abwerfen.\r\nKämpfe diese Runde gegen ein Stufe 5 Monster.\r\n\r\nDu kannst diese Karte nicht spielen, wenn bereits ein anderer Spieler \"Götterdämmerung\" diese Runde gespielt hat.",
     "FlavorText": "",
     "Level": "",
     "Race": "Empty",
@@ -17247,7 +17948,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 882,
@@ -17270,7 +17972,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 883,
@@ -17293,7 +17996,8 @@
     "Print1": 0,
     "Print2": 8,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 884,
@@ -17316,7 +18020,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 885,
@@ -17339,7 +18044,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 886,
@@ -17362,7 +18068,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 887,
@@ -17385,7 +18092,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 888,
@@ -17406,9 +18114,10 @@
     "LoseText": "",
     "Scrapped": "",
     "Print1": 0,
-    "Print2": 1,
+    "Print2": 0,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 889,
@@ -17431,7 +18140,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 890,
@@ -17454,7 +18164,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 891,
@@ -17477,7 +18188,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 892,
@@ -17500,7 +18212,8 @@
     "Print1": 0,
     "Print2": 1,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
   },
   {
     "Id": 893,
@@ -17523,6 +18236,31 @@
     "Print1": 0,
     "Print2": 6,
     "Print3": 1,
-    "Print4": 0
+    "Print4": 0,
+    "Border": "normal"
+  },
+  {
+    "Id": 894,
+    "Structure": "Normal",
+    "ExtraDeck": true,
+    "CardType": "Library",
+    "Name": "Götterdämmerung",
+    "SubType": "Spell",
+    "TwoHanded": false,
+    "Condition": "Empty",
+    "Modifiers": "",
+    "CenterText": "",
+    "Text": "Anstatt deines Schicksalswurfes kannst du diese Karte abwerfen.\r\nKämpfe diese Runde gegen ein Stufe 5 Monster.\r\n\r\nDu kannst diese Karte nicht spielen, wenn bereits ein anderer Spieler \"Götterdämmerung\" diese Runde gespielt hat.",
+    "FlavorText": "",
+    "Level": "",
+    "Race": "Empty",
+    "WinText": "",
+    "LoseText": "",
+    "Scrapped": "",
+    "Print1": 0,
+    "Print2": 6,
+    "Print3": 1,
+    "Print4": 0,
+    "Border": "normal"
   }
 ]
